@@ -1,0 +1,21 @@
+[Setup]
+Factory = "日本奥林巴斯公司"
+Description ="olympus_au1000"
+Baud_Rate = 9600
+Byte_Size = 8
+Parity = 0
+Stop_Bits =2
+f_OutX =0
+f_InX =0
+f_HardWare =0
+Tx_QueueSize =512
+Rx_QueueSize =1024
+Xon_Lim =900
+Xoff_Lim =256
+Xon_Char =17
+Xoff_Char =19
+Error_Char =65
+Driver_Prog ="olympus.dll"
+DUPLEX_FLAG =0 
+
+

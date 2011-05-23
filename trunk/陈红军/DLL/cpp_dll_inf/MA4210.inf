@@ -1,0 +1,20 @@
+[Setup]
+Factory = "？？公司"
+Description ="MA4210尿8联分析仪"
+Baud_Rate = 300
+Byte_Size = 7
+Parity = 2
+Stop_Bits =0
+f_OutX =0
+f_InX =0
+f_HardWare =0
+Tx_QueueSize =10
+Rx_QueueSize =300
+Xon_Lim =200
+Xoff_Lim =200
+Xon_Char =17
+Xoff_Char =19
+Driver_Prog ="MA4210.dll"
+DUPLEX_FLAG =0  
+
+

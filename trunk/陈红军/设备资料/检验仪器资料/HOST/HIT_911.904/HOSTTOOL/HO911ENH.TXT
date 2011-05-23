@@ -1,0 +1,521 @@
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³           Host Interface Testprogram for BM/HITACHI 911        ³
+³                                                                ³
+³                       Operators Manual                         ³
+³                                                                ³
+³  File: "HO911ENH.TXT"           Language version: english      ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+Contents:
+
+1.0 Purpose of the program
+
+2.0 Installation
+
+3.0 Using the system desktop
+
+4.0 Functionality
+ 4.1 Connecting the analyzer unit
+ 4.2 Using the text window
+ 4.3 Buffer for sent messages
+ 4.4 Trace window
+
+5.0 Menu system
+ 5.1 Main menu item "Host-Text"
+  5.1.1 Menu item "Host-Text/Creating test selections"
+  5.1.2 Menu item "Host-Text/Creating result requests"
+  5.1.3 Menu item "Host-Text/Control frames"
+ 5.2 Main menu item "Trace"
+  5.2.1 Menu item "Trace/Open trace file"
+  5.2.2 Menu item "Trace/Close trace file"
+  5.2.3 Menu item "Trace/Display trace file"
+  5.2.4 Menu item "Trace/Delete trace file"
+  5.2.5 Menu item "Trace/Clear communication window"
+ 5.3 Main menu item "Test selection file"
+  5.3.1 Menu item "Test selection file/New Edit"
+  5.3.2 Menu item "Test selection file/Display"
+  5.3.3 Menu item "Test selection file/Delete"
+  5.3.4 Menu item "Test selection file/File mode"
+ 5.4 Main menu item "Results"
+  5.4.1 Menu item "Results/Display"
+  5.4.2 Menu item "Results/Record ON/OFF"
+ 5.5 Main menu item "Parameter"
+  5.5.1 Menu item "Parameter/Host ON/OFF"
+  5.5.2 Menu item "Parameter/RS-232 Parameter"
+  5.5.3 Menu item "Parameter/Host Settings"
+  5.5.4 Menu item "Parameter/Error checking"
+  5.5.5 Menu item "Parameter/Test list"
+  5.5.6 Menu item "Parameter/Program configuration"
+ 5.6 Main menu item "?"
+  5.6.1 Help function
+  5.6.2 Program info
+  5.6.3 Termination of the program
+
+6.0 Technical specifications
+ 6.1 Files of the program package
+ 6.2 Hardware requirements
+
+7.0 Update Information
+
+
+
+1.0 Purpose of the program
+    ----------------------
+This program serves to communicate with the BM/HITACHI 911 analyzer
+via the host interface.
+With this program it is possible to test or demonstrate the complete
+host functionality.
+
+2.0 Installation
+    ------------
+Insert the installation disk into your computer and start the program 
+'INSTALL' on the DOS level:
+
+        e.g.:        A:INSTALL   <Enter>
+
+You have to enter the path on your hard disk onto which the program 
+package is to be copied.
+After confirming the 'Start Installation' button, the selected pro-
+grams and files are decompressed and copied onto the hard disk.
+
+Start the host test program by entering the starting prompt:
+
+                  HOST911.EXE   <Enter>
+
+3.0 Using the system desktop
+    ------------------------
+After starting the program, the terms "Host-Text", "Trace-File", ...
+will be displayed in the first button line on top of the screen.
+These are the main menu items of the program.
+Each term will reveal a submenu showing the individual functions of
+that main menu item in the second button line. The function is started 
+by pressing the corresponding menu button.
+The program can be operated with a mouse or the keyboard.
+Mouse operation is easier since menu and selection items or command
+buttons can be clicked directly whereas keyboard operation first
+requires activation with <Tab> key and then confirmation with the 
+<Enter> key.
+
+4.0 Functionality
+    -------------
+4.1. Connecting the analyzer computer
+The analyzer unit (AU) and host computer communicate via the serial
+interface RS232. Before they can do that, you have to connect the
+two communication partners with the adequate interface cable (null
+modem cable).
+
+4.2. Using the text window
+In the middle of the screen you can see the text field which can be 
+used to enter messages that shall be sent to the AU manually.
+The message is sent as soon as you press the 'Send' button and the
+AU sends an ANY frame.
+If the communication is switched on (on 'Start Condition' screen of the
+Hit 911 software) the AU sends the first control frame ('ANY' frame)
+and the host has to answer with the 'MOR' frame. From then on every
+5 seconds after receiving the acknowledgement from the host the AU
+sends the next 'ANY' frame to maintain communication.
+Above the text window the actual text length is displayed.
+
+4.3. Buffer for sent messages
+The last ten sent messages are stored in a buffer and can be called
+back into the text window by pressing the 'Previous' button.
+
+4.4. Trace window
+The complete communication in both directions is displayed in the
+trace window in the lower part of the screen.
+The sent messages are displayed in green color the received messages
+in blue.
+Each message starts with the sender identification ('AU' for Analyzer
+Unit or 'Host'). Then the actual time and the message itself is
+displayed.
+The control characters within the start and end codes are replaced by 
+mnemonics which makes it easier to read the trace:
+
+   Code 02h (Start of text)      replaced by  [STX]
+   Code 03h (End of text)        replaced by  [ETX]
+   Code 0Dh (Carriage return)    replaced by  [CR]
+   Code 0Ah (Line feed)          replaced by  [LF]
+   Code 20h (Space)              replaced by  ^
+
+5.0 Menu system
+    -----------
+
+5.1. Main menu item "Host-Text"
+With this main menu item you get the possibility to create manually
+test selections, result requests and control frames. These frames
+are entered into the text window and can be sent to the AU with
+the 'Send' button. 
+
+5.1.1. Menu item "Host-Text/Creating test selections"
+This option opens a data mask which allows to enter all data items
+that are included in a test selection. These are ...
+
+   Barcode mode:           with barcode reader
+                           without barcode reader (Sample no. mode)
+
+   Class:                  Class 1 (e.g. Serum)
+                           Class 2 (e.g. Urine)
+
+   Sample type:            Routine
+                           Automatic Rerun
+                           Manual Rerun
+                           STAT
+
+   Sample cup:             Default
+                           STD cup
+                           Micro cup
+                           STD on tube
+                           Micro on tube
+                           Tube
+
+   Sample information:     Sample no.
+                           Disk no.
+                           Position no.
+                           Sample identification
+                           Age
+                           Age factor
+                           Sex
+                           Date
+                           Time
+
+   Test selection:         48 test flags
+
+   Comment information:    5 comment fields
+
+If the test selection text field is selected, you get a list of all
+test names by pressing the function key <F1>. The test names can be
+modified with the 'Test list' option (see chapter 5.5.5).
+By pressing the 'Ok' button the test selection frame is generated
+and entered into the text window. Now you can sent it by 
+pressing the 'Send' button.
+
+5.1.2. Menu item "Host-Text/Creating result requests"
+This option opens a data mask which allows to enter all data items that 
+are included in a result request frame. These are ...
+
+   Barcode mode:           with barcode reader
+                           without barcode reader (Sample no. mode)
+
+   Class:                  Class 1 (e.g. Serum)
+                           Class 2 (e.g. Urine)
+
+   Result type:            Routine
+                           Automatic Rerun
+                           Manual Rerun
+                           STAT
+ 
+   Sample information:     Sample no.
+                           Disk no.
+                           Position no.
+                           Sample identification
+                           Age
+                           Age factor
+                           Sex
+                           Date
+                           Time
+   
+By pressing the 'Ok' button the result request frame is generated and
+entered into the text window. Now you can sent it by pressing the
+'Send' button.
+
+5.1.3. Menu item "Host-Text/Control frames"
+This menu item offers the four control frames
+  'MOR' - positive acknowledgement
+  'REP' - negative acknowledgement
+  'SUS' - bad and suspend
+  'REC' - ok but suspend
+By pressing the 'Ok' button the selected control frame is entered
+into the text window. Now you can sent it by pressing the 'Send' button.
+
+5.2. Main menu item "Trace"
+The complete data transfer between the AU and the host is displayed
+in the window in the lower part of the screen (see chapter 4.4).
+If necessary the data transfer can also be stored in a file for later
+analysis. The following menu items handle those trace files.
+
+5.2.1. Menu item "Trace/Open trace file"
+This function opens a new or already existing trace file. All data
+transfer is stored in this file for further processing or analyzing.
+All trace files are automatically provided with the file name
+extension ".TRC".
+
+5.2.2. Menu item "Trace/Close trace file"
+The already opened trace file is closed again. Now you can take a
+look at the contents of this trace file (see next menu item).
+
+5.2.3. Menu item "Trace/Display trace file"
+A file selection mask is displayed which offers the possibility to
+select any existing trace file that shall be displayed. An editor 
+program is started to display the file and comments to the trace if
+necessary.
+In 'Communication ON' status the test program only answers to
+received ANY frames with the MOR frame as long as the editor program
+is running; that means, neither test selections can be sent nor result
+are stored (see 5.3 "Test selection file").
+
+5.2.4. Menu item "Trace/Delete trace file"
+Trace files that are no longer needed can be deleted from the
+harddisk.
+
+4.2.5. Menu item "Trace/Clear trace window"
+This menu item deletes the contents of the trace window on the
+screen.
+
+5.3. Main menu item "Test selection file"
+It is possible to prepare a number of test selections and store them
+into a file. With this file you can simulate batch and realtime mode.
+This main menu item offers menu options to handle those test selection
+files.
+
+5.3.1. Menu item "Test selection file/New Edit"
+With this menu item you create a new or open an already existing
+test selection file. You get the data mask for test selections
+displayed that you already know from menu item 5.1.1 "Creating test
+selections". You can step through the file test record by test record,
+you can add new test selection records, modify or delete already
+existing records. In the upper right corner of this screen you get
+displayed the test selection file name, the actual mode (BROWSE or
+EDIT), the actual record number and the total number of records in
+this file.
+
+5.3.2. Menu item "Test selection file/Display file"
+An external editor program is started to display the contents of
+any existing test selection file. For each test selection record
+the sample information the selected tests and the already received
+test results are displayed.
+ 
+5.3.3. Menu item "Test selection file/Delete file"
+This option deletes any existing test selection file from the hard
+disk.
+
+5.3.4. Menu item "Test selection file/File mode"
+Formerly created test selection files can be activated with this
+menu item either for realtime mode or for batch download.
+Before the selected file is activated the program offers three
+options:
+a) Delete all existing results in the TS file. 
+   If you start a completely new RUN it is recommended to delete 
+   all results from previous RUNs.
+b) Echo Sample Information
+   If activated, the received sample- disk- and positon numbers are
+   echoed in the test selection, if deactivated the numbers in the
+   TS file are sent.
+c) Function character matching
+   If activated, not only the ID or sample number but also the 
+   function character is checked if a test selection is searched in 
+   the TS file.
+After confirming the option box you get displayed the TS file name, 
+the communication mode (Realtime or Batch), the number of test 
+selection records in the file, the number of sent test selections 
+and received results above the 'Send' button .
+If you have activated a file in batch mode, all test selections are
+sent one by one as response to the following ANY frames.
+If you have activated a file in realtime mode, the program waits for
+test selection requests from the AU and searches the file for the
+corresponding sample number (if working without barcodes) or ident
+number (if working with barcodes).
+If results for those samples in the test selection files are received
+the test program writes them into the file.
+Before you can take a look at the contents of the actual test selection
+file, you first have to terminate again the file mode with the third
+option of this option window.
+
+5.4. Main menu item "Results"
+There is a result recording option which, if activated stores all
+received results according to their type into text files that can
+be operated for example with a spreadsheet software.
+
+5.4.1. Main menu item "Results/Display"
+The following result types are stored in different files:
+  - Routine, Rerun, STAT results
+  - Controls
+  - Photometric calibration
+  - ISE calibration
+  - Absorbance data
+With this menu item you can delete a single file, delete all five
+files or display one file with an external editor program.
+
+5.4.2. Main menu item "Results/Record ON/OFF"
+With this menu item you switch on and off the result recording option.
+The option is switched off by default. The actual status is displayed
+in the status line on bottom of the screen.
+
+5.5. Main menu item "Parameter"
+
+5.5.1. Menu item "Parameter/Host ON/OFF"
+This menu item switches the automatic host answer on and off. It is
+switched on by default. If you switch it off, the communication is
+still displayed but the test program does not answer to the messages
+from the AU. So you can test the behavior of the AU in this special
+situation.
+The host status is displayed in the status line on the screen.
+
+5.5.2. Menu item "Parameter/RS-232 Parameter"
+If host and AU shall communicate with each other, the serial interface
+parameters have to match.
+You have to adjust the baud rate, the number of data and stopbits,
+the parity bit as well as the number of the serial port that you use
+for communication (COM1 or COM2).
+The actual interface parameters are displayed in the status line on the 
+screen.
+All the above mentioned settings can be found in the 'System Parameter'
+screen of the Hit 911 software.
+If the continuous communication with the AU is running, this option
+is not available. The communication status is displayed in the status
+line of the screen (Communication ON/OFF). 8 seconds after receiving
+the last message from the AU, the communication status changes to
+'off'.
+
+5.5.3. Menu item "Parameter/Host Settings"
+Two settings can be done in this parameter window.
+- End-of-data Code
+  Here you can select one of five end-of-data codes. The selected
+  code which terminates each message has to match with the end-of-
+  data code of the AU.
+  The end-of-data code of the AU can selected on the 'System
+  Parameter' screen.
+- Beep on Message receipt
+  If activated the program gives a short beep whenever a test selec-
+  tion request or a result frames is received.
+
+5.5.4. Menu item "Parameter/Error checking"
+With this option it is possible to check the error behaviour of the AU.
+
+- Implement a checksum error in the next test selection
+  The next test selection that is going to be sent to the AU gets a
+  wrong checksum implemented .
+  The AU has to answer with a 'REP' frame.
+
+- Implement a checksum error in next result request
+  The next result request frame that is going to be sent to the AU
+  gets a wrong checksum implemented.
+  The AU has to answer with a 'REP' frame
+
+- Quit test selection request with 'REP' frame
+  The next received test selection request from the AU is answered
+  with a 'REP' frame. The AU has to resend the test selection request.
+
+- Quit result with 'REP' frame
+  The next received result frame from the AU is answered with a 'REP'
+  frame. The AU has to resend the result frame.
+
+Each of the above described manipulations can be activated only for
+the next or for all following messages of the corresponding type.
+If, in the latter case the software falls into an endless loop,
+press the 'Previous' button to deactivate the manipulation and 
+leave again the endless loop.
+
+5.5.5. Menu item "Parameter/Test list"
+In the file 'HO911_TN.DAT' 52 test names are stored. These test names
+are displayed in a list during test selection creation.
+(see chapter 5.1.1).
+These test names can be modified with this option.
+The 46 names for photometric tests are complemented by the fix names
+for test numbers 47, 48, 49 (three ISE tests) and 50, 51, 52 (three
+serum index tests).
+
+5.5.6. Menu item "Parameter/Program configuration"
+This menu item allows to select the language of the desktop.
+All desktop texts of this program are stored in a separate text file.
+In a selection window, you will find the languages available (English
+and German are default settings; additional language versions can be
+created, if required, with the aid of a text editor program).
+In a second option field, you can select between color display and
+black/white display. When using laptops or note books with LCD
+display, we recommend to use a mono display as it has the better
+contrast.
+
+5.6. Main menu item "?"
+
+5.6.1. Help function
+Use this function due to display this text on the screen. Use the
+print option to print out the help text. In some selection windows
+there is a 'Help' button. This button also displays the help text
+setting the cursor to the corresponding chapter.
+
+5.6.2. Program info
+The information window contains name and address of the program
+developer and the software version.
+
+5.6.3. Terminating the program
+Pressing the 'Yes' button terminates the program.
+
+6.0 Technical specifications
+    ------------------------
+
+6.1. Files of the program package
+The program package contains the following files:
+
+ HOST911.EXE     Host test program
+ HO911.INI       Configuration data
+ HO911_TN.DAT    Test names
+ HO911BUF.DAT    Buffer for the last ten sent messages
+
+ HO911GE.TXT     German operator texts
+ HO911EN.TXT     English operator texts
+ HO911GEH.TXT    German help text in ASCII format
+ HO911ENH.TXT    English help text in ASCII format
+
+ VB_EDIT.EXE     Trace Editor program
+ VB_EDIT.INI     Configuration data for the editor
+ VB_EDGE.TXT     German operator texts for the editor
+ VB_EDEN.TXT     English operator texts for the editor
+
+File name extensions:
+ *.TRC          Trace files
+ *.TA1          Test selection files
+
+6.2. Hardware requirements
+-  To install the software package on the hard disk, you need a
+   capacity of at least 300 kB
+-  the computer has to be equipped with a serial interface
+-  the software can be operated by mouse
+
+7.0 Update Information
+
+  Version 5.1 - December 1994
+    BUG - The serial parameter combination 8 databits, 2 stopbits 
+          cannot  be selected if a parity check shall be used.
+    BUG - Software crash during display of test selection files fixed.
+    NEW - The existence of the selected COM port is checked.
+    NEW - The text length of the input field an the record length of 
+          the buffer file are limited to 1280.
+    NEW - The number of test selection in a test selection file is 
+          limited to 200.
+    NEW - The printer specific control codes for compressed printing 
+          and left margin can be entered in the file print mask.
+
+  Version 5.2 - December 1994
+    BUG - It is no longer possible to enter "#" characters in the 
+          sample no. and the disk no. field without getting an error 
+          message.
+
+  Version 5.3 - December 1994
+    NEW - Test Name Editor screen changed. 
+
+  Version 5.4 - December 1994
+    NEW - The space character within the communication trace was
+          changed from ^ to ú
+    NEW - In realtime TS file mode not only the ID or sample no. 
+          are checked for matching but also the function character.
+          That means that you can have e.g. in barcode mode test 
+          selections for routine and rerun with the same ID in the 
+          active TS file.
+    BUG - The TS files don't contain the space replacement character 
+          any longer.
+
+    Caution: Please delete and recreate all TS files.
+
+  Version 5.6 - October 1995
+    Version Synchronization !!!
+
+  Version 5.7 - July 1997
+    BUG - The blockcheck character 02hex was misinterpreted.
+
+  Version 5.8 - August 1997
+    BUG - The function characters G and H within the test selection
+          have been detected as invalid characters.
+
+  Version 5.9 - October 1997
+    NEW - A Windows program icon is copied during installation
+

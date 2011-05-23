@@ -1,0 +1,74 @@
+//各结果中各个项目仪器定义
+//AT_III_ANALYSIS
+Percent: AT3A_P
+Delta OD : AT3A_D
+//PRO_IL_COMPLEX_ANALYSIS
+Percent:PILA_P
+R_INR: PILA_R
+S:     PILA_S
+//HEPATOCOMPLEX ANALYSIS
+Percent:HCXA_P
+R_INR:  HCXA_R
+S:      HCXA_S
+//PT_FIB
+s:  PT_S
+percent:PT_P
+r_inr:PT_R
+mg/dl:FIB_M
+g/l:FIB_G
+//TT
+s:TT_S
+R_INR:TT_R
+//APTT
+S:APTT_S
+R_INR:APTT_R
+//PATHWAYS
+Percent:EXPW_P
+S:      EXPW_S
+Percent:INPW_P  
+S:      INPW_S
+//SingleFactor
+Percent:EXSF_P
+R_INR:  
+S:      EXSF_S
+Percent:INSF_P
+R_INR:  
+S:      INSF_S
+
+
+
+//AT_III
+Percent: AT3_P
+Delta OD:AT3_D
+
+//ANTIPLASMIN
+Percent:APLA_P
+Delta OD:APLA_D
+//PLASMINOGEN
+Percent:PLAS_P
+Delta OD:PLAS_D
+//FIBRINOGEN_C
+mg/dl:FIBC_M
+S:    FIBC_S
+g/l:  FIBC_G
+//PROCHROM
+percent:PROM_P
+Delta OD:PROM_D
+//HERAPIN 
+U/ml:HERP_U
+Delta OD:HERP_D
+//PRO_IL_COMPLEX
+Percent:PRIC_P
+R_INR:  PRIC_R
+S:      PRIC_S
+//HEPATOCOCOMPLEX
+PERCENT:HEPA_P
+R_INR: HEPA_R
+S:     HEPA_S
+//PROCLOT
+PERCENT: PROC_P
+R_INR: PROC_R
+S:     PROC_S
+//PROTEIN_S
+PERCENT: PROT_P
+S:   PROT_S

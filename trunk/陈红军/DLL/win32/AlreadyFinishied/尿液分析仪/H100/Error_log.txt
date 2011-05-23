@@ -1,0 +1,74 @@
+ИХ ЖЪ:2001-05-29
+ИХ ЖЪ:2001-05-29
+WID:M00000М0 INST:H100 ITEM: 0  ITEMNO: 1 RESULT: +-  3.3   umol/lФЪївЦРГ»УР¶ФХХ
+WID:M00000М1 INST:H100 ITEM: 1  ITEMNO: 2 RESULT:  -        umol/lФЪївЦРГ»УР¶ФХХ
+WID:M00000М2 INST:H100 ITEM: 2  ITEMNO: 3 RESULT:  -        mmol/lФЪївЦРГ»УР¶ФХХ
+WID:M00000М3 INST:H100 ITEM: 3  ITEMNO: 4 RESULT:  -      cells/ulФЪївЦРГ»УР¶ФХХ
+WID:M00000М4 INST:H100 ITEM: 4  ITEMNO: 5 RESULT:  -           g/lФЪївЦРГ»УР¶ФХХ
+WID:M00000М5 INST:H100 ITEM: 5  ITEMNO: 6 RESULT:  -              ФЪївЦРГ»УР¶ФХХ
+WID:M00000М6 INST:H100 ITEM: 6  ITEMNO: 7 RESULT:  -      cells/ulФЪївЦРГ»УР¶ФХХ
+WID:M00000М7 INST:H100 ITEM: 7  ITEMNO: 8 RESULT:  -        mmol/lФЪївЦРГ»УР¶ФХХ
+WID:M00000М	8 INST:H100 ITEM: 8  ITEMNO: 9 RESULT:   1.030         ФЪївЦРГ»УР¶ФХХ
+WID:M00000М
+9 INST:H100 ITEM: 9  ITEMNO: 10 RESULT:     5.0         ФЪївЦРГ»УР¶ФХХ
+WID:M00000М: INST:H100 ITEM: :  ITEMNO: 11 RESULT:     0.6   mmol/lФЪївЦРГ»УР¶ФХХ
+ИХ ЖЪ:2001-05-29
+ИХ ЖЪ:2001-05-29
+WID:M00083 INST:H100 ITEM: 0  ITEMNO: 1 RESULT: +-  3.3   umol/lФЪївЦРГ»УР¶ФХХ
+WID:M00083 INST:H100 ITEM: 1  ITEMNO: 2 RESULT:  -        umol/lФЪївЦРГ»УР¶ФХХ
+WID:M00083 INST:H100 ITEM: 2  ITEMNO: 3 RESULT:  -        mmol/lФЪївЦРГ»УР¶ФХХ
+WID:M00083 INST:H100 ITEM: 3  ITEMNO: 4 RESULT:  -      cells/ulФЪївЦРГ»УР¶ФХХ
+WID:M00083 INST:H100 ITEM: 4  ITEMNO: 5 RESULT:  -           g/lФЪївЦРГ»УР¶ФХХ
+WID:M00083 INST:H100 ITEM: 5  ITEMNO: 6 RESULT:  -              ФЪївЦРГ»УР¶ФХХ
+WID:M00083 INST:H100 ITEM: 6  ITEMNO: 7 RESULT:  -      cells/ulФЪївЦРГ»УР¶ФХХ
+WID:M00083 INST:H100 ITEM: 7  ITEMNO: 8 RESULT:  -        mmol/lФЪївЦРГ»УР¶ФХХ
+WID:M00083 INST:H100 ITEM: 8  ITEMNO: 9 RESULT:   1.030         ФЪївЦРГ»УР¶ФХХ
+WID:M00083 INST:H100 ITEM: 9  ITEMNO: 10 RESULT:     5.0         ФЪївЦРГ»УР¶ФХХ
+WID:M00083 INST:H100 ITEM: :  ITEMNO: 11 RESULT:     0.6   mmol/lФЪївЦРГ»УР¶ФХХ
+WID:M00083 INST:H100 ITEM: 0  ITEMNO: 1 RESULT: +-  3.3   umol/lФЪївЦРГ»УР¶ФХХ
+WID:M00083 INST:H100 ITEM: 1  ITEMNO: 2 RESULT:  -        umol/lФЪївЦРГ»УР¶ФХХ
+WID:M00083 INST:H100 ITEM: 2  ITEMNO: 3 RESULT:  -        mmol/lФЪївЦРГ»УР¶ФХХ
+WID:M00083 INST:H100 ITEM: 3  ITEMNO: 4 RESULT:  -      cells/ulФЪївЦРГ»УР¶ФХХ
+WID:M00083 INST:H100 ITEM: 4  ITEMNO: 5 RESULT:  -           g/lФЪївЦРГ»УР¶ФХХ
+WID:M00083 INST:H100 ITEM: 5  ITEMNO: 6 RESULT:  -              ФЪївЦРГ»УР¶ФХХ
+WID:M00083 INST:H100 ITEM: 6  ITEMNO: 7 RESULT:  -      cells/ulФЪївЦРГ»УР¶ФХХ
+WID:M00083 INST:H100 ITEM: 7  ITEMNO: 8 RESULT:  -        mmol/lФЪївЦРГ»УР¶ФХХ
+WID:M00083 INST:H100 ITEM: 8  ITEMNO: 9 RESULT:   1.030         ФЪївЦРГ»УР¶ФХХ
+WID:M00083 INST:H100 ITEM: 9  ITEMNO: 10 RESULT:     5.0         ФЪївЦРГ»УР¶ФХХ
+WID:M00083 INST:H100 ITEM: :  ITEMNO: 11 RESULT:     0.6   mmol/lФЪївЦРГ»УР¶ФХХ
+ИХ ЖЪ:2001-05-29
+ИХ ЖЪ:2001-05-29
+WID:M00069 INST:H100 ITEM: A  ITEMNO: 1 RESULT:+-  3.3 ФЪївЦРГ»УР¶ФХХ
+WID:M00069 INST:H100 ITEM: B  ITEMNO: 2 RESULT: -      ФЪївЦРГ»УР¶ФХХ
+WID:M00069 INST:H100 ITEM: C  ITEMNO: 3 RESULT: -      ФЪївЦРГ»УР¶ФХХ
+WID:M00069 INST:H100 ITEM: D  ITEMNO: 4 RESULT: -      ФЪївЦРГ»УР¶ФХХ
+WID:M00069 INST:H100 ITEM: E  ITEMNO: 5 RESULT: -      ФЪївЦРГ»УР¶ФХХ
+WID:M00069 INST:H100 ITEM: F  ITEMNO: 6 RESULT: -      ФЪївЦРГ»УР¶ФХХ
+WID:M00069 INST:H100 ITEM: G  ITEMNO: 7 RESULT: -      ФЪївЦРГ»УР¶ФХХ
+WID:M00069 INST:H100 ITEM: H  ITEMNO: 8 RESULT: -      ФЪївЦРГ»УР¶ФХХ
+WID:M00069 INST:H100 ITEM: I  ITEMNO: 9 RESULT:  1.015 ФЪївЦРГ»УР¶ФХХ
+WID:M00069 INST:H100 ITEM: J  ITEMNO: 10 RESULT:    6.5 ФЪївЦРГ»УР¶ФХХ
+WID:M00069 INST:H100 ITEM: K  ITEMNO: 11 RESULT:      0 ФЪївЦРГ»УР¶ФХХ
+ИХ ЖЪ:2001-05-29
+WID:M00001 INST:H100 ITEM: A  ITEMNO: 1 RESULT:069 Џ€„ФЪївЦРГ»УР¶ФХХ
+WID:M00001 INST:H100 ITEM: B  ITEMNO: 2 RESULT:+-  3.3 ФЪївЦРГ»УР¶ФХХ
+WID:M00001 INST:H100 ITEM: C  ITEMNO: 3 RESULT: -      ФЪївЦРГ»УР¶ФХХ
+WID:M00001 INST:H100 ITEM: D  ITEMNO: 4 RESULT: -      ФЪївЦРГ»УР¶ФХХ
+WID:M00001 INST:H100 ITEM: E  ITEMNO: 5 RESULT: -      ФЪївЦРГ»УР¶ФХХ
+WID:M00001 INST:H100 ITEM: F  ITEMNO: 6 RESULT: -      ФЪївЦРГ»УР¶ФХХ
+WID:M00001 INST:H100 ITEM: G  ITEMNO: 7 RESULT: -      ФЪївЦРГ»УР¶ФХХ
+WID:M00001 INST:H100 ITEM: H  ITEMNO: 8 RESULT: -      ФЪївЦРГ»УР¶ФХХ
+WID:M00001 INST:H100 ITEM: I  ITEMNO: 9 RESULT: -      ФЪївЦРГ»УР¶ФХХ
+WID:M00001 INST:H100 ITEM: J  ITEMNO: 10 RESULT:  1.015 ФЪївЦРГ»УР¶ФХХ
+WID:M00001 INST:H100 ITEM: K  ITEMNO: 11 RESULT:    6.5 ФЪївЦРГ»УР¶ФХХ
+WID:M00069 INST:H100 ITEM: A  ITEMNO: 1 RESULT:+-  3.3 ФЪївЦРГ»УР¶ФХХ
+WID:M00069 INST:H100 ITEM: B  ITEMNO: 2 RESULT: -      ФЪївЦРГ»УР¶ФХХ
+WID:M00069 INST:H100 ITEM: C  ITEMNO: 3 RESULT: -      ФЪївЦРГ»УР¶ФХХ
+WID:M00069 INST:H100 ITEM: D  ITEMNO: 4 RESULT: -      ФЪївЦРГ»УР¶ФХХ
+WID:M00069 INST:H100 ITEM: E  ITEMNO: 5 RESULT: -      ФЪївЦРГ»УР¶ФХХ
+WID:M00069 INST:H100 ITEM: F  ITEMNO: 6 RESULT: -      ФЪївЦРГ»УР¶ФХХ
+WID:M00069 INST:H100 ITEM: G  ITEMNO: 7 RESULT: -      ФЪївЦРГ»УР¶ФХХ
+WID:M00069 INST:H100 ITEM: H  ITEMNO: 8 RESULT: -      ФЪївЦРГ»УР¶ФХХ
+WID:M00069 INST:H100 ITEM: I  ITEMNO: 9 RESULT:  1.015 ФЪївЦРГ»УР¶ФХХ
+WID:M00069 INST:H100 ITEM: J  ITEMNO: 10 RESULT:    6.5 ФЪївЦРГ»УР¶ФХХ
+WID:M00069 INST:H100 ITEM: K  ITEMNO: 11 RESULT:      0 ФЪївЦРГ»УР¶ФХХ

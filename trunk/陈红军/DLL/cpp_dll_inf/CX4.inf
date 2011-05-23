@@ -1,0 +1,20 @@
+[Setup]
+Factory = "±´¿ËÂü¹«Ë¾"
+Description ="CX4"
+Baud_Rate = 2400
+Byte_Size = 7
+Parity = 0
+Stop_Bits =2
+f_OutX =0
+f_InX =0
+f_HardWare =0
+Tx_QueueSize =10
+Rx_QueueSize =1024
+Xon_Lim =400
+Xoff_Lim =400
+Xon_Char =17
+Xoff_Char =19
+Driver_Prog ="cx4.dll"
+DUPLEX_FLAG =0  
+
+

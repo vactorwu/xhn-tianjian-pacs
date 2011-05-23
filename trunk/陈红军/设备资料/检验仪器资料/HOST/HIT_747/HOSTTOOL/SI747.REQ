@@ -1,0 +1,32 @@
+Test selection request and result file 'SI747.REQ'
+for the SIMU747.EXE Interface Simulator program.
+------------------------------------------------
+Only those lines which begin with one of the following characters 
+are taken by the simulator program:
+TS requests   ;
+Result frames 1 2 :
+This example file contains five TS requests for barcode mode,
+five TS requests for sample no. mode and five result frames for
+barcode mode.
+Function characters (U) : A = Barcode mode / I = Sample no. mode
+Format of the test selection request:
+         1         2         3         4         5         
+-234567890123456789012345678901234567890123456789012345
+FU_RRRRSSSSSPIIIIIIIIIIIIICCTTVVVVVVaTTVVVVVVaTTVVVVVVa
+-------------------------------------------------------
+;A    1    11       100001
+;A    1    22       100002
+;A    1    33       100003
+;A    1    44       100004
+;A    1    55       100005
+;I    2    61       100006
+;I    2    72       100007
+;I    2    83       100008
+;I    2    94       100009
+;I    2   105       100010
+:A    1    11       100001 1 7  5.10&
+:A    1    22       100002 212 288.5 13  5.40I
+:A    1    33       100003 3 7  5.10&12 288.5 13  5.40I  
+:A    1    44       100004 2 5 12345 34   1.0
+:A    1    55       100005 134   3.4H
+

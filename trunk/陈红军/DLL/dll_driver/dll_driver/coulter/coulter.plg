@@ -1,0 +1,49 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: coulter - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/coulter.res" /d "_DEBUG" /d "_AFXDLL" "D:\coulter\coulter.rc"" 
+Creating temporary file "c:\windows\TEMP\RSP70A1.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Debug/coulter.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\coulter\coulter.cpp"
+"D:\coulter\str.cpp"
+]
+Creating command line "cl.exe @c:\windows\TEMP\RSP70A1.TMP" 
+Creating temporary file "c:\windows\TEMP\RSP70A2.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Debug/coulter.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\coulter\StdAfx.cpp"
+]
+Creating command line "cl.exe @c:\windows\TEMP\RSP70A2.TMP" 
+Creating temporary file "c:\windows\TEMP\RSP70A3.TMP" with contents
+[
+/nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/coulter.pdb" /debug /machine:I386 /def:".\coulter.def" /out:"Debug/coulter.dll" /implib:"Debug/coulter.lib" /pdbtype:sept 
+.\Debug\coulter.obj
+.\Debug\StdAfx.obj
+.\Debug\str.obj
+.\Debug\coulter.res
+]
+Creating command line "link.exe @c:\windows\TEMP\RSP70A3.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+coulter.cpp
+str.cpp
+Generating Code...
+Linking...
+   Creating library Debug/coulter.lib and object Debug/coulter.exp
+
+
+
+<h3>Results</h3>
+coulter.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

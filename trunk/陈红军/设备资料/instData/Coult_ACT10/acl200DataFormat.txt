@@ -1,0 +1,6 @@
+ACL200的消息组成：
+protocol header+messge header+protocol tail
++38{protocol header+message content+protocol tail}
+protocol header':00068300000034
+'
+协议采取IL

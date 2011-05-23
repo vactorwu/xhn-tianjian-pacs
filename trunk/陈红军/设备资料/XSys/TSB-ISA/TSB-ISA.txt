@@ -1,0 +1,12 @@
+X-Systems CD-ROM 3-47736-01 published Dec 98
+
+Subject: TSB and ISA files
+
+All TSB and ISA files were updated as of 12 Oct 98 as follows:
+
+All X-Systems and AxSYM TSB and ISA files were printed to Adobe Acrobat Writer from the Lotus Notes database.
+
+However, since the previously published AxSYM Service Manual has numerous hyperlinks to TSBs and ISAs, the TSB-58.pdf and ISA-111.pdf files were added to this CD-ROM to eliminate the need to relink all TSB/ISA references within the manual.  That is why you will find these four files for AxSYM
+- TSB-58.pdf and ISA-11.pdf are referenced from the Service Manual.
+- AxSYM_ISAs.pdf and AxSYM_TSBs.pdf are linked to the CD-TOC screen and was updated with all the latest changes as of 12 Oct.
+

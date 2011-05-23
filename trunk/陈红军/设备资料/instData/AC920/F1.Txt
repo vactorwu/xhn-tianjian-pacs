@@ -1,0 +1,11 @@
+ 
+NO: 01      DATE: 2001-03-21 TIME:14:02
+Open Tube 
+*RBC  0.02  10e12/L  *PLT  33    10e9/L 
+ HCT  ***            MPV  ***   fl     
+ MCV  ***   fl     
+ RDW  ***          *WBC  0.0   10e9/L 
+*HGB  00    g/L      *LYM  0.0  00  
+ MCH  ***   pg       *MID  0.0  00  
+ MCHC ***   g/L      *GRA  0.0  00  
+

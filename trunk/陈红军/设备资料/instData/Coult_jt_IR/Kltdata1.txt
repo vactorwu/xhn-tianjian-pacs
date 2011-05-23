@@ -1,0 +1,91 @@
+
+
+
+
+
+
+--------------
+DATE 11/28/00 
+TEST 013      
+ID            
+LAB     137   
+WBC    5.1    
+RBC   3.14   L
+HGB    66.   L
+HCT   .236   L
+MCV    75.0  L
+MCH   21.0   L
+MCHC  280.   L
+RDW   15.0   H
+PLT    69. N L
+PCT   .063   L
+MPV    9.1 N  
+PDW   13.9   L
+LY    30.9    
+MO    11.8   H
+GR    57.3    
+LY #   1.6    
+MO #    .6    
+GR #   2.9    
+--------------
+9
+
+
+
+
+
+--------------
+DATE 11/28/00 
+TEST 013      
+ID            
+LAB     137   
+WBC    5.1    
+RBC   3.14   L
+HGB    66.   L
+HCT   .236   L
+MCV    75.0  L
+MCH   21.0   L
+MCHC  280.   L
+RDW   15.0   H
+PLT    69. N L
+PCT   .063   L
+MPV    9.1 N  
+PDW   13.9   L
+LY    30.9    
+MO    11.8   H
+GR    57.3    
+LY #   1.6    
+MO #    .6    
+GR #   2.9    
+--------------
+9
+
+
+
+
+
+--------------
+DATE 11/28/00 
+TEST 014      
+ID            
+LAB     138   
+WBC   11.0   H
+RBC   5.56   H
+HGB   129.    
+HCT   .456    
+MCV    82.0   
+MCH   23.2   L
+MCHC  283.   L
+RDW   13.8    
+PLT   204.    
+PCT   .202    
+MPV    9.9    
+PDW   13.7   L
+LY    42.4    
+MO    11.4   H
+GR    46.2    
+LY #   4.7    
+MO #   1.3    
+GR #   5.1    
+--------------
+8

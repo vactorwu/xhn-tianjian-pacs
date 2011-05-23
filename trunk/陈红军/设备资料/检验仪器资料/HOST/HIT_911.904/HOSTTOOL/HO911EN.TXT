@@ -1,0 +1,243 @@
+{ Text Lines for HITACHI 911 Host Testprogram }
+{ Filename: HO911EN.TXT - English             }
+{ Title and common Text lines }
+A01 BM/HITACHI 911 Host Interface Testprogramø
+A02 &Yesø
+A03 &Noø
+A04 &Cancelø
+A05 You want to quit the program ?ø
+A08 Date /Time   :ø
+A09  mm-dd-yy h:mm AM/PMø
+A10 No Access during COMMUNICATION ON !ø
+A11 &Saveø
+A12 No Access during Batch or Realtime mode !ø
+A13 mm-dd-yyø
+A14 hh:mm:ssø
+A15 Host ON ø
+A16 Host OFFø
+A17 &Helpø
+A18 Communication ON ø
+A19 Communication OFFø
+A20 Result Recording ON ø
+A21 Result Recording OFFø
+{ Main Menu Options }
+B10 &Host-Text ø
+B11 &Test Selection ø
+B12 &Result Request ø
+B13 &Control Frames ø
+B20 &Trace-File ø
+B21 &Open ø
+B22 &Close ø
+B23 &Display ø
+B24 De&lete ø
+B25 Clear &Window ø
+B30 T&S-File ø
+B31 &New/Edit ø
+B32 &Display ø
+B33 De&lete ø
+B34 &File-Mode ø
+B40 &Results ø
+B41 &Display ø
+B42 &Record ON/OFF ø
+B50 &Parameter ø
+B51 &Host ON/OFF ø
+B52 &RS-232 ø
+B53 H&ost Settings ø
+B54 &Error Checking ø
+B55 &Test List ø
+B56 &Configuration ø
+B60 &? ø
+B61 &Help ø
+B62 &Info ... ø
+B63 E&xit ø
+{ Program Configuration }
+C01 Program Configurationø
+C02 &Languageø
+C04 &Display Modeø
+C05 Colorø
+C06 Monoø
+C07 Englishø
+C08 Germanø
+C09 Frenchø
+C10 Spanishø
+C11 Italianø
+C12 Swedishø
+{ Main Screen }
+D01 Text-Length:ø
+D02 TS-File :ø
+D03 &Previousø
+D04 &Sendø
+{ System Parameters }
+E01 BM/HITACHI 911 Parameterø
+E02 &End-Codeø
+E04 Beep on Message Receiptø
+{ TA+Ergebnis-Generator }
+F01 Create Result Requestø
+F02 Create Test Selectionø
+F03 &Modeø
+F04 &Classø
+F05 Sample C&ontainerø
+F06 &Sampleø
+F07 Cø
+F08 Test-Select:ø
+F09 with or without Barcode Readerø
+F10 Class 1 (Serum) / Class 2 (Urine)ø
+F11 Max. 5 comment fields with length 30, 25, 20, 15 and 10 charactersø
+F12 48 test flags: [0 ... 4] / <Space> Set / <F1> Test Listø
+F13 Barcodeø
+F14 Sampleø
+F15 Select Sample Container or Defaultø
+F16 Routineø
+F17 Auto Rerunø
+F18 Manu Rerunø
+F19 STATø
+F20 Controlø
+F21 Sampleø
+F22 Diskø
+F23 Posi.ø
+F24 Ident.-No.ø
+F25 Ageø
+F26 Factø
+F27 Sexø
+F28 Dateø
+F29 Timeø
+F30 Defaultø
+F31 STD Cupø
+F32 Microø
+F33 STD+Tubeø
+F34 Micro+Tubeø
+F35 Tubeø
+F36 First TS-Recordø
+F37 Previous TS-Recordø
+F38 Next TS_Recordø
+F39 Last TS_Recordø
+F40 Modify TS_Recordø
+F41 Create new TS-Recordø
+F42 Delete TS-Recordø
+F43 Save TS-Recordø
+F44 Create and Display Test Selectionø
+F45 Kind of Sampleø
+F46 Range: ø
+F47 13 char. alphanumerical / Codes 20h to 7Ehø
+F48 1 = days / 2 = months / 3 = yearsø
+F49 0 = neutral / 1 = male / 2 = femaleø
+F50 Create and Display Result Requestø
+F51 Sample number  : ø
+F52 Disk/Position  : ø
+F53 Sample-Ident.  : ø
+F54 Open Test Selection Fileø
+F55 Delete Test Selection Fileø
+F56 Comment   ø
+F57 Test Results   :   1. RUN      RERUNø
+F58 * = signs results of not requested tests !ø
+F59 Test Listø
+F60 Test List File not found ! It will be created !ø
+F61 Test Selection Maskø
+F62  / Generate TS with ###ø
+F63 Class ø
+F64 Contents of the Test Selection file: 'ø
+F65 Record #:ø
+F66 Abort actionø
+F67 Invalid TS generation chars (#) !ø
+F68 The last record can not be deleted !ø
+F69 TS-File does not exist ! Create ?ø
+F70 &Newø
+F71 &Modifyø
+F72 Realtime Modeø
+F73 Batch Modeø
+F74 File Mode Endø
+{ Notepad - Open/Save File }
+G01 File&nameø
+G02 &Openø
+G03 Open Fileø
+G04 File: ø
+G05 &Saveø
+G06 Do you want to save the file ?ø
+G07 Save Fileø
+G08 Type in a file name !ø
+G09 Overwrite existing file ?ø
+G10 Invalid file name !ø
+G11 Disk not ready !ø
+G12 File not found ! (ø
+G13 No records in file ! (ø
+{ Result File }
+H01 Display Result Filesø
+H02 Result Filesø
+H03 &Displayø
+H04 De&lete Fileø
+H05 Delete &All Filesø
+H06 Tests (Routine, Rerun, STAT)ø
+H07 Controlø
+H08 Photometric Calibrationø
+H09 ISE Calibrationø
+H10 Absorbance valuesø
+H11 Delete Result File ? (ø
+H12 Result File: 'ø
+H13 TESTS.RESø
+H14 CONTROL.RESø
+H15 PHOTO.RESø
+H16 ISE.RESø
+H17 ABSORB.RESø
+H18 No Access during Result Recording !ø
+{ Error Checking }
+I01 Checking Error Behaviourø
+I02 Implement Checksum Error in Test Selectionø
+I03 Implement Checksum Error in Result Requestø
+I04 Quit Test Selection Request with 'REP'ø
+I05 inactiveø
+I06 one timeø
+I07 alwaysø
+I08 Quit Result with 'REP'ø
+I09 &Resetø
+{ Trace Messages }
+J04 Checksum-Error !ø
+J05 Invalid Message !ø
+J06 Invalid Message Length !ø
+J07 Invalid Function Character !ø
+J08 Invalid Frame Character !ø
+J09 Different End-of-data Codes !ø
+{ Edit Testnames }
+K01 Edit Test Namesø
+K02 &Saveø
+K03 Test Namesø
+{ TS Generation window }
+M01 TS Generationø
+M02 First value       :ø
+M03 No. of TS         :ø
+M04 Leading character :ø
+{ TS-File Options }
+O01 TS-File Optionsø
+O02 Delete all Resultsø
+O03 Echo Sample Informationø
+O04 Function Char. Matchingø
+{ RS232 Parameter }
+P01 RS-232 Parametersø
+P02 Invalid interface parameters !ø
+P03 Error during initialisation of port COMø
+{ Programspecific Messages }
+Q01 Open Trace Fileø
+Q02 Trace File   :ø
+Q03 Delete Trace Fileø
+Q04 Delete File ? (ø
+Q05 &Deleteø
+Q06 &Openø
+Q07 Show Trace Fileø
+Q08 No Access while Trace File is open !ø
+{ Help Function }
+W01 Help File not found ! (ø
+W02 Help Fileø
+{ Error Messages }
+X15 ERRORø
+X16 ø
+X17 Start the Editor 'VB_EDIT.EXE' separately !ø
+X18 Editor Program not found !ø
+X19 200 is the maximum number of test selections !ø
+{ Info Window }
+Z01 Infoø
+Z02 BM/HITACHI 911 Host Testprogramø
+Z03 ø
+Z04 Developed by Claus Mahlmann, LI-TDø
+Z05 Technical Product Management, Data Techniqueø
+Z06 Tel.: (621) 759 2464 / FAX: (621) 759 4394ø
+Z07 Copyright 1993, Boehringer Mannheimø
+

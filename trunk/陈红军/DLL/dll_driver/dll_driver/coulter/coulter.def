@@ -1,0 +1,9 @@
+; coulter.def : Declares the module parameters for the DLL.
+
+LIBRARY      "coulter"
+DESCRIPTION  'coulter Windows Dynamic Link Library'
+
+EXPORTS
+BeforeSetCommState
+CommMonitor
+    ; Explicit exports can go here

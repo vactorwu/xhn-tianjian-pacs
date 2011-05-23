@@ -1,0 +1,89 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CX5 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP23A3.TMP" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "CX5_EXPORTS" /Fp"Release/CX5.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\NewDll\win32\AlreadyFinishied\生化分析仪\CX5\CX5.cpp"
+"E:\NewDll\win32\AlreadyFinishied\生化分析仪\CX5\Str.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP23A3.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP23A4.TMP" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "CX5_EXPORTS" /Fp"Release/CX5.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\NewDll\win32\AlreadyFinishied\生化分析仪\CX5\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP23A4.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP23A6.TMP" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"Release/CX5.pdb" /machine:I386 /def:".\CX5.def" /out:"Release/CX5.dll" /implib:"Release/CX5.lib" 
+".\Release\CX5.obj"
+".\Release\StdAfx.obj"
+".\Release\Str.obj"
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP23A6.TMP"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+CX5.cpp
+E:\NewDll\win32\AlreadyFinishied\生化分析仪\CX5\CX5.cpp(66) : warning C4101: 'dResult' : unreferenced local variable
+E:\NewDll\win32\AlreadyFinishied\生化分析仪\CX5\CX5.cpp(66) : warning C4101: 'ComStat' : unreferenced local variable
+Str.cpp
+Generating Code...
+Linking...
+   Creating library Release/CX5.lib and object Release/CX5.exp
+
+
+
+<h3>Results</h3>
+CX5.dll - 0 error(s), 2 warning(s)
+<h3>
+--------------------Configuration: CX5 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP3010.TMP" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "CX5_EXPORTS" /Fp"Debug/CX5.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\NewDll\win32\AlreadyFinishied\生化分析仪\CX5\CX5.cpp"
+"E:\NewDll\win32\AlreadyFinishied\生化分析仪\CX5\Str.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP3010.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP3011.TMP" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "CX5_EXPORTS" /Fp"Debug/CX5.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\NewDll\win32\AlreadyFinishied\生化分析仪\CX5\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP3011.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP3012.TMP" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:yes /pdb:"Debug/CX5.pdb" /debug /machine:I386 /def:".\CX5.def" /out:"Debug/CX5.dll" /implib:"Debug/CX5.lib" /pdbtype:sept 
+".\Debug\CX5.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Str.obj"
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP3012.TMP"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+CX5.cpp
+E:\NewDll\win32\AlreadyFinishied\生化分析仪\CX5\CX5.cpp(66) : warning C4101: 'dResult' : unreferenced local variable
+E:\NewDll\win32\AlreadyFinishied\生化分析仪\CX5\CX5.cpp(66) : warning C4101: 'ComStat' : unreferenced local variable
+Str.cpp
+Generating Code...
+Linking...
+   Creating library Debug/CX5.lib and object Debug/CX5.exp
+
+
+
+<h3>Results</h3>
+CX5.dll - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>

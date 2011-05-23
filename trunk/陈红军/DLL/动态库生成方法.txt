@@ -1,0 +1,84 @@
+采用标准的Win32 Dynmic_Link Library.
+项目生成步骤：
+1、创建一个WIN32 DYNAMIC_LINK LIBRARY。
+2、选择动态库类型为:A Simple Dll Project。
+3、往项目中添加一个.def类型的文件。文件名与项目名相同，如：CX4.def.
+	在.def文件中加入EXPORTS段：声明输出函数名。
+	EXPORTS
+	  CommMonitor
+	  BeforeSetCommState
+4、将目录、\动态库公用文件复制到当前目录下，并添加到项目中。
+5、在项目.cpp文件中包含动态库公用文件
+#include <stdio.h>
+#include "Const.h"
+#include "Device.h"
+#include "DevMacro.h"
+#include "LogFile.h"
+#include "str.h"
+4、在项目.cpp文件中加入两个函数的声明；
+DWORD WINAPI CommMonitor( LPSTR lpData)
+{
+//监控串口接收数据，并完成数据格式分析，将结果放入结果队列
+	CommData
+	int nItemCount;
+	Init()
+	ResetOpPointer()				
+
+	FillDevName()					
+	SetCommWaitMask(EV_RXFLAG)
+	PurgeComm( hComm, PURGE_RXCLEAR );	
+	memset(lpOpPointer , 0, c_RxBufferLength );
+		
+	while (TRUE)
+	{
+
+
+		WaitEvent(EV_RXFLAG)//等待接受数据包
+		GetInQueueLength(dwReadLength)//分析数据
+		ReadCommBlock(dwReadLength)
+		//数据校验
+
+
+		//应答发送
+
+
+		//结果处理
+
+
+		//结果入库
+		if(nItemCount>0)
+		{
+			(*lpResultProcessRoutine)(lpDevice->nDevNO, OutResult, nItemCount);
+			lpDevice->dwRecordCount+=nItemCount;
+		}
+		nItemCount=0;	
+		ResetRxPointer()		
+		//清空缓冲区
+
+	}
+	return TRUE;
+} // end of CommWatchProc()
+
+void WINAPI BeforeSetCommState(DCB *pComDcb)
+{
+	pComDcb->EvtChar =LF;
+	//设定串口监控事件
+}
+5.项目中两个共用常量的含义。
+#define c_RxBufferLength	1024 //定义缓冲区大小		
+#define	c_MaxItemNum		18  //定义项目数
+7。动态库的编写原则：
+[1]、工作单号的生成
+工作单号为每天标志一个样本的标志，每天唯一，长度为六个字符。为了保证工作单号的唯一性
+采用仪器分类编号作为工作单头，按工作顺序生成流水号。
+动态库中将接受的样本号加上工作单头形成该样本的工作单头。
+如：仪器A，样本号为1，则生成的工作单号应为A00001。
+[2]、如何区分急诊、常规样本？
+由于急诊与常规的检验在收费上有所不同，应对急诊和常规样本在结果数据中有所体现。本系统准备按以下规则来体现：
+在工作单上，除体现仪器分类外，可加上急诊常规的区别。
+（1）急诊用字符‘S’来表示。AS0001
+（2）常规用字符‘N’或不表示。AN0001或A00001
+[3]、如何体现标本的区别？
+在生化检验中，标本可分血清、脑脊液、等，且所作项目在正常值范围、单位等方面有所区别，检验结果应能体现标本类型。
+这个问题可通过修改数据结构来实现。
+在不修改数据结构的前提下，也可通过在检验项目后加后缀的办法，来体现。如： 血肌酐测定、尿肌酐测定可分别表示为CRE_SE，CRE_UR

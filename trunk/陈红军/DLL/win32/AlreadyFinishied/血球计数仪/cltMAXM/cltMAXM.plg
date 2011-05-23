@@ -1,0 +1,105 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: cltMAXM - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSPB0F5.TMP" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "CLTMAXM_EXPORTS" /Fp"Release/cltMAXM.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\NewDll\win32\AlreadyFinishied\血球计数仪\cltMAXM\cltMAXM.cpp"
+"E:\NewDll\win32\AlreadyFinishied\血球计数仪\cltMAXM\LogFile.cpp"
+"E:\NewDll\win32\AlreadyFinishied\血球计数仪\cltMAXM\Str.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPB0F5.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPB0F6.TMP" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "CLTMAXM_EXPORTS" /Fp"Release/cltMAXM.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\NewDll\win32\AlreadyFinishied\血球计数仪\cltMAXM\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPB0F6.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPB0F7.TMP" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"Release/cltMAXM.pdb" /machine:I386 /def:".\cltMAXM.def" /out:"Release/cltMAXM.dll" /implib:"Release/cltMAXM.lib" 
+".\Release\cltMAXM.obj"
+".\Release\LogFile.obj"
+".\Release\StdAfx.obj"
+".\Release\Str.obj"
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPB0F7.TMP"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+cltMAXM.cpp
+E:\NewDll\win32\AlreadyFinishied\血球计数仪\cltMAXM\cltMAXM.cpp(70) : warning C4101: 'dResult' : unreferenced local variable
+E:\NewDll\win32\AlreadyFinishied\血球计数仪\cltMAXM\cltMAXM.cpp(70) : warning C4101: 'wSampleID' : unreferenced local variable
+E:\NewDll\win32\AlreadyFinishied\血球计数仪\cltMAXM\cltMAXM.cpp(215) : warning C4101: 'dResult' : unreferenced local variable
+E:\NewDll\win32\AlreadyFinishied\血球计数仪\cltMAXM\cltMAXM.cpp(215) : warning C4101: 'RxBuffer' : unreferenced local variable
+E:\NewDll\win32\AlreadyFinishied\血球计数仪\cltMAXM\cltMAXM.cpp(215) : warning C4101: 'wSampleID' : unreferenced local variable
+E:\NewDll\win32\AlreadyFinishied\血球计数仪\cltMAXM\cltMAXM.cpp(215) : warning C4101: 'hComm' : unreferenced local variable
+E:\NewDll\win32\AlreadyFinishied\血球计数仪\cltMAXM\cltMAXM.cpp(215) : warning C4101: 'ComStat' : unreferenced local variable
+LogFile.cpp
+Str.cpp
+Generating Code...
+Linking...
+   Creating library Release/cltMAXM.lib and object Release/cltMAXM.exp
+
+
+
+<h3>Results</h3>
+cltMAXM.dll - 0 error(s), 7 warning(s)
+<h3>
+--------------------Configuration: cltMAXM - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSPB144.TMP" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "CLTMAXM_EXPORTS" /Fp"Debug/cltMAXM.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\NewDll\win32\AlreadyFinishied\血球计数仪\cltMAXM\cltMAXM.cpp"
+"E:\NewDll\win32\AlreadyFinishied\血球计数仪\cltMAXM\LogFile.cpp"
+"E:\NewDll\win32\AlreadyFinishied\血球计数仪\cltMAXM\Str.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPB144.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPB145.TMP" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "CLTMAXM_EXPORTS" /Fp"Debug/cltMAXM.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\NewDll\win32\AlreadyFinishied\血球计数仪\cltMAXM\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPB145.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPB146.TMP" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:yes /pdb:"Debug/cltMAXM.pdb" /debug /machine:I386 /def:".\cltMAXM.def" /out:"Debug/cltMAXM.dll" /implib:"Debug/cltMAXM.lib" /pdbtype:sept 
+".\Debug\cltMAXM.obj"
+".\Debug\LogFile.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Str.obj"
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPB146.TMP"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+cltMAXM.cpp
+E:\NewDll\win32\AlreadyFinishied\血球计数仪\cltMAXM\cltMAXM.cpp(70) : warning C4101: 'dResult' : unreferenced local variable
+E:\NewDll\win32\AlreadyFinishied\血球计数仪\cltMAXM\cltMAXM.cpp(70) : warning C4101: 'wSampleID' : unreferenced local variable
+E:\NewDll\win32\AlreadyFinishied\血球计数仪\cltMAXM\cltMAXM.cpp(215) : warning C4101: 'dResult' : unreferenced local variable
+E:\NewDll\win32\AlreadyFinishied\血球计数仪\cltMAXM\cltMAXM.cpp(215) : warning C4101: 'RxBuffer' : unreferenced local variable
+E:\NewDll\win32\AlreadyFinishied\血球计数仪\cltMAXM\cltMAXM.cpp(215) : warning C4101: 'wSampleID' : unreferenced local variable
+E:\NewDll\win32\AlreadyFinishied\血球计数仪\cltMAXM\cltMAXM.cpp(215) : warning C4101: 'hComm' : unreferenced local variable
+E:\NewDll\win32\AlreadyFinishied\血球计数仪\cltMAXM\cltMAXM.cpp(215) : warning C4101: 'ComStat' : unreferenced local variable
+LogFile.cpp
+Str.cpp
+Generating Code...
+Linking...
+   Creating library Debug/cltMAXM.lib and object Debug/cltMAXM.exp
+
+
+
+<h3>Results</h3>
+cltMAXM.dll - 0 error(s), 7 warning(s)
+</pre>
+</body>
+</html>

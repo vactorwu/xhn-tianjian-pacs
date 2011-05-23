@@ -1,0 +1,57 @@
+0401
+
+
+
+
+
+--------------
+-0A
+DATE 12/14/10 
+TIME 15:44:24    
+ID1 104 POS SECONDA 
+SEQUENCE 1EC/P S       
+ID1STATUS   
+C/PSTATUS P 
+WLSTATUS GOOD     
+0C
+WBC    4.8  
+RBC   3.17  
+HGB   33E1 02 103  L
+HCT  0.298  L
+MCV   93.9   
+MCH   32.4   
+MCHC   345   
+RDW   12.5   
+PLT    361   
+PCT  0.303   
+MPV    8.4   
+PDW   16.4   
+.405
+LY#    1.4  
+MO#    0.3  
+NE#    3.0  
+EO#    0.1  
+BA#    0.0  
+.005
+LY 0.302512B203  
+MO6E2O2A801
+04
+Abnormal WBC Pop
+Abnormal RBC Pop
+Anemia
+Normal PLT Pop
+09
+BIRTH            
+UF1                  
+UF2 595FF04                 
+UF3                  
+SEX   
+LOCATION                  
+PHYSICIAN                        
+UDATE          
+UTIME       
+     00
+    
+
+--------------
+                                                                                      B5DB 

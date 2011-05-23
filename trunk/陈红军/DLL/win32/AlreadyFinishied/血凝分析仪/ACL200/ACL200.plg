@@ -1,0 +1,50 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ACL200 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP7283.TMP" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "ACL200_EXPORTS" /Fp"Release/ACL200.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\NewDll\win32\AlreadyFinishied\ÑªÄý·ÖÎöÒÇ\Acl200\ACL200.cpp"
+"E:\NewDll\win32\AlreadyFinishied\ÑªÄý·ÖÎöÒÇ\Acl200\LogFile.cpp"
+"E:\NewDll\win32\AlreadyFinishied\ÑªÄý·ÖÎöÒÇ\Acl200\Str.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP7283.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP7284.TMP" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "ACL200_EXPORTS" /Fp"Release/ACL200.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\NewDll\win32\AlreadyFinishied\ÑªÄý·ÖÎöÒÇ\Acl200\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP7284.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP7285.TMP" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"Release/ACL200.pdb" /machine:I386 /def:".\ACL200.def" /out:"Release/ACL200.dll" /implib:"Release/ACL200.lib" 
+".\Release\ACL200.obj"
+".\Release\LogFile.obj"
+".\Release\StdAfx.obj"
+".\Release\Str.obj"
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP7285.TMP"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+ACL200.cpp
+E:\NewDll\win32\AlreadyFinishied\ÑªÄý·ÖÎöÒÇ\Acl200\ACL200.cpp(224) : warning C4101: 'dResult' : unreferenced local variable
+LogFile.cpp
+Str.cpp
+Generating Code...
+Linking...
+   Creating library Release/ACL200.lib and object Release/ACL200.exp
+
+
+
+<h3>Results</h3>
+ACL200.dll - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

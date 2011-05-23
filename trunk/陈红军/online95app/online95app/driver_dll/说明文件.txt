@@ -1,0 +1,31 @@
+目前,仅对数值型结果作了处理,图形结果还未处理!
+仪器设置:
+STKS 2A  HOST MODE   YES
+BUAD RATE            9600
+PARITY               ODD
+STOP BITS             1  [数据位长度（BYTESIZE）为8]
+HAND SHAKE           Yes
+BLock Size           256(128)
+Graphic transmission   (都选NO)
+Retics  transmission   
+   overall retics   NO
+   Graphics         
+     DF5            NO
+     DF6            NO
+Enable Spooler      Yes
+Replace NULL    by SP   NO(Yes)皆可
+仪器接口:接线盒上的P3接口
+
+连线方式:
+9 针（计算机）          25针 （仪器）  
+------               |   ------
+2                    |     2       
+3         	     |     3      
+4		     |     6      
+5         	     |     7      
+6                    |     20     
+7                    |     5       
+8                    |     4      
+
+
+

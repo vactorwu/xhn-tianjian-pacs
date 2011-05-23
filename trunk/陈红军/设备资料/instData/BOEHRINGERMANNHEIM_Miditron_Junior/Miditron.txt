@@ -1,0 +1,1010 @@
+WID:M3 INST:MIDTRON ITEM: SG RESULT:1.020   在库中没有对照
+WID:M3 INST:MIDTRON ITEM: PH RESULT:  6     在库中没有对照
+WID:M3 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M3 INST:MIDTRON ITEM: PRO RESULT:   25 mg/dl   1+ 在库中没有对照
+WID:M3 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: ERY RESULT:        neg      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: SG RESULT:1.010   在库中没有对照
+WID:M4 INST:MIDTRON ITEM: PH RESULT:  7     在库中没有对照
+WID:M4 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M4 INST:MIDTRON ITEM: PRO RESULT:  150 mg/dl   3+ 在库中没有对照
+WID:M4 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: ERY RESULT:     250/ul   5+ 在库中没有对照
+WID:M5 INST:MIDTRON ITEM: SG RESULT:1.015   在库中没有对照
+WID:M5 INST:MIDTRON ITEM: PH RESULT:  6     在库中没有对照
+WID:M5 INST:MIDTRON ITEM: LEU RESULT:     100/ul   2+ 在库中没有对照
+WID:M5 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M5 INST:MIDTRON ITEM: PRO RESULT:   75 mg/dl   2+ 在库中没有对照
+WID:M5 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M5 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M5 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M5 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M5 INST:MIDTRON ITEM: ERY RESULT:      10/ul   1+ 在库中没有对照
+WID:M6 INST:MIDTRON ITEM: SG RESULT:1.010   在库中没有对照
+WID:M6 INST:MIDTRON ITEM: PH RESULT:  8     在库中没有对照
+WID:M6 INST:MIDTRON ITEM: LEU RESULT:     100/ul   2+ 在库中没有对照
+WID:M6 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M6 INST:MIDTRON ITEM: PRO RESULT:        neg      在库中没有对照
+WID:M6 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M6 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M6 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M6 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M6 INST:MIDTRON ITEM: ERY RESULT:      25/ul   2+ 在库中没有对照
+WID:M1 INST:MIDTRON ITEM: SG RESULT:1.020   在库中没有对照
+WID:M1 INST:MIDTRON ITEM: PH RESULT:  6     在库中没有对照
+WID:M1 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M1 INST:MIDTRON ITEM: PRO RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: ERY RESULT:      25/ul   2+ 在库中没有对照
+WID:M2 INST:MIDTRON ITEM: SG RESULT:1.015   在库中没有对照
+WID:M2 INST:MIDTRON ITEM: PH RESULT:  8     在库中没有对照
+WID:M2 INST:MIDTRON ITEM: LEU RESULT:     500/ul   3+ 在库中没有对照
+WID:M2 INST:MIDTRON ITEM: NIT RESULT:pos  pos在库中没有对照
+WID:M2 INST:MIDTRON ITEM: PRO RESULT:   25 mg/dl   1+ 在库中没有对照
+WID:M2 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: ERY RESULT:     250/ul   5+ 在库中没有对照
+WID:M3 INST:MIDTRON ITEM: SG RESULT:1.020   在库中没有对照
+WID:M3 INST:MIDTRON ITEM: PH RESULT:  8     在库中没有对照
+WID:M3 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M3 INST:MIDTRON ITEM: PRO RESULT:        neg      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: KET RESULT:   50 mg/dl   3+ 在库中没有对照
+WID:M3 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: ERY RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: SG RESULT:1.020   在库中没有对照
+WID:M1 INST:MIDTRON ITEM: PH RESULT:  6     在库中没有对照
+WID:M1 INST:MIDTRON ITEM: LEU RESULT:     500/ul   3+ 在库中没有对照
+WID:M1 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M1 INST:MIDTRON ITEM: PRO RESULT:   75 mg/dl   2+ 在库中没有对照
+WID:M1 INST:MIDTRON ITEM: GLU RESULT: 1000 mg/dl   4+ 在库中没有对照
+WID:M1 INST:MIDTRON ITEM: KET RESULT:    5 mg/dl   1+ 在库中没有对照
+WID:M1 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: ERY RESULT:     250/ul   5+ 在库中没有对照
+WID:M1 INST:MIDTRON ITEM: SG RESULT:1.015   在库中没有对照
+WID:M1 INST:MIDTRON ITEM: PH RESULT:  6     在库中没有对照
+WID:M1 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M1 INST:MIDTRON ITEM: PRO RESULT:   75 mg/dl   2+ 在库中没有对照
+WID:M1 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: ERY RESULT:     250/ul   5+ 在库中没有对照
+WID:M2 INST:MIDTRON ITEM: SG RESULT:1.010   在库中没有对照
+WID:M2 INST:MIDTRON ITEM: PH RESULT:6.5     在库中没有对照
+WID:M2 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M2 INST:MIDTRON ITEM: PRO RESULT:   25 mg/dl   1+ 在库中没有对照
+WID:M2 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: ERY RESULT:     250/ul   5+ 在库中没有对照
+WID:M3 INST:MIDTRON ITEM: SG RESULT:1.010   在库中没有对照
+WID:M3 INST:MIDTRON ITEM: PH RESULT:  7     在库中没有对照
+WID:M3 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M3 INST:MIDTRON ITEM: PRO RESULT:   75 mg/dl   2+ 在库中没有对照
+WID:M3 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: ERY RESULT:     150/ul   4+ 在库中没有对照
+WID:M4 INST:MIDTRON ITEM: SG RESULT:1.010   在库中没有对照
+WID:M4 INST:MIDTRON ITEM: PH RESULT:  6     在库中没有对照
+WID:M4 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M4 INST:MIDTRON ITEM: PRO RESULT:   25 mg/dl   1+ 在库中没有对照
+WID:M4 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: ERY RESULT:     250/ul   5+ 在库中没有对照
+WID:M5 INST:MIDTRON ITEM: SG RESULT:1.010   在库中没有对照
+WID:M5 INST:MIDTRON ITEM: PH RESULT:  7     在库中没有对照
+WID:M5 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M5 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M5 INST:MIDTRON ITEM: PRO RESULT:  150 mg/dl   3+ 在库中没有对照
+WID:M5 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M5 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M5 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M5 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M5 INST:MIDTRON ITEM: ERY RESULT:     250/ul   5+ 在库中没有对照
+WID:M6 INST:MIDTRON ITEM: SG RESULT:1.010   在库中没有对照
+WID:M6 INST:MIDTRON ITEM: PH RESULT:  7     在库中没有对照
+WID:M6 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M6 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M6 INST:MIDTRON ITEM: PRO RESULT:  150 mg/dl   3+ 在库中没有对照
+WID:M6 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M6 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M6 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M6 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M6 INST:MIDTRON ITEM: ERY RESULT:     250/ul   5+ 在库中没有对照
+WID:M7 INST:MIDTRON ITEM: SG RESULT:1.015   在库中没有对照
+WID:M7 INST:MIDTRON ITEM: PH RESULT:  6     在库中没有对照
+WID:M7 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M7 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M7 INST:MIDTRON ITEM: PRO RESULT:        neg      在库中没有对照
+WID:M7 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M7 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M7 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M7 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M7 INST:MIDTRON ITEM: ERY RESULT:      25/ul   2+ 在库中没有对照
+WID:M8 INST:MIDTRON ITEM: SG RESULT:1.020   在库中没有对照
+WID:M8 INST:MIDTRON ITEM: PH RESULT:6.5     在库中没有对照
+WID:M8 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M8 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M8 INST:MIDTRON ITEM: PRO RESULT:        neg      在库中没有对照
+WID:M8 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M8 INST:MIDTRON ITEM: KET RESULT:   50 mg/dl   3+ 在库中没有对照
+WID:M8 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M8 INST:MIDTRON ITEM: BIL RESULT:    1 mg/dl   1+ 在库中没有对照
+WID:M8 INST:MIDTRON ITEM: ERY RESULT:      10/ul   1+ 在库中没有对照
+WID:M9 INST:MIDTRON ITEM: SG RESULT:1.025   在库中没有对照
+WID:M9 INST:MIDTRON ITEM: PH RESULT:  6     在库中没有对照
+WID:M9 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M9 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M9 INST:MIDTRON ITEM: PRO RESULT:        neg      在库中没有对照
+WID:M9 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M9 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M9 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M9 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M9 INST:MIDTRON ITEM: ERY RESULT:        neg      在库中没有对照
+WID:M10 INST:MIDTRON ITEM: SG RESULT:1.010   在库中没有对照
+WID:M10 INST:MIDTRON ITEM: PH RESULT:  7     在库中没有对照
+WID:M10 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M10 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M10 INST:MIDTRON ITEM: PRO RESULT:  150 mg/dl   3+ 在库中没有对照
+WID:M10 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M10 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M10 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M10 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M10 INST:MIDTRON ITEM: ERY RESULT:     250/ul   5+ 在库中没有对照
+WID:M1 INST:MIDTRON ITEM: SG RESULT:1.015   在库中没有对照
+WID:M1 INST:MIDTRON ITEM: PH RESULT:  7     在库中没有对照
+WID:M1 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M1 INST:MIDTRON ITEM: PRO RESULT:   75 mg/dl   2+ 在库中没有对照
+WID:M1 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: ERY RESULT:     250/ul   5+ 在库中没有对照
+WID:M2 INST:MIDTRON ITEM: SG RESULT:1.025   在库中没有对照
+WID:M2 INST:MIDTRON ITEM: PH RESULT:  5     在库中没有对照
+WID:M2 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M2 INST:MIDTRON ITEM: PRO RESULT:   75 mg/dl   2+ 在库中没有对照
+WID:M2 INST:MIDTRON ITEM: GLU RESULT: 1000 mg/dl   4+ 在库中没有对照
+WID:M2 INST:MIDTRON ITEM: KET RESULT:   15 mg/dl   2+ 在库中没有对照
+WID:M2 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: ERY RESULT:      50/ul   3+ 在库中没有对照
+WID:M3 INST:MIDTRON ITEM: SG RESULT:1.020   在库中没有对照
+WID:M3 INST:MIDTRON ITEM: PH RESULT:  5     在库中没有对照
+WID:M3 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M3 INST:MIDTRON ITEM: PRO RESULT:  150 mg/dl   3+ 在库中没有对照
+WID:M3 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: ERY RESULT:     150/ul   4+ 在库中没有对照
+WID:M4 INST:MIDTRON ITEM: SG RESULT:1.015   在库中没有对照
+WID:M4 INST:MIDTRON ITEM: PH RESULT:6.5     在库中没有对照
+WID:M4 INST:MIDTRON ITEM: LEU RESULT:      25/ul   1+ 在库中没有对照
+WID:M4 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M4 INST:MIDTRON ITEM: PRO RESULT:        neg      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: ERY RESULT:     250/ul   5+ 在库中没有对照
+WID:M5 INST:MIDTRON ITEM: SG RESULT:1.020   在库中没有对照
+WID:M5 INST:MIDTRON ITEM: PH RESULT:  5     在库中没有对照
+WID:M5 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M5 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M5 INST:MIDTRON ITEM: PRO RESULT:   25 mg/dl   1+ 在库中没有对照
+WID:M5 INST:MIDTRON ITEM: GLU RESULT:  100 mg/dl   2+ 在库中没有对照
+WID:M5 INST:MIDTRON ITEM: KET RESULT:    5 mg/dl   1+ 在库中没有对照
+WID:M5 INST:MIDTRON ITEM: UBG RESULT:    4 mg/dl   2+ 在库中没有对照
+WID:M5 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M5 INST:MIDTRON ITEM: ERY RESULT:      50/ul   3+ 在库中没有对照
+WID:M6 INST:MIDTRON ITEM: SG RESULT:1.020   在库中没有对照
+WID:M6 INST:MIDTRON ITEM: PH RESULT:  5     在库中没有对照
+WID:M6 INST:MIDTRON ITEM: LEU RESULT:      25/ul   1+ 在库中没有对照
+WID:M6 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M6 INST:MIDTRON ITEM: PRO RESULT:   25 mg/dl   1+ 在库中没有对照
+WID:M6 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M6 INST:MIDTRON ITEM: KET RESULT:    5 mg/dl   1+ 在库中没有对照
+WID:M6 INST:MIDTRON ITEM: UBG RESULT:    1 mg/dl   1+ 在库中没有对照
+WID:M6 INST:MIDTRON ITEM: BIL RESULT:    1 mg/dl   1+ 在库中没有对照
+WID:M6 INST:MIDTRON ITEM: ERY RESULT:     150/ul   4+ 在库中没有对照
+WID:M7 INST:MIDTRON ITEM: SG RESULT:1.015   在库中没有对照
+WID:M7 INST:MIDTRON ITEM: PH RESULT:6.5     在库中没有对照
+WID:M7 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M7 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M7 INST:MIDTRON ITEM: PRO RESULT:   25 mg/dl   1+ 在库中没有对照
+WID:M7 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M7 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M7 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M7 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M7 INST:MIDTRON ITEM: ERY RESULT:      50/ul   3+ 在库中没有对照
+WID:M1 INST:MIDTRON ITEM: SG RESULT:1.020   在库中没有对照
+WID:M1 INST:MIDTRON ITEM: PH RESULT:  6     在库中没有对照
+WID:M1 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M1 INST:MIDTRON ITEM: PRO RESULT:   75 mg/dl   2+ 在库中没有对照
+WID:M1 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: UBG RESULT:    4 mg/dl   2+ 在库中没有对照
+WID:M1 INST:MIDTRON ITEM: BIL RESULT:    1 mg/dl   1+ 在库中没有对照
+WID:M1 INST:MIDTRON ITEM: ERY RESULT:      25/ul   2+ 在库中没有对照
+WID:M1 INST:MIDTRON ITEM: SG RESULT:1.025   在库中没有对照
+WID:M1 INST:MIDTRON ITEM: PH RESULT:  6     在库中没有对照
+WID:M1 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M1 INST:MIDTRON ITEM: PRO RESULT:   25 mg/dl   1+ 在库中没有对照
+WID:M1 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: KET RESULT:  150 mg/dl   4+ 在库中没有对照
+WID:M1 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: ERY RESULT:      50/ul   3+ 在库中没有对照
+WID:M2 INST:MIDTRON ITEM: SG RESULT:1.015   在库中没有对照
+WID:M2 INST:MIDTRON ITEM: PH RESULT:  6     在库中没有对照
+WID:M2 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M2 INST:MIDTRON ITEM: PRO RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: ERY RESULT:        neg      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: SG RESULT:1.015   在库中没有对照
+WID:M3 INST:MIDTRON ITEM: PH RESULT:  7     在库中没有对照
+WID:M3 INST:MIDTRON ITEM: LEU RESULT:     500/ul   3+ 在库中没有对照
+WID:M3 INST:MIDTRON ITEM: NIT RESULT:pos  pos在库中没有对照
+WID:M3 INST:MIDTRON ITEM: PRO RESULT:  150 mg/dl   3+ 在库中没有对照
+WID:M3 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: ERY RESULT:     250/ul   5+ 在库中没有对照
+WID:M1 INST:MIDTRON ITEM: SG RESULT:1.020   在库中没有对照
+WID:M1 INST:MIDTRON ITEM: PH RESULT:  6     在库中没有对照
+WID:M1 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M1 INST:MIDTRON ITEM: PRO RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: ERY RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: SG RESULT:1.030   在库中没有对照
+WID:M2 INST:MIDTRON ITEM: PH RESULT:  6     在库中没有对照
+WID:M2 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M2 INST:MIDTRON ITEM: PRO RESULT:  150 mg/dl   3+ 在库中没有对照
+WID:M2 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: ERY RESULT:        neg      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: SG RESULT:1.025   在库中没有对照
+WID:M3 INST:MIDTRON ITEM: PH RESULT:  6     在库中没有对照
+WID:M3 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M3 INST:MIDTRON ITEM: PRO RESULT:  150 mg/dl   3+ 在库中没有对照
+WID:M3 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: ERY RESULT:      25/ul   2+ 在库中没有对照
+WID:M5 INST:MIDTRON ITEM: SG RESULT:1.010   在库中没有对照
+WID:M5 INST:MIDTRON ITEM: PH RESULT:  7     在库中没有对照
+WID:M5 INST:MIDTRON ITEM: LEU RESULT:     100/ul   2+ 在库中没有对照
+WID:M5 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M5 INST:MIDTRON ITEM: PRO RESULT:   25 mg/dl   1+ 在库中没有对照
+WID:M5 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M5 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M5 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M5 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M5 INST:MIDTRON ITEM: ERY RESULT:      50/ul   3+ 在库中没有对照
+WID:M1 INST:MIDTRON ITEM: SG RESULT:1.015   在库中没有对照
+WID:M1 INST:MIDTRON ITEM: PH RESULT:  7     在库中没有对照
+WID:M1 INST:MIDTRON ITEM: LEU RESULT:      25/ul   1+ 在库中没有对照
+WID:M1 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M1 INST:MIDTRON ITEM: PRO RESULT:  150 mg/dl   3+ 在库中没有对照
+WID:M1 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: ERY RESULT:      10/ul   1+ 在库中没有对照
+WID:M2 INST:MIDTRON ITEM: SG RESULT:1.020   在库中没有对照
+WID:M2 INST:MIDTRON ITEM: PH RESULT:  6     在库中没有对照
+WID:M2 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M2 INST:MIDTRON ITEM: PRO RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: ERY RESULT:        neg      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: SG RESULT:1.020   在库中没有对照
+WID:M3 INST:MIDTRON ITEM: PH RESULT:6.5     在库中没有对照
+WID:M3 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M3 INST:MIDTRON ITEM: PRO RESULT:        neg      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: ERY RESULT:        neg      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: SG RESULT:1.030   在库中没有对照
+WID:M4 INST:MIDTRON ITEM: PH RESULT:  6     在库中没有对照
+WID:M4 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M4 INST:MIDTRON ITEM: PRO RESULT:   25 mg/dl   1+ 在库中没有对照
+WID:M4 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: ERY RESULT:     250/ul   5+ 在库中没有对照
+WID:M5 INST:MIDTRON ITEM: SG RESULT:1.020   在库中没有对照
+WID:M5 INST:MIDTRON ITEM: PH RESULT:  6     在库中没有对照
+WID:M5 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M5 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M5 INST:MIDTRON ITEM: PRO RESULT:   25 mg/dl   1+ 在库中没有对照
+WID:M5 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M5 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M5 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M5 INST:MIDTRON ITEM: BIL RESULT:    1 mg/dl   1+ 在库中没有对照
+WID:M5 INST:MIDTRON ITEM: ERY RESULT:     250/ul   5+ 在库中没有对照
+WID:M1 INST:MIDTRON ITEM: SG RESULT:1.015   在库中没有对照
+WID:M1 INST:MIDTRON ITEM: PH RESULT:  5     在库中没有对照
+WID:M1 INST:MIDTRON ITEM: LEU RESULT:     500/ul   3+ 在库中没有对照
+WID:M1 INST:MIDTRON ITEM: NIT RESULT:pos  pos在库中没有对照
+WID:M1 INST:MIDTRON ITEM: PRO RESULT:  500 mg/dl   4+ 在库中没有对照
+WID:M1 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: ERY RESULT:     250/ul   5+ 在库中没有对照
+WID:M2 INST:MIDTRON ITEM: SG RESULT:1.025   在库中没有对照
+WID:M2 INST:MIDTRON ITEM: PH RESULT:  6     在库中没有对照
+WID:M2 INST:MIDTRON ITEM: LEU RESULT:     500/ul   3+ 在库中没有对照
+WID:M2 INST:MIDTRON ITEM: NIT RESULT:pos  pos在库中没有对照
+WID:M2 INST:MIDTRON ITEM: PRO RESULT:  150 mg/dl   3+ 在库中没有对照
+WID:M2 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: ERY RESULT:     250/ul   5+ 在库中没有对照
+WID:M3 INST:MIDTRON ITEM: SG RESULT:1.020   在库中没有对照
+WID:M3 INST:MIDTRON ITEM: PH RESULT:  7     在库中没有对照
+WID:M3 INST:MIDTRON ITEM: LEU RESULT:      25/ul   1+ 在库中没有对照
+WID:M3 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M3 INST:MIDTRON ITEM: PRO RESULT:   25 mg/dl   1+ 在库中没有对照
+WID:M3 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: ERY RESULT:        neg      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: SG RESULT:1.020   在库中没有对照
+WID:M4 INST:MIDTRON ITEM: PH RESULT:  7     在库中没有对照
+WID:M4 INST:MIDTRON ITEM: LEU RESULT:      25/ul   1+ 在库中没有对照
+WID:M4 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M4 INST:MIDTRON ITEM: PRO RESULT:        neg      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: ERY RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: SG RESULT:1.030   在库中没有对照
+WID:M1 INST:MIDTRON ITEM: PH RESULT:  5     在库中没有对照
+WID:M1 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M1 INST:MIDTRON ITEM: PRO RESULT:   75 mg/dl   2+ 在库中没有对照
+WID:M1 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: KET RESULT:  150 mg/dl   4+ 在库中没有对照
+WID:M1 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: ERY RESULT:     250/ul   5+ 在库中没有对照
+WID:M1 INST:MIDTRON ITEM: SG RESULT:1.015   在库中没有对照
+WID:M1 INST:MIDTRON ITEM: PH RESULT:  7     在库中没有对照
+WID:M1 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M1 INST:MIDTRON ITEM: PRO RESULT:   75 mg/dl   2+ 在库中没有对照
+WID:M1 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: ERY RESULT:     250/ul   5+ 在库中没有对照
+WID:M2 INST:MIDTRON ITEM: SG RESULT:1.010   在库中没有对照
+WID:M2 INST:MIDTRON ITEM: PH RESULT:  7     在库中没有对照
+WID:M2 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M2 INST:MIDTRON ITEM: PRO RESULT:   75 mg/dl   2+ 在库中没有对照
+WID:M2 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: ERY RESULT:     250/ul   5+ 在库中没有对照
+WID:M3 INST:MIDTRON ITEM: SG RESULT:1.010   在库中没有对照
+WID:M3 INST:MIDTRON ITEM: PH RESULT:  7     在库中没有对照
+WID:M3 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M3 INST:MIDTRON ITEM: PRO RESULT:   25 mg/dl   1+ 在库中没有对照
+WID:M3 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: ERY RESULT:     150/ul   4+ 在库中没有对照
+WID:M4 INST:MIDTRON ITEM: SG RESULT:1.010   在库中没有对照
+WID:M4 INST:MIDTRON ITEM: PH RESULT:  7     在库中没有对照
+WID:M4 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M4 INST:MIDTRON ITEM: PRO RESULT:        neg      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: ERY RESULT:      25/ul   2+ 在库中没有对照
+WID:M5 INST:MIDTRON ITEM: SG RESULT:1.025   在库中没有对照
+WID:M5 INST:MIDTRON ITEM: PH RESULT:  5     在库中没有对照
+WID:M5 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M5 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M5 INST:MIDTRON ITEM: PRO RESULT:  150 mg/dl   3+ 在库中没有对照
+WID:M5 INST:MIDTRON ITEM: GLU RESULT: 1000 mg/dl   4+ 在库中没有对照
+WID:M5 INST:MIDTRON ITEM: KET RESULT:   15 mg/dl   2+ 在库中没有对照
+WID:M5 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M5 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M5 INST:MIDTRON ITEM: ERY RESULT:      50/ul   3+ 在库中没有对照
+WID:M6 INST:MIDTRON ITEM: SG RESULT:1.015   在库中没有对照
+WID:M6 INST:MIDTRON ITEM: PH RESULT:6.5     在库中没有对照
+WID:M6 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M6 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M6 INST:MIDTRON ITEM: PRO RESULT:        neg      在库中没有对照
+WID:M6 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M6 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M6 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M6 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M6 INST:MIDTRON ITEM: ERY RESULT:      50/ul   3+ 在库中没有对照
+WID:M1 INST:MIDTRON ITEM: SG RESULT:1.020   在库中没有对照
+WID:M1 INST:MIDTRON ITEM: PH RESULT:  6     在库中没有对照
+WID:M1 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M1 INST:MIDTRON ITEM: PRO RESULT:   25 mg/dl   1+ 在库中没有对照
+WID:M1 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: ERY RESULT:      10/ul   1+ 在库中没有对照
+WID:M2 INST:MIDTRON ITEM: SG RESULT:1.020   在库中没有对照
+WID:M2 INST:MIDTRON ITEM: PH RESULT:  6     在库中没有对照
+WID:M2 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M2 INST:MIDTRON ITEM: PRO RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: ERY RESULT:        neg      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: SG RESULT:1.015   在库中没有对照
+WID:M3 INST:MIDTRON ITEM: PH RESULT:  6     在库中没有对照
+WID:M3 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M3 INST:MIDTRON ITEM: PRO RESULT:        neg      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: ERY RESULT:      10/ul   1+ 在库中没有对照
+WID:M4 INST:MIDTRON ITEM: SG RESULT:1.015   在库中没有对照
+WID:M4 INST:MIDTRON ITEM: PH RESULT:  8     在库中没有对照
+WID:M4 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M4 INST:MIDTRON ITEM: PRO RESULT:        neg      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: ERY RESULT:     250/ul   5+ 在库中没有对照
+WID:M1 INST:MIDTRON ITEM: SG RESULT:1.015   在库中没有对照
+WID:M1 INST:MIDTRON ITEM: PH RESULT:  6     在库中没有对照
+WID:M1 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M1 INST:MIDTRON ITEM: PRO RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: ERY RESULT:      50/ul   3+ 在库中没有对照
+WID:M2 INST:MIDTRON ITEM: SG RESULT:1.025   在库中没有对照
+WID:M2 INST:MIDTRON ITEM: PH RESULT:  6     在库中没有对照
+WID:M2 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M2 INST:MIDTRON ITEM: PRO RESULT:   25 mg/dl   1+ 在库中没有对照
+WID:M2 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: ERY RESULT:      25/ul   2+ 在库中没有对照
+WID:M1 INST:MIDTRON ITEM: SG RESULT:1.020   在库中没有对照
+WID:M1 INST:MIDTRON ITEM: PH RESULT:  6     在库中没有对照
+WID:M1 INST:MIDTRON ITEM: LEU RESULT:     500/ul   3+ 在库中没有对照
+WID:M1 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M1 INST:MIDTRON ITEM: PRO RESULT:   25 mg/dl   1+ 在库中没有对照
+WID:M1 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: ERY RESULT:     250/ul   5+ 在库中没有对照
+WID:M2 INST:MIDTRON ITEM: SG RESULT:1.020   在库中没有对照
+WID:M2 INST:MIDTRON ITEM: PH RESULT:  6     在库中没有对照
+WID:M2 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M2 INST:MIDTRON ITEM: PRO RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: UBG RESULT:    1 mg/dl   1+ 在库中没有对照
+WID:M2 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: ERY RESULT:      25/ul   2+ 在库中没有对照
+WID:M1 INST:MIDTRON ITEM: SG RESULT:1.020   在库中没有对照
+WID:M1 INST:MIDTRON ITEM: PH RESULT:  6     在库中没有对照
+WID:M1 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M1 INST:MIDTRON ITEM: PRO RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: ERY RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: SG RESULT:1.020   在库中没有对照
+WID:M2 INST:MIDTRON ITEM: PH RESULT:  6     在库中没有对照
+WID:M2 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M2 INST:MIDTRON ITEM: PRO RESULT:   25 mg/dl   1+ 在库中没有对照
+WID:M2 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: ERY RESULT:        neg      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: SG RESULT:1.015   在库中没有对照
+WID:M3 INST:MIDTRON ITEM: PH RESULT:  7     在库中没有对照
+WID:M3 INST:MIDTRON ITEM: LEU RESULT:     100/ul   2+ 在库中没有对照
+WID:M3 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M3 INST:MIDTRON ITEM: PRO RESULT:        neg      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: ERY RESULT:      50/ul   3+ 在库中没有对照
+WID:M4 INST:MIDTRON ITEM: SG RESULT:1.015   在库中没有对照
+WID:M4 INST:MIDTRON ITEM: PH RESULT:  9     在库中没有对照
+WID:M4 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M4 INST:MIDTRON ITEM: PRO RESULT:        neg      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: ERY RESULT:     150/ul   4+ 在库中没有对照
+WID:M5 INST:MIDTRON ITEM: SG RESULT:1.005   在库中没有对照
+WID:M5 INST:MIDTRON ITEM: PH RESULT:6.5     在库中没有对照
+WID:M5 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M5 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M5 INST:MIDTRON ITEM: PRO RESULT:        neg      在库中没有对照
+WID:M5 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M5 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M5 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M5 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M5 INST:MIDTRON ITEM: ERY RESULT:      25/ul   2+ 在库中没有对照
+WID:M6 INST:MIDTRON ITEM: SG RESULT:1.025   在库中没有对照
+WID:M6 INST:MIDTRON ITEM: PH RESULT:  5     在库中没有对照
+WID:M6 INST:MIDTRON ITEM: LEU RESULT:     500/ul   3+ 在库中没有对照
+WID:M6 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M6 INST:MIDTRON ITEM: PRO RESULT:   75 mg/dl   2+ 在库中没有对照
+WID:M6 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M6 INST:MIDTRON ITEM: KET RESULT:   50 mg/dl   3+ 在库中没有对照
+WID:M6 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M6 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M6 INST:MIDTRON ITEM: ERY RESULT:      50/ul   3+ 在库中没有对照
+WID:M7 INST:MIDTRON ITEM: SG RESULT:1.020   在库中没有对照
+WID:M7 INST:MIDTRON ITEM: PH RESULT:  6     在库中没有对照
+WID:M7 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M7 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M7 INST:MIDTRON ITEM: PRO RESULT:        neg      在库中没有对照
+WID:M7 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M7 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M7 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M7 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M7 INST:MIDTRON ITEM: ERY RESULT:      25/ul   2+ 在库中没有对照
+WID:M8 INST:MIDTRON ITEM: SG RESULT:1.020   在库中没有对照
+WID:M8 INST:MIDTRON ITEM: PH RESULT:  6     在库中没有对照
+WID:M8 INST:MIDTRON ITEM: LEU RESULT:      25/ul   1+ 在库中没有对照
+WID:M8 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M8 INST:MIDTRON ITEM: PRO RESULT:        neg      在库中没有对照
+WID:M8 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M8 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M8 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M8 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M8 INST:MIDTRON ITEM: ERY RESULT:      25/ul   2+ 在库中没有对照
+WID:M9 INST:MIDTRON ITEM: SG RESULT:1.015   在库中没有对照
+WID:M9 INST:MIDTRON ITEM: PH RESULT:  6     在库中没有对照
+WID:M9 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M9 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M9 INST:MIDTRON ITEM: PRO RESULT:   75 mg/dl   2+ 在库中没有对照
+WID:M9 INST:MIDTRON ITEM: GLU RESULT: 1000 mg/dl   4+ 在库中没有对照
+WID:M9 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M9 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M9 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M9 INST:MIDTRON ITEM: ERY RESULT:      10/ul   1+ 在库中没有对照
+WID:M10 INST:MIDTRON ITEM: SG RESULT:1.020   在库中没有对照
+WID:M10 INST:MIDTRON ITEM: PH RESULT:  6     在库中没有对照
+WID:M10 INST:MIDTRON ITEM: LEU RESULT:      25/ul   1+ 在库中没有对照
+WID:M10 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M10 INST:MIDTRON ITEM: PRO RESULT:   75 mg/dl   2+ 在库中没有对照
+WID:M10 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M10 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M10 INST:MIDTRON ITEM: UBG RESULT:    1 mg/dl   1+ 在库中没有对照
+WID:M10 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M10 INST:MIDTRON ITEM: ERY RESULT:     250/ul   5+ 在库中没有对照
+WID:M11 INST:MIDTRON ITEM: SG RESULT:1.005   在库中没有对照
+WID:M11 INST:MIDTRON ITEM: PH RESULT:  7     在库中没有对照
+WID:M11 INST:MIDTRON ITEM: LEU RESULT:     500/ul   3+ 在库中没有对照
+WID:M11 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M11 INST:MIDTRON ITEM: PRO RESULT:        neg      在库中没有对照
+WID:M11 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M11 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M11 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M11 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M11 INST:MIDTRON ITEM: ERY RESULT:      10/ul   1+ 在库中没有对照
+WID:M12 INST:MIDTRON ITEM: SG RESULT:1.010   在库中没有对照
+WID:M12 INST:MIDTRON ITEM: PH RESULT:  7     在库中没有对照
+WID:M12 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M12 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M12 INST:MIDTRON ITEM: PRO RESULT:   25 mg/dl   1+ 在库中没有对照
+WID:M12 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M12 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M12 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M12 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M12 INST:MIDTRON ITEM: ERY RESULT:      50/ul   3+ 在库中没有对照
+WID:M13 INST:MIDTRON ITEM: SG RESULT:1.020   在库中没有对照
+WID:M13 INST:MIDTRON ITEM: PH RESULT:  6     在库中没有对照
+WID:M13 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M13 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M13 INST:MIDTRON ITEM: PRO RESULT:   75 mg/dl   2+ 在库中没有对照
+WID:M13 INST:MIDTRON ITEM: GLU RESULT: 1000 mg/dl   4+ 在库中没有对照
+WID:M13 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M13 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M13 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M13 INST:MIDTRON ITEM: ERY RESULT:     150/ul   4+ 在库中没有对照
+WID:M1 INST:MIDTRON ITEM: SG RESULT:1.020   在库中没有对照
+WID:M1 INST:MIDTRON ITEM: PH RESULT:  7     在库中没有对照
+WID:M1 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M1 INST:MIDTRON ITEM: PRO RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: ERY RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: SG RESULT:1.020   在库中没有对照
+WID:M2 INST:MIDTRON ITEM: PH RESULT:  7     在库中没有对照
+WID:M2 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M2 INST:MIDTRON ITEM: PRO RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: GLU RESULT:   50 mg/dl   1+ 在库中没有对照
+WID:M2 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: ERY RESULT:     150/ul   4+ 在库中没有对照
+WID:M3 INST:MIDTRON ITEM: SG RESULT:1.015   在库中没有对照
+WID:M3 INST:MIDTRON ITEM: PH RESULT:6.5     在库中没有对照
+WID:M3 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M3 INST:MIDTRON ITEM: PRO RESULT:        neg      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: ERY RESULT:        neg      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: SG RESULT:1.015   在库中没有对照
+WID:M4 INST:MIDTRON ITEM: PH RESULT:  6     在库中没有对照
+WID:M4 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M4 INST:MIDTRON ITEM: PRO RESULT:        neg      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: ERY RESULT:     150/ul   4+ 在库中没有对照
+WID:M1 INST:MIDTRON ITEM: SG RESULT:1.025   在库中没有对照
+WID:M1 INST:MIDTRON ITEM: PH RESULT:  6     在库中没有对照
+WID:M1 INST:MIDTRON ITEM: LEU RESULT:     500/ul   3+ 在库中没有对照
+WID:M1 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M1 INST:MIDTRON ITEM: PRO RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: ERY RESULT:      25/ul   2+ 在库中没有对照
+WID:M2 INST:MIDTRON ITEM: SG RESULT:1.020   在库中没有对照
+WID:M2 INST:MIDTRON ITEM: PH RESULT:6.5     在库中没有对照
+WID:M2 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M2 INST:MIDTRON ITEM: PRO RESULT:   25 mg/dl   1+ 在库中没有对照
+WID:M2 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: ERY RESULT:     250/ul   5+ 在库中没有对照
+WID:M3 INST:MIDTRON ITEM: SG RESULT:1.020   在库中没有对照
+WID:M3 INST:MIDTRON ITEM: PH RESULT:  5     在库中没有对照
+WID:M3 INST:MIDTRON ITEM: LEU RESULT:     500/ul   3+ 在库中没有对照
+WID:M3 INST:MIDTRON ITEM: NIT RESULT:pos  pos在库中没有对照
+WID:M3 INST:MIDTRON ITEM: PRO RESULT:   75 mg/dl   2+ 在库中没有对照
+WID:M3 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: KET RESULT:    5 mg/dl   1+ 在库中没有对照
+WID:M3 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: ERY RESULT:     250/ul   5+ 在库中没有对照
+WID:M4 INST:MIDTRON ITEM: SG RESULT:1.015   在库中没有对照
+WID:M4 INST:MIDTRON ITEM: PH RESULT:  7     在库中没有对照
+WID:M4 INST:MIDTRON ITEM: LEU RESULT:      25/ul   1+ 在库中没有对照
+WID:M4 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M4 INST:MIDTRON ITEM: PRO RESULT:   25 mg/dl   1+ 在库中没有对照
+WID:M4 INST:MIDTRON ITEM: GLU RESULT: 1000 mg/dl   4+ 在库中没有对照
+WID:M4 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: ERY RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: SG RESULT:1.025   在库中没有对照
+WID:M1 INST:MIDTRON ITEM: PH RESULT:  6     在库中没有对照
+WID:M1 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M1 INST:MIDTRON ITEM: PRO RESULT:  150 mg/dl   3+ 在库中没有对照
+WID:M1 INST:MIDTRON ITEM: GLU RESULT: 1000 mg/dl   4+ 在库中没有对照
+WID:M1 INST:MIDTRON ITEM: KET RESULT:   15 mg/dl   2+ 在库中没有对照
+WID:M1 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: ERY RESULT:      50/ul   3+ 在库中没有对照
+WID:M2 INST:MIDTRON ITEM: SG RESULT:1.015   在库中没有对照
+WID:M2 INST:MIDTRON ITEM: PH RESULT:  7     在库中没有对照
+WID:M2 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M2 INST:MIDTRON ITEM: PRO RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: ERY RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: SG RESULT:1.020   在库中没有对照
+WID:M1 INST:MIDTRON ITEM: PH RESULT:  6     在库中没有对照
+WID:M1 INST:MIDTRON ITEM: LEU RESULT:      25/ul   1+ 在库中没有对照
+WID:M1 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M1 INST:MIDTRON ITEM: PRO RESULT:   25 mg/dl   1+ 在库中没有对照
+WID:M1 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: ERY RESULT:      25/ul   2+ 在库中没有对照
+WID:M2 INST:MIDTRON ITEM: SG RESULT:1.010   在库中没有对照
+WID:M2 INST:MIDTRON ITEM: PH RESULT:  7     在库中没有对照
+WID:M2 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M2 INST:MIDTRON ITEM: PRO RESULT:   75 mg/dl   2+ 在库中没有对照
+WID:M2 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: ERY RESULT:     250/ul   5+ 在库中没有对照
+WID:M3 INST:MIDTRON ITEM: SG RESULT:1.015   在库中没有对照
+WID:M3 INST:MIDTRON ITEM: PH RESULT:  6     在库中没有对照
+WID:M3 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M3 INST:MIDTRON ITEM: PRO RESULT:   25 mg/dl   1+ 在库中没有对照
+WID:M3 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: ERY RESULT:     250/ul   5+ 在库中没有对照
+WID:M1 INST:MIDTRON ITEM: SG RESULT:1.020   在库中没有对照
+WID:M1 INST:MIDTRON ITEM: PH RESULT:  8     在库中没有对照
+WID:M1 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M1 INST:MIDTRON ITEM: PRO RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: ERY RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: SG RESULT:1.015   在库中没有对照
+WID:M1 INST:MIDTRON ITEM: PH RESULT:6.5     在库中没有对照
+WID:M1 INST:MIDTRON ITEM: LEU RESULT:     100/ul   2+ 在库中没有对照
+WID:M1 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M1 INST:MIDTRON ITEM: PRO RESULT:   25 mg/dl   1+ 在库中没有对照
+WID:M1 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: ERY RESULT:     250/ul   5+ 在库中没有对照
+WID:M2 INST:MIDTRON ITEM: SG RESULT:1.025   在库中没有对照
+WID:M2 INST:MIDTRON ITEM: PH RESULT:  6     在库中没有对照
+WID:M2 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M2 INST:MIDTRON ITEM: PRO RESULT:  500 mg/dl   4+ 在库中没有对照
+WID:M2 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: ERY RESULT:     250/ul   5+ 在库中没有对照
+WID:M3 INST:MIDTRON ITEM: SG RESULT:1.020   在库中没有对照
+WID:M3 INST:MIDTRON ITEM: PH RESULT:  6     在库中没有对照
+WID:M3 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M3 INST:MIDTRON ITEM: PRO RESULT:        neg      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: ERY RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: SG RESULT:1.015   在库中没有对照
+WID:M1 INST:MIDTRON ITEM: PH RESULT:  5     在库中没有对照
+WID:M1 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M1 INST:MIDTRON ITEM: PRO RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: ERY RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: SG RESULT:1.020   在库中没有对照
+WID:M2 INST:MIDTRON ITEM: PH RESULT:  6     在库中没有对照
+WID:M2 INST:MIDTRON ITEM: LEU RESULT:      25/ul   1+ 在库中没有对照
+WID:M2 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M2 INST:MIDTRON ITEM: PRO RESULT:  500 mg/dl   4+ 在库中没有对照
+WID:M2 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: ERY RESULT:     250/ul   5+ 在库中没有对照
+WID:M3 INST:MIDTRON ITEM: SG RESULT:1.020   在库中没有对照
+WID:M3 INST:MIDTRON ITEM: PH RESULT:  6     在库中没有对照
+WID:M3 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M3 INST:MIDTRON ITEM: PRO RESULT:        neg      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: ERY RESULT:     150/ul   4+ 在库中没有对照
+WID:M4 INST:MIDTRON ITEM: SG RESULT:1.020   在库中没有对照
+WID:M4 INST:MIDTRON ITEM: PH RESULT:6.5     在库中没有对照
+WID:M4 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M4 INST:MIDTRON ITEM: PRO RESULT:        neg      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: KET RESULT:   50 mg/dl   3+ 在库中没有对照
+WID:M4 INST:MIDTRON ITEM: UBG RESULT:    4 mg/dl   2+ 在库中没有对照
+WID:M4 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: ERY RESULT:        neg      在库中没有对照
+WID:M5 INST:MIDTRON ITEM: SG RESULT:1.015   在库中没有对照
+WID:M5 INST:MIDTRON ITEM: PH RESULT:  6     在库中没有对照
+WID:M5 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M5 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M5 INST:MIDTRON ITEM: PRO RESULT:        neg      在库中没有对照
+WID:M5 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M5 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M5 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M5 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M5 INST:MIDTRON ITEM: ERY RESULT:      50/ul   3+ 在库中没有对照
+WID:M6 INST:MIDTRON ITEM: SG RESULT:1.020   在库中没有对照
+WID:M6 INST:MIDTRON ITEM: PH RESULT:  6     在库中没有对照
+WID:M6 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M6 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M6 INST:MIDTRON ITEM: PRO RESULT:   25 mg/dl   1+ 在库中没有对照
+WID:M6 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M6 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M6 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M6 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M6 INST:MIDTRON ITEM: ERY RESULT:        neg      在库中没有对照
+WID:M7 INST:MIDTRON ITEM: SG RESULT:1.010   在库中没有对照
+WID:M7 INST:MIDTRON ITEM: PH RESULT:  7     在库中没有对照
+WID:M7 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M7 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M7 INST:MIDTRON ITEM: PRO RESULT:        neg      在库中没有对照
+WID:M7 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M7 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M7 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M7 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M7 INST:MIDTRON ITEM: ERY RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: SG RESULT:1.010   在库中没有对照
+WID:M1 INST:MIDTRON ITEM: PH RESULT:  7     在库中没有对照
+WID:M1 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M1 INST:MIDTRON ITEM: PRO RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: ERY RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: SG RESULT:1.015   在库中没有对照
+WID:M2 INST:MIDTRON ITEM: PH RESULT:  5     在库中没有对照
+WID:M2 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M2 INST:MIDTRON ITEM: PRO RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: ERY RESULT:        neg      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: SG RESULT:1.010   在库中没有对照
+WID:M3 INST:MIDTRON ITEM: PH RESULT:  7     在库中没有对照
+WID:M3 INST:MIDTRON ITEM: LEU RESULT:      25/ul   1+ 在库中没有对照
+WID:M3 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M3 INST:MIDTRON ITEM: PRO RESULT:  150 mg/dl   3+ 在库中没有对照
+WID:M3 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M3 INST:MIDTRON ITEM: ERY RESULT:     250/ul   5+ 在库中没有对照
+WID:M4 INST:MIDTRON ITEM: SG RESULT:1.025   在库中没有对照
+WID:M4 INST:MIDTRON ITEM: PH RESULT:  6     在库中没有对照
+WID:M4 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M4 INST:MIDTRON ITEM: PRO RESULT:        neg      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M4 INST:MIDTRON ITEM: ERY RESULT:      25/ul   2+ 在库中没有对照
+WID:M1 INST:MIDTRON ITEM: SG RESULT:1.015   在库中没有对照
+WID:M1 INST:MIDTRON ITEM: PH RESULT:  6     在库中没有对照
+WID:M1 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M1 INST:MIDTRON ITEM: PRO RESULT:   25 mg/dl   1+ 在库中没有对照
+WID:M1 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: ERY RESULT:     250/ul   5+ 在库中没有对照
+WID:M1 INST:MIDTRON ITEM: SG RESULT:1.020   在库中没有对照
+WID:M1 INST:MIDTRON ITEM: PH RESULT:  7     在库中没有对照
+WID:M1 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M1 INST:MIDTRON ITEM: PRO RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M1 INST:MIDTRON ITEM: ERY RESULT:     150/ul   4+ 在库中没有对照
+WID:M2 INST:MIDTRON ITEM: SG RESULT:1.020   在库中没有对照
+WID:M2 INST:MIDTRON ITEM: PH RESULT:  8     在库中没有对照
+WID:M2 INST:MIDTRON ITEM: LEU RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: NIT RESULT:neg     在库中没有对照
+WID:M2 INST:MIDTRON ITEM: PRO RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: GLU RESULT:       norm      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: KET RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: UBG RESULT:       norm      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: BIL RESULT:        neg      在库中没有对照
+WID:M2 INST:MIDTRON ITEM: ERY RESULT:      50/ul   3+ 在库中没有对照

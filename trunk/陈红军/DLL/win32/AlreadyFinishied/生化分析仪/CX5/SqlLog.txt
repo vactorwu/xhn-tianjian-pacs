@@ -1,0 +1,8 @@
+select test_no  from lab_test_master  where working_id=? and performed_by=? and Results_rpt_date_time>=to_date('2000-12-25-00-00','YYYY-MM-DD-HH24-MI') and Results_rpt_date_time<=to_date('2000-12-25-23-59','YYYY-MM-DD-HH24-MI')
+select test_no  from lab_test_master  where working_id=? and performed_by=? and Results_rpt_date_time>=to_date('2000-12-24-22-00','YYYY-MM-DD-HH24-MI') and Results_rpt_date_time<=to_date('2000-12-25-02-00','YYYY-MM-DD-HH24-MI')
+select serial_no,item_code,item_name,lower_limit,upper_limit,units,result_type from lab_report_item_dict	 where item_code=( select report_item_code from instrument_config where instrument_id =? and instrument_item_code = ?)
+insert into lab_result (test_no,item_no,print_order,report_item_code, report_item_name,result,units,abnormal_indicator, instrument_id,result_date_time)  values (?,?,?,?,?,?,?,?,?,?)
+update lab_result   set result=?,abnormal_indicator=?,result_date_time=?  where  test_no=? and item_no=? 
+update  lab_test_master  set result_status=? where  test_no=? 
+update lab_result_temp  set result=?,abnormal_indicator=?,result_date_time=? where working_id=? and item_no=? and result_date_time>=to_date('00-12-25-00-00','YY-MM-DD-HH24-MI') and result_date_time<=to_date('00-12-25-23-59','YY-MM-DD-HH24-MI')
+insert into lab_result_temp  (working_id,item_no,print_order,report_item_code,report_item_name,result, units,abnormal_indicator,instrument_id,result_date_time) values(?,?,?,?,?,?,?,?,?,?)

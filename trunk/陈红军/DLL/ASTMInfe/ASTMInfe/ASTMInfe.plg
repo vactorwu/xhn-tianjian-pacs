@@ -1,0 +1,55 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ASTMInfe - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP6281.TMP" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "ASTMINFE_EXPORTS" /FR"Debug/" /Fp"Debug/ASTMInfe.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\NewDll\ASTMInfe\ASTMInfe\ASTMInfe.cpp"
+"E:\NewDll\ASTMInfe\ASTMInfe\LogFile.cpp"
+"E:\NewDll\ASTMInfe\ASTMInfe\Str.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP6281.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP6282.TMP" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "ASTMINFE_EXPORTS" /FR"Debug/" /Fp"Debug/ASTMInfe.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\NewDll\ASTMInfe\ASTMInfe\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP6282.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP6283.TMP" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:yes /pdb:"Debug/ASTMInfe.pdb" /debug /machine:I386 /def:".\ASTMInfe.def" /out:"Debug/ASTMInfe.dll" /implib:"Debug/ASTMInfe.lib" /pdbtype:sept 
+.\Debug\ASTMInfe.obj
+.\Debug\LogFile.obj
+.\Debug\StdAfx.obj
+.\Debug\Str.obj
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP6283.TMP"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+ASTMInfe.cpp
+E:\NewDll\ASTMInfe\ASTMInfe\ASTMInfe.cpp(72) : warning C4101: 'dResult' : unreferenced local variable
+E:\NewDll\ASTMInfe\ASTMInfe\ASTMInfe.cpp(72) : warning C4101: 'wSampleID' : unreferenced local variable
+E:\NewDll\ASTMInfe\ASTMInfe\ASTMInfe.cpp(72) : warning C4101: 'ComStat' : unreferenced local variable
+LogFile.cpp
+Str.cpp
+Generating Code...
+Linking...
+   Creating library Debug/ASTMInfe.lib and object Debug/ASTMInfe.exp
+Creating command line "bscmake.exe /nologo /o"Debug/ASTMInfe.bsc"  .\Debug\StdAfx.sbr .\Debug\ASTMInfe.sbr .\Debug\LogFile.sbr .\Debug\Str.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+ASTMInfe.dll - 0 error(s), 3 warning(s)
+</pre>
+</body>
+</html>

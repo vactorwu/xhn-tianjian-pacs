@@ -1,0 +1,19 @@
+[Setup]
+Factory = "日本东亚公司"
+Description ="k1000"
+BAUD_RATE = 9600
+BYTE_SIZE = 7
+PARITY = 2
+Stop_Bits =2
+f_OutX =0
+f_InX =0
+f_HardWare =0
+Tx_QueueSize =10
+Rx_QueueSize =256
+Xon_Lim =18
+Xoff_Lim =5
+Xon_Char =17
+Xoff_Char =19
+Error_Char =65
+Driver_Prog ="dy-k1000.dll"
+DUPLEX_FLAG =0

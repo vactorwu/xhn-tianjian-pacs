@@ -1,0 +1,20 @@
+
+
+***********************************************************************
+Fatal OSN connect error 12203, connecting to:
+ (DESCRIPTION=(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=ONLINE2000.EXE)(HOST=CHENHJ)(USER=gufj)))(ADDRESS_LIST=(ADDRESS=(PROTOCOL=ipc)(KEY=h302bk.world))(ADDRESS=(COMMUNITY=tcp.world)(PROTOCOL=TCP)(Host=100.100.100.11)(Port=1521))(ADDRESS=(COMMUNITY=tcp.world)(PROTOCOL=TCP)(Host=100.100.100.11)(Port=1526))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 2.3.3.0.0 - Production
+	ows 32 Named Pipes IPC NT Protocol Adaptor for 32-bit Windows: Version 2.2.2.1.0 - Production  Time: 01-MAR-01 17:08:03
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: Message 12203 not found; No message file for product=NETWORK, facility=TNS
+    ns main err code: 12535
+    TNS-12535: Message 12535 not found; No message file for product=NETWORK, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Message 505 not found; No message file for product=NETWORK, facility=TNS
+    nt secondary err code: 60
+    nt OS err code: 0

@@ -1,0 +1,73 @@
+[Main]
+DefaultPath=\Wheel Mouse
+MinimumSpace=2048
+GroupName=4DMOUSE.GRP
+GroupTitle=WheelMouse
+ProductName=Wheel Mouse V5.41
+OEM=1
+DefaultSerialMouse=1
+
+[DiskLabel]
+;List of diskettes needed to install the product and the name
+;of each diskette.
+Disk1=Wheel Mouse Driver Disk
+Disk2=
+
+[DirectoryName]
+;lists of directories that must be created from the destination directory
+;files to be copied are in the same directory structure on the
+;floppy (by default)
+RootDir=.
+SubDir1=
+SubDir2=
+SubDir3=
+SubDir4=
+SubDir5=
+SubDir6=
+WinDir=WIN
+WinSystemDir=SYSTEM
+WinInfDir=INF
+
+
+[FileCounts]
+;This section descript the file counts of each directory to install
+Disk1=9
+Disk2=0
+
+
+[Disk1]
+;--- Source ---+--- Dest ----+-------- Description --------+-- Path -----+
+1=3DMOUSE.VXD,  3DMOUSE.VXD,  'Wheel Mouse Driver',        WinSystemDir
+2=3DMOUSE.INF,  3DMOUSE.INF,  'Wheel Mouse INF file',      WinInfDir
+
+3=3DHOOK32.DLL, 3DHOOK32.DLL, 'Wheel Mouse Hook',          WinSystemDir
+4=SCROLL.INI,   SCROLL.INI,   'Wheel Mouse Data file',     WinDir
+
+5=3DPAGE.DL_,   3DPAGE.DLL,   'Wheel Mouse Control Page',  RootDir
+6=3DMAIN.EX_,   3DMAIN.EXE,   'Wheel Mouse Main Program',  RootDir
+7=UNINSTAL.EX_, UNINSTAL.EXE, 'Uninstaller',               RootDir
+8=SETUP.INF,    SETUP.INF,    'Setup Information',         RootDir
+9=SETUP.EXE,    SETUP.EXE,    'Setup Main Program',        RootDir
+
+[Disk2]
+
+[PM Info]
+;File Name, App Description, Icon #
+1=4DPANEL.EXE,   Wheel Mouse, 0
+2=UNINSTAL.EXE,  Uninstaller, 0
+
+[Startup]
+FileName=3DMAIN.EXE
+ControlPanel=3DPAGE.DLL
+Title=Wheel Mouse
+
+Mfg=A4Tech
+MouseDriver=3dmouse.vxd
+MouseInf=3dmouse.inf
+DriverDate=2-22-1999
+PS2InfSection=PS2.Install
+SerialInfSection=Serial.Install
+PS2Name=PS2 Wheel Mouse V5.41
+SeialName=Serial Wheel Mouse V5.41
+PnpID=A4W0005
+

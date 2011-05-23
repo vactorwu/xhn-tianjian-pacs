@@ -1,0 +1,60 @@
+[Main]
+DefaultPath=C:\3DMOUSE
+MinimumSpace=2048
+GroupName=3DMOUSE.GRP
+GroupTitle=Wheel Mouse V5.41
+ProductName=Wheel Mouse V5.41
+OEM=1
+
+[DiskLabel]
+;List of diskettes needed to install the product and the name
+;of each diskette.
+Disk1=Wheel Mouse Driver Disk
+Disk2=
+
+[DirectoryName]
+;lists of directories that must be created from the destination directory
+;files to be copied are in the same directory structure on the
+;floppy (by default)
+RootDir=.
+SubDir1=
+SubDir2=
+SubDir3=
+SubDir4=
+SubDir5=
+SubDir6=
+WinDir=WIN
+WinSystemDir=SYSTEM
+WinTwainDir=TWAIN
+
+
+[FileCounts]
+;This section descript the file counts of each directory to install
+Disk1=8
+Disk2=0
+
+
+[Disk1]
+;--- Source ---+--- Dest ----+-------- Description --------+-- Path -----+
+1=3DMOUSE.DR_,  4DMOUSE.DRV,  'Wheel Mouse Driver',        WinSystemDir
+2=3DVKD.38_,    4DVKD.386,    'Virtual PS2 Driver',        WinSystemDir
+
+3=3DPANEL.EX_,  3DPANEL.EXE,  'Wheel Mouse Control Panel', WinDir
+4=3DHOOK.DL_,   3DHOOK.DLL,   'Wheel Mouse Hook',          WinDir
+5=3DPANEL.INI,  3DPANEL.INI,  'Wheel Mouse Data',          WinDir
+
+6=3DPANEL.EX_,  3DPANEL.EXE,  'Wheel Mouse Control Panel', RootDir
+7=SETUP.INF,    SETUP.INF,    'Setup Information',         RootDir
+8=UNINSTAL.EX_, UNINSTAL.EXE, 'Uninstaller',               RootDir
+
+[Disk2]
+
+[PM Info]
+;File Name, App Description, Icon #
+1=3DPANEL.EXE,   Wheel Mouse V5.41, 0
+2=UNINSTAL.EXE,  Uninstaller, 0
+
+[Startup]
+FileName=3DPANEL.EXE
+Title=Wheel Mouse V5.41
+

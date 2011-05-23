@@ -1,0 +1,86 @@
+; ===========================================
+;  Mouse Driver for windows 95 setup
+; =====   (lasted modify 1996.11.4 )   ======
+; (C) Copyright Aidem Systems Inc.
+;            All Rights Reserved.
+; ===========================================
+
+[Version]
+Signature=$CHICAGO$
+Class=MOUSE
+Provider=%CompanyName%
+
+[ClassInstall]
+
+[DestinationDirs]
+DefaultDestDir=11                     ; \windows\system
+Driver.Copy=11
+Inf.Copy=17                           ; \windows\system\inf
+
+[Manufacturer]
+%CompanyName%=DriverSection
+
+[DriverSection]
+%DeviceName1%=Serial.Install,SERENUM\A4W0005
+%DeviceName2%=Serial.Install,*PNP0F0C
+%DeviceName3%=PS2.Install,*PNP0F13
+
+[SourceDisksNames]
+1=%DriverDisk%,,1
+
+[SourceDisksFiles]
+3dmouse.vxd=1
+3dmouse.inf=1
+
+[Serial.Install]
+CopyFiles=Driver.Copy,Inf.Copy
+DelReg=Driver.DelReg
+AddReg=Serial.AddReg
+UpdateInis=Driver.Ini
+
+[PS2.Install]
+CopyFiles=Driver.Copy,Inf.Copy
+DelReg=Driver.DelReg
+AddReg=PS2.AddReg
+UpdateInis=Driver.Ini
+
+
+[Driver.Copy]
+3dmouse.vxd
+
+[Inf.Copy]
+3dmouse.inf
+
+[Serial.AddReg]
+HKR,,DevLoader,0,*vmouse
+HKR,,MouseDriver,0,3dmouse.vxd
+HKR,,MouseType,0,"Serial"
+HKR,,NoSetupUI,0,1
+HKR,,Ver,0,"1.00"
+
+[PS2.AddReg]
+HKR,,DevLoader,0,*vmouse
+HKR,,MouseDriver,0,3dmouse.vxd
+HKR,,MouseType,0,"PS2"
+HKR,,NoSetupUI,0,1
+HKR,,Ver,0,"1.00"
+
+[Driver.DelReg]
+HKR,,MouseDriver
+HKR,,MouseType
+HKR,,Ver
+
+[Driver.Ini]
+system.ini,boot.description,,"mouse.drv=%Mouse.Desc%"
+system.ini,boot,,"mouse.drv=mouse.drv"
+system.ini,386Enh,,"mouse=*vmouse"
+
+
+[Strings]
+CompanyName="A4Tech"
+DeviceName1="Serial Wheel Mouse V5.41"
+DeviceName2="Serial Wheel Mouse V5.41"
+DeviceName3="PS/2 Wheel Mouse V5.41"
+Mouse.Desc="Wheel Mouse"
+DriverDisk="Wheel Mouse Win95 Driver Disk"
+

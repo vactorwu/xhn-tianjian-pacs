@@ -1,0 +1,2 @@
+注意模式设为
+UNDIRECTIONAL

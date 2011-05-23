@@ -1,0 +1,29 @@
+[DSP upload]
+Filename=Commst.zip
+Replacements=
+Version=2.1
+FileURL=
+Description=TCOMMSTATUS Component determine logical state    (  DTR, RTS, RxD, TxD, CTS, DSR, DCD, RI ), and physically  Address of  COMM Port .Full Source Code included
+Delphi 1.0=N
+Delphi 2.0=N
+Delphi 3.0=Y
+C++Builder 1.0=N
+File Status=Freeware
+Full Source=Included
+Category=InVisible Components
+Note=
+Additional info=
+
+[DSP Support]
+DSP Support=Y
+
+[Versions available]
+Delphi 1.0=
+Delphi 2.0=
+Delphi 3.0=
+C++Builder 1.0=
+
+[Uploader]
+Author name=TRSOFT
+Author E-mail=TRSOFT@Menden.net
+Author URL=http://www.abcnet.de/TRSOFT/

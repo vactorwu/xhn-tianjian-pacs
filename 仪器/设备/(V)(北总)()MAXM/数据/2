@@ -1,0 +1,738 @@
+0401
+
+
+
+
+
+--------------
+0A
+DATE 04/16/01 
+TIME 02:07:12    
+ID1 1111            
+ID2                 
+CASS/POS SECONDA 
+SEQUENCE        
+1EC/P S       
+ID1STATUS   
+C/PSTATUS P 
+WLSTATUS GOOD     
+0C
+WBC    9.3    
+RBC   3.84    
+HGB   7D9102 118   L
+HCT  0.328   L
+MCV   85.3    
+MCH   30.7    
+MCHC   360   H
+RDW   13.9   H
+PLT    198   L
+PCT  0.219    
+MPV   11.0    
+PDW   13.5    
+05
+LY#    0.4  RL
+MO#    0.0  R 
+NE#    3.3  R 
+EO#    5.6  RH
+BA#    0.0  R 
+05
+LY%    4.7  6E7003RL
+MO%    0.2  RL
+NE%   36.0  RL
+EO%   59.1  RH
+BA%    0.0  R 
+01
+                                                                 
+09
+Abnormal WBC Pop
+Neutropenia %
+Lymphopenia %
+Lymphopenia #
+Eosinophilia %
+Eosinophilia #
+Abnormal RBC Pop245704
+Anemia
+Normal PLT Pop
+09
+BIRTH            
+UF1                  
+UF2                  
+UF3                  
+SEX   
+LOCATION                  
+PHYSICIAN                        
+UDATE          
+UTIME       
+
+
+--------------
+              F5560401
+
+
+
+
+
+--------------
+0A
+DATE 04/16/01 
+TIME 02:08:43    
+ID1 123             
+ID2                 
+CASS/POS SECONDA 
+SEQUENCE        
+1EC/P S       
+ID1STATUS   
+C/PSTATUS P 
+WLSTATUS GOOD     
+0C
+WBC   11.9   H
+RBC   3.62    
+HGB   55C502 113   L
+HCT  0.290   L
+MCV   80.1   L
+MCH   31.1    
+MCHC   389   H
+RDW   14.0   H
+PLT    240    
+PCT  0.206    
+MPV    8.6    
+PDW   16.9    
+05
+LY#    2.0    
+MO#    0.6    
+NE#    0.8   L
+EO#    8.5   H
+BA#    0.0    
+05
+LY%   17.0  959903 L
+MO%    4.9    
+NE%    6.5   L
+EO%   71.5   H
+BA%    0.1    
+01
+                                                                 
+0A
+Abnormal WBC Pop
+Leukocytosis
+Neutropenia %
+Neutropenia #
+Lymphopenia %
+Eosinophilia %
+Eosinophilia #
+Ab1BC404normal RBC Pop
+Anemia
+Normal PLT Pop
+09
+BIRTH            
+UF1                  
+UF2                  
+UF3                  
+SEX   
+LOCATION                  
+PHYSICIAN                        
+UDATE          
+UTIME       
+
+
+--------------
+FF140501
+
+
+
+
+
+--------------
+0A
+DATE 04/16/01 
+TIME 02:14:12    
+ID1 12              
+ID2                 
+CASS/POS SECONDA 
+SEQUENCE        
+1EC/P S       
+ID1STATUS   
+C/PSTATUS P 
+WLSTATUS GOOD     
+0C
+WBC    9.3    
+RBC   2.82    
+HGB   B66902 101   L
+HCT  0.265   L
+MCV   94.0    
+MCH   35.7   H
+MCHC   380   H
+RDW   15.0   H
+PLT    486   H
+PCT  0.298    
+MPV    6.1   L
+PDW   16.5    
+05
+LY#    1.4    
+MO#    0.4    
+NE#    0.6   L
+EO#    6.8   H
+BA#    0.1    
+05
+LY%   15.4  78A303 L
+MO%    4.2    
+NE%    6.0   L
+EO%   73.8   H
+BA%    0.6    
+01
+                                                                 
+0B
+Abnormal WBC Pop
+Neutropenia %
+Neutropenia #
+Lymphopenia %
+Eosinophilia %
+Eosinophilia #
+Abnormal RBC Pop438904
+Anemia
+Abnormal PLT Pop
+Thrombocytosis
+Small Platelets
+09
+BIRTH            
+UF1                  
+UF2                  
+UF3                  
+SEX   
+LOCATION                  
+PHYSICIAN                        
+UDATE          
+UTIME       
+FA0805
+
+--------------
+                                                                                                                                                                                                                                           0BD30401
+
+
+
+
+
+--------------
+0A
+DATE 04/16/01 
+TIME 03:23:20    
+ID1 15              
+ID2                 
+CASS/POS SECONDA 
+SEQUENCE        
+1EC/P S       
+ID1STATUS   
+C/PSTATUS P 
+WLSTATUS GOOD     
+0C
+WBC    9.9    
+RBC   2.90    
+HGB   1B9D02 101   L
+HCT  0.275   L
+MCV   94.8    
+MCH   34.6   H
+MCHC   365   H
+RDW   16.1  RH
+PLT    512   H
+PCT  0.320    
+MPV    6.2   L
+PDW   16.6    
+05
+LY#  :::::    
+MO#  :::::    
+NE#  :::::    
+EO#  :::::    
+BA#  :::::    
+05
+LY%  :::::  937203  
+MO%  :::::    
+NE%  :::::    
+EO%  :::::    
+BA%  :::::    
+01
+                                                                 
+06
+Abnormal WBC Pop
+Abnormal RBC Pop
+Anemia
+Abnormal PLT Pop
+Thrombocytosis
+Small Platelets
+09
+BIRTH      CA3004      
+UF1                  
+UF2                  
+UF3                  
+SEX   
+LOCATION                  
+PHYSICIAN                        
+UDATE          
+UTIME       
+
+
+--------------
+                                                        9E300401
+
+
+
+
+
+--------------
+0A
+DATE 04/16/01 
+TIME 03:25:40    
+ID1 116             
+ID2                 
+CASS/POS SECONDA 
+SEQUENCE        
+1EC/P S       
+ID1STATUS   
+C/PSTATUS P 
+WLSTATUS GOOD     
+0C
+WBC    9.8    
+RBC   2.95    
+HGB   948902 102   L
+HCT  0.278   L
+MCV   94.3    
+MCH   34.5   H
+MCHC   366   H
+RDW   16.1   H
+PLT    507   H
+PCT  0.317    
+MPV    6.2   L
+PDW   16.3    
+05
+LY#    1.9    
+MO#    0.6    
+NE#    7.2   H
+EO#    0.1    
+BA#    0.0    
+05
+LY%   19.1  A84A03 L
+MO%    5.9    
+NE%   74.2   H
+EO%    0.6    
+BA%    0.2    
+01
+                                                                 
+08
+Abnormal WBC Pop
+Neutrophilia #
+Lymphopenia %
+Abnormal RBC Pop
+Anemia
+Abnormal PLT Pop
+Thrombocytosis
+Sm1C1A04all Platelets
+09
+BIRTH            
+UF1                  
+UF2                  
+UF3                  
+SEX   
+LOCATION                  
+PHYSICIAN                        
+UDATE          
+UTIME       
+
+
+--------------
+                         42EC0401
+
+
+
+
+
+--------------
+0A
+DATE 04/16/01 
+TIME 03:27:45    
+ID1 103             
+ID2                 
+CASS/POS SECONDA 
+SEQUENCE        
+1EC/P S       
+ID1STATUS   
+C/PSTATUS P 
+WLSTATUS GOOD     
+0C
+WBC    5.1    
+RBC   4.57    
+HGB   46A002 166    
+HCT  0.444    
+MCV   97.1    
+MCH   36.3   H
+MCHC   374   H
+RDW   13.1    
+PLT    146   L
+PCT  0.128    
+MPV    8.8    
+PDW   17.0    
+05
+LY#    1.1   L
+MO#    0.6    
+NE#    3.0    
+EO#    0.4    
+BA#    0.0    
+05
+LY%   21.6  F6EC03  
+MO%   11.1   H
+NE%   59.2    
+EO%    7.6    
+BA%    0.5    
+01
+                                                                 
+06
+Abnormal WBC Pop
+Lymphopenia #
+Monocytosis %
+Normal RBC Pop
+Abnormal PLT Pop
+Thrombocytopenia
+09
+BIRTH 241704           
+UF1                  
+UF2                  
+UF3                  
+SEX   
+LOCATION                  
+PHYSICIAN                        
+UDATE          
+UTIME       
+
+
+--------------
+                                                   641D0401
+
+
+
+
+
+--------------
+0A
+DATE 04/16/01 
+TIME 03:30:12    
+ID1 103             
+ID2                 
+CASS/POS SECONDA 
+SEQUENCE        
+1EC/P S       
+ID1STATUS   
+C/PSTATUS P 
+WLSTATUS GOOD     
+0C
+WBC    5.0    
+RBC   4.62    
+HGB   A7E202 166    
+HCT  0.445    
+MCV   96.2    
+MCH   36.0   H
+MCHC   374   H
+RDW   13.1    
+PLT    153 *VL
+PCT  0.134  V 
+MPV    8.8    
+PDW   18.2    
+05
+LY#    1.1   L
+MO#    0.5    
+NE#    2.8    
+EO#    0.4    
+BA#    0.2    
+05
+LY%   21.1  089D03  
+MO%   10.6   H
+NE%   56.8    
+EO%    7.5    
+BA%    4.0   H
+01
+                                                                 
+06
+Abnormal WBC Pop
+Lymphopenia #
+Monocytosis %
+Basophilia %
+Normal RBC Pop
+Normal PLT Pop
+09
+BIRTH       116804     
+UF1                  
+UF2                  
+UF3                  
+SEX   
+LOCATION                  
+PHYSICIAN                        
+UDATE          
+UTIME       
+
+
+--------------
+                                                         04F00401
+
+
+
+
+
+--------------
+0A
+DATE 04/16/01 
+TIME 03:33:56    
+ID1 ----------------
+ID2                 
+CASS/POS 0085/01 
+SEQUENCE        
+1EC/P  008501 
+ID1STATUS   
+C/PSTATUS P 
+WLSTATUS GOOD     
+0C
+WBC    9.2    
+RBC   4.37    
+HGB   F78D02 133    
+HCT  0.383    
+MCV   87.5    
+MCH   30.5    
+MCHC   348    
+RDW   14.4   H
+PLT    210    
+PCT  0.229    
+MPV   10.9    
+PDW   13.6    
+05
+LY#  .....    
+MO#  .....    
+NE#  .....    
+EO#  .....    
+BA#  .....    
+05
+LY%  .....  00A203  
+MO%  .....    
+NE%  .....    
+EO%  .....    
+BA%  .....    
+01
+                                                                 
+03
+Abnormal WBC Pop
+Normal RBC Pop
+Normal PLT Pop
+09
+BIRTH            
+UF1                  
+UF2           325C04       
+UF3                  
+SEX   
+LOCATION                  
+PHYSICIAN                        
+UDATE          
+UTIME       
+
+
+--------------
+                                                                                                     A0250401
+
+
+
+
+
+--------------
+0A
+DATE 04/16/01 
+TIME 03:36:58    
+ID1 103             
+ID2                 
+CASS/POS SECONDA 
+SEQUENCE        
+1EC/P S       
+ID1STATUS   
+C/PSTATUS P 
+WLSTATUS GOOD     
+0C
+WBC    5.0    
+RBC   4.59    
+HGB   961A02 163    
+HCT  0.443    
+MCV   96.5    
+MCH   35.5   H
+MCHC   368   H
+RDW   13.3    
+PLT    141   L
+PCT  0.129    
+MPV    9.1    
+PDW   17.0    
+05
+LY#    1.1   L
+MO#    0.5    
+NE#    3.1    
+EO#    0.3    
+BA#    0.0    
+05
+LY%   22.8  3AF303  
+MO%    9.2    
+NE%   61.0    
+EO%    6.8    
+BA%    0.2    
+01
+                                                                 
+05
+Abnormal WBC Pop
+Lymphopenia #
+Normal RBC Pop
+Abnormal PLT Pop
+Thrombocytopenia
+09
+BIRTH            
+UF566E041                  
+UF2                  
+UF3                  
+SEX   
+LOCATION                  
+PHYSICIAN                        
+UDATE          
+UTIME       
+
+
+--------------
+                                                                  913C0501
+
+
+
+
+
+--------------
+0A
+DATE 04/16/01 
+TIME 04:44:54    
+ID1 12              
+ID2                 
+CASS/POS SECONDA 
+SEQUENCE        
+1EC/P S       
+ID1STATUS   
+C/PSTATUS P 
+WLSTATUS GOOD     
+0C
+WBC    7.5    
+RBC   3.85    
+HGB   A40502  90   L
+HCT  0.267   L
+MCV   69.3   L
+MCH   23.3   L
+MCHC   336    
+RDW   20.4   H
+PLT    234 *V 
+PCT  0.184  V 
+MPV    7.9    
+PDW   16.3    
+05
+LY#    0.6   L
+MO#    0.8   H
+NE#    5.9    
+EO#    0.1    
+BA#    0.1    
+05
+LY%    7.8  579103 L
+MO%   10.3   H
+NE%   80.2   H
+EO%    1.0    
+BA%    0.7    
+01
+                                                                 
+0D
+Abnormal WBC Pop
+Neutrophilia %
+Lymphopenia %
+Lymphopenia #
+Monocytosis %
+Monocytosis #
+Abnormal RBC Pop
+732304
+Anemia
+2+ Anisocytosis
+3+ Microcytosis
+2+ Hypochromia
+2+ Poikilocytosis
+Normal PLT Pop
+09
+BIRTH            
+UF1                  
+UF2                  
+UF3                  
+SEX   
+LOCATION                  
+PHYSICIAN                        47D505
+UDATE          
+UTIME       
+
+
+--------------
+                                                                                                                                                                                                          D8110501
+
+
+
+
+
+--------------
+0A
+DATE 04/16/01 
+TIME 04:46:16    
+ID1 13              
+ID2                 
+CASS/POS SECONDA 
+SEQUENCE        
+1EC/P S       
+ID1STATUS   
+C/PSTATUS P 
+WLSTATUS GOOD     
+0C
+WBC    7.2 *R 
+RBC   3.88    
+HGB   BFD102  89   L
+HCT  0.269   L
+MCV   69.4   L
+MCH   22.8   L
+MCHC   329   L
+RDW   19.8   H
+PLT    261    
+PCT  0.208    
+MPV    8.0    
+PDW   17.5    
+05
+LY#    1.2  R 
+MO#    0.3  R 
+NE#    5.6  R 
+EO#    0.1  R 
+BA#    0.0  R 
+05
+LY%   16.1  22F503 L
+MO%    4.0    
+NE%   78.9   H
+EO%    1.0    
+BA%    0.0    
+01
+                                                                 
+0A
+Abnormal WBC Pop
+Neutrophilia %
+Lymphopenia %
+Abnormal RBC Pop
+Anemia
+2+ Anisocytosis
+3+ Microcytosis
+3+79A304 Hypochromia
+3+ Poikilocytosis
+Normal PLT Pop
+09
+BIRTH            
+UF1                  
+UF2                  
+UF3                  
+SEX   
+LOCATION                  
+PHYSICIAN                        
+UDATE          
+UTIME       
+
+
+-------0C8305-------
+                                                                                                                                                                                                                                                       4010

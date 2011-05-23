@@ -1,0 +1,31 @@
+
+
+
+
+
+
+--------------
+DATE 11/29/00 
+TEST 064      
+ID            
+LAB      62   
+WBC   13.1   H
+RBC   5.98   H
+HGB   136.    
+HCT   .520    
+MCV    87.0   
+MCH   22.7   L
+MCHC  261.   L
+RDW   11.4   L
+PLT   195. N  
+PCT   .164    
+MPV    8.4 N  
+PDW   16.6    
+LY     6.9   L
+MO     4.5    
+GR    88.6   H
+LY #    .9    
+MO #    .6    
+GR #  11.6    
+--------------
+23

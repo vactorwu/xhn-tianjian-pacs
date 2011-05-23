@@ -1,0 +1,10 @@
+陈红军做过的的设备：
+    Junior(Miditron_junior, 尿分析仪) Miditron_j.dll
+    ELISE(电解质分析仪) 两个          Syn_ELISE.dll
+    7150(全自动生化分析仪)            RL7150.dll
+    共计四个。
+已有通讯过程资料的设备：
+    Junior(Miditron_junior, 尿分析仪)
+    F-820(血球计数仪) 两个 Sysmex公司
+    CA-1500(血凝仪)Sysmex公司.
+    共计四个。

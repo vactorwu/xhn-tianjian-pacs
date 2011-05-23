@@ -1,0 +1,446 @@
+0401
+
+
+
+
+
+--------------
+0A
+DATE 04/16/01 
+TIME 01:18:16    
+ID1 66              
+ID2                 
+CASS/POS SECONDA 
+SEQUENCE        
+1EC/P S       
+ID1STATUS   
+C/PSTATUS P 
+WLSTATUS GOOD     
+0C
+WBC  -----    
+RBC   0.00   L
+HGB   741302   0   L
+HCT  -----    
+MCV  -----    
+MCH    0.0   L
+MCHC -----    
+RDW    0.0   L
+PLT      2  RL
+PCT  0.001  R 
+MPV    4.2  RL
+PDW   11.7  R 
+05
+LY#  :::::    
+MO#  :::::    
+NE#  :::::    
+EO#  :::::    
+BA#  :::::    
+05
+LY%  :::::  827703  
+MO%  :::::    
+NE%  :::::    
+EO%  :::::    
+BA%  :::::    
+01
+                                                                 
+04
+Abnormal WBC Pop
+Abnormal PLT Pop
+Thrombocytopenia
+Small Platelets
+09
+BIRTH            
+UF1             DC0D04     
+UF2                  
+UF3                  
+SEX   
+LOCATION                  
+PHYSICIAN                        
+UDATE          
+UTIME       
+
+
+--------------
+                                                                                500B0401
+
+
+
+
+
+--------------
+0A
+DATE 04/16/01 
+TIME 01:25:17    
+ID1 66              
+ID2                 
+CASS/POS SECONDA 
+SEQUENCE        
+1EC/P S       
+ID1STATUS   
+C/PSTATUS P 
+WLSTATUS GOOD     
+0C
+WBC  -----    
+RBC   0.00   L
+HGB   E05002   1   L
+HCT  -----    
+MCV  -----    
+MCH    0.0   L
+MCHC -----    
+RDW    0.0   L
+PLT      1  RL
+PCT  0.000  V 
+MPV    4.3 *VL
+PDW   11.2  R 
+05
+LY#  :::::    
+MO#  :::::    
+NE#  :::::    
+EO#  :::::    
+BA#  :::::    
+05
+LY%  :::::  B97703  
+MO%  :::::    
+NE%  :::::    
+EO%  :::::    
+BA%  :::::    
+01
+                                                                 
+04
+Abnormal WBC Pop
+Abnormal PLT Pop
+Thrombocytopenia
+Small Platelets
+09
+BIRTH            
+UF1             DC0D04     
+UF2                  
+UF3                  
+SEX   
+LOCATION                  
+PHYSICIAN                        
+UDATE          
+UTIME       
+
+
+--------------
+                                                                                500B0401
+
+
+
+
+
+--------------
+0A
+DATE 04/16/01 
+TIME 01:31:17    
+ID1 66              
+ID2                 
+CASS/POS SECONDA 
+SEQUENCE        
+1EC/P S       
+ID1STATUS   
+C/PSTATUS P 
+WLSTATUS GOOD     
+0C
+WBC    0.2 *RL
+RBC   0.00   L
+HGB   7F7602   1   L
+HCT  0.000  VL
+MCV   65.4 *VL
+MCH    0.0   L
+MCHC     0  VL
+RDW    0.0   L
+PLT      0  RL
+PCT  0.000  V 
+MPV    4.1 *VL
+PDW   11.1  R 
+05
+LY#  :::::    
+MO#  :::::    
+NE#  :::::    
+EO#  :::::    
+BA#  :::::    
+05
+LY%  :::::  454A03  
+MO%  :::::    
+NE%  :::::    
+EO%  :::::    
+BA%  :::::    
+01
+                                                                 
+08
+Abnormal WBC Pop
+Abnormal RBC Pop
+Anemia
+3+ Microcytosis
+3+ Hypochromia
+Pancytopenia
+Abnormal PLT Pop
+Sm63EA04all Platelets
+09
+BIRTH            
+UF1                  
+UF2                  
+UF3                  
+SEX   
+LOCATION                  
+PHYSICIAN                        
+UDATE          
+UTIME       
+
+
+--------------
+                         42EC0401
+
+
+
+
+
+--------------
+0A
+DATE 04/16/01 
+TIME 01:51:17    
+ID1 1113            
+ID2                 
+CASS/POS SECONDA 
+SEQUENCE        
+1EC/P S       
+ID1STATUS   
+C/PSTATUS P 
+WLSTATUS GOOD     
+0C
+WBC  -----    
+RBC   0.00   L
+HGB   1FE602   0   L
+HCT  -----    
+MCV  -----    
+MCH    0.0   L
+MCHC -----    
+RDW    0.0   L
+PLT      1  RL
+PCT  0.000  R 
+MPV    3.9  RL
+PDW   11.1  R 
+05
+LY#  :::::    
+MO#  :::::    
+NE#  :::::    
+EO#  :::::    
+BA#  :::::    
+05
+LY%  :::::  D4FB03  
+MO%  :::::    
+NE%  :::::    
+EO%  :::::    
+BA%  :::::    
+01
+                                                                 
+04
+Abnormal WBC Pop
+Abnormal PLT Pop
+Thrombocytopenia
+Small Platelets
+09
+BIRTH            
+UF1             DC0D04     
+UF2                  
+UF3                  
+SEX   
+LOCATION                  
+PHYSICIAN                        
+UDATE          
+UTIME       
+
+
+--------------
+                                                                                500B0401
+
+
+
+
+
+--------------
+0A
+DATE 04/16/01 
+TIME 01:55:04    
+ID1 3333            
+ID2                 
+CASS/POS SECONDA 
+SEQUENCE        
+1EC/P S       
+ID1STATUS   
+C/PSTATUS P 
+WLSTATUS GOOD     
+0C
+WBC    0.2 *RL
+RBC   0.00   L
+HGB   8DB702   0   L
+HCT  -----    
+MCV  -----    
+MCH    0.0   L
+MCHC -----    
+RDW    0.0   L
+PLT      0  RL
+PCT  0.000  R 
+MPV  -----    
+PDW   10.9  R 
+05
+LY#    0.0  RL
+MO#    0.0  R 
+NE#    0.1  RL
+EO#    0.1  R 
+BA#    0.0  R 
+05
+LY%   18.8  0C3603RL
+MO%    0.0  RL
+NE%   25.0  RL
+EO%   56.2  RH
+BA%    0.0  R 
+01
+                                                                 
+07
+Abnormal WBC Pop
+Neutropenia %
+Neutropenia #
+Lymphopenia %
+Lymphopenia #
+Eosinophilia %
+Abnormal PLT Pop
+1B0204
+09
+BIRTH            
+UF1                  
+UF2                  
+UF3                  
+SEX   
+LOCATION                  
+PHYSICIAN                        
+UDATE          
+UTIME       
+
+
+--------------
+                                       AFA60401
+
+
+
+
+
+--------------
+0A
+DATE 04/16/01 
+TIME 01:58:56    
+ID1 222             
+ID2                 
+CASS/POS SECONDA 
+SEQUENCE        
+1EC/P S       
+ID1STATUS   
+C/PSTATUS P 
+WLSTATUS GOOD     
+0C
+WBC  -----    
+RBC   0.00   L
+HGB   912702   0   L
+HCT  -----    
+MCV  -----    
+MCH    0.0   L
+MCHC -----    
+RDW    0.0   L
+PLT      2  RL
+PCT  0.001  R 
+MPV    4.1  RL
+PDW   11.0  R 
+05
+LY#  .....    
+MO#  .....    
+NE#  .....    
+EO#  .....    
+BA#  .....    
+05
+LY%    0.0  756F03RL
+MO%    0.0  RL
+NE%   13.0  RL
+EO%   87.0  RH
+BA%    0.0  R 
+01
+                                                                 
+04
+Abnormal WBC Pop
+Abnormal PLT Pop
+Thrombocytopenia
+Small Platelets
+09
+BIRTH            
+UF1             C68E04     
+UF2                  
+UF3                  
+SEX   
+LOCATION                  
+PHYSICIAN                        
+UDATE          
+UTIME       
+
+
+--------------
+                                                                                500B0401
+
+
+
+
+
+--------------
+0A
+DATE 04/16/01 
+TIME 02:04:14    
+ID1 ----------------
+ID2                 
+CASS/POS 0085/01 
+SEQUENCE        
+1EC/P  008501 
+ID1STATUS   
+C/PSTATUS P 
+WLSTATUS PART ASP 
+0C
+WBC  .....    
+RBC  .....    
+HGB  .661602....    
+HCT  .....    
+MCV  .....    
+MCH  .....    
+MCHC .....    
+RDW  .....    
+PLT  .....    
+PCT  .....    
+MPV  .....    
+PDW  .....    
+05
+LY#  .....    
+MO#  .....    
+NE#  .....    
+EO#  .....    
+BA#  .....    
+05
+LY%  .....  849403  
+MO%  .....    
+NE%  .....    
+EO%  .....    
+BA%  .....    
+01
+                                                                 
+00
+09
+BIRTH            
+UF1                  
+UF2                  
+UF3                  
+SEX   
+LOCATION  1E3E04                
+PHYSICIAN                        
+UDATE          
+UTIME       
+
+
+--------------
+                                                                                                                                                       03C4

@@ -1,0 +1,71 @@
+0401
+
+
+
+
+
+--------------
+S02
+CBC
+DIFF
+TCBC
+04
+G01
+05
+DATE 04/16/01
+TIME 01:15:11
+ID1 55
+CASSPOS S
+C/PSTATUS P
+G02
+0C
+WBC -----    
+RBC  0.00   L
+HGB     0   L
+HCT 0.000  VL
+MCV  90.5 *V 
+MCH   0.0   L
+MCHC     0  VL
+RDW   0.0   L
+P5B3402LT     0  RL
+PCT 0.000  V 
+MPV   3.6 *VL
+PDW  10.4  R 
+G06
+04
+DEFINIT Anemia
+DEFINIT 3+ Hypochromia
+DEFINIT Thrombocytopenia
+DEFINIT Small Platelets
+G08
+03
+CONDITION Abnormal WBC Pop
+CONDITION Abnormal RBC Pop
+CONDITION Abnormal PLT Pop
+TDIFBD8803F
+03
+G01
+05
+DATE 04/16/01
+TIME 01:15:11
+ID1 55
+CASSPOS S
+C/PSTATUS P
+G03
+05
+LY# :::::    
+MO# :::::    
+NE# :::::    
+EO# :::::    
+BA# :::::    
+G04
+05
+LY% :::::    
+MO% :::::    
+NE% :::::    
+EO% :::::    
+BA% :::::    
+
+
+------550404--------
+                                                                                                                                                                                                                                                      F1C0

@@ -1,0 +1,17 @@
+ 
+           沈总仪器
+
+
+生产厂名            仪器名称      仪器型号         接口型号
+贝克曼库尔特(2台)  血液分析        COULT_JT 
+
+ABBOTT(雅培)        生化分析      AEROSET          9M
+ABBOTT                             AXSYM           25F
+长春瑞迪        H100 URINEANALYZER                 9F
+强生             生化干片机
+天津开元          酶标测试仪      自带电脑只有一个串口软件不支持通讯9M
+HELENA           电泳仪          GELPROCESSOR      9M(鼠标孔)
+STA_COMP         血凝分析仪
+健尔康          图像分析仪        不做
+重庆            全自动血流变快测仪 自带电脑只有一个串口软件不支持通讯 
+BACKMAN          EL-ISE           坏

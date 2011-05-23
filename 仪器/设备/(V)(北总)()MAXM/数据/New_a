@@ -1,0 +1,413 @@
+0401
+
+
+
+
+
+--------------
+S02
+CBC
+DIFF
+TCBC
+04
+G01
+05
+DATE 04/16/01
+TIME 01:31:17
+ID1 66
+CASSPOS S
+C/PSTATUS P
+G02
+0C
+WBC   0.2 *RL
+RBC  0.00   L
+HGB     1   L
+HCT 0.000  VL
+MCV  65.4 *VL
+MCH   0.0   L
+MCHC     0  VL
+RDW   0.0   L
+PF78B02LT     0  RL
+PCT 0.000  V 
+MPV   4.1 *VL
+PDW  11.1  R 
+G06
+05
+DEFINIT Anemia
+DEFINIT 3+ Microcytosis
+DEFINIT 3+ Hypochromia
+DEFINIT Pancytopenia
+DEFINIT Small Platelets
+G08
+03
+CONDITION Abnormal WBC Pop
+CONDITION Abnormal RBC Pop
+CONDITION A80E503bnormal PLT Pop
+TDIFF
+03
+G01
+05
+DATE 04/16/01
+TIME 01:31:17
+ID1 66
+CASSPOS S
+C/PSTATUS P
+G03
+05
+LY# :::::    
+MO# :::::    
+NE# :::::    
+EO# :::::    
+BA# :::::    
+G04
+05
+LY% :::::    
+MO% :::::    
+NE% :::::    
+EO% :::::    
+BA% 9C9804:::::    
+
+
+--------------
+                                                                                                                                                                                                                                 30D50301
+
+
+
+
+
+--------------
+S02
+CBC
+DIFF
+TCBC
+04
+G01
+05
+DATE 04/16/01
+TIME 01:51:17
+ID1 1113
+CASSPOS S
+C/PSTATUS P
+G02
+0C
+WBC -----    
+RBC  0.00   L
+HGB     0   L
+HCT -----    
+MCV -----    
+MCH   0.0   L
+MCHC -----    
+RDW   0.0   L
+1EA202
+PLT     1  RL
+PCT 0.000  R 
+MPV   3.9  RL
+PDW  11.1  R 
+G06
+02
+DEFINIT Thrombocytopenia
+DEFINIT Small Platelets
+G08
+02
+CONDITION Abnormal WBC Pop
+CONDITION Abnormal PLT Pop
+TDIFF
+03
+G01
+05
+DATE 04/16/01
+TIME 01:51:17
+ID1 1113
+CASSPOS S
+AC9003
+C/PSTATUS P
+G03
+05
+LY# :::::    
+MO# :::::    
+NE# :::::    
+EO# :::::    
+BA# :::::    
+G04
+05
+LY% :::::    
+MO% :::::    
+NE% :::::    
+EO% :::::    
+BA% :::::    
+
+
+--------------
+                                                      D3AD0401
+
+
+
+
+
+--------------
+S02
+CBC
+DIFF
+TCBC
+04
+G01
+05
+DATE 04/16/01
+TIME 01:55:04
+ID1 3333
+CASSPOS S
+C/PSTATUS P
+G02
+0C
+WBC   0.2 *RL
+RBC  0.00   L
+HGB     0   L
+HCT -----    
+MCV -----    
+MCH   0.0   L
+MCHC -----    
+RDW   0.0   L
+854102
+PLT     0  RL
+PCT 0.000  R 
+MPV -----    
+PDW  10.9  R 
+G06
+05
+DEFINIT Neutropenia %
+DEFINIT Neutropenia #
+DEFINIT Lymphopenia %
+DEFINIT Lymphopenia #
+DEFINIT Eosinophilia %
+G08
+02
+CONDITION Abnormal WBC Pop
+CONDITION Abnormal PLT Pop
+TDIFF699C03
+03
+G01
+05
+DATE 04/16/01
+TIME 01:55:04
+ID1 3333
+CASSPOS S
+C/PSTATUS P
+G03
+05
+LY#   0.0  RL
+MO#   0.0  R 
+NE#   0.1  RL
+EO#   0.1  R 
+BA#   0.0  R 
+G04
+05
+LY%  18.8  RL
+MO%   0.0  RL
+NE%  25.0  RL
+EO%  56.2  RH
+BA%   0.0  R 
+
+
+-----E53F04---------
+                                                                                                                                                                                                                                                     2C6B0301
+
+
+
+
+
+--------------
+S02
+CBC
+DIFF
+TCBC
+04
+G01
+05
+DATE 04/16/01
+TIME 01:58:56
+ID1 222
+CASSPOS S
+C/PSTATUS P
+G02
+0C
+WBC -----    
+RBC  0.00   L
+HGB     0   L
+HCT -----    
+MCV -----    
+MCH   0.0   L
+MCHC -----    
+RDW   0.0   L
+F0C102PLT     2  RL
+PCT 0.001  R 
+MPV   4.1  RL
+PDW  11.0  R 
+G06
+02
+DEFINIT Thrombocytopenia
+DEFINIT Small Platelets
+G08
+02
+CONDITION Abnormal WBC Pop
+CONDITION Abnormal PLT Pop
+TDIFF
+03
+G01
+05
+DATE 04/16/01
+TIME 01:58:56
+ID1 222
+CASSPOS S
+C233C03/PSTATUS P
+G03
+05
+LY# .....    
+MO# .....    
+NE# .....    
+EO# .....    
+BA# .....    
+G04
+05
+LY%   0.0  RL
+MO%   0.0  RL
+NE%  13.0  RL
+EO%  87.0  RH
+BA%   0.0  R 
+
+
+--------------
+                                                        D7250301
+
+
+
+
+
+--------------
+S02
+CBC
+DIFF
+TCBC
+02
+G01
+06
+DATE 04/16/01
+TIME 02:04:14
+ID1 ----------------
+CASSPOS P008501
+C/PSTATUS P
+SASTATUS PART ASP
+G02
+0C
+WBC .....    
+RBC .....    
+HGB .....    
+HCT .....    
+MCV .....    
+MCH ....BA4402.    
+MCHC .....    
+RDW .....    
+PLT .....    
+PCT .....    
+MPV .....    
+PDW .....    
+TDIFF
+03
+G01
+06
+DATE 04/16/01
+TIME 02:04:14
+ID1 ----------------
+CASSPOS P008501
+C/PSTATUS P
+SASTATUS PART ASP
+G03
+05
+LY# .....    
+MO# .....    FB7803
+NE# .....    
+EO# .....    
+BA# .....    
+G04
+05
+LY% .....    
+MO% .....    
+NE% .....    
+EO% .....    
+BA% .....    
+
+
+--------------
+                                                                                                         2BBD0401
+
+
+
+
+
+--------------
+S02
+CBC
+DIFF
+TCBC
+04
+G01
+05
+DATE 04/16/01
+TIME 02:07:12
+ID1 1111
+CASSPOS S
+C/PSTATUS P
+G02
+0C
+WBC   9.3    
+RBC  3.84    
+HGB   118   L
+HCT 0.328   L
+MCV  85.3    
+MCH  30.7    
+MCHC   360   H
+RDW  13.9   H
+6A9E02
+PLT   198   L
+PCT 0.219    
+MPV  11.0    
+PDW  13.5    
+G06
+06
+DEFINIT Neutropenia %
+DEFINIT Lymphopenia %
+DEFINIT Lymphopenia #
+DEFINIT Eosinophilia %
+DEFINIT Eosinophilia #
+DEFINIT Anemia
+G08
+03
+CONDITION Abnormal WBC Pop
+CONDITION AbnormDD6B03al RBC Pop
+CONDITION Normal PLT Pop
+TDIFF
+03
+G01
+05
+DATE 04/16/01
+TIME 02:07:12
+ID1 1111
+CASSPOS S
+C/PSTATUS P
+G03
+05
+LY#   0.4  RL
+MO#   0.0  R 
+NE#   3.3  R 
+EO#   5.6  RH
+BA#   0.0  R 
+G04
+05
+LY%   4.7  RL
+MO%   0.2  RL
+NE%  36.0  A3FE04RL
+EO%  59.1  RH
+BA%   0.0  R 
+
+
+--------------
+                                                                                                                                                                                                          6F52

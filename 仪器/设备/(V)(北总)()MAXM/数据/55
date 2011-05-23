@@ -1,0 +1,67 @@
+0401
+
+
+
+
+
+--------------
+0A
+DATE 04/16/01 
+TIME 01:15:11    
+ID1 55              
+ID2                 
+CASS/POS SECONDA 
+SEQUENCE        
+1EC/P S       
+ID1STATUS   
+C/PSTATUS P 
+WLSTATUS GOOD     
+0C
+WBC  -----    
+RBC   0.00   L
+HGB   529F02   0   L
+HCT  0.000  VL
+MCV   90.5 *V 
+MCH    0.0   L
+MCHC     0  VL
+RDW    0.0   L
+PLT      0  RL
+PCT  0.000  V 
+MPV    3.6 *VL
+PDW   10.4  R 
+05
+LY#  :::::    
+MO#  :::::    
+NE#  :::::    
+EO#  :::::    
+BA#  :::::    
+05
+LY%  :::::  953B03  
+MO%  :::::    
+NE%  :::::    
+EO%  :::::    
+BA%  :::::    
+01
+                                                                 
+07
+Abnormal WBC Pop
+Abnormal RBC Pop
+Anemia
+3+ Hypochromia
+Abnormal PLT Pop
+Thrombocytopenia
+Small PlateletsF5D204
+09
+BIRTH            
+UF1                  
+UF2                  
+UF3                  
+SEX   
+LOCATION                  
+PHYSICIAN                        
+UDATE          
+UTIME       
+
+
+--------------
+                                      87AC

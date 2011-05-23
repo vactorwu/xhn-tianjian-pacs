@@ -1,0 +1,11 @@
+1.天健Ip:192.36.0.200  ,      port:5000,	AETITLE:PACSVIEW(316医院彩超）
+  超声主机：Ip:192.36.0.101  ,port:104,	AETITLE: HDI5000
+2.天健Ip:10.36.234.170  ,     port:4006,	AETITLE:PR_mrstation(305hospital-GE workstation-DR-CT-MR)
+  MR主机：Ip:10.36.234.160  ,port:1024,	AETITLE：
+  CT主机：Ip:10.36.234.     ,port:3160,	AETITLE：
+  DR主机：Ip:10.36.234.     ,port:4006,	AETITLE：
+  radwork:Ip:10.36.234.66   ,port:3140,	AETITLE:RADWORK
+  AW主机同天健
+3.天健Ip:192.100.10.15 ,     port:3140,	AETITLE:MedVision(307hispital-DSA)
+  DSA主机：Ip:192.100.10.6 , port:,	AETITLE：
+4.天健Ip:192.168.1.182 ，    port:104,	AETITLE：GQPACS3(积水潭医院CR）

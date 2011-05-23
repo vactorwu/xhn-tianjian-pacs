@@ -1,0 +1,1 @@
+ Date:2001-08-30 10:19 Seq: 0-002 URO +-  3.3   umol/l BIL  -        umol/l KET  -        mmol/l BLD  -      cells/ul PRO  -           g/l NIT  -               LEU  -      cells/ul*GLU 1+  5.5   mmol/l SGA   1.025          PHA     5.0          VCA     2.8   mmol/l 0

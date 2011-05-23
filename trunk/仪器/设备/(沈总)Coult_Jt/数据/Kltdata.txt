@@ -1,0 +1,151 @@
+
+
+
+
+
+
+--------------
+DATE 11/29/00 
+TEST 068      
+ID            
+LAB      66   
+WBC    3.8   L
+RBC   4.97    
+HGB   123.    
+HCT   .476    
+MCV    95.8   
+MCH   24.7   L
+MCHC  258.   L
+RDW   12.5    
+PLT   160. N  
+PCT   .102    
+MPV    6.4 N L
+PDW   17.0    
+LY    31.1    
+MO     8.3    
+GR    60.6    
+LY #   1.2    
+MO #    .3    
+GR #   2.3    
+--------------
+AD
+
+
+
+
+
+--------------
+DATE 11/29/00 
+TEST 069      
+ID            
+LAB      67   
+WBC   16.0 B H
+RBC   5.10    
+HGB   123.    
+HCT   .457    
+MCV    89.6   
+MCH   24.1   L
+MCHC  269.   L
+RDW   12.6    
+PLT   191. N  
+PCT   .151    
+MPV    7.9 N  
+PDW   17.6    
+LY     7.7   L
+MO     5.9    
+GR    86.4   H
+LY #   1.2 B  
+MO #    .9 B  
+GR #  13.8 B  
+--------------
+D1
+
+
+
+
+
+--------------
+DATE 11/29/00 
+TEST 070      
+ID            
+LAB      68   
+WBC    6.7    
+RBC   4.69    
+HGB   104.   L
+HCT   .399    
+MCV    85.0   
+MCH   22.2   L
+MCHC  261.   L
+RDW   16.5   H
+PLT   281. N  
+PCT   .185    
+MPV    6.6 N L
+PDW   15.8    
+LY    32.1    
+MO     1.7   L
+GR    66.2    
+LY #   2.2    
+MO #    .1    
+GR #   4.4    
+--------------
+53
+
+
+
+
+
+--------------
+DATE 11/29/00 
+TEST 071      
+ID            
+LAB      69   
+WBC    5.9 B  
+RBC   3.88    
+HGB   114.    
+HCT   .418    
+MCV   107.7  H
+MCH   29.4    
+MCHC  273.   L
+RDW   14.1    
+PLT   118. N  
+PCT   .106    
+MPV    9.0 N  
+PDW   15.6    
+LY    15.3 R1L
+MO     7.6 R1 
+GR    77.1 R1H
+LY #    .9 R1B
+MO #    .4 R1B
+GR #   4.5 R1B
+--------------
+8C
+
+
+
+
+
+--------------
+DATE 11/29/00 
+TEST 072      
+ID            
+LAB      70   
+WBC    5.1    
+RBC   6.23   H
+HGB   151.    
+HCT   .573    
+MCV    91.9   
+MCH   24.2   L
+MCHC  264.   L
+RDW   13.2    
+PLT   231. N  
+PCT   .169    
+MPV    7.3 N L
+PDW   16.3    
+LY    24.1    
+MO     9.2    
+GR    66.7    
+LY #   1.2    
+MO #    .5    
+GR #   3.4    
+--------------
+BC

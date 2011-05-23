@@ -1,0 +1,210 @@
+{ Textzeilen fr HIT 747 Interface Simulator }
+{ Dateiname: SI747GE.TXT - Deutsch           }
+{ Titel und allgemeine Texte }
+A01 BM/HITACHI 747 Interface Simulatorø
+A02 &Jaø
+A03 &Neinø
+A04 &Abbrechenø
+A05 Sie wollen das Programm beenden ?ø
+A06 Erlaubter Bereich fr 'ø
+A07 Ungltige Eingabe fr 'ø
+A08 Datum/Uhrzeit:ø
+A09  dd-mm-yy  hh:mmø
+A10 Kein Zugriff w„hrend der Kommunikation !ø
+A11 &Speichernø
+A12 ø
+A13 dd-mm-yyø
+A14 hh:mm:ssø
+A15 Kommunikation EINø
+A16 Kommunikation AUSø
+A17 &Hilfeø
+{ Hauptmen }
+B10 &HIT747-Textø
+B11 &Testanforderungø
+B12 &Mehrfach Anfordø
+B13 &Ergebnisø
+B14 T&NNA/TCAø
+B15 &Kontroll-Z.ø
+B20 &Traceø
+B21 ™ff&nenø
+B22 &Schlieáenø
+B23 &Anzeigenø
+B24 &L”schenø
+B25 &Fenster l”sch.ø
+B30 TA-&Dateiø
+B31 &Anzeigenø
+B32 &L”schenø
+B40 &Parameterø
+B41 &Kommunik. E/Aø
+B42 &RS-232ø
+B43 H&IT 747ø
+B44 &Datei-Modusø
+B45 &Fehler-Testsø
+B46 &Test-Listeø
+B47 &Konfigurationø
+B50 &?ø
+B51 &Hilfeø
+B52 &Info ...ø
+B53 &Beendenø
+{ Programm-Konfiguration }
+C01 Programm Konfigurationø
+C02 &Spracheø
+C04 &Anzeigeø
+C05 Farbeø
+C06 Monoø
+C07 Englischø
+C08 Deutschø
+C09 Franz”sischø
+C10 Spanischø
+C11 Italienischø
+C12 Schwedischø
+{ Haupt-Screen }
+D01 Text-L„nge :ø
+D02 TA-Datei:ø
+D03 &Vorherø
+D04 &Sendenø
+{ System Parameter }
+E03 &Text-Begrenzungø
+E06 256 Zeichenø
+E07 512 Zeichenø
+E08 Retry Z„hler:ø
+E09 Retry Zeit  :ø
+E10 Der Eingabebereich ist 1 bis 99 !ø
+E11 BM/HITACHI 747 Parameterø
+{ TA+Ergebnis-Generator }
+F01 Einfach-Testanforderung erstellenø
+F02 Ergebnisse erstellenø
+F03 &Modusø
+F04 &Klasseø
+F05 Komm&unikationø
+F06 &Probeø
+F07 Rack     Probe     Position Ident-Nr.ø
+F08 &Ergebnisseø
+F09 Geben Sie eine Test-Nummer ein !ø
+F10 Geben Sie ein Ergebnis ein !ø
+F11 Sie haben kein Ergebnis ausgew„hlt !ø
+F12 Sie haben keine Ergebnisse eingegeben !ø
+F13 Barcodeø
+F14 Sequenzø
+F15 Klasseø
+F16 Routineø
+F17 Automat. Rerunø
+F18 Manuell. Rerunø
+F19 Eilprobeø
+F20 Kontrolleø
+F21 Photom. Kalib.ø
+F22 ISE Kalib.ø
+F23 Mehrfach-Testanforderung erstellenø
+F26 Probe:ø
+F27 Disk:ø
+F28 Position:ø
+F29 Ident:ø
+F35 Test-Nr.:ø
+F36 Ergebnis:ø
+F37 Alarm   :ø
+F38 &L”schenø
+F39 &Zufgenø
+F40 &Alle l”schenø
+F41  Ergebnis/seø
+F42 mit oder ohne Barcode-Leserø
+F43 Klasse 1 (Serum ) / Klasse 2 (Urin)ø
+F44 Ergebnisse im Realtime oder Batch Modus sendenø
+F45 Proben-Artø
+F46 Bereich: ø
+F47 13 Zeichen alphanumerisch / Codes 20h bis 7Ehø
+F50 Nachricht erstellen und anzeigenø
+F51 Ergebnis der Liste zufgenø
+F52 Ausgew„hltes Ergebnis aus der Liste l”schenø
+F53 Gesamte Ergebnisliste l”schenø
+F54 Format: CCSS  CC=Control Nr. 1...10 / SS=Sequenz 1...30ø
+F56 Geben Sie ein Alarm-Zeichen ein ! <F1> Alarm-Listeø
+F57 Alarm-Listeø
+F58 6 Zeichen Ergebnisø
+F59 Test-Listeø
+F60 Test-Listen Datei nicht gefunden ! Liste wird erstellt !ø
+F61 / <F1> Test-Listeø
+F62 Vorgang abbrechenø
+{ Notepad - Datei ”ffnen/speichern }
+G01 &Dateiname:ø
+G02 ™&ffnenø
+G03 Datei ”ffnenø
+G04 Datei: ø
+G05 &Speichernø
+G06 Wollen Sie die Datei speichern ?ø
+G07 Datei speichernø
+G08 Geben Sie einen Dateinamen ein !ø
+G09 Existierende Datei berschreiben ?ø
+G10 Ungltiger Dateiname !ø
+G11 Diskette nicht bereit !ø
+G12 Datei nicht gefunden ! (ø
+{ Datei-Modus }
+H01 Dateimodus fr die Testanforderungs- u. Ergebnis-šbertragungø
+H02 Testanforderungen/Ergebnisse aus der Datei einlesenø
+H03 Die Testanforderungen und/oder Ergebnistexte werden zeilenweise ø
+H04 aus einer Datei (Eingabe des Dateinamens s.u.) gelesen und inø
+H05 festen oder variablen Zeitabst„nden zum Host gesendet !ø
+H06 Ergebnis-Texte generierenø
+H07 Die Ergebnis-Texte werden aus den zuvor vom Host empfangenen ø
+H08 Testauswahltexten (Datei 'SI747WRK.DAT') generiert und nach einer ø
+H09 Zeitverz”gerung (Eingabe s.u.) zum Host gesendet !ø
+H10 Dateiname:ø
+H11 Zeitverz”gerung bis zum Senden des Ergebnis in Minuten:ø
+H12 Geben Sie den Namen der Testanforderungsdatei ein !ø
+H13 Testanforderungsdatei nicht gefunden !ø
+H14 Geben Sie die Zeitverz”gerung in Minuten ein !ø
+H15 Anzahl der ANY/MOR Zyklen zwischen den Testanforderungenø
+H16 Proportional zur Anzahl der Testsø
+H17 immer 1ø
+{ Fehlerverhalten }
+I01 Verhalten im Fehlerfall testenø
+I02 Checksummenfehler in Testanforderung einbauenø
+I03 Checksummenfehler in Ergebnis einbauenø
+I04 Testauswahl mit 'REP' quittierenø
+I05 inaktivø
+I06 einmalø
+I07 immerø
+{ Trace Meldungen }
+J01 Keine Antwort vom Host - Timeout !ø
+J04 Checksummen-Fehler !ø
+J05 Ungltige Nachricht !ø
+J06 Ungltige Textl„nge !ø
+J07 Ungltige Funktions-Kennung !ø
+J08 Ungltige Text-Kennung !ø
+J09 Unterschiedliche Ende-Kennungen !ø
+{ Testnamen editieren }
+K01 Test-Namen editierenø
+K02 &Speichernø
+K03 Test-Namenø
+{ Testanforderungsdatei }
+L01 Testauswahl-Datei l”schen ?ø
+L02 Testauswahl-Datei: 'ø
+{ RS232 Parameter }
+P01 RS-232 Parameterø
+P02 Ungltige Schnittstellenparameter !ø
+P03 Fehler beim Initialisieren von Schnittstelle COMø
+{ Programmspezifische Meldungen }
+Q01 Trace-Datei ”ffnenø
+Q02 Trace-Datei  :ø
+Q03 Trace-Datei l”schenø
+Q04 Datei l”schen ? (ø
+Q05 &L”schenø
+Q06 ™&ffnenø
+Q07 Trace-Datei anzeigenø
+Q08 Kein Zugriff, w„hrend Trace-Datei ge”ffnet ist !ø
+{ Hilfe-Funktion }
+W01 Hilfe-Datei nicht gefunden ! (ø
+W02 Hilfe-Dateiø
+{ Fehler-Meldungen }
+X15 FEHLERø
+X16 ø
+X17 Starten Sie das Editorprogramm 'VB_EDIT.EXE' separat !ø
+X18 Editor-Programm nicht gefunden !ø
+{ Info-Fenster }
+Z01 Infoø
+Z02 BM/HITACHI 747 Interface Simulatorø
+Z03 ø
+Z04 Erstellt von Claus Mahlmann, LI-TDø
+Z05 Technisches Produktmanagement, Datentechnikø
+Z06 Tel.: (621) 759 2464 / FAX: (621) 759 4394ø
+Z07 Copyright 1993, Boehringer Mannheimø
+

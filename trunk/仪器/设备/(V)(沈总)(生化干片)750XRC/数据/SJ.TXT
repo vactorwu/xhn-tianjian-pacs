@@ -1,0 +1,62 @@
+!000a0200023684  005235010830               12 9               FF01.000  0D
+!001fNa+   137.  mmol/L  002B
+!002fGLU    10.7 mmol/L  123A
+!003fAST    35.  U/L     0028
+!004fK+      3.53mmol/L  00EA
+!005fUREA    9.2 mmol/L  1255
+!006fALT    16.  U/L     0023
+!007fCl- 99999.99mmol/L  60AD
+!008fCREA   99.  umol/L  0052
+!009fLDH   319.  U/L     0235
+!010fECO2   24.  mmol/L  0025
+!011fCKMB    2.  U/L     0026
+!012fCK     28.  U/L     00F0
+!013h0002DF
+!000a0200033684  072503010830               11 1               FF01.000  07
+!001fNa+   162.  mmol/L  122C
+!002fGLU     6.1 mmol/L  0026
+!003fTP     57.  g/L     221E
+!004fK+      2.62mmol/L  22ED
+!005fUREA   10.8 mmol/L  1263
+!006fALB    18.  g/L     2229
+!007fALT    70.  U/L     0024
+!008fCl-   126.  mmol/L  1235
+!009fCREA   95.  umol/L  004F
+!010fECO2   27.  mmol/L  0028
+!011gA/G       .4         063
+!012h0003DF
+!000a0200043684  072627010830               11 2               FF01.000  10
+!001fNa+   136.  mmol/L  002A
+!002fGLU     6.7 mmol/L  122F
+!003fK+      4.21mmol/L  00E5
+!004fUREA    6.1 mmol/L  004D
+!005fALT    16.  U/L     0022
+!006fCl-   101.  mmol/L  0029
+!007fCREA   72.  umol/L  0048
+!008fECO2   23.  mmol/L  002B
+!009h0004E6
+!000a0200053684  072712010830               11 3               FF01.000  0D
+!001fNa+   140.  mmol/L  0025
+!002fGLU    20.9 mmol/L  123D
+!003fAST    52.  U/L     122A
+!004fK+      4.17mmol/L  00EB
+!005fUREA    7.0 mmol/L  004E
+!006fALT    36.  U/L     0025
+!007fCl-   101.  mmol/L  002A
+!008fCREA   70.  umol/L  0047
+!009fLDH   794.  U/L     123D
+!010fECO2   22.  mmol/L  0023
+!011fCKMB    3.  U/L     0027
+!012fCK     58.  U/L     00F3
+!013h0005E2
+!000a0200063684  072836010830               11 4               FF01.000  16
+!001fNa+   130.  mmol/L  2228
+!002fBu     34.  umol/L  001D
+!003fK+      4.51mmol/L  00E8
+!004fBc     15.  umol/L  000C
+!005fALT   321.  U/L     0031
+!006fCl-    86.  mmol/L  2229
+!007fTBIL   71.  umol/L  125A
+!008fECO2   28.  mmol/L  0030
+!009gDBIL    37.  umol/L  13D
+!010h0006E0

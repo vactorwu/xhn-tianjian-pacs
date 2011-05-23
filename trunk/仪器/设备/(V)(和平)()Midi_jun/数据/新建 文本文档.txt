@@ -1,0 +1,42 @@
+;E                1 20.06.01 16:40 SG1.025      PH6.5      LEU        neg      NITpos  pos PRO        neg      GLU       norm      KET        neg      UBG  68 umol/l   2+ BIL  50 umol/l   2+ ERY      25/ul   2+ NAG                 64
+<3C
+;E                1 20.06.01 16:40 SG1.025      PH6.5      LEU        neg      NITpos  pos PRO        neg      GLU       norm      KET        neg      UBG  68 umol/l   2+ BIL  50 umol/l   2+ ERY      25/ul   2+ NAG                 64
+<3C
+;E                1 20.06.01 16:40 SG1.025      PH6.5      LEU        neg      NITpos  pos PRO        neg      GLU       norm      KET        neg      UBG  68 umol/l   2+ BIL  50 umol/l   2+ ERY      25/ul   2+ NAG                 64
+<3C
+<3C
+<3C
+;E                1 20.06.01 16:40 SG1.025      PH6.5      LEU        neg      NITpos  pos PRO        neg      GLU       norm      KET        neg      UBG  68 umol/l   2+ BIL  50 umol/l   2+ ERY      25/ul   2+ NAG                 64
+<3C
+;E                1 20.06.01 16:40 SG1.025      PH6.5      LEU        neg      NITpos  pos PRO        neg      GLU       norm      KET        neg      UBG  68 umol/l   2+ BIL  50 umol/l   2+ ERY      25/ul   2+ NAG                 64
+<3C
+<3C
+<3C
+;E                1 20.06.01 16:40 SG1.025      PH6.5      LEU        neg      NITpos  pos PRO        neg      GLU       norm      KET        neg      UBG  68 umol/l   2+ BIL  50 umol/l   2+ ERY      25/ul   2+ NAG                 64
+;E                1 20.06.01 16:40 SG1.025      PH6.5      LEU        neg      NITpos  pos PRO        neg      GLU       norm      KET        neg      UBG  68 umol/l   2+ BIL  50 umol/l   2+ ERY      25/ul   2+ NAG                 64
+<3C
+;E                1 20.06.01 16:40 SG1.025      PH6.5      LEU        neg      NITpos  pos PRO        neg      GLU       norm      KET        neg      UBG  68 umol/l   2+ BIL  50 umol/l   2+ ERY      25/ul   2+ NAG                 64
+<3C
+<3C
+<3C
+;E                1 20.06.01 16:40 SG1.025      PH6.5      LEU        neg      NITpos  pos PRO        neg      GLU       norm      KET        neg      UBG  68 umol/l   2+ BIL  50 umol/l   2+ ERY      25/ul   2+ NAG                 64
+;E                2 20.06.01 16:47 SG1.010      PH  7      LEU        neg      NITneg      PRO        neg      GLU       norm      KET        neg      UBG       norm      BIL        neg      ERY      50/ul   3+ NAG                 92
+;E                1 20.06.01 16:40 SG1.025      PH6.5      LEU        neg      NITpos  pos PRO        neg      GLU       norm      KET        neg      UBG  68 umol/l   2+ BIL  50 umol/l   2+ ERY      25/ul   2+ NAG                 64
+<3C
+;E                1 20.06.01 16:40 SG1.025      PH6.5      LEU        neg      NITpos  pos PRO        neg      GLU       norm      KET        neg      UBG  68 umol/l   2+ BIL  50 umol/l   2+ ERY      25/ul   2+ NAG                 64
+<3C
+<3C
+<3C
+;E                1 20.06.01 16:40 SG1.025      PH6.5      LEU        neg      NITpos  pos PRO        neg      GLU       norm      KET        neg      UBG  68 umol/l   2+ BIL  50 umol/l   2+ ERY      25/ul   2+ NAG                 64
+;E                2 20.06.01 16:47 SG1.010      PH  7      LEU        neg      NITneg      PRO        neg      GLU       norm      KET        neg      UBG       norm      BIL        neg      ERY      50/ul   3+ NAG                 92
+;E                3 20.06.01 16:48 SG1.025      PH  5      LEU        neg      NITpos  pos PRO   0.25 g/l   1+ GLU       norm      KET        neg      UBG       norm      BIL        neg      ERY      10/ul   1+ NAG                 C5
+;E                1 20.06.01 16:40 SG1.025      PH6.5      LEU        neg      NITpos  pos PRO        neg      GLU       norm      KET        neg      UBG  68 umol/l   2+ BIL  50 umol/l   2+ ERY      25/ul   2+ NAG                 64
+<3C
+;E                1 20.06.01 16:40 SG1.025      PH6.5      LEU        neg      NITpos  pos PRO        neg      GLU       norm      KET        neg      UBG  68 umol/l   2+ BIL  50 umol/l   2+ ERY      25/ul   2+ NAG                 64
+<3C
+<3C
+<3C
+;E                1 20.06.01 16:40 SG1.025      PH6.5      LEU        neg      NITpos  pos PRO        neg      GLU       norm      KET        neg      UBG  68 umol/l   2+ BIL  50 umol/l   2+ ERY      25/ul   2+ NAG                 64
+;E                2 20.06.01 16:47 SG1.010      PH  7      LEU        neg      NITneg      PRO        neg      GLU       norm      KET        neg      UBG       norm      BIL        neg      ERY      50/ul   3+ NAG                 92
+;E                3 20.06.01 16:48 SG1.025      PH  5      LEU        neg      NITpos  pos PRO   0.25 g/l   1+ GLU       norm      KET        neg      UBG       norm      BIL        neg      ERY      10/ul   1+ NAG                 C5
+:3A

@@ -1,0 +1,12 @@
+MDK-3200	双通道全自动血流变测试仪	重庆麦迪克科技开发公司		中国	1
+RBC-1500	红细胞流变参数自动测试仪	重庆大学生物工程系&重庆麦迪克科技开发公司 中国 1
+CliniBio 128c 	酶标仪									1
+644 Na/K/Cl     Na+/K+/Cl+分析仪							3
+248		血气分析仪			CIBA-CORNING				2
+FT-2		半自动生化分析仪							2
+AU640		生化仪				OLYMPUS					1
+FT-630G		微机及探头放免			BeiJing NUCLEAR INSTRUMENT FACTROY 	1
+VITEK 32	全自动微生物分析仪							1
+BECKMAN Array360全自动药物蛋白分析仪		BECKMAN					1
+CLINITEK100	尿液分析仪								2
+Hemacell plus v420全自动血球仪			HEMACELL				2

@@ -1,0 +1,16 @@
+DATE :SAT-26-01 10:17:05 
+ID_N :0057-000000000     
+    :                    
+    :                    
+BLD    -    neg         
+BIL    -    neg         
+URO    +-  norm         
+KET    -    neg         
+PRO    -    neg         
+NIT    +    pos         
+GLU    -    neg         
+p.H         7.5         
+S.G       1.015         
+LEU    +     25  WBC/ul 
+VTC    +++   50  mg/dl  
+

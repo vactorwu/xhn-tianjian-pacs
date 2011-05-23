@@ -1,0 +1,91 @@
+x00CX              YOUR HOSPITAL NAME               M I C R O B I O L O G Y   R E P O R T
+                 YOUR ADDRESS
+---------------------------------- Antimicrobial Susceptibility and Organism Identification Report ------------  ** PRELIMINARY **
+       ZHOU LEI                                                                                                                    
+       ZHOU LEI                                                                                                                    
+Name : ZHOU LEI                             Physician    :                    Ward : jiehe1ke           Collected : 01/07/19  **:**
+ID # : 202739         Specimen : 00000006   Source       : Sputum             Room :                    Received  : **/**/**  **:**
+
+
+-----------------------------------------------------------------------------------------------------------------------------------
+                    Providencia rettgeri
+                    Providencia rettgeri
+Iso/Result: 01      Providencia rettgeri
+4025064-6
+
+Antimicrobic/Dose                MIC     Systemic  Urine    CC
+-----------------             ----------  *   **   *   **   --
+Amikacin                         >32           R
+Amp/Sulbactam(c)                 >16/8         R
+Ampicillin                       >16           R
+Aztreonam                         16           I
+Cefazolin                        >16           R
+Cefepime                          4            S
+Cefotaxime(c)                     16           I
+Cefoxitin                         8           IB
+Cefpodoxime                      >1
+Ceftazidime(a)                   >16           R
+Ceftriaxone(c)                  <=4           IB
+Cefuroxime(b)                    >16           R
+Cephalothin                      >16           R
+Ciprofloxacin                    >2            R
+Gentamicin                       >8            R
+Imipenem(c)                     <=4            S
+Pip/Tazo(d)                     <=8           IB
+Piperacillin(a)                   64           I
+Tobramycin                       >8            R
+Trimeth/Sulfa                    >2/38         R
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------
++, ++, +++, or S  = Susceptible              N/R = Not Reported        BLac  = Beta-Lactamase Positive
+               I  = Intermediate             CC  = Cost Code           TFG   = Thymidine-dependent Strain
+               R  = Resistant                MIC = mcg/ml (mg/L)       Blank = Data not available, or drug not advisable or tested
+               R* = Resistant, ESBL         EBL? = Suspected ESBL      ESBL  = Extended Spectrum Beta-Lactamase
+For Blood and CSF Isolates, a Beta-Lactamase test is recommended for Enterococcus species.
+IB appears in place of S, +, ++, or +++ with species known to possess inducible B-lactamases; potentially they may become
+resistant to all B-lactam drugs. Monitoring of patients during/after therapy is recommended.  Avoid other/combined B-lactam drugs.
+R*  Resistance due to extended-spectrum beta-lactamases (ESBL).
+EBL? Suspected ESBL.  Confirmatory tests needed to differentiate ESBL from other beta-lactamases.
+(a) Use maximum doses of drug with an aminoglycoside for P. aeruginosa in patients with granulocytopenia or serious infections.
+(b) Breakpoints based on parenteral dose.  For cefuroxime axetil (PO) use <8=S, 8-16=I, >16=R. Footnote (c) applies to this drug.
+(c) For streptococci refer to penicillin interpretations.  For amoxicillin/K clavulanate or ampicillin/sulbactam with enterococci,
+    refer to the penicillin interpretations.
+(d) For non Beta-lactamase producing enterococci, refer to penicillin interpretations. Footnote (a) also applies to this drug.
+-----------------------------------------------------------------------------------------------------------------------------------
+*  Interpretations based on approx. adult attainable systemic/urine levels, except drugs with <3 dilutions, which print
+   NCCLS.  Doses are guidelines; consider weight and renal/hepatic function.  Urine interpretation for lower UTI only.
+** Interpretations based on NCCLS M100-S9 Jan 99. Trovafloxacin, except with streptococci, is based on manufacturer's breakpoints.
+   Sparfloxacin for Gram Negative isolates is based on manufacturer's breakpoints.
+-----------------------------------------------------------------------------------------------------------------------------------
+
+                                                                              ZHOU LEI                                            
+                                                                              ZHOU LEI                                            
+Tech : __________________________      Source    : Sputum              Name : ZHOU LEI                           ** PRELIMINARY **
+Report Date : 01/09/10  15:47          Collected : 01/07/19  **:**     ID # : 202739
+2CB

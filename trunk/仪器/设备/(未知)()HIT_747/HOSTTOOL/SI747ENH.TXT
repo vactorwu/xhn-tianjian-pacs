@@ -1,0 +1,553 @@
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³        Host Interface Simulator Program for BM/HITACHI 747     ³
+³                                                                ³
+³                       Operators Manual                         ³
+³                                                                ³
+³  File: "SI747ENH.TXT"           Language version: english      ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+Contents:
+
+1.0 Purpose of the program
+
+2.0 Installation
+
+3.0 Using the system desktop
+
+4.0 Functionality
+ 4.1 Connecting a host computer
+ 4.2 Using the text window
+ 4.3 Buffer for sent messages
+ 4.4 Trace window
+
+5.0 Menu system
+ 5.1 Main menu item "HIT747-Text"
+  5.1.1 Menu item "HIT747-Text/Creating test requests"
+  5.1.2 Menu item "HIT747-Text/Creating multiple requests"
+  5.1.3 Menu item "HIT747-Text/Creating result frames"
+  5.1.4 Menu item "HIT747-Text/Creating TNNA packet"
+  5.1.5 Menu item "HIT747-Text/Control frames"
+ 5.2 Main menu item "Trace"
+  5.2.1 Menu item "Trace/Open trace file"
+  5.2.2 Menu item "Trace/Close trace file"
+  5.2.3 Menu item "Trace/Display trace file"
+  5.2.4 Menu item "Trace/Delete trace file"
+  5.2.5 Menu item "Trace/Clear communication window"
+ 5.3 Main menu item "Test selection file"
+  5.3.1 Menu item "Test selection file/Display file"
+  5.3.2 Menu item "Test selection file/Delete file"
+ 5.4 Main menu item "Parameter"
+  5.4.1 Menu item "Parameter/Communication ON/OFF"
+  5.4.2 Menu item "Parameter/RS-232 Parameter"
+  5.4.3 Menu item "Parameter/HIT 747 system parameter"
+  5.4.4 Menu item "Parameter/File mode for test selection requests"
+  5.4.5 Menu item "Parameter/Error checking"
+  5.4.6 Menu item "Parameter/Test list"
+  5.4.7 Menu item "Parameter/Program configuration"
+ 5.5 Main menu item "?"
+  5.5.1 Help function
+  5.5.2 Program info
+  5.5.3 Termination of the program
+ 
+6.0 Technical specifications
+ 6.1 Files of the program package
+ 6.2 Hardware requirements
+
+7.0 Update Information
+
+
+
+1.0 Purpose of the program
+    ----------------------
+This program serves to simulate the host interface of the
+BM/HITACHI 747 analyzer. With this program it is possible to test or
+demonstrate any kind of host software.
+Each message that the analyzer sends can be created manually and sent
+to the connected host system.
+
+2.0 Installation
+    ------------
+Insert the installation disk into your computer and start the program
+'INSTALL' on the DOS level:
+
+        e.g.:        A:INSTALL   <Enter>
+
+You have to enter the path on your hard disk onto which the program
+package is to be copied.
+After confirming the 'Start Installation' button, the selected pro-
+grams and files are decompressed and copied onto the hard disk.
+
+Start the Simulator program by entering the starting prompt:
+
+                  SIMU747.EXE   <Enter>
+
+3.0 Using the system desktop
+    ------------------------
+After starting the program, the terms "HIT747-Text", "Trace-File", ...
+will be displayed in the first button line on top of the screen.
+These are the main menu items of the program.
+Each term will reveal a submenu showing the individual functions of
+that main menu item in the second button line. The function is started
+by pressing the corresponding menu button.
+The program can be operated with a mouse or the keyboard.
+Mouse operation is easier since menu and selection items or command
+buttons can be clicked directly whereas keyboard operation first
+requires activation with <Tab> key and then confirmation with the
+<Enter> key.
+
+4.0 Functionality
+    -------------
+4.1. Connecting a host computer
+Simulator- and host computer are connected via the serial interface
+RS232. So you have to connect the two computers with the adequate
+interface cable (null modem cable).
+
+4.2. Using the text window
+In the middle of the screen you can see the text field which can be
+used to enter messages that shall be sent to the host manually.
+The message is sent as soon as you press the 'Send' button.
+If the communication is switched on (see chapter 5.4.1) the simulator
+sends the first control frame ('ANY' frame) and from then on every
+3 second after receiving the acknowledgement from the host.
+If this communication mode is activated the manually entered text is
+sent after pressing the 'Send' button instead of the next control frame.
+Above the text window the actual text length is displayed.
+
+4.3. Buffer for sent messages
+The last ten sent messages are stored in a buffer and can be called
+back into the text window by pressing the 'Previous' button.
+
+4.4. Trace window
+The complete communication in both directions is displayed in the
+trace window in the lower part of the screen.
+The sent messages are displayed in blue color the received messages
+in green.
+Each message starts with the sender identification ('CU' for Control
+Unit or 'Host'). Then the actual time and the message itself is
+displayed.
+The control characters within the start and end codes are replaced by
+mnemonics which makes it easier to read the trace:
+
+   Code 02h (Start of text)      replaced by  [STX]
+   Code 03h (End of text)        replaced by  [ETX]
+   Code 0Dh (Carriage return)    replaced by  [CR]
+   Code 0Ah (Line feed)          replaced by  [LF]
+   Code 20h (Space)              replaced by  ^
+
+5.0 Menu system
+    -----------
+
+5.1. Main menu item "HIT747-Text"
+With this main menu item you get the possibility to create manually
+single or multiple test selection requests, result frames, control-
+and analyzer information frames. These frames are entered into the
+text window and can be sent to the host with the 'Send' button.
+
+5.1.1. Menu item "HIT747-Text/Creating single test selection requests"
+This option opens a data mask which allows to enter all data items
+that are included in a test selection request. These are ...
+
+   Barcode mode:           with barcode reader
+                           without barcode reader (Sample no. mode)
+
+   Class:                  Class 1 (e.g. Serum)
+                           Class 2 (e.g. Urine)
+
+   Sample type:            Routine
+                           Automatic Rerun
+                           Manual Rerun
+                           STAT
+
+   Sample information:     Sample no.
+                           Rack no.
+                           Position no.
+                           Sample identification
+
+By pressing the 'Ok' button the test selection request frame is
+generated and entered into the text window. Now you can sent it by
+pressing the 'Send' button.
+
+5.1.2. Menu item "HIT747-Text/Creating multiple test selection requests"
+The analyzer can work either in the single or the multiple test
+selection request mode. At the analyzer, these two modes can be selected
+from host side with operation control frames or in the 'System Functions'
+screen.
+This menu option opens a data mask which allows to enter all data items
+that are included in a multiple test selection request. These are ...
+
+   Barcode mode:           with barcode reader
+                           without barcode reader (Sample no. mode)
+
+   Class:                  Class 1 (e.g. Serum)
+                           Class 2 (e.g. Urine)
+
+   Sample type:            Routine
+                           Automatic Rerun
+                           Manual Rerun
+                           STAT
+
+   Sample information      Sample no.
+    for up to 5 samples:   Rack no.
+                           Position no.
+                           Sample identification
+
+By pressing the 'Ok' button the test selection request frame is
+generated and entered into the text window. Now you can sent it by
+pressing the 'Send' button.
+
+5.1.3. Menu item "HIT747-Text/Creating result frames"
+This option opens a data mask which allows to enter all data items that
+are included in a result frame. These are ...
+
+   Barcode mode:           with barcode reader
+                           without barcode reader (Sample no. mode)
+
+   Class:                  Class 1 (e.g. Serum)
+                           Class 2 (e.g. Urine)
+
+   Result type:            Routine
+                           Automatic Rerun
+                           Manual Rerun
+                           STAT
+                           STAT Rerun
+                           Control
+                           Photometric Calibration
+                           ISE Calibration
+
+   Type of communication:  Realtime mode
+                           Batch Mode
+ 
+   Sample information:     Sample no.
+                           Rack no.
+                           Position no.
+                           Sample identification
+   
+   Test results:           Test no.
+                           Value
+                           Alarm character
+
+If the test number text field is selected, you get a list of all
+test names by pressing the function key <F1>. The test names can be
+modified with the 'Test list' option (see chapter 5.4.6).
+If the alarm character text field is selected, the <F1> key gives
+you the list of all available alarm characters including the short
+description of the alarms.
+The 'Add' button adds the result entry into the result list. It is
+possible to delete single results out of this list or to delete the
+whole result list.
+By pressing the 'Ok' button the result frame is generated and entered
+into the text window. Now you can sent it by pressing the 'Send'
+button.
+
+5.1.4. Menu item "HIT747-Text/Creating TNNA/TCA packet"
+After pressing this menu button the simulator sends four frames to
+the host where each frame has to be acknowledged by the host (with a
+'MOR' frame).
+These frames contain the 60 test names (see 5.4.6 "Test List") and the
+test code assignment. The analyzer sends these frames each time the
+instrument and host communication is switched on for the first time.
+
+5.1.5. Menu item "HIT747-Text/Control frames"
+This menu item offers three control frames:
+  'ANY' - positive acknowledgement
+          .. is automatically sent 3 seconds after receiving the message
+          from the host
+  'REP' - negative acknowledgement
+          .. tells the host to repeat the last message
+  'SUS' - suspend
+          .. tells the host to repeat the last message after a delay
+
+5.2. Main menu item "Trace"
+The complete data transfer between simulator and host is displayed
+in the window in the lower part of the screen (see chapter 4.4).
+If necessary the data transfer can also be stored in a file for later
+analysis. The following menu items handle those trace files.
+
+5.2.1. Menu item "Trace/Open trace file"
+This function opens a new or already existing trace file. All data
+transfer is stored in this file for further processing or analyzing.
+All trace files are automatically provided with the file name
+extension ".TRC".
+
+5.2.2. Menu item "Trace/Close trace file"
+The already opened trace file is closed again. Now you can take a
+look at the contents of this trace file (see next menu item).
+
+5.2.3. Menu item "Trace/Display trace file"
+A file selection mask is displayed which offers the possibility to
+select any existing trace file that shall be displayed. An editor
+program is started to display the file and comments to the trace if
+necessary.
+In 'Communication ON' status (see chapter 5.4.1) the "Display trace
+file" option is not available.
+
+5.2.4. Menu item "Trace/Delete trace file"
+Trace files that are no longer needed can be deleted from the
+harddisk.
+
+5.2.5. Menu item "Trace/Clear trace window"
+This menu item deletes the contents of the trace window on the
+screen.
+
+5.3. Main menu item "Test selection file"
+All received test selection frames are stored in a temporary file
+named 'SI747WRK.DAT' for later analysis.
+
+5.3.1. Menu item "Test selection file/Display file"
+This menu item starts an external editor program to display the
+contents of the test selection file 'SI747WRK.DAT'. Each test
+selection is stored in one separate line which has the following
+format:
+
+HH:MM:SSFU RRRRSSSSSPIIIIIIIIIIIIICCTTTTT....TTT
+
+ HH       Hour    \
+ MM       Minute   >   time when the test selection arrived 
+ SS       Second  /
+ F        Frame character (; for test selection )
+ U        Function character
+ RRRR     Rack no.
+ SSSSS    Sample no.
+ P        Position
+ IIIII..  13 character ident no.
+ CC       Test count
+ TTTT...  49 Testflags (1 = Test selected)
+
+ length:  97 characters
+
+In 'Communication ON' status (see chapter 5.4.1) this display option
+is not available.
+
+5.3.2. Menu item "Test selection file/Delete file"
+This option deletes the temporary file 'SI747WRK.DAT' where all
+received test selections are stored.
+
+5.4. Main menu item "Parameter"
+
+5.4.1. Menu item "Parameter/Communication ON/OFF"
+According to the 'Communication YES' switch on the 'Start Conditions'
+screen of the Hit 747 software you can switch on and off the communi-
+cation of the simulator with this menu item.
+If switched on, the simulator sends the first 'ANY' frame to the host.
+From now on it sends the 'ANY' frame every 3 seconds after receiving
+the last message from the host.
+The communication status is displayed in the status line on the screen.
+
+5.4.2. Menu item "Parameter/RS-232 Parameter"
+If host and simulator shall communicate with each other, the serial
+interface parameters have to match.
+You have to adjust the baud rate, the number of data and stopbits,
+the parity bit as well as the number of the serial port that you use
+for communication (COM1 or COM2).
+The actual interface parameters are displayed in the status line on the
+screen.
+All the above mentioned settings can be found in the 'System Parameters'
+screen of the Hit 747 software.
+In 'Communication YES' status this option is not available.
+
+5.4.3. Menu item "Parameter/HIT 747 system parameter"
+With this menu item you get a data mask which contains all Hit 747
+specific settings concerning the host communication. These are:
+  - Maximum text length
+    if the options '256 char.' is selected, those result frames that
+    are longer than 256 characters are divided into several frames
+    which are sent one after the other.
+    (where each single frame has to be acknowledged by the host)
+  - Retry Count
+    This is the number of retries ('REP' frames) that the simulator
+    sends to reestablish communication if the host does not answer.
+    After the last retry, the instrument issues a timeout alarm and
+    the communication is switched off.
+    The retry count can be set from 1 to 99 retries.
+  - Retry Time
+    This is the time between the above described retries to reestablish
+    communication. This time can be set from 1 to 99 seconds.
+
+The above described settings are to be done on the 'System Parameters'
+screen of the Hit 747 software.
+
+5.4.4. Menu item "Parameter/File mode for test selection requests"
+This file mode offers another two modes of this simulator program.
+
+1. Reading test selection request frames out of a prepared file and
+   sending them automatically to the host.
+   (to simulate the realtime test selection mode)
+   The format of such a test selection request in the file is as
+   follows (line length: 26)
+
+   Format  : FU RRRRSSSSSPIIIIIIIIIIIII
+             ³³³³   ³    ³³
+             ³³³³   ³    ³Ident no.
+             ³³³³   ³    Position no.
+             ³³³³   Sample no.
+             ³³³Rack no.
+             ³³Space
+             ³Function character
+             Frame Identification
+   Example:  ;A   10 1             3455
+
+2. Creating and sending result frames out of previously received test
+   selections.
+   (to simulate the realtime result transfer)
+
+To activate option 1 you have to enter the name of the prepared file
+which contains the test selection requests. The test selection requests
+in the file must have the same format than the message that is sent to
+the host.
+Use any editor program to generate such a test selection request file
+but be sure to generate vaild data, because the data items are not
+checked before they are sent.
+Start and end codes are added when the message is sent to the host.
+An additional option decides whether the test requests are sent every
+second ANY/MOR cycle (worst case concerning stress for the host) or
+after time delays that depend on the number of selected tests in the
+received test selection frames from the host (timing like Hit 747).
+
+Option 2 goes one step further.
+If this option is activated the simulator generates result frames out
+of the previously received test selection frames from the host. This
+is possible because all received test selection frames are stored in
+a temporary file called 'SI747WRK.DAT' (see chapter 5.3). The result
+frames are generated randomly and sent after a delay time that can be
+set in minutes (simulating the measuring time).
+
+5.4.5. Menu item "Parameter/Error checking"
+With this option it is possible to check the error behaviour of the host.
+
+- Implement a checksum error in the next test selection request
+  The next test selection request that is going to be sent to the host
+  gets a wrong checksum implemented .
+  The host has to answer with a 'REP' frame.
+
+- Implement a checksum error in next result frame
+  The next result frame that is going to be sent to the host gets a
+  wrong checksum implemented.
+  The host has to answer with a 'REP' frame
+
+- Quit test selection with 'REP' frame
+  The next received test selection frame from the host is answered
+  with a 'REP' frame. The host has to resend the test selection.
+
+Each of the above described manipulations can be activated only for
+the next or for all following messages of the corresponding type.
+If, in the latter case the software falls into an endless loop,
+press the 'Previous' button to deactivate the manipulation and
+leave again the endless loop.
+
+5.4.6. Menu item "Parameter/Test list"
+In the file 'SI747_TN.DAT' 60 test names are stored. These test names
+are displayed in a list during test result generation. (see chapter
+5.1.3).
+These test names can be modified with this option.
+The 46 names for photometric tests are complemented by the fix names
+for test numbers 47, 48, 49 (three ISE tests) and 50, 51, 52 (three
+serum index tests) and the eight test names for calculated tests.
+
+5.4.7. Menu item "Parameter/Program configuration"
+This menu item allows to select the language of the desktop.
+All desktop texts of this program are stored in a separate text file.
+In a selection window, you will find the languages available (English
+and German are default settings; additional language versions can be
+created, if required, with the aid of a text editor program).
+In a second option field, you can select between color display and
+black/white display. When using laptops or note books with LCD
+display, we recommend to use a mono display as it has the better
+contrast.
+
+5.5. Main menu item "?"
+
+5.5.1. Help function
+Use this function due to display this text on the screen. Use the
+print option to print out the help text. In some selection windows
+there is a 'Help' button. This button also displays the help text
+setting the cursor to the corresponding chapter.
+
+                             CAUTION !
+In 'Communication ON' status, the simulator sends no further 'ANY'
+frame as long as the help text is displayed !
+
+5.5.2. Program info
+The information window contains name and address of the program
+developer and the software version.
+
+5.5.3. Terminating the program
+Pressing the 'Yes' button terminates the program.
+
+6.0 Technical specifications
+    ------------------------
+
+6.1. Files of the program package
+The program package contains the following files:
+
+SIMU747.EXE     Simulator program
+SI747.INI       Configuration data
+SI747_TN.DAT    Test names
+
+SI747GE.TXT     German operator texts
+SI747EN.TXT     English operator texts
+SI747GEH.TXT    German help text in ASCII format
+SI747ENH.TXT    English help text in ASCII format
+
+SI747BUF.DAT    Buffer for the last ten sent messages
+SI747WRK.DAT    Temporary file for received test selection frames
+
+VB_EDIT.EXE     Trace Editor program
+VB_EDIT.INI     Configuration data for the editor
+VB_EDGE.TXT     German operator texts for the editor
+VB_EDEN.TXT     English operator texts for the editor
+
+File name extensions:
+ *.TRC          Trace files
+
+6.2. Hardware requirements
+-  To install the software package on the hard disk, you need a
+   capacity of at least 300 kB
+-  the computer has to be equipped with a serial interface
+-  the software can be operated by mouse
+
+7.0 Update Information
+
+  Version 5.1 - December 1994
+    BUG - The serial parameter combination 8 databits, 2 stopbits
+          cannot be selected if a parity check shall be used.
+    NEW - The existence of the selected COM port is checked.
+    NEW - The text length of the input field an the record length
+          of the buffer file are limited to 1280.
+    NEW - The number of result values in the result list is limited
+          to 60.
+    NEW - The printer specific control codes for compressed printing
+          and left margin can be entered in the file print mask.
+
+  Version 5.2 - December 1994
+    NEW - There is an example test request file 'SI747.REQ' in the
+          packet. These request files can contain several comment
+          lines.
+
+  Version 5.3 - December 1994
+    BUG - In the TS File Mode the result generation function can be
+          activated independantly from the activation of a TS request
+          file. That means that result frames for test selections
+          that have been received in batch mode are also generated
+          and sent to the host.
+    NEW - Test Name Editor screen changed.
+
+  Version 5.4 - December 1994
+    NEW - The space character within the communication trace was
+          changed from ^ to ú
+
+  Version 5.5 - August 1995
+    NEW - The request file can now contain also result strings. The
+          example request file 'SI747.REQ' has been extended.
+
+  Version 5.6 - September 1995
+    NEW - The text limit option box was disabled because 256 bytes 
+          mode is not supported.
+
+  Version 5.7 - July 1997
+    NEW - Test Selections with up to 60 test flags can be handled
+
+  Version 5.8 - October 1997
+    BUG - Software hangs up at 00:00:00. Also the automatic result
+          generation in file mode did not work at that time.
+    NEW - A Windows program icon is copied during installation
+

@@ -1,0 +1,38 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: F800 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP4023.TMP" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "F800_EXPORTS" /Fp"Debug/F800.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"E:\NewDll\win32\Need_Debug\ÎÚÂ³Ä¾Æë\F800\F800.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP4023.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP4024.TMP" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:yes /pdb:"Debug/F800.pdb" /debug /machine:I386 /def:".\F800.def" /out:"Debug/F800.dll" /implib:"Debug/F800.lib" /pdbtype:sept 
+".\Debug\StdAfx.obj"
+".\Debug\F800.obj"
+".\Debug\Str.obj"
+".\Debug\LogFile.obj"
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP4024.TMP"
+<h3>Output Window</h3>
+Compiling...
+F800.cpp
+E:\NewDll\win32\Need_Debug\ÎÚÂ³Ä¾Æë\F800\F800.cpp(67) : warning C4101: 'dResult' : unreferenced local variable
+E:\NewDll\win32\Need_Debug\ÎÚÂ³Ä¾Æë\F800\F800.cpp(72) : warning C4101: 'f_Result' : unreferenced local variable
+Linking...
+   Creating library Debug/F800.lib and object Debug/F800.exp
+
+
+
+<h3>Results</h3>
+F800.dll - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>

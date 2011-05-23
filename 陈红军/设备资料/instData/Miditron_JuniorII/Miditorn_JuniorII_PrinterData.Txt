@@ -1,0 +1,3751 @@
+               URINALYSIS       
+
+
+Seq.no.            39  Date:   9.03.2001
+Pat.Id:                Time:       11:29
+
+    Color: amber        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.010      
+  PH :           7      
+* LEU:      100/ul    ++
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+* UBG:   17 umol/l     +
+  BIL:         neg      
+* ERY:       10/ul     +
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            51  Date:   5.03.2001
+Pat.Id:                Time:        9:46
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.020      
+  PH :           6      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            52  Date:   5.03.2001
+Pat.Id:                Time:        9:46
+
+    Color: brown        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.005      
+  PH :           7      
+  LEU:         neg      
+* NIT:         pos      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+* UBG:   17 umol/l     +
+* BIL:  100 umol/l   +++
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            53  Date:   5.03.2001
+Pat.Id:                Time:        9:47
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.010      
+  PH :           5      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            54  Date:   5.03.2001
+Pat.Id:                Time:        9:47
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.015      
+  PH :           5      
+* LEU:       25/ul     +
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            55  Date:   5.03.2001
+Pat.Id:                Time:        9:47
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.020      
+  PH :         6.5      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            56  Date:   5.03.2001
+Pat.Id:                Time:        9:48
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.015      
+  PH :           7      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+* GLU:    6 mmol/l    ++
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            57  Date:   5.03.2001
+Pat.Id:                Time:        9:48
+
+    Color: amber        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.020      
+  PH :           5      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+* UBG:   68 umol/l    ++
+* BIL:   17 umol/l     +
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            58  Date:   5.03.2001
+Pat.Id:                Time:        9:48
+
+    Color: brown        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.015      
+  PH :           6      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+* UBG:   17 umol/l     +
+* BIL:   50 umol/l    ++
+* ERY:       10/ul     +
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            59  Date:   5.03.2001
+Pat.Id:                Time:        9:49
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.020      
+  PH :           6      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            60  Date:   5.03.2001
+Pat.Id:                Time:        9:49
+
+    Color: amber        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.015      
+  PH :           8      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+* UBG:  135 umol/l   +++
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            61  Date:   5.03.2001
+Pat.Id:                Time:       14:41
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.010      
+  PH :           7      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.             1  Date:   6.03.2001
+Pat.Id:                Time:        9:19
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.015      
+  PH :           5      
+  LEU:         neg      
+  NIT:         neg      
+* PRO:     2.0 g/l   +++
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+* ERY:       50/ul   +++
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.             2  Date:   6.03.2001
+Pat.Id:                Time:        9:20
+
+    Color: amber        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.010      
+  PH :           5      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+* BIL:   17 umol/l     +
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.             3  Date:   6.03.2001
+Pat.Id:                Time:        9:20
+
+    Color: amber        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.020      
+  PH :           6      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+* UBG:   68 umol/l    ++
+  BIL:         neg      
+* ERY:       25/ul    ++
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.             4  Date:   6.03.2001
+Pat.Id:                Time:        9:20
+
+    Color: amber        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.015      
+  PH :           6      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.             5  Date:   6.03.2001
+Pat.Id:                Time:        9:22
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.005      
+  PH :           7      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.             6  Date:   6.03.2001
+Pat.Id:                Time:        9:22
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.020      
+  PH :           5      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.             7  Date:   6.03.2001
+Pat.Id:                Time:        9:22
+
+    Color: brown        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.015      
+  PH :         6.5      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+* UBG:   17 umol/l     +
+* BIL:  100 umol/l   +++
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.             8  Date:   6.03.2001
+Pat.Id:                Time:        9:23
+
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+ Invalid Result         
+----------------------------------------
+
+
+-               URINALYSIS       
+
+
+Seq.no.             9  Date:   6.03.2001
+Pat.Id:                Time:        9:23
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.015      
+  PH :           6      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            10  Date:   6.03.2001
+Pat.Id:                Time:        9:23
+
+    Color: brown        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.020      
+  PH :           6      
+* LEU:       25/ul     +
+  NIT:         neg      
+* PRO:     0.5 g/l     +
+  GLU:        norm      
+  KET:         neg      
+* UBG:   17 umol/l     +
+* BIL:   50 umol/l    ++
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            11  Date:   6.03.2001
+Pat.Id:                Time:        9:24
+
+    Color: brown        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.020      
+  PH :           6      
+* LEU:       25/ul     +
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+* UBG:   68 umol/l    ++
+* BIL:  100 umol/l   +++
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            12  Date:   6.03.2001
+Pat.Id:                Time:        9:24
+
+    Color: amber        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.020      
+  PH :           6      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+* UBG:   68 umol/l    ++
+* BIL:   17 umol/l     +
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            13  Date:   6.03.2001
+Pat.Id:                Time:        9:24
+
+    Color: brown        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.020      
+  PH :         6.5      
+* LEU:      100/ul    ++
+* NIT:         pos      
+* PRO:     0.5 g/l     +
+  GLU:        norm      
+  KET:         neg      
+* UBG:   68 umol/l    ++
+* BIL:  100 umol/l   +++
+* ERY:       10/ul     +
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            14  Date:   6.03.2001
+Pat.Id:                Time:        9:25
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.015      
+  PH :         6.5      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            15  Date:   6.03.2001
+Pat.Id:                Time:        9:25
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.020      
+  PH :           5      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+* GLU:    6 mmol/l    ++
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            16  Date:   6.03.2001
+Pat.Id:                Time:        9:25
+
+    Color: amber        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.020      
+  PH :         6.5      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+* UBG:   68 umol/l    ++
+  BIL:         neg      
+* ERY:       10/ul     +
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            17  Date:   6.03.2001
+Pat.Id:                Time:        9:26
+
+    Color: red          
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.010      
+  PH :           9      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+* ERY:      250/ul +++++
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            18  Date:   6.03.2001
+Pat.Id:                Time:        9:26
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.020      
+  PH :           5      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            19  Date:   6.03.2001
+Pat.Id:                Time:        9:26
+
+    Color: amber        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.015      
+  PH :         6.5      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+* ERY:       10/ul     +
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            20  Date:   6.03.2001
+Pat.Id:                Time:        9:27
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.020      
+  PH :           6      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            21  Date:   6.03.2001
+Pat.Id:                Time:        9:27
+
+    Color: amber        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.025      
+  PH :           6      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+* UBG:   17 umol/l     +
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            22  Date:   6.03.2001
+Pat.Id:                Time:        9:27
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.020      
+  PH :           5      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            23  Date:   6.03.2001
+Pat.Id:                Time:        9:28
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.005      
+  PH :           5      
+* LEU:      100/ul    ++
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+* ERY:       50/ul   +++
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            24  Date:   6.03.2001
+Pat.Id:                Time:        9:28
+
+    Color: brown        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.025      
+  PH :           5      
+* LEU:       25/ul     +
+* NIT:         pos      
+* PRO:     0.5 g/l     +
+  GLU:        norm      
+  KET:         neg      
+* UBG:  135 umol/l   +++
+* BIL:  100 umol/l   +++
+* ERY:       10/ul     +
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            25  Date:   6.03.2001
+Pat.Id:                Time:        9:28
+
+    Color: amber        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.020      
+  PH :           6      
+* LEU:       25/ul     +
+  NIT:         neg      
+* PRO:     0.5 g/l     +
+  GLU:        norm      
+  KET:         neg      
+* UBG:   68 umol/l    ++
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            26  Date:   6.03.2001
+Pat.Id:                Time:        9:29
+
+    Color: brown        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.020      
+  PH :           6      
+* LEU:       25/ul     +
+* NIT:         pos      
+* PRO:     0.5 g/l     +
+  GLU:        norm      
+* KET:  1.5 mmol/l    ++
+* UBG:  135 umol/l   +++
+* BIL:   50 umol/l    ++
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            27  Date:   6.03.2001
+Pat.Id:                Time:        9:29
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.020      
+  PH :           6      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+* ERY:      250/ul +++++
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            28  Date:   6.03.2001
+Pat.Id:                Time:        9:29
+
+    Color: amber        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.020      
+  PH :         6.5      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+* UBG:   68 umol/l    ++
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            29  Date:   6.03.2001
+Pat.Id:                Time:        9:30
+
+    Color: amber        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.020      
+  PH :           6      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+* ERY:       10/ul     +
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            30  Date:   6.03.2001
+Pat.Id:                Time:        9:30
+
+    Color: amber        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.015      
+  PH :           5      
+* LEU:       25/ul     +
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+* BIL:   17 umol/l     +
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            31  Date:   6.03.2001
+Pat.Id:                Time:        9:30
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.015      
+  PH :         6.5      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            32  Date:   6.03.2001
+Pat.Id:                Time:        9:31
+
+    Color: amber        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.020      
+  PH :           6      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+* ERY:       25/ul    ++
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            33  Date:   6.03.2001
+Pat.Id:                Time:        9:31
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.015      
+  PH :           9      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+* GLU:    3 mmol/l     +
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            34  Date:   6.03.2001
+Pat.Id:                Time:        9:31
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.005      
+  PH :           5      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            35  Date:   6.03.2001
+Pat.Id:                Time:        9:32
+
+    Color: amber        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.015      
+  PH :         6.5      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+* UBG:  135 umol/l   +++
+* BIL:   17 umol/l     +
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            36  Date:   6.03.2001
+Pat.Id:                Time:        9:32
+
+    Color: amber        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.010      
+  PH :           7      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            37  Date:   6.03.2001
+Pat.Id:                Time:        9:45
+
+    Color: amber        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.015      
+  PH :           9      
+* LEU:       25/ul     +
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+* UBG:  135 umol/l   +++
+* BIL:   17 umol/l     +
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            38  Date:   6.03.2001
+Pat.Id:                Time:        9:47
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.025      
+  PH :           5      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            39  Date:   6.03.2001
+Pat.Id:                Time:       10:10
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.010      
+  PH :           8      
+* LEU:       25/ul     +
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            40  Date:   6.03.2001
+Pat.Id:                Time:       16:26
+
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+ Invalid Result         
+----------------------------------------
+
+
+-               URINALYSIS       
+
+
+Seq.no.            41  Date:   6.03.2001
+Pat.Id:                Time:       16:31
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.015      
+  PH :           7      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            42  Date:   6.03.2001
+Pat.Id:                Time:       19:05
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.015      
+  PH :           7      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.             1  Date:   7.03.2001
+Pat.Id:                Time:        8:56
+
+    Color: amber        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.010      
+  PH :           8      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+* UBG:   17 umol/l     +
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.             2  Date:   7.03.2001
+Pat.Id:                Time:        8:57
+
+    Color: brown        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.015      
+  PH :           7      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+* BIL:   50 umol/l    ++
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.             3  Date:   7.03.2001
+Pat.Id:                Time:        8:57
+
+    Color: amber        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.020      
+  PH :           5      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.             4  Date:   7.03.2001
+Pat.Id:                Time:        8:57
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.020      
+  PH :           5      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.             5  Date:   7.03.2001
+Pat.Id:                Time:        8:59
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.010      
+  PH :           7      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+* ERY:       50/ul   +++
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.             6  Date:   7.03.2001
+Pat.Id:                Time:        8:59
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.020      
+  PH :           5      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.             7  Date:   7.03.2001
+Pat.Id:                Time:        8:59
+
+    Color: brown        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.010      
+  PH :           7      
+* LEU:       25/ul     +
+  NIT:         neg      
+* PRO:     0.5 g/l     +
+  GLU:        norm      
+  KET:         neg      
+* UBG:   68 umol/l    ++
+* BIL:  100 umol/l   +++
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.             8  Date:   7.03.2001
+Pat.Id:                Time:        9:00
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.010      
+  PH :           7      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.             9  Date:   7.03.2001
+Pat.Id:                Time:        9:00
+
+    Color: brown        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.025      
+  PH :           6      
+* LEU:       25/ul     +
+* NIT:         pos      
+* PRO:     0.5 g/l     +
+  GLU:        norm      
+  KET:         neg      
+* UBG:   68 umol/l    ++
+* BIL:  100 umol/l   +++
+* ERY:       25/ul    ++
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            10  Date:   7.03.2001
+Pat.Id:                Time:        9:00
+
+    Color: amber        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.025      
+  PH :           6      
+* LEU:       25/ul     +
+  NIT:         neg      
+* PRO:     0.5 g/l     +
+  GLU:        norm      
+  KET:         neg      
+* UBG:   68 umol/l    ++
+* BIL:   17 umol/l     +
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            11  Date:   7.03.2001
+Pat.Id:                Time:        9:01
+
+    Color: amber        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.020      
+  PH :           6      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            12  Date:   7.03.2001
+Pat.Id:                Time:        9:01
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.020      
+  PH :           5      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+* ERY:       10/ul     +
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            13  Date:   7.03.2001
+Pat.Id:                Time:        9:01
+
+    Color: amber        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.025      
+  PH :           6      
+* LEU:      100/ul    ++
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+* ERY:       10/ul     +
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            14  Date:   7.03.2001
+Pat.Id:                Time:        9:02
+
+    Color: brown        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.020      
+  PH :           5      
+* LEU:       25/ul     +
+* NIT:         pos      
+* PRO:     0.5 g/l     +
+  GLU:        norm      
+* KET:  0.5 mmol/l     +
+* UBG:  203 umol/l  ++++
+* BIL:   50 umol/l    ++
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            15  Date:   7.03.2001
+Pat.Id:                Time:        9:02
+
+    Color: amber        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.025      
+  PH :           5      
+  LEU:         neg      
+  NIT:         neg      
+* PRO:     0.5 g/l     +
+  GLU:        norm      
+  KET:         neg      
+* UBG:  135 umol/l   +++
+* BIL:   17 umol/l     +
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            16  Date:   7.03.2001
+Pat.Id:                Time:        9:02
+
+    Color: amber        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.020      
+  PH :           6      
+* LEU:       25/ul     +
+  NIT:         neg      
+* PRO:     0.5 g/l     +
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+* ERY:      250/ul +++++
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            17  Date:   7.03.2001
+Pat.Id:                Time:        9:03
+
+    Color: brown        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.010      
+  PH :           8      
+* LEU:       25/ul     +
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+* UBG:  135 umol/l   +++
+* BIL:  100 umol/l   +++
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            18  Date:   7.03.2001
+Pat.Id:                Time:        9:03
+
+    Color: amber        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.020      
+  PH :           6      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+* ERY:       10/ul     +
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            19  Date:   7.03.2001
+Pat.Id:                Time:        9:03
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.015      
+  PH :         6.5      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            20  Date:   7.03.2001
+Pat.Id:                Time:        9:04
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.010      
+  PH :           7      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            21  Date:   7.03.2001
+Pat.Id:                Time:        9:04
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.015      
+  PH :           6      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            22  Date:   7.03.2001
+Pat.Id:                Time:        9:04
+
+    Color: brown        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.015      
+  PH :         6.5      
+* LEU:       25/ul     +
+* NIT:         pos      
+* PRO:     0.5 g/l     +
+  GLU:        norm      
+  KET:         neg      
+* UBG:   68 umol/l    ++
+* BIL:   50 umol/l    ++
+* ERY:       10/ul     +
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            23  Date:   7.03.2001
+Pat.Id:                Time:        9:05
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.020      
+  PH :           5      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            24  Date:   7.03.2001
+Pat.Id:                Time:        9:05
+
+    Color: amber        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.015      
+  PH :           6      
+  LEU:         neg      
+* NIT:         pos      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+* UBG:   17 umol/l     +
+* BIL:   17 umol/l     +
+* ERY:      150/ul  ++++
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            25  Date:   7.03.2001
+Pat.Id:                Time:        9:05
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.015      
+  PH :         6.5      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+* KET:  1.5 mmol/l    ++
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            26  Date:   7.03.2001
+Pat.Id:                Time:        9:06
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.015      
+  PH :           6      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+* ERY:       10/ul     +
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            27  Date:   7.03.2001
+Pat.Id:                Time:        9:06
+
+    Color: amber        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.020      
+  PH :           6      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            28  Date:   7.03.2001
+Pat.Id:                Time:        9:06
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.020      
+  PH :           5      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            29  Date:   7.03.2001
+Pat.Id:                Time:        9:07
+
+    Color: amber        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.010      
+  PH :           7      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+* UBG:   17 umol/l     +
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            30  Date:   7.03.2001
+Pat.Id:                Time:       10:51
+
+    Color: amber        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.010      
+  PH :           7      
+* LEU:      500/ul   +++
+* NIT:         pos      
+* PRO:     0.5 g/l     +
+* GLU:   18 mmol/l   +++
+  KET:         neg      
+* UBG:   68 umol/l    ++
+* BIL:   17 umol/l     +
+* ERY:      250/ul +++++
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            31  Date:   7.03.2001
+Pat.Id:                Time:       16:29
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.030      
+  PH :           8      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.             1  Date:   8.03.2001
+Pat.Id:                Time:        9:04
+
+    Color: amber        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.025      
+  PH :           6      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.             2  Date:   8.03.2001
+Pat.Id:                Time:        9:05
+
+    Color: brown        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.015      
+  PH :           6      
+* LEU:       25/ul     +
+  NIT:         neg      
+  PRO:         neg      
+* GLU:   18 mmol/l   +++
+  KET:         neg      
+* UBG:   68 umol/l    ++
+* BIL:   50 umol/l    ++
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.             3  Date:   8.03.2001
+Pat.Id:                Time:        9:05
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.020      
+  PH :           6      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+* UBG:   68 umol/l    ++
+  BIL:         neg      
+* ERY:       10/ul     +
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.             4  Date:   8.03.2001
+Pat.Id:                Time:        9:05
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.015      
+  PH :           6      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.             5  Date:   8.03.2001
+Pat.Id:                Time:        9:07
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.010      
+  PH :           6      
+  LEU:         neg      
+  NIT:         neg      
+* PRO:       5 g/l  ++++
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+* ERY:      250/ul +++++
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.             6  Date:   8.03.2001
+Pat.Id:                Time:        9:07
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.015      
+  PH :           6      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.             7  Date:   8.03.2001
+Pat.Id:                Time:        9:07
+
+    Color: amber        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.015      
+  PH :         6.5      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.             8  Date:   8.03.2001
+Pat.Id:                Time:        9:08
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.010      
+  PH :         6.5      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.             9  Date:   8.03.2001
+Pat.Id:                Time:        9:08
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.015      
+  PH :           6      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+* ERY:      250/ul +++++
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            10  Date:   8.03.2001
+Pat.Id:                Time:        9:08
+
+    Color: amber        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.025      
+  PH :           5      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+* GLU:    6 mmol/l    ++
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            11  Date:   8.03.2001
+Pat.Id:                Time:        9:09
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.015      
+  PH :           6      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+* ERY:      250/ul +++++
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            12  Date:   8.03.2001
+Pat.Id:                Time:        9:09
+
+    Color: amber        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.020      
+  PH :           5      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            13  Date:   8.03.2001
+Pat.Id:                Time:        9:09
+
+    Color: amber        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.020      
+  PH :           6      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+* UBG:   17 umol/l     +
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            14  Date:   8.03.2001
+Pat.Id:                Time:        9:10
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.020      
+  PH :           6      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            15  Date:   8.03.2001
+Pat.Id:                Time:        9:10
+
+    Color: brown        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.015      
+  PH :           7      
+* LEU:       25/ul     +
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+* UBG:   68 umol/l    ++
+* BIL:   50 umol/l    ++
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            16  Date:   8.03.2001
+Pat.Id:                Time:        9:10
+
+    Color: amber        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.010      
+  PH :           8      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+* UBG:   68 umol/l    ++
+* BIL:   17 umol/l     +
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            17  Date:   8.03.2001
+Pat.Id:                Time:        9:11
+
+    Color: brown        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.020      
+  PH :           5      
+  LEU:         neg      
+  NIT:         neg      
+* PRO:     0.5 g/l     +
+  GLU:        norm      
+  KET:         neg      
+* UBG:   17 umol/l     +
+* BIL:   50 umol/l    ++
+* ERY:       10/ul     +
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            18  Date:   8.03.2001
+Pat.Id:                Time:        9:11
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.010      
+  PH :         6.5      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            19  Date:   8.03.2001
+Pat.Id:                Time:        9:11
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.015      
+  PH :           6      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            20  Date:   8.03.2001
+Pat.Id:                Time:        9:12
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.015      
+  PH :         6.5      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+* GLU:   18 mmol/l   +++
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            21  Date:   8.03.2001
+Pat.Id:                Time:        9:12
+
+    Color: amber        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.020      
+  PH :           6      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+* UBG:  135 umol/l   +++
+* BIL:   17 umol/l     +
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            22  Date:   8.03.2001
+Pat.Id:                Time:        9:12
+
+    Color: brown        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.010      
+  PH :           7      
+* LEU:       25/ul     +
+* NIT:         pos      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+* UBG:   17 umol/l     +
+* BIL:  100 umol/l   +++
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            23  Date:   8.03.2001
+Pat.Id:                Time:        9:13
+
+    Color: amber        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.015      
+  PH :           7      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+* GLU:    6 mmol/l    ++
+  KET:         neg      
+* UBG:   17 umol/l     +
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            24  Date:   8.03.2001
+Pat.Id:                Time:        9:13
+
+    Color: amber        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.020      
+  PH :           5      
+  LEU:         neg      
+* NIT:         pos      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            25  Date:   8.03.2001
+Pat.Id:                Time:        9:13
+
+    Color: amber        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.015      
+  PH :           9      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+* UBG:  135 umol/l   +++
+  BIL:         neg      
+* ERY:       25/ul    ++
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            26  Date:   8.03.2001
+Pat.Id:                Time:        9:15
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.020      
+  PH :           6      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            27  Date:   8.03.2001
+Pat.Id:                Time:       16:51
+
+    Color: amber        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.020      
+  PH :           6      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+* GLU:   18 mmol/l   +++
+  KET:         neg      
+* UBG:   17 umol/l     +
+* BIL:   17 umol/l     +
+* ERY:       10/ul     +
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.             1  Date:   9.03.2001
+Pat.Id:                Time:        9:09
+
+    Color: amber        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.020      
+  PH :           6      
+* LEU:      100/ul    ++
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+* ERY:       50/ul   +++
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.             2  Date:   9.03.2001
+Pat.Id:                Time:        9:09
+
+    Color: amber        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.005      
+  PH :           7      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+* UBG:  135 umol/l   +++
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.             3  Date:   9.03.2001
+Pat.Id:                Time:        9:09
+
+    Color: brown        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.010      
+  PH :           7      
+* LEU:       25/ul     +
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+* UBG:   68 umol/l    ++
+* BIL:  100 umol/l   +++
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.             4  Date:   9.03.2001
+Pat.Id:                Time:        9:10
+
+    Color: amber        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.010      
+  PH :           8      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.             5  Date:   9.03.2001
+Pat.Id:                Time:        9:11
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.015      
+  PH :           7      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+* ERY:      150/ul  ++++
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.             6  Date:   9.03.2001
+Pat.Id:                Time:        9:11
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.010      
+  PH :           7      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.             7  Date:   9.03.2001
+Pat.Id:                Time:        9:12
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.010      
+  PH :         6.5      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+* ERY:       10/ul     +
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.             8  Date:   9.03.2001
+Pat.Id:                Time:        9:12
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.010      
+  PH :           7      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+* UBG:   17 umol/l     +
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.             9  Date:   9.03.2001
+Pat.Id:                Time:        9:12
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.025      
+  PH :           5      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            10  Date:   9.03.2001
+Pat.Id:                Time:        9:13
+
+    Color: amber        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.025      
+  PH :           5      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+* UBG:   68 umol/l    ++
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            11  Date:   9.03.2001
+Pat.Id:                Time:        9:13
+
+    Color: amber        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.020      
+  PH :           5      
+* LEU:       25/ul     +
+  NIT:         neg      
+* PRO:     0.5 g/l     +
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+* BIL:   17 umol/l     +
+* ERY:      250/ul +++++
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            12  Date:   9.03.2001
+Pat.Id:                Time:        9:13
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.020      
+  PH :           5      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+* ERY:       25/ul    ++
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            13  Date:   9.03.2001
+Pat.Id:                Time:        9:14
+
+    Color: amber        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.015      
+  PH :         6.5      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            14  Date:   9.03.2001
+Pat.Id:                Time:        9:14
+
+    Color: amber        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.010      
+  PH :           6      
+  LEU:         neg      
+* NIT:         pos      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            15  Date:   9.03.2001
+Pat.Id:                Time:        9:14
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.010      
+  PH :           7      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+* ERY:       25/ul    ++
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            16  Date:   9.03.2001
+Pat.Id:                Time:        9:15
+
+    Color: amber        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.015      
+  PH :           7      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+* UBG:  203 umol/l  ++++
+* BIL:   17 umol/l     +
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            17  Date:   9.03.2001
+Pat.Id:                Time:        9:15
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.025      
+  PH :           5      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            18  Date:   9.03.2001
+Pat.Id:                Time:        9:15
+
+    Color: amber        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.020      
+  PH :           6      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+* UBG:   17 umol/l     +
+  BIL:         neg      
+* ERY:       10/ul     +
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            19  Date:   9.03.2001
+Pat.Id:                Time:        9:16
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.015      
+  PH :           5      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            20  Date:   9.03.2001
+Pat.Id:                Time:        9:16
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.010      
+  PH :           7      
+* LEU:      100/ul    ++
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            21  Date:   9.03.2001
+Pat.Id:                Time:        9:16
+
+    Color: amber        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.010      
+  PH :           7      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+* UBG:  135 umol/l   +++
+* BIL:   17 umol/l     +
+* ERY:       50/ul   +++
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            22  Date:   9.03.2001
+Pat.Id:                Time:        9:17
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.020      
+  PH :         6.5      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            23  Date:   9.03.2001
+Pat.Id:                Time:        9:17
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.020      
+  PH :           6      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            24  Date:   9.03.2001
+Pat.Id:                Time:        9:17
+
+    Color: brown        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.020      
+  PH :           6      
+* LEU:      100/ul    ++
+* NIT:         pos      
+* PRO:     0.5 g/l     +
+  GLU:        norm      
+  KET:         neg      
+* UBG:   17 umol/l     +
+* BIL:  100 umol/l   +++
+* ERY:       10/ul     +
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            25  Date:   9.03.2001
+Pat.Id:                Time:        9:18
+
+    Color: brown        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.020      
+  PH :           6      
+  LEU:         neg      
+* NIT:         pos      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+* UBG:   17 umol/l     +
+* BIL:  100 umol/l   +++
+* ERY:       25/ul    ++
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            26  Date:   9.03.2001
+Pat.Id:                Time:        9:18
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.015      
+  PH :           5      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+* ERY:      250/ul +++++
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            27  Date:   9.03.2001
+Pat.Id:                Time:        9:18
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.010      
+  PH :         6.5      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            28  Date:   9.03.2001
+Pat.Id:                Time:        9:19
+
+    Color: brown        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.020      
+  PH :         6.5      
+* LEU:      100/ul    ++
+* NIT:         pos      
+* PRO:     0.5 g/l     +
+  GLU:        norm      
+* KET:  0.5 mmol/l     +
+* UBG:   68 umol/l    ++
+* BIL:  100 umol/l   +++
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            29  Date:   9.03.2001
+Pat.Id:                Time:        9:19
+
+    Color: amber        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.020      
+  PH :           5      
+* LEU:       25/ul     +
+  NIT:         neg      
+* PRO:     0.5 g/l     +
+  GLU:        norm      
+  KET:         neg      
+* UBG:   68 umol/l    ++
+* BIL:   17 umol/l     +
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            30  Date:   9.03.2001
+Pat.Id:                Time:        9:19
+
+    Color: amber        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.020      
+  PH :           7      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+* BIL:   17 umol/l     +
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            31  Date:   9.03.2001
+Pat.Id:                Time:        9:20
+
+    Color: amber        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.010      
+  PH :           7      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+* UBG:  135 umol/l   +++
+* BIL:   17 umol/l     +
+* ERY:       25/ul    ++
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            32  Date:   9.03.2001
+Pat.Id:                Time:        9:20
+
+    Color: amber        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.025      
+  PH :           6      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+* UBG:   68 umol/l    ++
+* BIL:   17 umol/l     +
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            33  Date:   9.03.2001
+Pat.Id:                Time:        9:20
+
+    Color: brown        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.015      
+  PH :           5      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+* UBG:   17 umol/l     +
+* BIL:   50 umol/l    ++
+* ERY:       10/ul     +
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            34  Date:   9.03.2001
+Pat.Id:                Time:        9:21
+
+    Color: brown        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.015      
+  PH :           7      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+* UBG:   17 umol/l     +
+* BIL:   50 umol/l    ++
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            35  Date:   9.03.2001
+Pat.Id:                Time:        9:21
+
+    Color: brown        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.010      
+  PH :           7      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+* UBG:   17 umol/l     +
+* BIL:  100 umol/l   +++
+* ERY:       10/ul     +
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            36  Date:   9.03.2001
+Pat.Id:                Time:        9:21
+
+    Color: brown        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.015      
+  PH :           7      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+* UBG:   17 umol/l     +
+* BIL:   50 umol/l    ++
+* ERY:       10/ul     +
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            37  Date:   9.03.2001
+Pat.Id:                Time:        9:22
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.015      
+  PH :           6      
+  LEU:         neg      
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+  ERY:         neg      
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            38  Date:   9.03.2001
+Pat.Id:                Time:        9:24
+
+    Color: yellow       
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.015      
+  PH :         6.5      
+  LEU:         neg      
+  NIT:         neg      
+* PRO:     0.5 g/l     +
+  GLU:        norm      
+  KET:         neg      
+  UBG:        norm      
+  BIL:         neg      
+* ERY:       10/ul     +
+----------------------------------------
+
+
+-
+
+               URINALYSIS       
+
+
+Seq.no.            39  Date:   9.03.2001
+Pat.Id:                Time:       11:29
+
+    Color: amber        
+
+ CHEM. ANALYSIS         MICROSCOPY  
+----------------------------------------
+  SG :       1.010      
+  PH :           7      
+* LEU:      100/ul    ++
+  NIT:         neg      
+  PRO:         neg      
+  GLU:        norm      
+  KET:         neg      
+* UBG:   17 umol/l     +
+  BIL:         neg      
+* ERY:       10/ul     +
+----------------------------------------
+
+
+-
+

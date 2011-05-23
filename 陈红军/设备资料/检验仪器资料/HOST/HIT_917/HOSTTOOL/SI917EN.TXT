@@ -1,0 +1,240 @@
+{ Text Lines for HITACHI 917 Simulator    }
+{ Filename: SI917EN.TXT - English         }
+{ Title and common Text lines }
+A01 BM/HITACHI 917 Interface Simulatorø
+A02 &Yesø
+A03 &Noø
+A04 &Cancelø
+A05 You want to quit the program ?ø
+A06 Allowed range for 'ø
+A07 Invalid entry for 'ø
+A08 Date /Time   :ø
+A09  mm-dd-yy h:mm AM/PMø
+A10 No access during Communication ON !ø
+A11 &Saveø
+A12 ø
+A13 mm-dd-yyø
+A14 hh:mm:ssø
+A15 Communication ON ø
+A16 Communication OFFø
+A17 &Helpø
+{ Main Menu Options }
+B10 &HIT917-Textø
+B11 &Test Requestø
+B12 &Resultsø
+B13 &Controlø
+B14 &Applic.Codesø
+B20 &Trace-Fileø
+B21 &Openø
+B22 &Closeø
+B23 &Displayø
+B24 De&leteø
+B25 Clear &Windowø
+B30 T&S-Fileø
+B31 &Displayø
+B32 De&leteø
+B40 &Parameterø
+B41 &Comm. ON/OFFø
+B42 &RS-232ø
+B43 &HIT 917ø
+B44 &File Modeø
+B45 &Error Checkingø
+B46 &Test Listø
+B47 &Configurationø
+B50 &?ø
+B51 &Helpø
+B52 &Info ...ø
+B53 E&xitø
+{ Program Configuration }
+C01 Program Configurationø
+C02 &Languageø
+C04 &Display Modeø
+C05 Colorø
+C06 Monoø
+C07 Englishø
+C08 Germanø
+C09 Frenchø
+C10 Spanishø
+C11 Italianø
+C12 Swedishø
+{ Main Screen }
+D01 Text-Length:ø
+D02 TS-File :ø
+D03 &Previousø
+D04 &Sendø
+{ System Parameters }
+E01 (0:unlimited)ø
+E02 &Max. Textlengthø
+E03  256 char.ø
+E04  512 char.ø
+E05 1280 char.ø
+E06 Comment sendingø
+E07 Instrument-ID:ø
+E08 Host-ID      :ø
+E09 Cycle Time   :ø
+E10 Retry Count  :ø
+E11 Retry Time   :ø
+E12 Repeat Count :ø
+E13 BM/HITACHI 917 Parameterø
+E14 Sending comment fields within resultø
+E15 Operator     :ø
+E16 6-character operator idø
+{ TA+Ergebnis-Generator }
+F01 Create Test Selection Requestsø
+F02 Create Result Framesø
+F03 &Modeø
+F04 &Classø
+F05 Comm&unicationø
+F06 &Sampleø
+F07 Sample-&Informationø
+F08 &Resultsø
+F09 Enter a test number !ø
+F10 Enter a result value !ø
+F11 No result entry selected !ø
+F12 You did not enter any result value !ø
+F13 Barcodeø
+F14 Sample-No.ø
+F15 Classø
+F16 Routineø
+F17 Auto Rerunø
+F18 Manual Rerunø
+F19 STATø
+F20 STAT Rerunø
+F21 Controlø
+F22 Photom. Calib.ø
+F23 ISE Calib.ø
+F24 Absorb. Routineø
+F25 Absorb. Rerunø
+F26 Absorb. STATø
+F27 Absorb. STAT Reø
+F28 Absorb. Controlø
+F37 1 = Standard Cup / 2 = Micro Cupø
+F38 &Deleteø
+F39 &Addø
+F40 Delete A&llø
+F41  Result/sø
+F42 with or without Barcode Readerø
+F43 1 = Serum / 2 = Urine / 3 = Plasma / 4 = CSF / 5 = Otherø
+F44 Send Results in Realtime or Batch modeø
+F45 Kind of Sampleø
+F46 Range: ø
+F47 13 char. alphanumerical / Codes 20h to 7Ehø
+F48 1 = days / 2 = months / 3 = yearsø
+F49 0 = neutral / 1 = male / 2 = femaleø
+F50 Generate and display messageø
+F51 Add the result to the result listø
+F52 Delete a selected resultø
+F53 Delete the whole result listø
+F54 Format: CCSSS  CC=Control 1..40 / SSS=Sequence 1..150ø
+F55 8 char. Control Nameø
+F56 Enter an alarm character ! <F1> Alarm Listø
+F57 Alarm Listø
+F58 6 char. Resultø
+F59 Test Listø
+F60 Test List File not found ! It is created !ø
+F61 / <F1> Test Listø
+F62 Abort actionø
+F63 Test-No.:ø
+F64 Result  :ø
+F65 Alarm   :ø
+F66 No. Abso:ø
+F67 / No. of Abs. valuesø
+F70 Sample:ø
+F71 Disk:ø
+F72 Position:ø
+F73 Cup   :ø
+F74 Ident :ø
+F75 Age   :ø
+F76 Age Factor:ø
+F77 Sex   :ø
+F78 Date  :ø
+F79 Time  :ø
+F80 Enter the no. of ABS. values (1 to 73) !ø
+F81 Enter the 8-character Lot numberø
+F82 Lot-No.:ø
+F83 C-Name :ø
+{ Notepad - Open/Save File }
+G01 File&nameø
+G02 &Openø
+G03 Open Fileø
+G04 File: ø
+G05 &Saveø
+G06 Do you want to save the file ?ø
+G07 Save Fileø
+G08 Type in a file name !ø
+G09 Overwrite existing file ?ø
+G10 Invalid file name !ø
+G11 Disk not ready !ø
+G12 File not found ! (ø
+{ File-Mode }
+H01 File Mode for Test Selection Request and Result Transmissionø
+H02 Read Test Selection Requests/Results from a fileø
+H03 The Test Selection Requests / Results are read line by line from ø
+H04 a file (enter name below) and sent to host after a fix or ø
+H05 variable time delay !ø
+H06 Generate Result Framesø
+H07 The Result Frames are generated according to the previously ø
+H08 received Test Selection Frames (File 'SI917WRK.DAT') and sent ø
+H09 to the host after a time delay (enter delay below) ø
+H10 File Name:ø
+H11 Time delay until the Result is sent to Host in minutes:ø
+H12 Enter the name of the Test Selection Request File !ø
+H13 Test Selection Request File not found !ø
+H14 Enter the time delay in minutes !ø
+H15 Number of ANY/MOR cycles between the Test Selection Requestsø
+H16 According to the number of testsø
+H17 always 1ø
+{ Error Checking }
+I01 Checking Error Behaviourø
+I02 Implement Checksum Error in TS Requestø
+I03 Implement Checksum Error in Resultø
+I04 Quit Test Selection with 'REP'ø
+I05 inactiveø
+I06 one timeø
+I07 alwaysø
+{ Trace Messages }
+J01 No answer from Host - Timeout !ø
+J04 Checksum-Error !ø
+J05 Invalid Message !ø
+J06 Invalid Message Length !ø
+J07 Invalid Function Character !ø
+J08 Invalid Frame Character !ø
+J09 Different End-of-Data Codes !ø
+{ Edit Testnames }
+K01 Edit Test Namesø
+K02 &Saveø
+K03 Test Namesø
+K04 App-Codesø
+{ Test Selection File }
+L01 Delete Test Selection File ?ø
+L02 Test Selection File: 'ø
+{ RS232 Parameter }
+P01 RS-232 Parametersø
+P02 Invalid interface parameters !ø
+P03 Error during initialisation of port COMø
+{ Programspecific Messages }
+Q01 Open Trace Fileø
+Q02 Trace File   :ø
+Q03 Delete Trace Fileø
+Q04 Delete File ? (ø
+Q05 &Deleteø
+Q06 &Openø
+Q07 Show Trace Fileø
+Q08 No Access while Trace File is open !ø
+{ Help Function }
+W01 Help File not found ! (ø
+W02 Help Fileø
+{ Error Messages }
+X15 ERRORø
+X16 ø
+X17 Start the Editor 'VB_EDIT.EXE' separately !ø
+X18 Editor Program not found !ø
+{ Info Window }
+Z01 Infoø
+Z02 BM/HITACHI 917 Interface Simulatorø
+Z03 ø
+Z04 Developed by Claus Mahlmann, LI-TDø
+Z05 Technical Product Management, Data Techniqueø
+Z06 Tel.: (621) 759 2464 / FAX: (621) 759 4394ø
+Z07 Copyright 1993, Boehringer Mannheimø
+

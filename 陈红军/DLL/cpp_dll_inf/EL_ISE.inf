@@ -1,0 +1,20 @@
+[Setup]
+Factory = "±´¿ÉÂü¹«Ë¾"
+Description ="SYNCHRON EL-ISE"
+Baud_Rate = 9600
+Byte_Size = 7
+Parity = 2
+Stop_Bits =0
+f_OutX =0
+f_InX =0
+f_HardWare =0
+Tx_QueueSize =16
+Rx_QueueSize =800
+Xon_Lim =20
+Xoff_Lim =8
+Xon_Char =17
+Xoff_Char =19
+Driver_Prog ="EL_ISE.dll"
+DUPLEX_FLAG =0  
+
+

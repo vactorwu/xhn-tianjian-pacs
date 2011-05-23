@@ -1,0 +1,78 @@
+{ Text Lines for VB-Editor        }
+{ Filename: VB_EDEN.TXT - English                              }
+{ Title and common Text lines }
+A02 &Yesø
+A03 &Noø
+A04 &Cancelø
+{ Notepad - Menu Options }
+B10 &Fileø
+B11 &Openø
+B12 Save &As ..ø
+B13 &Printø
+B14 E&xitø
+B20 &Editø
+B21 C&utø
+B22 &Copyø
+B23 &Pasteø
+B24 &Deleteø
+B30 &Optionsø
+B31 &Select Allø
+B32 &Word Wrapø
+B33 &Search ...ø
+B34 Search &nextø
+B40 &Part Textø
+B41 &First Partø
+B42 &Previous Partø
+B43 &Next Partø
+B44 &Last Partø
+{ Notepad - Search }
+F01 &Searchø
+F02 Search Text:ø
+F03 Search text not found !ø
+F04 Searchø
+F05 Whole Wordø
+F06 Upcase/Lowcaseø
+{ Notepad - Open File }
+G01 File&nameø
+G02 &Openø
+G03 Open Fileø
+G04 File: ø
+G05 &Saveø
+G06 Do you want to save the file ?ø
+G07 Save Fileø
+G08 Type in a file name !ø
+G09 Overwrite existing file ?ø
+G10 Invalid file name !ø
+G11 Disk not ready !ø
+{ Part Text }
+H01    Text Part: ø
+H03 The text is larger than ø
+H04  bytes - It is divided into ø
+H05  text parts !ø
+{ File Messages }
+Q01 File not found !ø
+Q02 Error while opening file !ø
+Q03 There is no text selected !ø
+Q04 There is no text in the clipboard !ø
+{ Printer-Selection }
+X01 Print toø
+X02 &Fileø
+X03 If file exists:ø
+X04 &Appendø
+X05 &Replaceø
+X06 C&opiesø
+X07 Print whatø
+X08 &Whole Textø
+X09 &Selected Textø
+X10 &Printø
+X11 &Cancelø
+X12 Printer not ready !ø
+X13 Print Fileø
+X14 Printer not available !ø
+X15 ERRORø
+X16 Not enough memory !ø
+X17 P&rinter Control    123123123123123123123123123ø
+X18 Compressed Mode:ø
+X19 Left Margin    :ø
+X20 Enter the 3-digit decimal character codes without separator !ø
+

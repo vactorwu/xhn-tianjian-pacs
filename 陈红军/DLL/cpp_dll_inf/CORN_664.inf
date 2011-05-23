@@ -1,0 +1,20 @@
+[Setup]
+Factory = "美国康宁公司离子分析仪"
+Description ="CORNING664"
+Baud_Rate = 9600
+Byte_Size = 8
+Parity = 2
+Stop_Bits =0
+f_OutX =0
+f_InX =0
+f_HardWare =0
+Tx_QueueSize =10
+Rx_QueueSize =4000
+Xon_Lim =400
+Xoff_Lim =400
+Xon_Char =17
+Xoff_Char =19
+Driver_Prog ="CORN_664.dll"
+DUPLEX_FLAG =0  
+
+

@@ -1,0 +1,19 @@
+[Setup]
+Factory = "美国库而特"
+Description = "ACL200"
+Baud_Rate = 9600
+Byte_Size = 7
+Parity = 0
+Stop_Bits = 0
+f_OutX = 0
+f_InX = 0
+f_HardWare = 0
+Tx_QueueSize = 50
+Rx_QueueSize = 512
+Xon_Lim = 300
+Xoff_Lim = 25
+Xon_Char = 19
+Xoff_Char = 17
+Error_Char = 65
+Driver_Prog = "hkf.dll"
+DUPLEX_FLAG =0  

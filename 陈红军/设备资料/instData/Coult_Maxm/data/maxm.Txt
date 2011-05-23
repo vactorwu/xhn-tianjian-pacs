@@ -1,0 +1,66 @@
+0401
+
+
+
+
+
+--------------
+0A
+DATE 12/13/10 
+TIME 16:21:56    
+ID1 15
+ID2 
+CASS/POS SECONDA 
+SEQUENCE  
+1EC/P S       
+ID1STATUS   
+C/PSTATUS P 
+WLSTATUS GOOD     
+0C
+WBC    9.2*R 
+RBC   4.74   
+HGB   E73F02 130   
+HCT  0.389   
+MCV   82.2   
+MCH   27.4  L
+MCHC   334   
+RDW   12.0   
+PLT    403*VH
+PCT  0.342 V 
+MPV    8.5   
+PDW   17.8   
+05
+LY#    2.7 R 
+MO#    0.6 R 
+NE#    5.2 R 
+EO#    0.1 R 
+BA#    0.6 RH
+05
+LY  0.291 067703  
+MO  0.065   
+NE  0.564   
+EO  0.015   
+BA  0.065  H
+01
+
+05
+Abnormal WBC Pop
+Basophilia 
+Basophilia #
+Abnormal RBC Pop
+Normal PLT Pop
+09
+BIRTH            
+UF1    C2F004              
+UF2                  
+UF3                  
+SEX   
+LOCATION                  
+PHYSICIAN                        
+UDATE          
+UTIME       
+00
+
+
+--------------
+                                                                  7FB8

@@ -1,0 +1,95 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: AEROSET - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP93A0.TMP" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "AEROSET_EXPORTS" /Fp"Release/AEROSET.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\NewDll\win32\Need_Debug\ÎÚÂ³Ä¾Æë\AEROSET\AEROSET.cpp"
+"E:\NewDll\win32\Need_Debug\ÎÚÂ³Ä¾Æë\AEROSET\LogFile.cpp"
+"E:\NewDll\win32\Need_Debug\ÎÚÂ³Ä¾Æë\AEROSET\Str.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP93A0.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP93A1.TMP" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "AEROSET_EXPORTS" /Fp"Release/AEROSET.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\NewDll\win32\Need_Debug\ÎÚÂ³Ä¾Æë\AEROSET\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP93A1.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP93A2.TMP" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"Release/AEROSET.pdb" /machine:I386 /def:".\Aeroset.def" /out:"Release/AEROSET.dll" /implib:"Release/AEROSET.lib" 
+".\Release\AEROSET.obj"
+".\Release\LogFile.obj"
+".\Release\StdAfx.obj"
+".\Release\Str.obj"
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP93A2.TMP"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+AEROSET.cpp
+E:\NewDll\win32\Need_Debug\ÎÚÂ³Ä¾Æë\AEROSET\AEROSET.cpp(44) : warning C4101: 'dResult' : unreferenced local variable
+E:\NewDll\win32\Need_Debug\ÎÚÂ³Ä¾Æë\AEROSET\AEROSET.cpp(44) : warning C4101: 'wSampleID' : unreferenced local variable
+LogFile.cpp
+Str.cpp
+Generating Code...
+Linking...
+   Creating library Release/AEROSET.lib and object Release/AEROSET.exp
+
+
+
+<h3>Results</h3>
+AEROSET.dll - 0 error(s), 2 warning(s)
+<h3>
+--------------------Configuration: AEROSET - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSPA063.TMP" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "AEROSET_EXPORTS" /Fp"Debug/AEROSET.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\NewDll\win32\Need_Debug\ÎÚÂ³Ä¾Æë\AEROSET\AEROSET.cpp"
+"E:\NewDll\win32\Need_Debug\ÎÚÂ³Ä¾Æë\AEROSET\LogFile.cpp"
+"E:\NewDll\win32\Need_Debug\ÎÚÂ³Ä¾Æë\AEROSET\Str.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPA063.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPA064.TMP" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "AEROSET_EXPORTS" /Fp"Debug/AEROSET.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\NewDll\win32\Need_Debug\ÎÚÂ³Ä¾Æë\AEROSET\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPA064.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPA065.TMP" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:yes /pdb:"Debug/AEROSET.pdb" /debug /machine:I386 /def:".\Aeroset.def" /out:"Debug/AEROSET.dll" /implib:"Debug/AEROSET.lib" /pdbtype:sept 
+".\Debug\AEROSET.obj"
+".\Debug\LogFile.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Str.obj"
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPA065.TMP"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+AEROSET.cpp
+E:\NewDll\win32\Need_Debug\ÎÚÂ³Ä¾Æë\AEROSET\AEROSET.cpp(44) : warning C4101: 'dResult' : unreferenced local variable
+E:\NewDll\win32\Need_Debug\ÎÚÂ³Ä¾Æë\AEROSET\AEROSET.cpp(44) : warning C4101: 'wSampleID' : unreferenced local variable
+LogFile.cpp
+Str.cpp
+Generating Code...
+Linking...
+   Creating library Debug/AEROSET.lib and object Debug/AEROSET.exp
+
+
+
+<h3>Results</h3>
+AEROSET.dll - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>

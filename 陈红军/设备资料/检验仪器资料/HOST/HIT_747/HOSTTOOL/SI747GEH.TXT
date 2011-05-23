@@ -1,0 +1,531 @@
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³        Host Interface Simulator Programm fr BM/HITACHI 747    ³
+³                                                                ³
+³                      Bedienungsanleitung                       ³
+³                                                                ³
+³  Datei: "SI747GEH.TXT"           Sprachversion: deutsch        ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+Inhaltsverzeichnis:
+
+1.0 Zweck des Programms
+
+2.0 Installation
+
+3.0 Bedienung der Programmoberfl„che
+
+4.0 Arbeitsweise des Programms
+ 4.1 Anschluss des Host-Computers
+ 4.2 Eingabefeld fr zu sendende Texte
+ 4.3 Buffer fr gesendete Texte
+ 4.4 Trace-Fenster
+
+5.0 Mensystem
+ 5.1 Hauptmenpunkt "HIT747-Text"
+  5.1.1 Menpunkt "HIT747-Text/Testanforderung"
+  5.1.2 Menpunkt "HIT747-Text/Mehrfach-Testanforderungen"
+  5.1.3 Menpunkt "HIT747-Text/Ergebnis"
+  5.1.4 Menpunkt "HIT747-Text/TNNA-TCA"
+  5.1.5 Menpunkt "HIT747-Text/Kontrollzeichen"
+ 5.2 Hauptmenpunkt "Trace"
+  5.2.1 Menpunkt "Trace/Trace-Datei ”ffnen"
+  5.2.2 Menpunkt "Trace/Trace-Datei schlieáen"
+  5.2.3 Menpunkt "Trace/Trace-Datei anzeigen"
+  5.2.4 Menpunkt "Trace/Trace-Datei l”schen"
+  5.2.5 Menpunkt "Trace/Trace-Fenster l”schen"
+  5.2.6 Menpunkt "Trace/ANY/MOR filtern"
+ 5.3 Hauptmenpunkt "Testauswahl-Datei"
+  5.3.1 Menpunkt "Testauswahl-Datei/Datei anzeigen"
+  5.3.2 Menpunkt "Testauswahl-Datei/Datei l”schen"
+ 5.4 Hauptmenpunkt "Parameter"
+  5.4.1 Menpunkt "Parameter/Kommunikation EIN/AUS"
+  5.4.2 Menpunkt "Parameter/RS-232 Parameter"
+  5.4.3 Menpunkt "Parameter/HIT 747 System Parameter"
+  5.4.4 Menpunkt "Parameter/Dateimodus fr TA+Ergebnisse"
+  5.4.5 Menpunkt "Parameter/Fehler-Tests"
+  5.4.6 Menpunkt "Parameter/Test-Liste"
+  5.4.7 Menpunkt "Parameter/Programm-Konfiguration"
+ 5.5 Hauptmenpunkt "?"
+  5.5.1 Programm-Info
+  5.5.2 Hilfe-Funktion
+ 
+6.0 Technische Details
+ 6.1 Dateien des Programmpaketes
+ 6.2 Hardware-Vorraussetzungen
+
+7.0 Update Information
+
+
+
+1.0 Zweck des Programms
+    -------------------
+Mit diesem Programm ist es m”glich, die Host-Schnittstelle des
+BM/HITACHI 747 Analysenger„tes zu simulieren, um somit jegliche Art
+von Host-Software zu testen bzw. zu demonstrieren.
+
+2.0 Installation
+    ------------
+Legen Sie die Installations-Diskette in das Laufwerk Ihres Computers
+und starten Sie von der DOS-Ebene das Programm 'INSTALL' auf der Dis-
+kette:
+        z.B.:        A:INSTALL   <Enter>
+
+Geben Sie noch den Pfad auf Ihrer Festplatte, auf den die Programme
+kopiert werden sollen.
+Nach Bet„tigen der Schaltfl„che 'Start Installation' wird das Pro-
+grammpaket dekomprimiert und auf die Festplatte kopiert.
+
+Starten Sie das Simulator-Programm durch Eingabe des Startbefehls:
+                  SIMU747.EXE   <Enter>
+
+3.0 Bedienung der Programmoberfl„che
+    --------------------------------
+Nach dem Start des Programms erkennen Sie in der zweiten Bildschirm-
+zeile die Begriffe "HIT747-Text", "Trace" usw. Dies sind die Haupt-
+menpunktes des Programms.
+Das Programm kann mit einer Maus oder nur mit der Tastatur bedient
+werden.
+Die Mausbedienung ist insofern einfacher, als Men-, Auswahlpunkte
+oder Befehls-Schaltfl„chen direkt angeklickt werden k”nnen, w„hrend
+sie ansonsten mit Tabulatortaste erst aktiviert, danach mit der
+<Enter> Taste best„tigt werden mssen.
+Um in das Mensystem zu gelangen, bet„tigen Sie zun„chst die <Alt>
+Taste; danach k”nnen Sie sich mit den Cursor-Tasten innerhalb des
+Mensystems von Menpunkt zu Menpunkt bewegen.
+
+4.0 Arbeitsweise des Programms
+    --------------------------
+4.1. Anschluss des Host-Computers
+Simulator-Computer und Host-Computer kommunizieren ber die serielle
+Schnittstelle. Verbinden Sie die beiden Computer mit einem geeigneten
+Kabel.
+
+4.2. Eingabefeld fr zu sendende Texte
+Auf dem Bildschirm erkennen Sie in der oberen H„lfte das Eingabefeld
+fr zu sendende Texte, in der unteren H„lfte das Trace-Fenster, in
+dem alle gesendeten und empfangenen Texte angezeigt werden.
+In das Eingabefeld k”nnen beliebige sinnvolle oder nicht sinnvolle
+Texte eingegeben und mit Bet„tigen der Schaltfl„che "Senden" zum Host
+gesendet werden, um dessen Reaktion zu testen.
+Wenn Sie die Kommunikation eingeschaltet haben (siehe Kap. 5.4.1),
+d.h. das Simulator-Prgramm sendet automatisch 5 Sekunden nach Empfang
+der Nachricht vom Host seinerseits die n„chste Nachricht, dann wird
+nach Bet„tigen der Schaltfl„che "Senden" der Text erst zum n„chst
+m”glichen Zeitpunkt zum Host gesendet. Um dies kenntlich zu machen,
+ist der Text in dieser Wartezeit grau eingef„rbt.
+Am oberen Rand des Eingabefeldes wird zur Erleichterung der Eingabe
+die L„nge des Textes im Feld angezeigt.
+
+4.3. Buffer fr gesendete Texte
+Die jeweils letzten zehn von Hand (per Schaltfl„che "Senden") gesen-
+deten Texte werden in einer Ring-Datei gespeichert und k”nnen mit der
+Schaltfl„che "Vorher" abgerufen werden.
+
+4.4. Trace-Fenster
+In dem Fenster in der unteren H„lfte des Bildschirm wird der gesamte
+Datenverkehr angezeigt. Die gesendeten Texte werden in blau, die
+empfangenen Texte in grn dargestellt. Die Darstellung jedes einzel-
+nen Textes beginnt mit der Sender-Kennung ("AU" oder "Host") gefolgt
+von der aktuellen Uhrzeit. Daran schlieát sich der Text an, in dem
+bestimmte Steuerzeichen zur besseren Lesbarkeit durch folgende
+Ausdrcke ersetzt werden:
+
+   Code 02h (Textanfang)        ersetzt durch  <STX>
+   Code 03h (Textende)          ersetzt durch  <ETX>
+   Code 0Dh (Wagenrcklauf)     ersetzt durch  <CR>
+   Code 0Ah (Zeilenvorschub)    ersetzt durch  <LF>
+
+5.0 Mensystem
+    ----------
+
+5.1. Hauptmenpunkt "HIT747-Text"
+In diesem Hauptmenpunkt sind Funktionen zusammengefaát, die die M”g-
+lichkeit bieten, alle Texte, die normalerweise das HITACHI 747 sendet
+zu generieren.
+
+5.1.1. Menpunkt "HIT747-Text/Kontrollzeichen"
+In diesem Untermenpunkt k”nnen die beiden Steuerzeichen "ANY"
+(positive Best„tigung) und "REP" (negative Best„tigung - Aufforderung
+zum wiederholten Senden der letzten Nachricht) ausgew„hlt werden.
+
+5.1.2. Menpunkt "HIT747-Text/Testanforderungen generieren"
+Hier erscheint eine Eingabemaske zur Eingabe aller Informationen, die
+die Testanforderung enth„lt. Es sind dies:
+
+   Modus:                  mit Barcode
+                           ohne Barcode
+
+   Klasse:                 Klasse 1 (blicherweise Serum)
+                           Klasse 2 (blicherweise Urin)
+
+   Probenart:              Routine
+                           Automatischer Rerun
+                           Manueller Rerun
+                           Eilprobe
+
+   Probeninformation:      Probennummer
+                           Tellernummer
+                           Position
+                           Identifikation
+                           Alter
+                           Alterfaktor
+                           Geschlecht
+                           Datum
+                           Uhrzeit
+
+Durch Bet„tigen der Schaltfl„che "Ok" wird die Testanforderung gene-
+riert und in das Eingabefeld eingetragen. Hier kann der Text bei Be-
+darf ge„ndert und/oder gesendet werden.
+
+5.1.3. Menpunkt "HIT747-Text/Ergebnis generieren"
+Per Eingabemaske k”nnen alle verschiedenen Arten von Ergebnissen
+generiert werden. Einzugeben sind folgende Daten:
+
+   Modus:              mit Barcode
+                       ohne Barcode
+ 
+   Klasse:             Klasse 1 (blicherweise Serum)
+                       Klasse 2 (blicherweise Urin)
+
+   Ergebnisart:        Routine
+                       Automatischer Rerun
+                       Manueller Rerun
+                       Eilprobe
+                       Rerun einer Eilprobe
+                       Kontrolle
+                       Photometrische Kalibration
+                       ISE Kalibration
+                       Extinktionswerte
+                       Extinktionswerte einer Eilprobe
+
+   Kommunikationsart:  Realtime Modus
+                       Batch Modus
+ 
+   Probeninformation:  Probennummer
+                       Tellernummer
+                       Position
+                       Identifikation
+                       Alter
+                       Alterfaktor
+                       Geschlecht
+                       Datum
+                       Uhrzeit
+
+   Testergebnisse:     Test-Nummer
+                       Ergebnis
+                       Alarm-Zeichen
+
+Bei der Eingabe der Test-Nummer kann mittels Funktionstaste <F1> die
+Liste der Test-Namen (s. Kap. 5.4.6) zur Auswahl angezeigt werden.
+Bei der Eingabe des Alarm-Zeichens kann mittels Funktionstaste <F1>
+die Liste aller am HITACHI 747 auftretenden Alarm-Zeichen zur Auswahl
+angezeigt werden.
+Die Ergebnisse werden per Schaltfl„che "Zufgen" in die Ergebnisliste
+eingetragen. Ergebniseintr„ge k”nnen markiert und mit der Schalt-
+fl„che "L”schen" aus der Liste gel”scht werden. Mit der Schaltfl„che
+"Alle l”schen" wird die gesamte Ergebnisliste gel”scht.
+
+5.2. Hauptmenpunkt "Trace"
+Der gesamte Datenverkehr, der im Trace-Fenster angezeigt wird, kann
+bei Bedarf in einer Datei gespeichert werden.
+
+5.2.1. Menpunkt "Trace/Trace-Datei ”ffnen"
+Mit dieser Funktion kann eine neue Datei ge”ffnet oder eine vorhan-
+dene Datei zur weiteren Bearbeitung ausgew„hlt werden. Alle Trace-
+Dateien erhalten automatisch die Dateierweiterung ".TRC".
+
+5.2.2. Menpunkt "Trace/Trace-Datei schlieáen"
+Die zuvor ge”ffnete Trace-Datei wird mit dieser Funktion wieder ge-
+schlossen. Danach wird der Datenverkehr nicht mehr aufgezeichnet.
+
+5.2.3. Menpunkt "Trace/Trace-Datei anzeigen"
+Mit Hilfe einer Dateiauswahlmaske kann eine beliebige Trace-Datei
+ausgew„hlt und mit einem separaten Editorprogramm angezeigt werden.
+Da das Editorprogramm erweiterte Funktionen bietet, k”nnen Trace-
+Dateien voll editiert werden.
+Die Anzeige-Funktion ist w„hrend eingeschalteter Kommunikation
+(s. Kap. 5.4.1) nicht ausfhrbar.
+
+5.2.4. Menpunkt "Trace/Trace-Datei l”schen"
+Mit dieser Funktion k”nnen nicht mehr ben”tigte Trace-Dateien wieder
+gel”scht werden.
+
+5.2.5. Menpunkt "Trace/Trace-Fenster l”schen"
+Diese Funktion l”scht den Inhalt des Trace-Fensters.
+
+5.2.6. Menpunkt "Trace/ANY/MOR filtern"
+Dies ist eine Funktion, die aktiviert oder deaktiviert wird. In
+aktiviertem Zustand werden ANY und MOR Kontrollzeichen nicht in die
+Trace-Datei gespeichert. Dies soll bei einer l„ngeren Aufzeichnung
+des Datenverkehrs ein zu starkes Anwachsen der Trace-Datei verhin-
+dern. ANY (vom Simulator zum Host) und MOR Kontrollzeichen (Best„-
+tigung vom Host) werden alle fnf Sekunden ausgetauscht, enthalten
+keine Nutzinformation und dienen lediglich der Aufrechterhaltung der
+Kommunikation.
+
+5.3. Hauptmenpunkt "Testauswahl-Datei"
+S„mtliche empfangenen Testauswahl-Texte vom Host werden in einer
+tempor„ren Datei gespeichert. (Dateiname "SI_WORK.DAT").
+
+5.3.1. Menpunkt "Testauswahl-Datei/Datei anzeigen"
+Diese Funktion startet ein separates Editorprogramm zur Anzeige des
+Dateiinhaltes. Jede Testauswahl wird in einer Zeile mit folgendem
+Format gespeichert:
+
+HH:MM:SSFU^NNNDPPIIIIIIIIIIIIIAAAAXDDDDDDUUUUCCTTTTT....TTT
+
+ HH       Stunde  \
+ MM       Minute   >   Zeitpunkt des Empfangs der Testauswahl
+ SS       Sekunde /
+ F        Text-Identfikation (;)
+ U        Funktions-Kennung
+ NNN      Probennummer
+ D        Disk-Nummer
+ PP       Position
+ IIIII..  13 Zeichen Proben-Identifikation
+ AAAA     Alter
+ X        Geschlecht
+ DDDDDD   Datum
+ TTTT     Uhrzeit
+ CC       Testz„hler
+ TTTT...  48 Testflags (1=Test ausgew„hlt)
+
+ Gesamtl„nge: 94 Zeichen.
+
+Die Anzeige-Funktion ist w„hrend eingeschalteter Kommunikation
+(s. Kap. 5.4.1) nicht ausfhrbar.
+
+5.3.2. Menpunkt "Testauswahl-Datei/Datei l”schen"
+Mit dieser Funktion wird die Datei, in der s„mtliche Testauswahl-
+Texte vom Host gespeichert werden, gel”scht.
+
+5.4. Hauptmenpunkt "Parameter"
+
+5.4.1. Menpunkt "Parameter/Kommunikation EIN/AUS"
+Entsprechend dem Schalter zum Ein- und Ausschalten der Kommunikation
+im Start-Bedingungen-Men der HITACHI 747 Software wird hier eben-
+falls die automatische Kommunikation ein- bzw. ausgeschaltet.
+Im eingeschalteten Zustand sendet das Simulator-Programm jeweils fnf
+Sekunden nach Empfang der Best„tigung vom Host die n„chste Nachricht.
+Dies kann entweder das Kontrollzeichen ANY, eine von Hand erstellte
+Nachricht aus dem Eingabefenster oder eine Testanforderung/Ergebnis
+aus einer Datei (s. Kap. 5.4.4) sein.
+Der Kommunikationszustand wird in der Statuszeile am unteren Rand des
+Bildschirms angezeigt.
+
+5.4.2. Menpunkt "Parameter/RS-232 Parameter"
+Damit Simulator- und Host-Computer sich "verstehen", mssen auf bei-
+den Seiten die gleichen Schnittstellen-Parameter eingestellt werden.
+Einzustellen sind die šbertragungsgeschwindigkeit (Baud-Rate), die
+Anzahl der Daten- und Stopbits, die Parit„t sowie die Schnittstelle
+des Simulator-Computers (COM1 oder COM2 sofern vorhanden).
+Die hier aufgefhrten Einstellungen sind im System Parameter Men
+des HITACHI 747 Programms zu finden.
+
+5.4.3. Menpunkt "Parameter/HIT 747 System Parameter"
+In dieser Maske sind weitere HITACHI 747 spezifische Einstellungen
+zusammengefaát. Es sind dies:
+  - Ende-Kennung
+    eine von fnf Zeichenfolgen, die an jede Nachricht angeh„ngt
+    wird, wobei Kennung 1 und 5 Prfsummen enthalten.
+  - Textbegrenzung
+    wenn die Option "256 Zeichen" aktiviert ist, werden Ergebnis-
+    texte, die l„nger als 256 Zeichen sind in zwei oder drei Teil-
+    texten bertragen.
+  - Negatives Vorzeichen
+    hier kann bei negativen Ergebnissen gew„hlt werden zwischen einer
+    festen Position (1 Position des 6 stelligen Ergebnisfeldes) oder
+    einer flieáenden Position (direkt vor der ersten Ziffer) des
+    Minus-Zeichens.
+  - Retry-Z„hler
+    hier wird die Anzahl Versuche (ANY Frame senden) eingegeben, die
+    das Simulator-Programm bei ausbleibender Host-Antwort durchfhren
+    soll, um die Kommunikation aufrechtzuerhalten. Nach dem letzten
+    Versuch wird die Kommunikation abgebrochen und ein Timeout-Alarm
+    angezeigt.
+    Der Eingabe-Bereich ist 1 bis 99 Versuche.
+  - Retry-Zeit
+    dies ist die Zeit zwischen den oben beschriebenen Versuchen des
+    Simulators, die Kommunikation bei ausbleibender Host-Antwort auf-
+    rechtzuerhalten.
+    Der Eingabe-Bereich ist 1 bis 99 Sekunden.
+
+Die oben aufgefhrten Einstellungen sind im System Parameter Men des
+HITACHI 747 Programms zu finden.
+
+5.4.4. Menpunkt "Parameter/Dateimodus fr TA+Ergebnisse"
+Dieser Dateimodus bietet zwei weitere Betriebarten dieses Simulator-
+Programms:
+
+1. Einlesen von vorbereiteten Testanforderungen/Ergebnissen aus einer
+   Datei.
+   (zur Simulation von Testanforderungen im Realtime-Modus)
+
+2. Generieren von Ergebnissen aus zuvor empfangenen und gespeicherten
+   Testauswahl-Texten.
+   (zur Simulation von Ergebnisbertragung im Realtime-Modus)
+
+Bei Funktion 1 muss noch der Name der Datei angegeben werden, die die
+Testanforderungen/Ergebnisse enth„lt. Die Testanforderungen/
+Ergebnisse mssen in diesen Dateien exakt in dem Format vorliegen,
+wie sie auch zum Host gesendet werden; auáer dem Start-of-Text
+Zeichen und der Ende-Kennung. Diese werden vor dem Senden der je-
+weiligen Nachricht vorangestellt bzw. angeh„ngt.
+Nach Einschalten der Kommunikation wird alle zehn Sekunden (jeden
+zweiten ANY/MOR Zyklus) eine Zeile aus der Testanforderungs-/
+Ergebnisdatei gelesen und zum Host gesendet.
+Eine Stufe weiter geht Funktion 2.
+Hier werden die Ergebnis-Texte automatisch aus den zuvor vom Host
+empfangenen Testauswahl-Texten (gespeichert in Datei "SI_WORK.DAT"
+s. Kap. 5.3) per Zufallszahlen-Generator gebildet und nach einer
+einzugebenden Anzahl von Minuten (Siumation der Messzeit) zum Host
+gesendet.
+
+5.4.5. Menpunkt "Parameter/Fehler-Tests"
+Diese Eingabe-Maske bietet die M”glichkeit, einige Fehlerf„lle zu
+simulieren, um die jeweilige Reaktion des Host zu testen.
+
+- Prfsummen-Manipulation fr Testanforderung.
+  Bei der n„chsten zu sendenden Testanforderung wird die Prfsumme
+  (sofern eine Ende-Kennung mit Prfsumme eingestellt ist.
+  s. Kap 5.4.3) manipuliert.
+  (Host muss mit REP Frame antworten).
+
+- Prfsummen-Manipulation fr Ergebnis-Text.
+  Beim n„chsten zu sendenden Ergebnis-Text wird die Prfsumme
+  (sofern eine Ende-Kennung mit Prfsumme eingestellt ist.
+  s. Kap 5.4.3) manipuliert.
+  (Host muss mit REP Frame antworten).
+
+- Testauswahl vom Host mit REP Frame quittieren.
+  Die n„chste vom Host gesendete Testauswahl wird mit dem REP
+  Kontrollzeichen quittiert (Host muss Testauswahl erneut senden).
+
+Jede dieser Manipulationen kann nur fr die n„chste empfangene
+Nachricht oder fr alle folgenden Nachrichten eingestellt werden.
+Wenn sich in letzterem Fall eine Endlos-Schleife einstellt, kann
+die Manipulation durch Bet„tigen der Schaltfl„che "Vorher" gel”scht
+werden.
+
+5.4.6. Menpunkt "Parameter/Test-Liste"
+In der Datei "T_NAMES.DAT" sind 46 Testnamen gespeichert. Auf diese
+Testnamen wird beim Generieren von Testergebnissen (s. Kap. 5.1.3)
+zurckgegriffen.
+Mit dieser Funktion lassen sich alle Namen anzeigen, editieren und
+zum Zwecke eines Abgleichs der Testnamen zum Host senden.
+Die šbertragung zum Host ist keine HITACHI 747 - Funktion !!!
+Die 46 Testnamen werden erg„nzt durch die nicht ver„nderlichen Namen
+fr Test Nummer 47 (ISE) und 48 (S.IND).
+Diese 48 Testnamen werden mit folgendem Format zum Host gesendet:
+
+<STX>:@AAAAABBBBBCCCCC...  <Ende-Kennung>
+
+Nach dem Zeichen ":" als Textidentifikation und dem Zeichen "@" als
+Funktionskennung folgen die 48 Namen mit jeweils 5 Zeichen L„nge
+(linksbndig mit Leerzeichen aufgefllt).
+Gesamtl„nge: 243 + L„nge der Ende-Kennung
+
+5.4.7. Menpunkt "Parameter/Programm-Konfiguration"
+Hier k”nnen Sie die Sprache der Bedieneroberfl„che ausw„hlen. Alle
+Texte des Programms sind in einer separaten Textdatei abgelegt. In
+einem Auswahlfenster bekommen sie die Sprachen abgeboten, fr die
+die entsprechende Textdatei vorliegt. (Standardm„áig sind dies
+englisch und deutsch; weitere Sprachversion k”nnen bei Bedarf selbst
+erstellt werden. Info siehe Info-Fenster)
+In einem zweiten Auswahlfeld k”nnen Sie zwischen Farb- und Schwarz/
+Weiá-Darstellung w„hlen. Bei Laptops oder Notebooks mit LCD-Display
+ist die kontrastreichere Mono-Darstellung zu empfehlen.
+
+5.5. Hauptmenpunkt "?"
+
+5.5.1. Programm-Info
+Das Info-Fenster enth„lt Name und Adresse des Programm-Entwicklers
+sowie die Software-Version.
+
+5.5.2. Hilfe-Funktion
+Mit der Hilfe-Funktion erhalten Sie diesen Text am Bildschirm ange-
+zeigt. Die Druck-Option erm”glicht den Ausdruck des Hilfe-Textes.
+Wenn in verschiedenen Fenstern des Programms eine "Hilfe"-Schalt-
+fl„che vorhanden ist, so wird direkt das entsprechende Kapitel
+innerhalb dieses Hilfetextes angezeigt.
+Die Hilfe-Funktion ist w„hrend eingeschalteter Kommunikation
+(s. Kap. 5.4.1) nicht ausfhrbar.
+
+6.0 Technische Details
+    ------------------
+
+6.1. Dateien des Programmpaketes
+Das Programmpaket beinhaltet folgende Dateien:
+SIMU747.EXE     Simulator-Programm
+SI747.INI       Konfigurationsdaten
+SI747GE.TXT     Deutsche Bedienertexte
+SI747EN.TXT     Englische Bedienertexte
+SI747GEH.TXT    Deutscher Hilfetext
+SI747ENH.TXT    Englischer Hilfetext
+
+BUFFER.DAT      Speicher fr die zehn letzten von Hand gesendeten
+  Nachrichten
+SI_WORK.DAT     Tempor„rer Speicher fr empfangene Testauswahl-Texte
+
+VB_EDIT.EXE     Editor-Programm
+VB_EDIT.INI     Konfigurationsdaten
+VB_EDGE.TXT     Deutsche Bedienertexte
+VB_EDEN.TXT     Englische Bedienertexte
+
+6.2. Hardware-Vorraussetzungen
+-  Fr die Installation des Programmpaketes auf der Festplatte des
+   Simulator-Computers sind ca 300 kB Speicherplatz notwendig.
+-  Der Host-Computer ben”tigt eine serielle Schnittstelle.
+-  Das Programm kann mit einer Maus bedient werden.
+
+
+7.0 Update Information
+
+  Version 5.1 - Dezember 1994
+    BUG - Die Parameterkombination 8 Daten- und 2 Stopbits kann
+          nicht mehr ausgew„hlt werden, wenn gleichzeitig eine
+          Parit„tsprfung selektiert werden soll.
+    NEU - Die Existenz der ausgew„hlten Schnittstelle wird berprft.
+    NEU - Die maximale Textl„nge im Eingabefeld und die Recordl„nge
+          der Bufferdatei sind auf 1280 beschr„nkt.
+    NEU - Die maximale Anzahl Ergebnisse in der Ergebnisliste ist
+          auf 60 beschr„nkt.
+    NEU - Die Drucker-spezifischen Kontroll-Codes fr komprimierten
+          Druck und linken Rand k”nnen in der Druckeingabemaske
+          eingegeben werden.
+
+  Version 5.2 - Dezember 1994
+    NEU - Dem Softwarepaket is eine Beispiel Anforderungsdatei
+          (Dateiname: 'SI747.REQ') beigefgt. Die Anforderungsdateien
+          k”nnen nun auch Kommentarzeilen enthalten.
+
+  Version 5.3 - Dezember 1994
+    BUG - Im TS Datei-Modus kann die Ergebnisgenerierung separat
+          aktiviert werden (ohne Aktivierung einer TS Request Datei);
+          d.h. Ergebnisse fr im Batch-Modus empfangene Testauswahl-
+          Texte werden auch generiert und zum Host gesendet.
+    NEU - Eingabemaske des Testnamen-Editors ge„ndert.
+
+  Version 5.4 - Dezember 1994
+    NEU - Das Ersatzzeichen fr das Leerzeichen innerhalb der Trace
+          Darstellung wurde ge„ndert von ^ in ú
+
+  Version 5.5 - August 1995
+    NEU - Die Anforderungsdatei kann nun auch Ergebniseintr„ge
+          enthalten. Die Beispieldatei 'SI747.REQ' wurde entsprechend
+          erweitert.
+
+  Version 5.6 - September 1995
+    NEU - Die Textl„ngen-Auswahl wurde gesperrt, weil der 256 
+          Zeichen-Modus nicht untersttzt wird.
+
+  Version 5.7 - Juli 1997
+    NEU - Testanforderungen mit bis zu 60 Testflags vom Host werden
+          fehlerfrei bearbeitet.
+
+  Version 5.8 - Oktober 1997
+    BUG - Die Kommunikation brach um Mitternacht ab. Die auto-
+          matische Ergebnisgenerierung funktionierte ebenfalls
+          nicht ber Mitternacht hinaus.
+    NEW - Ein Windows Programmsymbol wird bei der Installation kopiert.
+

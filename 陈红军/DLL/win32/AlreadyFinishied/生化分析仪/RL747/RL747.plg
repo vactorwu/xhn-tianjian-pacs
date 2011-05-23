@@ -1,0 +1,92 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: RL747 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSPF252.TMP" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "RL747_EXPORTS" /Fp"Release/RL747.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\NewDll\win32\AlreadyFinishied\生化分析仪\Rl747\RL747.cpp"
+"E:\NewDll\win32\AlreadyFinishied\生化分析仪\Rl747\LogFile.cpp"
+"E:\NewDll\win32\AlreadyFinishied\生化分析仪\Rl747\Str.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPF252.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPF253.TMP" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "RL747_EXPORTS" /Fp"Release/RL747.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\NewDll\win32\AlreadyFinishied\生化分析仪\Rl747\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPF253.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPF254.TMP" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"Release/RL747.pdb" /machine:I386 /out:"Release/RL747.dll" /implib:"Release/RL747.lib" 
+".\Release\StdAfx.obj"
+".\Release\RL747.obj"
+".\Release\LogFile.obj"
+".\Release\Str.obj"
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPF254.TMP"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+RL747.cpp
+E:\NewDll\win32\AlreadyFinishied\生化分析仪\Rl747\RL747.cpp(47) : warning C4101: 'dResult' : unreferenced local variable
+LogFile.cpp
+Str.cpp
+Generating Code...
+Linking...
+LINK : warning LNK4089: all references to "USER32.dll" discarded by /OPT:REF
+
+
+
+<h3>Results</h3>
+RL747.dll - 0 error(s), 2 warning(s)
+<h3>
+--------------------Configuration: RL747 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSPF273.TMP" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "RL747_EXPORTS" /Fp"Debug/RL747.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"E:\NewDll\win32\AlreadyFinishied\生化分析仪\Rl747\RL747.cpp"
+"E:\NewDll\win32\AlreadyFinishied\生化分析仪\Rl747\LogFile.cpp"
+"E:\NewDll\win32\AlreadyFinishied\生化分析仪\Rl747\Str.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPF273.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPF274.TMP" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "RL747_EXPORTS" /Fp"Debug/RL747.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"E:\NewDll\win32\AlreadyFinishied\生化分析仪\Rl747\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPF274.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPF275.TMP" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:yes /pdb:"Debug/RL747.pdb" /debug /machine:I386 /out:"Debug/RL747.dll" /implib:"Debug/RL747.lib" /pdbtype:sept 
+".\Debug\StdAfx.obj"
+".\Debug\RL747.obj"
+".\Debug\LogFile.obj"
+".\Debug\Str.obj"
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPF275.TMP"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+RL747.cpp
+E:\NewDll\win32\AlreadyFinishied\生化分析仪\Rl747\RL747.cpp(47) : warning C4101: 'dResult' : unreferenced local variable
+LogFile.cpp
+Str.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+RL747.dll - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

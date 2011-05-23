@@ -1,0 +1,243 @@
+{ Textzeilen fr HIT 911 Host Interface Testprogramm }
+{ Dateiname: HO911GE.TXT - Deutsch                   }
+{ Titel und allgemeine Texte }
+A01 BM/HITACHI 911 Host Interface Testprogrammø
+A02 &Jaø
+A03 &Neinø
+A04 &Abbrechenø
+A05 Sie wollen das Programm beenden ?ø
+A08 Datum/Uhrzeit:ø
+A09  dd-mm-yy  hh:mmø
+A10 Kein Zugriff w„hrend der Kommunikation !ø
+A11 &Speichernø
+A12 Kein Zugriff w„hrend Batch- oder Realtime-Modus !ø
+A13 dd-mm-yyø
+A14 hh:mm:ssø
+A15 Host EINø
+A16 Host AUSø
+A17 &Hilfeø
+A18 Kommunikation EINø
+A19 Kommunikation AUSø
+A20 Ergebnisaufzeichnung EINø
+A21 Ergebnisaufzeichnung AUSø
+{ Hauptmen }
+B10 &Host-Text ø
+B11 &Testauswahl ø
+B12 &Erg.anford. ø
+B13 &Kontroll-Z. ø
+B20 &Trace-Datei ø
+B21 ™ff&nen ø
+B22 &Schlieáen ø
+B23 &Anzeigen ø
+B24 &L”schen ø
+B25 &Fenster l”sch. ø
+B30 TA-&Datei ø
+B31 &Neu/Bearbeiten ø
+B32 &Anzeigen ø
+B33 &L”schen ø
+B34 &Datei-Modus ø
+B40 &Ergebnisse ø
+B41 &Anzeigen ø
+B42 Aufzeich. &E/A ø
+B50 &Parameter ø
+B51 &Host E/A ø
+B52 &RS-232 ø
+B53 H&ost Einstell ø
+B54 &Fehler-Tests ø
+B55 &Test-Liste ø
+B56 &Konfiguration ø
+B60 &? ø
+B61 &Hilfe ø
+B62 &Info ... ø
+B63 &Beenden ø
+{ Programm-Konfiguration }
+C01 Programm Konfigurationø
+C02 &Spracheø
+C04 &Anzeigeø
+C05 Farbeø
+C06 Monoø
+C07 Englischø
+C08 Deutschø
+C09 Franz”sischø
+C10 Spanischø
+C11 Italienischø
+C12 Schwedischø
+{ Haupt-Screen }
+D01 Text-L„nge :ø
+D02 TA-Datei:ø
+D03 &Vorherø
+D04 &Sendenø
+{ System Parameter }
+E01 BM/HITACHI 911 Parameterø
+E02 &Ende-Kennungø
+E04 Akustisches Empfangssignalø
+{ TA+Ergebnis-Generator }
+F01 Ergebnisanforderung erstellenø
+F02 Testauswahl erstellenø
+F03 &Modusø
+F04 &Klasseø
+F05 Proben&gef„áø
+F06 &Probeø
+F07 Kø
+F08 Test-Auswahl:ø
+F09 mit oder ohne Barcode-Leserø
+F10 Klasse 1 (Serum ) / Klasse 2 (Urin)ø
+F11 Max. 5 Kommentare mit L„nge 30, 25, 20, 15 und 10 Zeichenø
+F12 48 Test-Flags: [0 ... 4] / <Leertaste> Setzen / <F1> Test-Liste ø
+F13 Barcodeø
+F14 Sequenzø
+F15 Probengef„á oder Default-Einstellungø
+F16 Routineø
+F17 Auto Rerunø
+F18 Manu Rerunø
+F19 Eilprobeø
+F20 Kontrolleø
+F21 Probeø
+F22 Diskø
+F23 Posi.ø
+F24 Ident.-Nr.ø
+F25 Alterø
+F26 Faktø
+F27 Geschlø
+F28 Datumø
+F29 Uhrzeitø
+F30 Defaultø
+F31 STD Cupø
+F32 Microø
+F33 STD+Tubeø
+F34 Micro+Tubeø
+F35 Tubeø
+F36 zum ersten Datensatzø
+F37 zum vorherigen Datensatzø
+F38 zum n„chsten Datensatzø
+F39 zum letzten Datensatzø
+F40 Aktuellen Datensatz „ndernø
+F41 Neuen Datensatz erstellenø
+F42 Aktuellen Datensatz l”schenø
+F43 Datensatz speichernø
+F44 Testauswahl erstellen und anzeigenø
+F45 Proben-Artø
+F46 Bereich: ø
+F47 13 Zeichen alphanumerisch / Codes 20h bis 7Ehø
+F48 1 = Tage / 2 = Monate / 3 = Jahreø
+F49 0 = unbestimmt / 1 = m„nnlich / 2 = weiblichø
+F50 Ergebnisanforderung erstellen und anzeigenø
+F51 Proben-Nummer  : ø
+F52 Disk/Position  : ø
+F53 Proben-Ident.  : ø
+F54 Testanforderungs-Datei anzeigenø
+F55 Testanforderungsdatei l”schenø
+F56 Kommentar ø
+F57 Testergebnisse :   1. RUN      RERUNø
+F58  * = Marke fr nicht angeforderte Tests !ø
+F59 Test-Listeø
+F60 Test-Listen Datei nicht gefunden ! Liste wird generiert !ø
+F61 Testauswahl-Maskeø
+F62  / TAs generieren mit ###ø
+F63 Klasse ø
+F64 Inhalt der Testanforderungsdatei: 'ø
+F65 Satz-Nr.:ø
+F66 Vorgang abbrechenø
+F67 Ungltige Wiederholungszeichen !ø
+F68 Der letzte Eintrag kann nicht gel”scht werden !ø
+F69 TA-Datei existiert nicht ! Anlegen ?ø
+F70 &Neuø
+F71 &ndernø
+F72 Realtime Modusø
+F73 Batch Modusø
+F74 Datei-Modus Endeø
+{ Notepad - Datei ”ffnen/speichern }
+G01 &Dateiname:ø
+G02 ™&ffnenø
+G03 Datei ”ffnenø
+G04 Datei: ø
+G05 &Speichernø
+G06 Wollen Sie die Datei speichern ?ø
+G07 Datei speichernø
+G08 Geben Sie einen Dateinamen ein !ø
+G09 Existierende Datei berschreiben ?ø
+G10 Ungltiger Dateiname !ø
+G11 Diskette nicht bereit !ø
+G12 Datei nicht gefunden ! (ø
+G13 Keine Eintr„ge in der Datei ! (ø
+{ Ergebnis-Dateien }
+H01 Ergebnis-Dateien bearbeitenø
+H02 Ergebnis-Dateienø
+H03 An&zeigenø
+H04 Datei &l”schenø
+H05 &Alle Dateien l”schenø
+H06 Tests (Routine, Rerun, STAT)ø
+H07 Kontrollenø
+H08 Photometrische Kalibrationø
+H09 ISE Kalibrationø
+H10 Extinktionswerteø
+H11 Ergebnisdatei l”schen ? (ø
+H12 Ergebnis-Datei: 'ø
+H13 TESTS.RESø
+H14 CONTROL.RESø
+H15 PHOTO.RESø
+H16 ISE.RESø
+H17 ABSORB.RESø
+H18 Kein Zugriff w„hrend der Ergebnisaufzeichnung !ø
+{ Fehlerverhalten }
+I01 Verhalten im Fehlerfall testenø
+I02 Checksummenfehler in Testauswahl einbauenø
+I03 Checksummenfehler in Ergebnisanforderung einbauenø
+I04 Testanforderung mit 'REP' quittierenø
+I05 inaktivø
+I06 einmalø
+I07 immerø
+I08 Ergebnis mit 'REP' quittierenø
+I09 &Init.ø
+{ Trace Meldungen }
+J04 Checksummen-Fehler !ø
+J05 Ungltige Nachricht !ø
+J06 Ungltige Textl„nge !ø
+J07 Ungltige Funktions-Kennung !ø
+J08 Ungltige Text-Kennung !ø
+J09 Unterschiedliche Ende-Kennungen !ø
+{ Testnamen editieren }
+K01 Test-Namen editierenø
+K02 &Speichernø
+K03 Test-Namenø
+{ TA Generierung }
+M01 TAs generierenø
+M02 Erster Wert       :ø
+M03 Anzahl TAs        :ø
+M04 Fhrendes Zeichen :ø
+{ TA-Datei Optionen }
+O01 TA-Datei Optionenø
+O02 Alle Ergebnisse l”schenø
+O03 Echo der Proben-Informationø
+O04 Funktionskennung bercksichtigenø
+{ RS232 Parameter }
+P01 RS-232 Parameterø
+P02 Ungltige Schnittstellenparameter !ø
+P03 Fehler beim Initialisieren von Schnittstelle COMø
+{ Programmspezifische Meldungen }
+Q01 Trace-Datei ”ffnenø
+Q02 Trace-Datei  :ø
+Q03 Trace-Datei l”schenø
+Q04 Datei l”schen ? (ø
+Q05 &L”schenø
+Q06 ™&ffnenø
+Q07 Trace-Datei anzeigenø
+Q08 Kein Zugriff, w„hrend Trace-Datei ge”ffnet ist !ø
+{ Hilfe-Funktion }
+W01 Hilfe-Datei nicht gefunden ! (ø
+W02 Hilfe-Dateiø
+{ Fehler-Meldungen }
+X15 FEHLERø
+X16 ø
+X17 Starten Sie das Editorprogramm 'VB_EDIT.EXE' separat !ø
+X18 Editor-Programm nicht gefunden !ø
+X19 200 ist die maximale Anzahl fr Testanforderungenø
+{ Info-Fenster }
+Z01 Infoø
+Z02 BM/HITACHI 911 Host Testprogrammø
+Z03 ø
+Z04 Erstellt von Claus Mahlmann, LI-TDø
+Z05 Technisches Produktmanagement, Datentechnikø
+Z06 Tel.: (621) 759 2464 / FAX: (621) 759 4394ø
+Z07 Copyright 1993, Boehringer Mannheimø
+

@@ -1,0 +1,19 @@
+[Setup]
+Factory = "日本日立"
+Description ="日立737"
+Baud_Rate = 9600
+Byte_Size = 7
+Parity = 2
+Stop_Bits =2
+f_OutX =0
+f_InX =0
+f_HardWare =0
+Tx_QueueSize =128
+Rx_QueueSize =600
+Xon_Lim =400
+Xoff_Lim =100
+Xon_Char =17
+Xoff_Char =13
+Error_Char =65
+Driver_Prog ="RL737.dll"
+DUPLEX_FLAG =0   

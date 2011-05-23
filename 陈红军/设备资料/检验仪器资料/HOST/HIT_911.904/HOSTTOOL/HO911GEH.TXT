@@ -1,0 +1,548 @@
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³          Host Interface Test Programm fr BM/HITACHI 911       ³
+³                                                                ³
+³                      Bedienungsanleitung                       ³
+³                                                                ³
+³  Datei: "HO911GEH.TXT"           Sprachversion: deutsch        ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+Inhaltsverzeichnis:
+
+1.0 Zweck des Programms
+
+2.0 Installation
+
+3.0 Bedienung der Programmoberfl„che
+
+4.0 Arbeitsweise des Programms
+ 4.1 Anschluss des Analysenger„tes
+ 4.2 Eingabefeld fr zu sendende Texte
+ 4.3 Buffer fr gesendete Texte
+ 4.4 Trace-Fenster
+
+5.0 Mensystem
+ 5.1 Hauptmenpunkt "Host-Text"
+  5.1.1 Menpunkt "Host-Text/Testauswahl"
+  5.1.2 Menpunkt "Host-Text/Ergebnisanforderung"
+  5.1.3 Menpunkt "Host-Text/Kontroll-Frames"
+ 5.2 Hauptmenpunkt "Trace"
+  5.2.1 Menpunkt "Trace/Trace-Datei ”ffnen"
+  5.2.2 Menpunkt "Trace/Trace-Datei schlieáen"
+  5.2.3 Menpunkt "Trace/Trace-Datei anzeigen"
+  5.2.4 Menpunkt "Trace/Trace-Datei l”schen"
+  5.2.5 Menpunkt "Trace/Trace-Fenster l”schen"
+ 5.3 Hauptmenpunkt "Testauswahl-Datei"
+  5.3.1 Menpunkt "Testauswahl-Datei/Neu Bearbeiten"
+  5.3.2 Menpunkt "Testauswahl-Datei/Anzeigen"
+  5.3.3 Menpunkt "Testauswahl-Datei/L”schen"
+  5.3.4 Menpunkt "Testauswahl-Datei/Datei-Modus"
+ 5.4 Hauptmenpunkt "Ergebnisse"
+  5.4.1 Menpunkt "Ergebnisse/Anzeigen"
+  5.4.2 Menpunkt "Ergebnisse/Aufzeichnung Ein-Aus"
+ 5.5 Hauptmenpunkt "Parameter"
+  5.5.1 Menpunkt "Parameter/Host Ein-Aus"
+  5.5.2 Menpunkt "Parameter/RS-232 Parameter"
+  5.5.3 Menpunkt "Parameter/Host Einstellungen"
+  5.5.4 Menpunkt "Parameter/Fehler-Tests"
+  5.5.5 Menpunkt "Parameter/Test-Liste"
+  5.5.6 Menpunkt "Parameter/Programm-Konfiguration"
+ 5.6 Hauptmenpunkt "?"
+  5.6.1 Hilfe-Funktion
+  5.6.2 Programm-Info
+  5.6.3 Programm-Ende
+
+6.0 Technische Details
+ 6.1 Dateien des Programmpaketes
+ 6.2 Hardware-Vorraussetzungen
+
+7.0 Update-Information
+
+
+
+1.0 Zweck des Programms
+    -------------------
+Mit diesem Programm ist es m”glich, mit der Host-Schnittstelle des
+BM/HITACHI 911 Analysenger„tes zu kommunizieren, um somit die gesamte
+Funktionalit„t der Schnittstelle zu testen bzw. zu demonstrieren.
+
+2.0 Installation
+    ------------
+Legen Sie die Installations-Diskette in das Laufwerk Ihres Computers
+und starten Sie von der DOS-Ebene das Programm 'INSTALL' auf der Dis-
+kette:
+        z.B.:        A:INSTALL   <Enter>
+
+Geben Sie noch den Pfad auf Ihrer Festplatte, auf den die Programme
+kopiert werden sollen.
+Nach Bet„tigen der Schaltfl„che 'Start Installation' wird das Pro-
+grammpaket dekomprimiert und auf die Festplatte kopiert.
+
+Starten Sie das Simulator-Programm durch Eingabe des Startbefehls:
+                  HOST911.EXE   <Enter>
+
+3.0 Bedienung der Programmoberfl„che
+    --------------------------------
+Nach dem Start des Programms erkennen Sie in der zweiten Bildschirm-
+zeile die Begriffe "Host-Text", "Trace" usw. Dies sind die Haupt-
+menpunkte des Programms in der ersten Schaltfl„chenzeile.
+Jeder Hauptmenpunkt enth„lt Untermenpunkte, die in der Schalt-
+fl„chenzeile unter der Hauptmenzeile angezeigt werden. Die Men-
+funktion wird durch Anklicken der entsprechenden Schaltfl„che ge-
+startet.
+Das Programm kann mit einer Maus oder nur mit der Tastatur bedient
+werden.
+Die Mausbedienung ist insofern einfacher, als Men-, Auswahlpunkte
+oder Befehls-Schaltfl„chen direkt angeklickt werden k”nnen, w„hrend
+sie ansonsten mit Tabulatortaste erst aktiviert, danach mit der
+<Enter> Taste best„tigt werden mssen.
+
+4.0 Arbeitsweise des Programms
+    --------------------------
+4.1. Anschluss des Analysenger„tes
+Analysenger„t und Host-Computer kommunizieren ber die serielle
+Schnittstelle. Die beiden Computer sind dazu mit einem geeigneten
+Kabel (Nullmodem Kabel) zu verbinden.
+
+4.2. Eingabefeld fr zu sendende Texte
+In der Mitte des Bildschirms erkennen Sie das Eingabefeld fr zu 
+sendende Texte, in der unteren H„lfte das Trace-Fenster, in
+dem alle gesendeten und empfangenen Texte angezeigt werden.
+In das Eingabefeld k”nnen beliebige sinnvolle oder nicht sinnvolle
+Texte eingegeben und mit Bet„tigen der Schaltfl„che "Senden" zum Ana-
+lysenger„t gesendet werden, um dessen Reaktion zu testen.
+Wenn automatische Host-Antwort eingeschaltet ist (siehe Kap. 5.4.1),
+wird jede Nachricht vom Analysenger„t mit dem sog. MOR Frame quittiert,
+um die Kommunikation aufrecht zu erhalten.
+Nach Bet„tigen der Schaltfl„che 'Senden' wird der manuell eingegebene
+Text an Stelle des n„chstm”glichen MOR Frames zum Analysenger„t gesendet.
+Um dies kenntlich zu machen, ist der Text in dieser Wartezeit grau
+eingef„rbt.
+Am oberen Rand des Eingabefeldes wird zur Erleichterung der Eingabe
+die L„nge des Textes im Feld angezeigt.
+
+4.3. Buffer fr gesendete Texte
+Die jeweils letzten zehn von Hand (per Schaltfl„che 'Senden') gesen-
+deten Texte werden in einer Ring-Datei gespeichert und k”nnen mit der
+Schaltfl„che "Vorher" abgerufen werden.
+
+4.4. Trace-Fenster
+In dem Fenster in der unteren H„lfte des Bildschirm wird der gesamte
+Datenverkehr angezeigt. Die gesendeten Texte werden in grn, die
+empfangenen Texte in blau dargestellt. Die Darstellung jedes einzel-
+nen Textes beginnt mit der Sender-Kennung ("AU" oder "Host") gefolgt
+von der aktuellen Uhrzeit. Daran schlieát sich der Text an, in dem 
+bestimmte Steuerzeichen zur besseren Lesbarkeit durch die folgenden 
+Ausdrcke ersetzt werden:
+
+   Code 02h (Textanfang)        ersetzt durch  [STX]
+   Code 03h (Textende)          ersetzt durch  [ETX]
+   Code 0Dh (Wagenrcklauf)     ersetzt durch  [CR]
+   Code 0Ah (Zeilenvorschub)    ersetzt durch  [LF]
+   Code 20h (Leerzeichen)       ersetzt durch  ^
+
+5.0 Mensystem
+    ----------
+5.1. Hauptmenpunkt "Host-Text"
+In diesem Hauptmenpunkt sind Funktionen zusammengefaát, die die M”g-
+lichkeit bieten, Testanforderungen, Ergebnisanforderungen und Kontroll-
+Frames zu generieren.
+Die generierten Nachrichten werden in das Eingabefeld eingetragen und
+k”nnen dann mit der 'Senden'-Schaltfl„che zum Analysenger„t gesendet
+werden.
+
+5.1.1. Menpunkt "Host-Text/Testauswahl"
+Hier erscheint eine Eingabemaske zur Eingabe aller Informationen, die
+die Testauswahl enth„lt. Es sind dies:
+
+   Barcode-Modus:          mit Barcode
+                           ohne Barcode (Probennummern-Modus)
+
+   Klasse:                 Klasse 1 (blicherweise Serum)
+                           Klasse 2 (blicherweise Urin)
+
+   Probenart:              Routine
+                           Automatischer Rerun
+                           Manueller Rerun
+                           Eilprobe
+
+   Probengef„á:            Default
+                           STD cup
+                           Micro cup
+                           STD on tube
+                           Micro on tube
+                           Tube
+
+   Probeninformation:      Probennummer
+                           Tellernummer
+                           Position
+                           Identifikation
+                           Alter
+                           Alterfaktor
+                           Geschlecht
+                           Datum
+                           Uhrzeit
+
+   Testauswahl:            48 Test-Flags
+
+   Kommentare:             5 Kommentarfelder
+
+Bei der Eingabe der Testauswahl-Flags erh„lt man durch Bet„tigen der
+Funktionstaste <F1> eine Liste aller Testnamen zur Auswahl angezeigt.
+Die Testnamen werden mit 'Test-Liste' Option eingegeben (s. Kap. 5.5.5)
+Mit Bet„tigen der Schaltfl„che 'Ok' wird die Testauswahl in das Ein-
+gabefeld eingetragen von wo aus sie mit der Schaltfl„che 'Senden' zum
+Analysenger„t geschickt wird.
+
+5.1.2. Menpunkt "Host-Text/Ergebnisanforderung"
+Hier erscheint eine Eingabemaske zur Eingabe aller Informationen, die
+die Ergebnisanforderung enth„lt. Es sind dies:
+
+   Barcode-Modus:          mit Barcode
+                           ohne Barcode (Probennummern-Modus)
+
+   Klasse:                 Klasse 1 (blicherweise Serum)
+                           Klasse 2 (blicherweise Urin)
+
+   Probenart:              Routine
+                           Automatischer Rerun
+                           Manueller Rerun
+                           Eilprobe
+
+   Probeninformation:      Probennummer
+                           Tellernummer
+                           Position
+                           Identifikation
+                           Alter
+                           Alterfaktor
+                           Geschlecht
+                           Datum
+                           Uhrzeit
+   
+Durch Bet„tigen der Schaltfl„che "Ok" wird die Ergebnisanforderung
+generiert und in das Eingabefeld eingetragen. Hier kann der Text bei
+Bedarf ge„ndert und/oder gesendet werden.
+
+5.1.3. Menpunkt "Host-Text/Kontrollzeichen"
+Dieser Untermenpunkt bietet vier Kontrollzeichen zur Auswahl:
+  'MOR' - positive Best„tigung
+  'REP' - negative Best„tigung/Wiederholungsaufforderung
+  'SUS' - negative Best„tigung mit Pause
+  'REC' - positive Best„tigung mit Pause
+Mit Bet„tigen der Schaltfl„che 'Ok' wird das Kontrollzeichen in das
+Eingabefeld eingetragen von wo aus sie mit der Schaltfl„che 'Senden'
+zum Analysenger„t geschickt wird.
+
+5.2. Hauptmenpunkt "Trace"
+Der gesamte Datenverkehr, der im Trace-Fenster angezeigt wird, kann
+bei Bedarf in einer Datei gespeichert werden.
+
+5.2.1. Menpunkt "Trace/Trace-Datei ”ffnen"
+Mit dieser Funktion kann eine neue Datei ge”ffnet oder eine vorhan-
+dene Datei zur weiteren Bearbeitung ausgew„hlt werden. Alle Trace-
+Dateien erhalten automatisch die Dateierweiterung ".TRC".
+
+5.2.2. Menpunkt "Trace/Trace-Datei schlieáen"
+Die zuvor ge”ffnete Trace-Datei wird mit dieser Funktion wieder ge-
+schlossen. Danach wird der Datenverkehr nicht mehr aufgezeichnet.
+
+5.2.3. Menpunkt "Trace/Trace-Datei anzeigen"
+Mit Hilfe einer Dateiauswahlmaske kann eine beliebige Trace-Datei
+ausgew„hlt und mit einem separaten Editorprogramm angezeigt werden.
+Da das Editorprogramm erweiterte Funktionen bietet, k”nnen Trace-
+Dateien voll editiert werden. (z.B. Eingabe von Kommentarzeilen; 
+L”schen von Textabschnitten)
+Bei eingeschalteter Kommunikation werden empfangene ANY Frames vom
+Analysenger„t mit dem MOR Frame quittiert. Aber es werden weder
+Testanforderungen beantwortet noch Ergebnisse gespeichert solange
+das Editorprogramm geladen ist.
+
+5.2.4. Menpunkt "Trace/Trace-Datei l”schen"
+Mit dieser Funktion k”nnen nicht mehr ben”tigte Trace-Dateien wieder
+gel”scht werden.
+
+5.2.5. Menpunkt "Trace/Trace-Fenster l”schen"
+Diese Funktion l”scht den Inhalt des Trace-Fensters.
+
+5.3. Hauptmenpunkt "Testauswahl-Datei"
+Es ist m”glich, eine Anzahl Testanforderungen in einer Datei zu gene-
+rieren. Mit dieser datei kann dann sowohl Batch- alsauch Realtime-Modus
+gefahren werden.
+Dieser Hauptmenpunkt enth„lt Funktionen zum Umgang mit diesen Dateien.
+
+5.3.1. Menpunkt "Testauswahl-Datei/Neu Bearbeiten"
+Dieser Menpunkt gestattet es, eine neue TA-Datei zu erstellen oder
+eine bereits vorhandene Datei zu „ndern.
+In die aus kapitel 5.1.1 bekannte Maske werden alle Angaben zur Test-
+auswahl gemacht. Mit entsprechenden Schaltfl„chen ist es m”glich,
+Testauswahl fr Testauswahl zu betrachten und bei Bedarf zu „ndern
+oder zu l”schen.
+In der Ecke oben links ist die aktuelle Betriebsart (BROWSE oder EDIT),
+der Dateiname sowie die aktuelle Satz-Nummer und die gesamte Anzahl
+S„tze angezeigt (ein Satz = eine Testauswahl fr eine Probe).
+
+5.3.2. Menpunkt "Testauswahl-Datei/Datei anzeigen"
+Ein Editorprogramm wird geladen, um den Inhalt zuvor erstellter
+TA-Dateien anzuzeigen. Fr jede Probe werden die Proben-Information,
+die ausgew„hlten Tests sowie die empfangenen Testergebnisse angezeigt.
+
+5.3.3. Menpunkt "Testauswahl-Datei/Datei l”schen"
+Nicht mehr ben”tigte TA-Dateien k”nnen mit dieser Funktion von der
+Festplatte gel”scht werden.
+
+5.3.4. Menpunkt "Testauswahl-Datei/Datei-Modus"
+Zuvor erstellte TA-Dateien k”nnen mit diesem Menpunkt entweder fr
+den Batch- oder Realtime-Modus aktiviert werden.
+Bevor der Datei-Modus aktiviert wird, erscheint ein Auswahlfenster 
+mit folgenden Optionen:
+a) Alle Ergebnisse l”schen. 
+   Wenn ein neuer RUN mit einer zuvor schon benutzten TA-Datei 
+   durchgefhrt werden soll, k”nnen bei Bedarf alle Ergebnisse in 
+   der TA-Datei gel”scht werden.
+b) Echo der Proben-Information
+   Wenn diese Option aktiviert ist (Default) werden die in der 
+   Anfrage vom Ger„t enthaltenen Proben-, Teller- und Positions-
+   nummern wieder in die zu sendende Testauswahl eingefgt.
+   Wenn die Option nicht gesetzt ist, werden die Angaben aus der
+   TA-Datei eingefgt.
+c) Funktionskennung bercksichtigen
+   Wenn diese Option aktiviert ist (Default), werden bei der Suche 
+   in der TA-Datei nicht nur die Proben- bzw. Identnummer auf šber-
+   einstimmung geprft, sondern auch die Funktionskennung.
+   D.h. es k”nnen in einer TA-Datei unterschiedliche Eintr„ge 
+   (Routine, Rerun, STAT) fr eine Identnummer eingegeben werden.
+
+Nach Aktivierung der Datei wird oberhalb der Schaltfl„che 'Senden'
+der Dateiname, der Kommunikationsmodus (Batch oder Realtime), die Anzahl
+Testanforderungen in der Datei, sowie die Anzahl der gesendeten Test-
+anforderungen und empfangenen Testergebnisse angezeigt.
+Wenn die TA-Datei im Batch-Modus aktiviert wurde, werden die Testan-
+forderungen der Datei nacheinander jeweils als Antwort auf einen empfan-
+genen ANY Frame zum Analysenger„t gesendet.
+Wenn die TA-Datei im Realtime-Modus aktiviert wurde, wartet das Programm
+auf eintreffende Testanfragen vom Analysenger„t.
+Bei diesen Testanfragen wird die Proben-Nummer (wenn Probennummern-Modus)
+oder die Identnummer (wenn Barcode-Modus) mit den Angaben der Testan-
+forderungen in der TA-Datei verglichen.
+Bei šbereinstimmung wird die entsprechende Testanforderung gesendet.
+Testergebnisse zu Proben der TA-Datei werden in diese eingetragen.
+Bevor mit der 'Anzeigen' Funktion die Ergebnisse kontrolliert werden
+k”nnen, muá der Datei-Modus wieder deaktiviert werden.
+
+5.4. Hauptmenpunkt "Ergebnisse"
+Es gibt eine Ergebnisaufzeichnungsfunktion, bei der, wenn sie ak-
+tiviert ist, alle Testergebnisse entsprechend ihres Typs in Text-
+dateien gespeichert werden. Diese Textdateien k”nnen dann bei Bedarf
+mit einem Tabellenkalkulationsprogramm weiterbearbeitet werden.
+
+5.4.1. Hauptmenpunkt "Ergebnisse/Anzeigen"
+Die folgenden Ergebnistypen werden bei Bedarf in verschiedenen Text-
+Dateien zur weiteren Bearbeitung gespeichert:
+  - Routine, Rerun, STAT Ergebnisse
+  - Kontrollergebnisse
+  - Ergebnisse der Photometrischen Kalibration
+  - Ergebnisse der ISE Kalibration
+  - Extinktionswerte
+
+Dieser Menpunkt erlaubt, eine einzelne Datei oder alle fnf Ergeb-
+nisdateien zu l”schen oder den Inhalt einer Datei anzusehen.
+
+5.4.2. Hauptmenpunkt "Ergebnisse/Aufzeichnung Ein-Aus"
+Mit diesem Menpunkt wird die automatische Ergebnisaufzeichnung
+aktiviert und deaktiviert. Beim Programmstart ist die Aufzeichnung
+deaktiviert. Der aktuelle Status wird in der Statuszeile angezeigt.
+
+5.5. Hauptmenpunkt "Parameter"
+
+5.5.1. Menpunkt "Parameter/Host Ein-Aus"
+Mit dieser Menfunktion wird der Host ein bzw. ausgeschaltet.
+Beim Programmstart ist der Host eingeschaltet.
+In diesem Zustand wird jede empfangene Nachricht mit dem MOR Frame
+quittiert. Wenn der Host ausgeschaltet wird, empf„ngt er nach wie vor
+die Nachrichten vom Analysenger„t, die Quittierung erfolgt jedoch
+nicht mehr.
+Diese Funktion dient zum Testen des Timeout-Verhaltens.
+Der aktuelle Status wird in der Statuszeile angezeigt.
+
+5.5.2. Menpunkt "Parameter/RS-232 Parameter"
+Damit Analysenger„t und Host-Computer sich "verstehen", mssen auf
+beiden Seiten die gleichen Schnittstellen-Parameter eingestellt werden.
+Einzustellen sind die šbertragungsgeschwindigkeit (Baud-Rate), die
+Anzahl der Daten- und Stopbits, die Parit„t sowie die Schnittstelle
+des Simulator-Computers (COM1 oder COM2 sofern vorhanden).
+Die aktuell eingestellten Schnittstellenparameter werden in der Sta-
+tuszeile am unteren Rand des Bildschirms angezeigt.
+Die hier aufgefhrten Einstellungen sind im 'System Parameter' Men
+des HITACHI 911 Programms zu finden.
+W„hrend der laufenden Kommunikation (siehe Statuszeile) ist diese
+Funktion nicht ausfhrbar.
+8 Sekunden nach Empfang der letzten Nachricht vom Analysenger„t
+wechset der Zustand der Kommunikation von EIN nach AUS.
+
+5.5.3. Menpunkt "Parameter/Host Einstellungen"
+Zwei Einstellungen sind mit dieser Menfunktion verbunden.
+- Ende-Kennung
+  Hier kann eine von fnf verschiedenen Ende-Kennungen ausgew„hlt
+  werden. Die Ende-Kennung wird an jede Nachricht angeh„ngt und muss
+  mit der im 'System Parameter' Bildschirm eingestellten Ende-Kennung
+  bereinstimmen.
+- Akustisches Empfangssignal
+  Wenn aktiviert, ert”nt bei Empfang einer Testanfrage oder eines Test-
+  ergebnisses ein akustisches Signal.
+
+5.5.4. Menpunkt "Parameter/Fehler-Tests"
+Diese Eingabe-Maske bietet die M”glichkeit, einige Fehlerf„lle zu
+simulieren, um die jeweilige Reaktion des Analysenger„tes zu testen.
+
+- Prfsummen-Manipulation fr Testauswahl.
+  Bei der n„chsten zu sendenden Testauswahl wird die Prfsumme
+  manipuliert.
+  (Analysenger„t muss mit einem 'REP' Frame antworten).
+
+- Prfsummen-Manipulation fr Ergebnisanforderung.
+  Beim n„chsten zu sendenden Ergebnisanforderung wird die Prfsumme
+  manipuliert.
+  (Analysenger„t muss mit einem 'REP' Frame antworten).
+
+- Testanfrage vom Analysenger„t mit REP Frame quittieren.
+  Die n„chste vom Analysenger„t empfangene Testanfrage wird mit
+  einem 'REP' Frame quittiert (Analysenger„t muss Testanfrage
+  erneut senden).
+
+- Ergebnis vom Analysenger„t mit REP Frame quittieren.
+  Das n„chste vom Analysenger„t empfangene Ergebnis wird mit
+  einem 'REP' Frame quittiert (Analysenger„t muss Ergebnis erneut
+  senden).
+
+Jede dieser Manipulationen kann nur fr die n„chste empfangene
+Nachricht oder fr alle folgenden Nachrichten eingestellt werden.
+Wenn sich in letzterem Fall eine Endlos-Schleife einstellt, kann
+die Manipulation durch Bet„tigen der Schaltfl„che "Vorher" gel”scht
+werden.
+
+5.5.5. Menpunkt "Parameter/Test list"
+In der Datei 'HO911_TN.DAT' sind 52 Testnamen gespeichert. Diese
+Testnamen werden im Testauswahlfeld bei der Generierung von Test-
+anforderungen angezeigt (s. Kap. 5.1.1)
+Mit dieser Funktion lassen sich alle Namen anzeigen und editieren.
+Die 46 Testnamen fr photometrische Tests werden erg„nzt durch die
+nicht ver„nderlichen Namen fr die Testnummern 47, 48, 49 (ISE)
+und 50, 51, 52 (Serum Index).
+
+5.5.6. Menpunkt "Parameter/Programm-Konfiguration"
+Hier k”nnen Sie die Sprache der Bedieneroberfl„che ausw„hlen. Alle
+Texte des Programms sind in einer separaten Textdatei abgelegt. In
+einem Auswahlfenster bekommen sie die Sprachen abgeboten, fr die
+die entsprechende Textdatei vorliegt. (Standardm„áig sind dies
+englisch und deutsch; weitere Sprachversion k”nnen bei Bedarf selbst
+erstellt werden. Info siehe Info-Fenster)
+In einem zweiten Auswahlfeld k”nnen Sie zwischen Farb- und Schwarz/
+Weiá-Darstellung w„hlen. Bei Laptops oder Notebooks mit LCD-Display
+ist die kontrastreichere Mono-Darstellung zu empfehlen.
+
+5.6. Hauptmenpunkt "?"
+
+5.6.1. Hilfe-Funktion
+Mit der Hilfe-Funktion erhalten Sie diesen Text am Bildschirm ange-
+zeigt. Die Druck-Option erm”glicht den Ausdruck des Hilfe-Textes.
+Wenn in verschiedenen Fenstern des Programms eine 'Hilfe'-Schalt-
+fl„che vorhanden ist, so wird direkt das entsprechende Kapitel
+innerhalb dieses Hilfetextes angezeigt.
+
+5.6.2. Programm-Info
+Das Info-Fenster enth„lt Name und Adresse des Programm-Entwicklers
+sowie die Software-Version.
+
+5.6.3. Programm-Ende
+Nach einer zus„tzlichen Sicherheitsabfrage wird die Programmausfhrung
+beendet
+
+6.0 Technische Details
+    ------------------
+
+6.1. Dateien des Programmpaketes
+Das Programmpaket beinhaltet folgende Dateien:
+
+ HOST911.EXE     Host Testprogramm
+ HO911.INI       Konfigurationsdaten
+ HO911_TN.DAT    Testnamen
+ HO911BUF.DAT    Speicher fr die zehn letzten von Hand gesendeten
+
+ HO911GE.TXT     Deutsche Bedienertexte
+ HO911EN.TXT     Englische Bedienertexte
+ HO911GEH.TXT    Deutscher Hilfetext
+ HO911ENH.TXT    Englischer Hilfetext
+
+ VB_EDIT.EXE     Editor-Programm
+ VB_EDIT.INI     Konfigurationsdaten des Editor-Programms
+ VB_EDGE.TXT     Deutsche Bedienertexte des Editor-Programms
+ VB_EDEN.TXT     Englische Bedienertexte des Editor-Programms
+
+Dateinamen-Erweiterungen:
+ *.TRC           Trace-Dateien
+ *.TA1           Testauswahl-Dateien
+
+6.2. Hardware-Vorraussetzungen
+-  Fr die Installation des Programmpaketes auf der Festplatte des
+   Simulator-Computers sind ca 300 kB Speicherplatz notwendig.
+-  Der Host-Computer ben”tigt eine serielle Schnittstelle.
+-  Das Programm kann mit einer Maus bedient werden.
+
+7.0 Update Information      
+ 
+  Version 5.1 - Dezember 1994
+    BUG - Die Parameterkombination 8 Daten- und 2 Stopbits kann nicht 
+          mehr ausgew„hlt werden, wenn gleichzeitig eine Parit„tsprfung 
+          selektiert werden soll.
+    BUG - Programmabsturz bei der Anzeige von Testanforderungsdateien 
+          behoben.
+    NEW - Die Existenz der ausgew„hlten Schnittstelle wird berprft.
+    NEW - Die maximale Textl„nge des Eingabefeldes sowie die Record-
+          l„nge der Bufferdatei wurden auf 1280 Zeichen beschr„nkt.
+    NEW - Die maximale Anzahl Testanforderungen in einer TA-Datei ist 
+          auf 200 beschr„nkt.
+    NEW - Die Drucker-spezifischen Kontroll-Codes fr komprimierten 
+          Druck und linken Rand k”nnen in der Druckeingabemaske 
+          eingegeben werden.
+
+  Version 5.2 - Dezember 1994
+    BUG - Es ist nicht mehr m”glich das Zeichen "#" zur automatischen 
+          Generierung von TA-Dateien sowohl im Sample- alsauch im 
+          Disk-Nr. feld einzugeben ohne eine Fehlermeldung zu erhalten.
+
+  Version 5.3 - Dezember 1994
+    NEW - Eingabemaske des Testnamen-Editors ge„ndert. 
+
+  Version 5.4 - Dezember 1994
+    NEW - Das Ersatzzeichen fr das Leerzeichen innerhalb der Trace
+          Darstellung wurde ge„ndert von ^ in ú
+    NEW - Im Realtime TA-Datei Modus wird nicht nur nach der ID- bzw.
+          Probennummer gesucht, sondern auch die Funktionskennung der
+          empfangenen Anforderung mit derjenigen in der TA-Datei ver-
+          glichen. Somit k”nnen z.B. im Barcode-Modus Testanforderungen
+          fr Routine und Rerun mit der selben ID in einer TA-Datei
+          vorkommen.
+    NEW - Innerhalb des Testflag-Eingabefeldes der Testauswahl-
+          Erstellung kann der entsprechende Test auch aus der Testliste
+          heraus gesetzt bzw. gel”scht werden. (Die Testliste wird mit 
+          der Taste <F1> angezeigt)
+    BUG - Die TA-Dateien enthalten keine Ersatzzeichen fr das Leer-
+          zeichen mehr (siehe Trace-Darstellung)
+
+    Achtung: L”schen Sie alle TA-Dateien und erstellen Sie sie neu !
+
+  Version 5.6 - Oktober 1995
+    Versions-Synchronisierung !!
+
+  Version 5.7 - Juli 1997
+    BUG - Der Blockcheck Character 02hex wurde falsch inter-
+          pretiert.
+
+  Version 5.8 - August 1997
+    BUG - Die Funktionskennungen G und H innerhalb der Test- 
+          anforderungen wurden als ungltig zurckgewiesen.
+
+  Version 5.9 - Oktober 1997
+    NEW - Ein Windows Programmsymbol wird bei der Installation kopiert.
+
+
+

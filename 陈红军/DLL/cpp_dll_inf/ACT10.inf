@@ -1,0 +1,20 @@
+[Setup]
+Factory = "库尔特公司"
+Description ="ACT10血球分析仪"
+Baud_Rate = 9600
+Byte_Size = 7
+Parity = 0
+Stop_Bits =0
+f_OutX =0
+f_InX =0
+f_HardWare =0
+Tx_QueueSize =10
+Rx_QueueSize =512
+Xon_Lim =400
+Xoff_Lim =100
+Xon_Char =17
+Xoff_Char =19
+Driver_Prog ="act10.dll"
+DUPLEX_FLAG =0  
+
+

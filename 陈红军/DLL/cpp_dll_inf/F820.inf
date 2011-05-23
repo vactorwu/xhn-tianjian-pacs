@@ -1,0 +1,19 @@
+[Setup]
+Factory = "日本东亚公司"
+Description ="F820血球计数仪"
+BAUD_RATE = 1200
+BYTE_SIZE = 7
+PARITY = 0
+Stop_Bits =0
+f_OutX =0
+f_InX =0
+f_HardWare =0
+Tx_QueueSize =10
+Rx_QueueSize =256
+Xon_Lim =18
+Xoff_Lim =5
+Xon_Char =17
+Xoff_Char =19
+Error_Char =65
+Driver_Prog ="F820.dll"
+DUPLEX_FLAG =0

@@ -1,0 +1,78 @@
+{ Textzeilen fr VB-Editor               }
+{ Dateiname: VB_EDGE.TXT - Deutsch       }
+{  allgemeine Texte                      }
+A02 &Jaø
+A03 &Neinø
+A04 &Abbrechenø
+{ Notepad - Men }
+B10 &Dateiø
+B11 ™&ffnenø
+B12 Speichern &unterø
+B13 &Druckenø
+B14 &Beendenø
+B20 &Bearbeitenø
+B21 &Ausschneidenø
+B22 &Kopierenø
+B23 E&infgenø
+B24 &L”schenø
+B30 &Optionenø
+B31 A&lles markierenø
+B32 &Zeilenumbruchø
+B33 &Suchen ...ø
+B34 &Weiter - F3ø
+B40 &Teiltexteø
+B41 Zum &Erstenø
+B42 Zum &Vorherigenø
+B43 Zum &N„chstenø
+B44 Zum &Letztenø
+{ Notepad - Textsuche }
+F01 &Suchenø
+F02 Suchtext:ø
+F03 Suchtext nicht gefunden !ø
+F04 Suchenø
+F05 Suche ab &Textanfangø
+F06 &Groá/Kleinschreibungø
+{ Notepad - Datei ”ffnen/speichern }
+G01 &Dateiname:ø
+G02 ™&ffnenø
+G03 Datei ”ffnenø
+G04 Datei: ø
+G05 &Speichernø
+G06 Wollen Sie die Datei speichern ?ø
+G07 Datei speichernø
+G08 Geben Sie einen Dateinamen ein !ø
+G09 Existierende Datei berschreiben ?ø
+G10 Ungltiger Dateiname !ø
+G11 Diskette nicht bereit !ø
+{ Teiltext }
+H01    Teiltext: ø
+H03 Der Text ist gr”áer als ø
+H04  bytes - Er wird aufgeteilt in ø
+H05  Teiltexte !ø
+{ Dateimeldungen }
+Q01 Datei nicht gefunden !ø
+Q02 Fehler beim Datei-™ffnen !ø
+Q03 Es ist kein Textbereich markiert !ø
+Q04 Es befindet sich kein Text in der Zwischenablage !ø
+{ Notepad - Druckmaske }
+X01 Drucke nachø
+X02 &Dateiø
+X03 Wenn existiert:ø
+X04 &Anh„ngenø
+X05 &Ersetzenø
+X06 &Kopienø
+X07 Druckeø
+X08 &Gesamten Textø
+X09 &Markierten Textø
+X10 &Druckenø
+X11 A&bbrechenø
+X12 Drucker nicht bereit !ø
+X13 Datei druckenø
+X14 Drucker nicht verfgbarø
+X15 FEHLERø
+X16 Nicht gengend Speicherplatz !ø
+X17 D&ruckersteuerung   123123123123123123123123123ø
+X18 Komprimiert    :ø
+X19 Linker Rand    :ø
+X20 Geben Sie die 3-stelligen Zeichencodes ohne Trennung ein !ø
+

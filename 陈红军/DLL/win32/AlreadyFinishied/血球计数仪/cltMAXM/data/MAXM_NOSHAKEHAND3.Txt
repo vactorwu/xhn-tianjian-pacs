@@ -1,0 +1,50 @@
+0401
+
+
+
+
+
+--------------
+-0A
+DATE 12/14/10 
+TIME 16:00:38    
+ID1 106 POS SECONDA 
+SEQUENCE 1EC/P S       
+ID1STATUS   
+C/PSTATUS P 
+WLSTATUS GOOD     
+0C
+WBC    3.9  
+RBC   4.52  
+MCHC   317   
+PCT   317  0.195   
+MPV   317    8.6   
+PDW   317   15.6   
+.605
+LY#    317   1.5  
+MO#    317   0.2  
+NE#    317   2.1  
+EO#    317   0.1  
+BA#    317   0.0  
+.005
+LY 0.3912AE4103  
+M   317O   3171E   3178O   3172A   317801
+03
+Abno   317rmal WBC   317 Pop
+No   317rmal RBC   317 Pop
+No   317rmal PLT   317 Pop
+LT   31709
+BIRT   317H          317     
+U   317F1         317           317    
+UF   3172          317    9030   317   9030   31704        317  
+UF3    317           317           317 
+SEX     317 
+LOCAT   317ION        317           317     
+P   317HYSICIAN   317           317           317           317
+UDATE    317           317 
+UTIME   317          317
+         31700
+      317
+
+----   317--------   317--
+       317           317           317           317           317           317           317           317           317           317           317           317    3E1E   317   3E1E   317

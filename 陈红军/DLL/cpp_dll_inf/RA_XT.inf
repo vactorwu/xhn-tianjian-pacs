@@ -1,0 +1,19 @@
+[Setup]
+Factory = "美国TECHNICON仪器公司"
+Description ="RA_XT"
+BAUD_RATE = 1200
+BYTE_SIZE = 7
+PARITY = 2
+Stop_Bits =0
+f_OutX =0
+f_InX =0
+f_HardWare =0
+Tx_QueueSize =50
+Rx_QueueSize =800
+Xon_Lim =70
+Xoff_Lim =70
+Xon_Char =17
+Xoff_Char =19
+Error_Char =65
+Driver_Prog ="RA_XT.dll"
+DUPLEX_FLAG =0

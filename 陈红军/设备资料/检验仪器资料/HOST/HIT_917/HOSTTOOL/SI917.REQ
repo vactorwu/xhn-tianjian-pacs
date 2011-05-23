@@ -1,0 +1,32 @@
+Test selection request and result file 'SI917.REQ'
+for the SIMU917.EXE Interface Simulator program.
+------------------------------------------------
+Only those lines which begin with one of the following characters 
+are taken by the simulator program:
+TS requests   ;
+Result frames 1 2 3 4 5 :
+This example file contains five TS requests for barcode mode,
+five TS requests for sample no. mode and five result frames for
+barcode mode.
+Function characters (U) : A = Barcode mode / N = Sample no. mode
+Format of the test selection requests and results:
+         1         2         3         4         5         6
+-23456789012345678901234567890123456789012345678901234567890123456
+FUCSSSSSDDDDDPPPCIIIIIIIIIIIIIAAAAXDDDDDDTTTTooooooCCCTTTVVVVVVa
+------------------------------------------------------------------
+;A1    1    0  11       100001
+;A1    2    0  21       100002
+;A1    3    0  31       100003
+;A1    4    0  41       100004
+;A1    5    0  51       100005
+;N1    6    0  61       100006
+;N1    7    0  71       100007
+;N1    8    0  81       100008
+;N1    9    0  91       100009
+;N1   10    0 101       100010
+:A1    1    0  11       100001   3           OPERAT  1  7  5.10&
+:A1    2    0  21       100002   3           OPERAT  2 12 288.5  13  5.40I
+:A1    3    0  31       100003   3           OPERAT  3  7  5.10& 12 288.5  13  5.40I  
+:A1    4    0  41       100004   3           OPERAT  2  5 12345  34   1.0
+:A1    5    0  51       100005   3           OPERAT  1 34   3.4H
+

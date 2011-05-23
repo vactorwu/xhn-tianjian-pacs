@@ -1,0 +1,24 @@
+!000a020061 4530 205728001130133            11 1               FF01.000  39
+!001fGLU    28.9 mmol/L  1244
+!002fK+      4.5 mmol/L  00D6
+!003fUREA   19.3 mmol/L  1265
+!004fNa+   146.  mmol/L  002E
+!005fCREA  270.  umol/L  1259
+!006fCl-   110.  mmol/L  122C
+!007fECO2   19.  mmol/L  2233
+!008gB/CR    17.7         0C3
+!009gAGPK    21.  mmol/L  035
+!010gAGP     16.  mmol/L  006
+!011h0061E2
+!000a020062 4530 205728001130133            11 1               FF01.000  3A
+!001fGLU    28.9 mmol/L  1244
+!002fK+      4.5 mmol/L  00D6
+!003fUREA   19.3 mmol/L  1265
+!004fNa+   146.  mmol/L  002E
+!005fCREA  270.  umol/L  1259
+!006fCl-   110.  mmol/L  122C
+!007fECO2   19.  mmol/L  2233
+!008gB/CR    17.7         0C3
+!009gAGPK    21.  mmol/L  035
+!010gAGP     16.  mmol/L  006
+!011h0062E3

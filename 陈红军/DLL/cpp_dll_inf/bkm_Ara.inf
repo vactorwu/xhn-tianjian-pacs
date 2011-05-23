@@ -1,0 +1,20 @@
+[Setup]
+Factory = "±´¿ÉÂü¹«Ë¾"
+Description ="BKM_ARRAY 360"
+Baud_Rate = 4800
+Byte_Size = 8
+Parity = 0
+Stop_Bits =0
+f_OutX =0
+f_InX =0
+f_HardWare =0
+Tx_QueueSize =16
+Rx_QueueSize =256
+Xon_Lim =20
+Xoff_Lim =8
+Xon_Char =17
+Xoff_Char =19
+Driver_Prog ="bkm_Ara.dll"
+DUPLEX_FLAG =0  
+
+

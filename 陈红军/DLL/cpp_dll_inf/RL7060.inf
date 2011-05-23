@@ -1,0 +1,19 @@
+[Setup]
+Factory = "日本日立"
+Description ="日立7060"
+BAUD_RATE = 9600
+BYTE_SIZE = 7
+PARITY = 2
+Stop_Bits =2
+f_OutX =0
+f_InX =0
+f_HardWare =0
+Tx_QueueSize =30
+Rx_QueueSize =300
+Xon_Lim =70
+Xoff_Lim =70
+Xon_Char =17
+Xoff_Char =19
+Error_Char =65
+Driver_Prog ="RL7060.dll"
+DUPLEX_FLAG =0

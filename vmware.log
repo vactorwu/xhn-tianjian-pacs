@@ -1,0 +1,766 @@
+Mar 27 11:34:38.333: vmx| Log for VMware Workstation pid=4948 version=7.1.0 build=build-261024 option=Release
+Mar 27 11:34:38.333: vmx| The process is 32-bit.
+Mar 27 11:34:38.333: vmx| Host codepage=windows-936 encoding=GBK
+Mar 27 11:34:38.333: vmx| Hostname=SuDa-20100713PE
+Mar 27 11:34:38.348: vmx| IP=(Unknown)
+Mar 27 11:34:38.348: vmx| IP=(Unknown)
+Mar 27 11:34:38.348: vmx| IP=(Unknown)
+Mar 27 11:34:38.348: vmx| IP=(Unknown)
+Mar 27 11:34:38.348: vmx| IP=(Unknown)
+Mar 27 11:34:38.348: vmx| IP=192.168.128.1
+Mar 27 11:34:38.348: vmx| IP=10.10.10.1
+Mar 27 11:34:38.348: vmx| IP=192.168.1.101
+Mar 27 11:34:38.348: vmx| IP=(Unknown)
+Mar 27 11:34:38.348: vmx| Command line: "C:\Program Files\VMware Workstation\vmware-vmx.exe" "-s" "vmx.stdio.keep=TRUE" "-#" "product=1;name=VMware Workstation;version=7.1.0;buildnumber=261024;licensename=VMware Workstation;licenseversion=7.0;" "-@" "pipe=\\.\pipe\vmxd5969505048eb2d0;" "E:\虚拟机\Windows XP Professional.vmx"
+Mar 27 11:34:38.348: vmx| Msg_SetLocale: HostLocale=GBK UserLocale=NULL
+Mar 27 11:34:38.395: vmx| UI Connecting to pipe '\\.\pipe\vmxd5969505048eb2d0' with user '(null)'
+Mar 27 11:34:38.395: vmx| VMXVmdb: Local connection timeout: 60000 ms.
+Mar 27 11:34:38.411: vmx| Vix: [1224 mainDispatch.c:374]: VMAutomation: Initializing VMAutomation.
+Mar 27 11:34:38.411: vmx| Vix: [1224 mainDispatch.c:397]: VMAutomation: Detected the VM is not managed
+Mar 27 11:34:38.411: vmx| Vix: [1224 mainDispatch.c:658]: VMAutomationOpenListenerSocket() listening
+Mar 27 11:34:38.411: vmx| Vix: [1224 mainDispatch.c:3661]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1870, success=1
+Mar 27 11:34:38.411: vmx| Transitioned vmx/execState/val to poweredOff
+Mar 27 11:34:38.411: vmx| Vix: [1224 mainDispatch.c:3661]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1873, success=1
+Mar 27 11:34:38.411: vmx| Vix: [1224 mainDispatch.c:3661]: VMAutomation_ReportPowerOpFinished: statevar=2, newAppState=1877, success=1
+Mar 27 11:34:38.411: vmx| Vix: [1224 mainDispatch.c:3661]: VMAutomation_ReportPowerOpFinished: statevar=3, newAppState=1881, success=1
+Mar 27 11:34:38.411: vmx| HOSTINFO 13423057007 @ 1948310Hz -> 0 @ 1000000Hz
+Mar 27 11:34:38.411: vmx| HOSTINFO ((x * 2204457861) >> 32) + -6889589954
+Mar 27 11:34:38.411: vmx| HD: host version is 6.1.7600
+Mar 27 11:34:38.411: vmx| HD: addr 840bd1e9
+Mar 27 11:34:38.411: vmx| HD: 84177380, 0
+Mar 27 11:34:38.411: vmx| Locked limit delta 0 pages
+Mar 27 11:34:38.411: vmx| Locked limit delta 0 pages
+Mar 27 11:34:38.411: vmx| Locked limit delta 0 pages
+Mar 27 11:34:38.411: vmx| Locked limit delta 0 pages
+Mar 27 11:34:38.411: vmx| Locked limit delta 0 pages
+Mar 27 11:34:38.411: vmx| Locked limit delta 0 pages
+Mar 27 11:34:38.411: vmx| Locked limit delta 0 pages
+Mar 27 11:34:38.411: vmx| Locked limit delta 0 pages
+Mar 27 11:34:38.411: vmx| Locked limit delta 0 pages
+Mar 27 11:34:38.411: vmx| Locked limit delta 0 pages
+Mar 27 11:34:38.411: vmx| VerificationOfHostParameters status 2
+Mar 27 11:34:38.411: vmx| Failed to verify host parameters
+Mar 27 11:34:38.411: vmx| VMMon_GetkHzEstimate: Calculated 1994999 kHz
+Mar 27 11:34:38.426: vmx| VMMon_RememberkHzEstimate: Calculated 1995000 kHz
+Mar 27 11:34:38.426: vmx| TSC kHz estimates: vmmon 1994999, remembered 1995000, osReported 2000000. Using 1995000 kHz.
+Mar 27 11:34:38.426: vmx| CPU # 0 TSC = 3169349603640
+Mar 27 11:34:38.426: vmx| CPU # 1 TSC = 3169349606160
+Mar 27 11:34:38.426: vmx| TSC delta 2520
+Mar 27 11:34:38.426: vmx| CPU # 0 TSC = 3169349728510
+Mar 27 11:34:38.426: vmx| CPU # 1 TSC = 3169349731270
+Mar 27 11:34:38.426: vmx| TSC delta 2760
+Mar 27 11:34:38.426: vmx| CPU # 0 TSC = 3169349842070
+Mar 27 11:34:38.426: vmx| CPU # 1 TSC = 3169349844690
+Mar 27 11:34:38.426: vmx| TSC delta 2620
+Mar 27 11:34:38.426: vmx| CPU # 0 TSC = 3169349967880
+Mar 27 11:34:38.426: vmx| CPU # 1 TSC = 3169349970490
+Mar 27 11:34:38.426: vmx| TSC delta 2610
+Mar 27 11:34:38.426: vmx| TSC min delta 2610
+Mar 27 11:34:38.426: vmx| PTSC: RefClockToTSC 1948310Hz -> 1995000000Hz
+Mar 27 11:34:38.426: vmx| PTSC: RefClockToTSC ((x * 4294817806) >> 22)
+Mar 27 11:34:38.426: vmx| PTSC: using TSC
+Mar 27 11:34:38.426: vmx| CPUID[0] vendor: GenuineIntel
+Mar 27 11:34:38.426: vmx| CPUID[0]   name: Intel(R) Core(TM)2 Duo CPU     T6400  @ 2.00GHz
+Mar 27 11:34:38.426: vmx| CPUID[0] level 00000000, 0: 0x0000000d 0x756e6547 0x6c65746e 0x49656e69
+Mar 27 11:34:38.426: vmx| CPUID[0] level 00000001, 0: 0x0001067a 0x00020800 0x0c08e39d 0xbfebfbff
+Mar 27 11:34:38.426: vmx| CPUID[0] level 00000002, 0: 0x05b0b101 0x005657f0 0x00000000 0x2cb4307d
+Mar 27 11:34:38.426: vmx| CPUID[0] level 00000003, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Mar 27 11:34:38.426: vmx| CPUID[0] level 00000004, 0: 0x04000121 0x01c0003f 0x0000003f 0x00000001
+Mar 27 11:34:38.426: vmx| CPUID[0] level 00000005, 0: 0x00000040 0x00000040 0x00000003 0x00022220
+Mar 27 11:34:38.426: vmx| CPUID[0] level 00000006, 0: 0x00000001 0x00000002 0x00000003 0x00000000
+Mar 27 11:34:38.426: vmx| CPUID[0] level 00000007, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Mar 27 11:34:38.426: vmx| CPUID[0] level 00000008, 0: 0x00000400 0x00000000 0x00000000 0x00000000
+Mar 27 11:34:38.426: vmx| CPUID[0] level 00000009, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Mar 27 11:34:38.426: vmx| CPUID[0] level 0000000a, 0: 0x07280202 0x00000000 0x00000000 0x00000503
+Mar 27 11:34:38.426: vmx| CPUID[0] level 0000000b, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Mar 27 11:34:38.426: vmx| CPUID[0] level 0000000c, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Mar 27 11:34:38.426: vmx| CPUID[0] level 0000000d, 0: 0x00000003 0x00000240 0x00000240 0x00000000
+Mar 27 11:34:38.426: vmx| CPUID[0] level 80000000, 0: 0x80000008 0x00000000 0x00000000 0x00000000
+Mar 27 11:34:38.426: vmx| CPUID[0] level 80000001, 0: 0x00000000 0x00000000 0x00000001 0x20100000
+Mar 27 11:34:38.426: vmx| CPUID[0] level 80000002, 0: 0x65746e49 0x2952286c 0x726f4320 0x4d542865
+Mar 27 11:34:38.426: vmx| CPUID[0] level 80000003, 0: 0x44203229 0x43206f75 0x20205550 0x54202020
+Mar 27 11:34:38.426: vmx| CPUID[0] level 80000004, 0: 0x30303436 0x20402020 0x30302e32 0x007a4847
+Mar 27 11:34:38.426: vmx| CPUID[0] level 80000005, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Mar 27 11:34:38.426: vmx| CPUID[0] level 80000006, 0: 0x00000000 0x00000000 0x08006040 0x00000000
+Mar 27 11:34:38.426: vmx| CPUID[0] level 80000007, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Mar 27 11:34:38.426: vmx| CPUID[0] level 80000008, 0: 0x00003024 0x00000000 0x00000000 0x00000000
+Mar 27 11:34:38.426: vmx| CPUID[1] vendor: GenuineIntel
+Mar 27 11:34:38.426: vmx| CPUID[1]   name: Intel(R) Core(TM)2 Duo CPU     T6400  @ 2.00GHz
+Mar 27 11:34:38.426: vmx| CPUID[1] level 00000000, 0: 0x0000000d 0x756e6547 0x6c65746e 0x49656e69
+Mar 27 11:34:38.426: vmx| CPUID[1] level 00000001, 0: 0x0001067a 0x01020800 0x0c08e39d 0xbfebfbff
+Mar 27 11:34:38.426: vmx| CPUID[1] level 00000002, 0: 0x05b0b101 0x005657f0 0x00000000 0x2cb4307d
+Mar 27 11:34:38.426: vmx| CPUID[1] level 00000003, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Mar 27 11:34:38.426: vmx| CPUID[1] level 00000004, 0: 0x04000121 0x01c0003f 0x0000003f 0x00000001
+Mar 27 11:34:38.426: vmx| CPUID[1] level 00000005, 0: 0x00000040 0x00000040 0x00000003 0x00022220
+Mar 27 11:34:38.426: vmx| CPUID[1] level 00000006, 0: 0x00000001 0x00000002 0x00000003 0x00000000
+Mar 27 11:34:38.426: vmx| CPUID[1] level 00000007, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Mar 27 11:34:38.426: vmx| CPUID[1] level 00000008, 0: 0x00000400 0x00000000 0x00000000 0x00000000
+Mar 27 11:34:38.426: vmx| CPUID[1] level 00000009, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Mar 27 11:34:38.426: vmx| CPUID[1] level 0000000a, 0: 0x07280202 0x00000000 0x00000000 0x00000503
+Mar 27 11:34:38.426: vmx| CPUID[1] level 0000000b, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Mar 27 11:34:38.426: vmx| CPUID[1] level 0000000c, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Mar 27 11:34:38.426: vmx| CPUID[1] level 0000000d, 0: 0x00000003 0x00000240 0x00000240 0x00000000
+Mar 27 11:34:38.426: vmx| CPUID[1] level 80000000, 0: 0x80000008 0x00000000 0x00000000 0x00000000
+Mar 27 11:34:38.426: vmx| CPUID[1] level 80000001, 0: 0x00000000 0x00000000 0x00000001 0x20100000
+Mar 27 11:34:38.426: vmx| CPUID[1] level 80000002, 0: 0x65746e49 0x2952286c 0x726f4320 0x4d542865
+Mar 27 11:34:38.426: vmx| CPUID[1] level 80000003, 0: 0x44203229 0x43206f75 0x20205550 0x54202020
+Mar 27 11:34:38.426: vmx| CPUID[1] level 80000004, 0: 0x30303436 0x20402020 0x30302e32 0x007a4847
+Mar 27 11:34:38.426: vmx| CPUID[1] level 80000005, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Mar 27 11:34:38.426: vmx| CPUID[1] level 80000006, 0: 0x00000000 0x00000000 0x08006040 0x00000000
+Mar 27 11:34:38.426: vmx| CPUID[1] level 80000007, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Mar 27 11:34:38.426: vmx| CPUID[1] level 80000008, 0: 0x00003024 0x00000000 0x00000000 0x00000000
+Mar 27 11:34:38.426: vmx| hostCPUID vendor: GenuineIntel
+Mar 27 11:34:38.426: vmx| hostCPUID   name: Intel(R) Core(TM)2 Duo CPU     T6400  @ 2.00GHz
+Mar 27 11:34:38.426: vmx| hostCPUID level 00000000, 0: 0x0000000d 0x756e6547 0x6c65746e 0x49656e69
+Mar 27 11:34:38.426: vmx| hostCPUID level 00000001, 0: 0x0001067a 0x00020800 0x0c08e39d 0xbfebfbff
+Mar 27 11:34:38.426: vmx| hostCPUID level 00000002, 0: 0x05b0b101 0x005657f0 0x00000000 0x2cb4307d
+Mar 27 11:34:38.426: vmx| hostCPUID level 00000003, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Mar 27 11:34:38.426: vmx| hostCPUID level 00000004, 0: 0x04000121 0x01c0003f 0x0000003f 0x00000001
+Mar 27 11:34:38.426: vmx| hostCPUID level 00000005, 0: 0x00000040 0x00000040 0x00000003 0x00022220
+Mar 27 11:34:38.426: vmx| hostCPUID level 00000006, 0: 0x00000001 0x00000002 0x00000003 0x00000000
+Mar 27 11:34:38.426: vmx| hostCPUID level 00000007, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Mar 27 11:34:38.426: vmx| hostCPUID level 00000008, 0: 0x00000400 0x00000000 0x00000000 0x00000000
+Mar 27 11:34:38.426: vmx| hostCPUID level 00000009, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Mar 27 11:34:38.426: vmx| hostCPUID level 0000000a, 0: 0x07280202 0x00000000 0x00000000 0x00000503
+Mar 27 11:34:38.426: vmx| hostCPUID level 0000000b, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Mar 27 11:34:38.426: vmx| hostCPUID level 0000000c, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Mar 27 11:34:38.426: vmx| hostCPUID level 0000000d, 0: 0x00000003 0x00000240 0x00000240 0x00000000
+Mar 27 11:34:38.426: vmx| hostCPUID level 80000000, 0: 0x80000008 0x00000000 0x00000000 0x00000000
+Mar 27 11:34:38.426: vmx| hostCPUID level 80000001, 0: 0x00000000 0x00000000 0x00000001 0x20100000
+Mar 27 11:34:38.426: vmx| hostCPUID level 80000002, 0: 0x65746e49 0x2952286c 0x726f4320 0x4d542865
+Mar 27 11:34:38.426: vmx| hostCPUID level 80000003, 0: 0x44203229 0x43206f75 0x20205550 0x54202020
+Mar 27 11:34:38.426: vmx| hostCPUID level 80000004, 0: 0x30303436 0x20402020 0x30302e32 0x007a4847
+Mar 27 11:34:38.426: vmx| hostCPUID level 80000005, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Mar 27 11:34:38.426: vmx| hostCPUID level 80000006, 0: 0x00000000 0x00000000 0x08006040 0x00000000
+Mar 27 11:34:38.426: vmx| hostCPUID level 80000007, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Mar 27 11:34:38.426: vmx| hostCPUID level 80000008, 0: 0x00003024 0x00000000 0x00000000 0x00000000
+Mar 27 11:34:38.426: vmx| CPUID Maximum Physical Address Bits supported across all CPUs: 36
+Mar 27 11:34:38.426: vmx| Host ACPI: can't find SRAT
+Mar 27 11:34:38.426: vmx| Host: SRAT tables not found in memory
+Mar 27 11:34:38.426: vmx| Setting thread 36 stack size to 1048576.
+Mar 27 11:34:38.426: WinNotifyThread| WinNotify thread is alive
+Mar 27 11:34:38.660: vmx| ConfigCheck: No rules file found. Checks are disabled.
+Mar 27 11:34:38.660: vmx| changing directory to E:\虚拟机\.
+Mar 27 11:34:38.660: vmx| Config file: E:\虚拟机\Windows XP Professional.vmx
+Mar 27 11:34:38.660: vmx| Vix: [1224 mainDispatch.c:3661]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1873, success=1
+Mar 27 11:34:38.660: vmx| Vix: [1224 mainDispatch.c:3661]: VMAutomation_ReportPowerOpFinished: statevar=2, newAppState=1878, success=1
+Mar 27 11:34:38.692: vmx| VMXVmdb_LoadRawConfig: Loading raw config
+Mar 27 11:34:38.738: vmx| VMXVmdbCbVmVmxExecState: Exec state change requested to state poweredOn without reset, hard, softOptionTimeout: 0.
+Mar 27 11:34:38.738: vmx| PowerOn
+Mar 27 11:34:38.738: vmx| VMX_PowerOn: VMX build 261024, UI build 261024
+Mar 27 11:34:38.738: vmx| Host: WIN32 highest NUMA node 0
+Mar 27 11:34:38.738: vmx| Host: WIN32 NUMA node 0, CPU mask 0x0000000000000003
+Mar 27 11:34:38.754: vmx| VMXVmdb_LoadRawConfig: Loading raw config
+Mar 27 11:34:38.754: vmx| Vix: [1224 mainDispatch.c:3661]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1871, success=1
+Mar 27 11:34:38.754: vmx| HOST Windows version 6.1, build 7600, platform 2, "", SMP
+Mar 27 11:34:38.754: vmx| DICT --- USER PREFERENCES C:\Users\Administrator\AppData\Roaming\VMware\preferences.ini 
+Mar 27 11:34:38.754: vmx| DICT       pref.eula.0.appName = VMware Workstation
+Mar 27 11:34:38.754: vmx| DICT   pref.eula.0.buildNumber = 261024
+Mar 27 11:34:38.754: vmx| DICT     pref.trayicon.enabled = true
+Mar 27 11:34:38.754: vmx| DICT       pref.usbDev.maxDevs = 0
+Mar 27 11:34:38.754: vmx| DICT pref.keyboardAndMouse.maxProfiles = 0
+Mar 27 11:34:38.754: vmx| DICT   pref.view.toolbars.list = _SEP_,POWER_OFF,SUSPEND,POWER_ON,RESET,POLICIES,PKG_SETTINGS,NEW_PKG,POCKET_ACE,PREVIEW,SNAPSHOT,REVERT,SNAPSHOT_MANAGER,FAVORITES,QUICK_SWITCH,FULL_SCREEN,UNITY,SUMMARY,APPLIANCE,CONSOLE,QUICK_MINIMIZE,FILE_EXIT,INSTANCE_DETAILS,INSTANCE_REACT,INSTANCE_DEACT,REPLAY_PLAY,REPLAY_RECORD
+Mar 27 11:34:38.754: vmx| DICT  pref.ws.openedObj.maxNum = 1
+Mar 27 11:34:38.754: vmx| DICT       pref.placement.left = 50
+Mar 27 11:34:38.754: vmx| DICT        pref.placement.top = 50
+Mar 27 11:34:38.754: vmx| DICT      pref.placement.right = 990
+Mar 27 11:34:38.754: vmx| DICT     pref.placement.bottom = 643
+Mar 27 11:34:38.754: vmx| DICT  vmWizard.physicalBackend = Z:
+Mar 27 11:34:38.754: vmx| DICT         vmWizard.guestKey = winxppro
+Mar 27 11:34:38.754: vmx| DICT vmWizard.mruISO0.isoLocation = D:\Install\Windows XP SP3 精简纯净安装版 统一四周年纪念版.ISO
+Mar 27 11:34:38.754: vmx| DICT vmWizard.installMediaType = iso
+Mar 27 11:34:38.754: vmx| DICT        hint.vmui.poweroff = FALSE
+Mar 27 11:34:38.754: vmx| DICT   pref.ws.currentObj.path = 
+Mar 27 11:34:38.754: vmx| DICT   pref.ws.currentObj.type = home
+Mar 27 11:34:38.754: vmx| DICT  pref.snapshotManager.top = 22
+Mar 27 11:34:38.754: vmx| DICT pref.snapshotManager.right = 635
+Mar 27 11:34:38.754: vmx| DICT pref.snapshotManager.bottom = 504
+Mar 27 11:34:38.754: vmx| DICT        pref.view.homepage = TRUE
+Mar 27 11:34:38.754: vmx| DICT pref.autoSoftwareUpdatePermission = deny
+Mar 27 11:34:38.754: vmx| DICT pref.componentDownloadPermission = deny
+Mar 27 11:34:38.754: vmx| DICT pref.dataCollectionEnabled = no
+Mar 27 11:34:38.754: vmx| DICT pref.ws.openedObj0.present = TRUE
+Mar 27 11:34:38.754: vmx| DICT   pref.ws.openedObj0.name = 起始页
+Mar 27 11:34:38.754: vmx| DICT --- USER DEFAULTS C:\Users\Administrator\AppData\Roaming\VMware\config.ini 
+Mar 27 11:34:38.754: vmx| DICT --- HOST DEFAULTS C:\ProgramData\VMware\VMware Workstation\config.ini 
+Mar 27 11:34:38.754: vmx| DICT --- SITE DEFAULTS C:\ProgramData\VMware\VMware Workstation\config.ini 
+Mar 27 11:34:38.754: vmx| DICT --- COMMAND LINE
+Mar 27 11:34:38.754: vmx| DICT            vmx.stdio.keep = TRUE
+Mar 27 11:34:38.754: vmx| DICT             gui.available = TRUE
+Mar 27 11:34:38.754: vmx| DICT --- CONFIGURATION E:\虚拟机\Windows XP Professional.vmx 
+Mar 27 11:34:38.754: vmx| DICT            config.version = 8
+Mar 27 11:34:38.754: vmx| DICT         virtualHW.version = 7
+Mar 27 11:34:38.754: vmx| DICT             scsi0.present = TRUE
+Mar 27 11:34:38.754: vmx| DICT                   memsize = 1024
+Mar 27 11:34:38.754: vmx| DICT           scsi0:0.present = TRUE
+Mar 27 11:34:38.754: vmx| DICT          scsi0:0.fileName = Windows XP Professional-000001.vmdk
+Mar 27 11:34:38.754: vmx| DICT            ide1:0.present = TRUE
+Mar 27 11:34:38.754: vmx| DICT           ide1:0.fileName = Z:
+Mar 27 11:34:38.754: vmx| DICT         ide1:0.deviceType = cdrom-raw
+Mar 27 11:34:38.754: vmx| DICT          floppy0.fileType = file
+Mar 27 11:34:38.754: vmx| DICT          floppy0.fileName = autoinst.flp
+Mar 27 11:34:38.754: vmx| DICT      floppy0.clientDevice = FALSE
+Mar 27 11:34:38.754: vmx| DICT         ethernet0.present = TRUE
+Mar 27 11:34:38.754: vmx| DICT  ethernet0.connectionType = nat
+Mar 27 11:34:38.754: vmx| DICT   ethernet0.wakeOnPcktRcv = FALSE
+Mar 27 11:34:38.754: vmx| DICT     ethernet0.addressType = generated
+Mar 27 11:34:38.754: vmx| DICT               usb.present = TRUE
+Mar 27 11:34:38.754: vmx| DICT              ehci.present = TRUE
+Mar 27 11:34:38.754: vmx| DICT             sound.present = TRUE
+Mar 27 11:34:38.754: vmx| DICT            sound.fileName = -1
+Mar 27 11:34:38.754: vmx| DICT          sound.autodetect = TRUE
+Mar 27 11:34:38.754: vmx| DICT              mks.enable3d = TRUE
+Mar 27 11:34:38.754: vmx| DICT           serial0.present = TRUE
+Mar 27 11:34:38.754: vmx| DICT          serial0.fileType = thinprint
+Mar 27 11:34:38.754: vmx| DICT        pciBridge0.present = TRUE
+Mar 27 11:34:38.754: vmx| DICT        pciBridge4.present = TRUE
+Mar 27 11:34:38.754: vmx| DICT     pciBridge4.virtualDev = pcieRootPort
+Mar 27 11:34:38.754: vmx| DICT      pciBridge4.functions = 8
+Mar 27 11:34:38.754: vmx| DICT        pciBridge5.present = TRUE
+Mar 27 11:34:38.754: vmx| DICT     pciBridge5.virtualDev = pcieRootPort
+Mar 27 11:34:38.754: vmx| DICT      pciBridge5.functions = 8
+Mar 27 11:34:38.754: vmx| DICT        pciBridge6.present = TRUE
+Mar 27 11:34:38.754: vmx| DICT     pciBridge6.virtualDev = pcieRootPort
+Mar 27 11:34:38.754: vmx| DICT      pciBridge6.functions = 8
+Mar 27 11:34:38.754: vmx| DICT        pciBridge7.present = TRUE
+Mar 27 11:34:38.754: vmx| DICT     pciBridge7.virtualDev = pcieRootPort
+Mar 27 11:34:38.754: vmx| DICT      pciBridge7.functions = 8
+Mar 27 11:34:38.754: vmx| DICT             vmci0.present = TRUE
+Mar 27 11:34:38.754: vmx| DICT         buslogic.noDriver = FALSE
+Mar 27 11:34:38.754: vmx| DICT    roamingVM.exitBehavior = go
+Mar 27 11:34:38.754: vmx| DICT               displayName = Windows XP Professional
+Mar 27 11:34:38.754: vmx| DICT                   guestOS = winxppro
+Mar 27 11:34:38.754: vmx| DICT                     nvram = Windows XP Professional.nvram
+Mar 27 11:34:38.754: vmx| DICT virtualHW.productCompatibility = hosted
+Mar 27 11:34:38.754: vmx| DICT          printers.enabled = FALSE
+Mar 27 11:34:38.754: vmx| DICT    easyInstall.keepFloppy = TRUE
+Mar 27 11:34:38.754: vmx| DICT        extendedConfigFile = Windows XP Professional.vmxf
+Mar 27 11:34:38.754: vmx| DICT ethernet0.generatedAddress = 00:0c:29:19:8e:15
+Mar 27 11:34:38.754: vmx| DICT            tools.syncTime = FALSE
+Mar 27 11:34:38.754: vmx| DICT             uuid.location = 56 4d b5 63 0a bc d6 a7-15 66 a9 ea 9d 19 8e 15
+Mar 27 11:34:38.754: vmx| DICT                 uuid.bios = 56 4d b5 63 0a bc d6 a7-15 66 a9 ea 9d 19 8e 15
+Mar 27 11:34:38.754: vmx| DICT             cleanShutdown = FALSE
+Mar 27 11:34:38.754: vmx| DICT          replay.supported = TRUE
+Mar 27 11:34:38.754: vmx| DICT           replay.filename = 
+Mar 27 11:34:38.754: vmx| DICT              scsi0:0.redo = 
+Mar 27 11:34:38.754: vmx| DICT  pciBridge0.pciSlotNumber = 17
+Mar 27 11:34:38.754: vmx| DICT  pciBridge4.pciSlotNumber = 21
+Mar 27 11:34:38.754: vmx| DICT  pciBridge5.pciSlotNumber = 22
+Mar 27 11:34:38.754: vmx| DICT  pciBridge6.pciSlotNumber = 23
+Mar 27 11:34:38.754: vmx| DICT  pciBridge7.pciSlotNumber = 24
+Mar 27 11:34:38.754: vmx| DICT       scsi0.pciSlotNumber = 16
+Mar 27 11:34:38.754: vmx| DICT         usb.pciSlotNumber = 32
+Mar 27 11:34:38.754: vmx| DICT   ethernet0.pciSlotNumber = 33
+Mar 27 11:34:38.754: vmx| DICT       sound.pciSlotNumber = 34
+Mar 27 11:34:38.754: vmx| DICT        ehci.pciSlotNumber = 35
+Mar 27 11:34:38.754: vmx| DICT       vmci0.pciSlotNumber = 36
+Mar 27 11:34:38.754: vmx| DICT  vmotion.checkpointFBSize = 134217728
+Mar 27 11:34:38.754: vmx| DICT             usb:0.present = TRUE
+Mar 27 11:34:38.754: vmx| DICT             usb:1.present = TRUE
+Mar 27 11:34:38.754: vmx| DICT ethernet0.generatedAddressOffset = 0
+Mar 27 11:34:38.754: vmx| DICT                  vmci0.id = -1659269611
+Mar 27 11:34:38.754: vmx| DICT       tools.remindInstall = TRUE
+Mar 27 11:34:38.754: vmx| DICT          usb:1.deviceType = hub
+Mar 27 11:34:38.754: vmx| DICT          usb:0.deviceType = mouse
+Mar 27 11:34:38.754: vmx| DICT --- USER DEFAULTS C:\Users\Administrator\AppData\Roaming\VMware\config.ini 
+Mar 27 11:34:38.754: vmx| DICT --- HOST DEFAULTS C:\ProgramData\VMware\VMware Workstation\config.ini 
+Mar 27 11:34:38.754: vmx| DICT --- SITE DEFAULTS C:\ProgramData\VMware\VMware Workstation\config.ini 
+Mar 27 11:34:38.754: vmx| DICT --- GLOBAL SETTINGS C:\ProgramData\VMware\VMware Workstation\settings.ini 
+Mar 27 11:34:38.754: vmx| Vix: [1224 mainDispatch.c:3661]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1873, success=1
+Mar 27 11:34:38.770: vmx| VMXVmdb_LoadRawConfig: Loading raw config
+Mar 27 11:34:38.770: vmx| hostCpuFeatures = 0x406001fc
+Mar 27 11:34:38.770: vmx| hostNumPerfCounters = 2
+Mar 27 11:34:38.770: vmx| CPU0: PMC: bad VMENTRY_CTL_LOAD_CPGC or VMEXIT_CTL_LOAD_CPGC
+Mar 27 11:34:38.770: vmx| PMC: Patch Level 0xa07, smmFrz (hw): (1)
+Mar 27 11:34:38.770: vmx| PMC: IA32, Penryn [c:0 f:1 e:0]
+Mar 27 11:34:38.770: vmx| CPU1: PMC: bad VMENTRY_CTL_LOAD_CPGC or VMEXIT_CTL_LOAD_CPGC
+Mar 27 11:34:38.770: vmx| PMC: Patch Level 0xa07, smmFrz (hw): (1)
+Mar 27 11:34:38.770: vmx| PMC: IA32, Penryn [c:0 f:1 e:0]
+Mar 27 11:34:38.770: vmx| MONITOR MODE: allowed modes          : BT
+Mar 27 11:34:38.770: vmx| MONITOR MODE: user requested modes   : BT HV HWMMU
+Mar 27 11:34:38.770: vmx| MONITOR MODE: guestOS preferred modes: BT HWMMU HV
+Mar 27 11:34:38.770: vmx| MONITOR MODE: filtered list          : BT
+Mar 27 11:34:38.770: vmx| HV Settings: virtual exec = 'software'; virtual mmu = 'software'
+Mar 27 11:34:38.785: vmx| Host display topology 1280x800.
+Mar 27 11:34:38.785: vmx| SVGA: Max size 2560x1600
+Mar 27 11:34:38.785: vmx| WSSCAN: reserved mem (in MB) min=32 max=2940 recommended=2940
+Mar 27 11:34:38.785: vmx| WSSCAN: used rec mem (in MB) 2940
+Mar 27 11:34:38.785: vmx| PShare: enabled 1 adaptive 1 local 0 scanRate [16, 400]
+Mar 27 11:34:38.785: vmx| WSSCAN: 296513 9409 262144 32768
+Mar 27 11:34:38.816: vmx| WSSCAN 1 1 581092 589284 752640 -1 50 0
+Mar 27 11:34:38.816: vmx| LICENSE using: 'HKEY_LOCAL_MACHINE\SOFTWARE\VMware, Inc.\VMware Workstation\License.ws.7.0.e1.200904' 
+Mar 27 11:34:38.832: vmx| LOG failed to rename stats\stats32-1 -> stats\stats32-2: The system cannot find the path specified
+Mar 27 11:34:38.832: vmx| LOG failed to rename stats\stats32-0 -> stats\stats32-1: The system cannot find the path specified
+Mar 27 11:34:38.832: vmx| LOG failed to rename stats\stats32 -> stats\stats32-0: The system cannot find the path specified
+Mar 27 11:34:38.832: vmx| LOG failed to rename stats\stats64-1 -> stats\stats64-2: The system cannot find the path specified
+Mar 27 11:34:38.832: vmx| LOG failed to rename stats\stats64-0 -> stats\stats64-1: The system cannot find the path specified
+Mar 27 11:34:38.832: vmx| LOG failed to rename stats\stats64 -> stats\stats64-0: The system cannot find the path specified
+Mar 27 11:34:38.910: vmx| Host IPI vectors: 0xe1 0
+Mar 27 11:34:38.910: vmx| Monitor_PowerOn: HostedVSMP skew tracking is disabled
+Mar 27 11:34:38.910: vmx| Monitor_PowerOn: HostedVSMP crosscall yielding is disabled
+Mar 27 11:34:38.910: vmx| vmm32-modules: [vmm.vmm32 .data:0x2b000-0x700 .sdata:0x2c000-0x4e4 .statvars:0x2d000-0x3a0 .peer:0x2e000-0x26200 .shared:0x5a000-0x143c0 .bss:0x6f000-0x5de8 .rodata:0x76000-0xb740 .text:0x82000-0x5c62d .kstatvars:0x3000-0x0, mmu-nohv.vmm32 .rodata:0x81740-0x44 .data:0x2b700-0x10 .peer:0x54200-0x5640 .shared:0x6e3c0-0x340 .bss:0x74e00-0x51c .text:0xde630-0xa4f3 .comment:0x40000d5c-0x10e .statvars:0x2000-0x0 .kstatvars:0x2000-0x0 .scb:0x40003cc0-0x180 .shared_meta:0x400042f0-0x330 .peer_meta:0x40000f90-0x1e0 .patchtext:0x40000500-0xb0, pv-none.vmm32 .shared:0x6e700-0x180 .bss:0x75320-0x84 .text:0xe8b24-0xe2 .comment:0x40000e6a-0x48 .shared_meta:0x40004620-0x90, vprobe-none.vmm32 .text:0xe8c08-0x19 .comment:0x40000eb2-0x12, hv-none.vmm32 .rodata:0x81784-0x4 .data:0x1000-0x0 .peer:0x1000-0x0 .shared:0x1000-0x0 .bss:0x1000-0x0 .text:0xe8c24-0x11 .comment:0x40000ec4-0x12 .statvars:0x1000-0x0 .kstatvars:0x1000-0x0, gphys-sw.vmm32 .peer:0x59840-0x40 .shared:0x6e880-0x80 .bss:0x2000-0x0 .text:0xe8c40-0x7d1 .comment:0x40000ed6-0x12 .scb:0x40003e40-0x60 .shared_meta:0x400046b0-0x240 .peer_meta:0x40001170-0x30, vassert-none.vmm32 .text:0xe9414-0x39 .comment:0x40000ee8-0x12, vmsafe-none.vmm32 .text:0xe9450-0x1b .comment:0x40000efa-0x12, buslogic-buslogic.vmm32 .shared:0x6e900-0x40 .bss:0x1000-0x0 .text:0xe9470-0xe9 .comment:0x40000f0c-0x12 .scb:0x40003ea0-0x60 .shared_meta:0x400048f0-0x60, {SharedAreaReservations} .shared:0x6e940-0x40, <MonSrcFile> .rodata:0x81788-0x3ee]
+Mar 27 11:34:38.910: vmx| KHZEstimate 1995000
+Mar 27 11:34:38.910: vmx| MHZEstimate 1995
+Mar 27 11:34:38.910: vmx| NumVCPUs 1
+Mar 27 11:34:38.910: vmx| RDEBUG: Using offsets for Windows XP
+Mar 27 11:34:38.910: vmx| Guest kernel offsets(version 7): 0x88,0x84,0x18,0x190,0x174,16,416,0x22c,0x228,0x1f0,0x224,0x20,0x18,0x18,0x20,0x24,4,0x11c,0x8,0x0,0x14,0x100000,0x1b0,0xc,0xc,0x18,0x13c,0x1f4.
+Mar 27 11:34:38.910: vmx| PShare: checkRate 16
+Mar 27 11:34:38.910: vmx| UUID: location-UUID is 56 4d 2e d6 3d 7d 0a 95-24 36 f5 52 a1 85 32 ad
+Mar 27 11:34:38.910: vmx| UUID: location-UUID is 56 4d b5 63 0a bc d6 a7-15 66 a9 ea 9d 19 8e 15
+Mar 27 11:34:38.910: vmx| UUID: location-UUID is 56 4d 51 8e 0d 1c b2 49-4c 04 60 20 f4 38 11 ce
+Mar 27 11:34:38.910: vmx| UUID: location-UUID is 56 4d 51 8e 0d 1c b2 49-4c 04 60 20 f4 38 11 ce
+Mar 27 11:34:38.910: vmx| AIOGNRC: numThreads=18 ide=0, scsi=1, passthru=1
+Mar 27 11:34:38.910: vmx| WORKER: Creating new group with numThreads=18 (18)
+Mar 27 11:34:38.910: vmx| Replay State = 0
+Mar 27 11:34:38.910: vmx| minDEThreshold: 76
+Mar 27 11:34:38.910: vmx| MM: Using partialmap, 262144 pages AC 0 CE 1 TM 0 DOHU 0
+Mar 27 11:34:38.941: vmx| MMC: Initialized PLS=0 PLR=0 PFS=0 TS=1 BS=1 WZ=0 BufM=0 LOR=0 SOR=1 BlkP=32 W=50 PF=1024
+Mar 27 11:34:38.941: vmx| UUID: location-UUID is 56 4d b5 63 0a bc d6 a7-15 66 a9 ea 9d 19 8e 15
+Mar 27 11:34:38.941: vmx| MM: Opened paging file, 'E:\虚拟机\564db563-0abc-d6a7-1566-a9ea9d198e15.vmem'.
+Mar 27 11:34:38.941: vmx| MStat: Creating Stat vm.uptime
+Mar 27 11:34:38.941: vmx| MStat: Creating Stat vm.suspendTime
+Mar 27 11:34:38.941: vmx| MStat: Creating Stat vm.powerOnTimeStamp
+Mar 27 11:34:38.941: vmx| Setting thread 37 stack size to 1048576.
+Mar 27 11:34:38.941: vmx| VMXAIOMGR: Using: simple=Generic unbuf=Compl
+Mar 27 11:34:38.972: vmx| VMXVmdb_LoadRawConfig: Loading raw config
+Mar 27 11:34:38.972: vmx| DISK: OPEN scsi0:0 'E:\虚拟机\Windows XP Professional-000001.vmdk' 持久 R[]
+Mar 27 11:34:39.050: vmx| DISKLIB-DSCPTR: Opened [0]: "Windows XP Professional-000001.vmdk" (0xa)
+Mar 27 11:34:39.050: vmx| DISKLIB-LINK  : Opened 'E:\虚拟机\Windows XP Professional-000001.vmdk' (0xa): monolithicSparse, 20971520 sectors / 10 GB.
+Mar 27 11:34:39.097: vmx| DISKLIB-DSCPTR: Opened [0]: "Windows XP Professional.vmdk" (0xe)
+Mar 27 11:34:39.097: vmx| DISKLIB-LINK  : Opened 'E:\虚拟机\Windows XP Professional.vmdk' (0xe): monolithicSparse, 20971520 sectors / 10 GB.
+Mar 27 11:34:39.097: vmx| DISKLIB-LIB   : Opened "E:\虚拟机\Windows XP Professional-000001.vmdk" (flags 0xa).
+Mar 27 11:34:39.097: vmx| DiskGetGeometry: Reading of disk partition table
+Mar 27 11:34:39.128: vmx| DISK: OPEN 'E:\虚拟机\Windows XP Professional-000001.vmdk' Geo (1468/255/56) BIOS Geo (1468/255/56)
+Mar 27 11:34:39.222: vmx| TimeTracker host to guest rate conversion 3170791377720 @ 1995000000Hz -> 3170791377720 @ 1995000000Hz
+Mar 27 11:34:39.222: vmx| TimeTracker host to guest rate conversion ((x * 2147483648) >> 31) + 0
+Mar 27 11:34:39.222: vmx| USB: Initializing 'Generic' backend
+Mar 27 11:34:39.222: vmx| USBGW: Failed to open pipe: The system cannot find the file specified (2)
+Mar 27 11:34:39.222: vmx| USBGW: USB arbitrator open failed:0
+Mar 27 11:34:39.222: vmx| Msg_Post: 警告
+Mar 27 11:34:39.222: vmx| [msg.usb.usbArbitratorOpenFailed] 主机已禁用 USB 设备连接。VMware USB Arbitration Service (服务)连接不成功。请在 Microsoft 管理控制台中检查此服务的状态。
+Mar 27 11:34:39.222: vmx| ----------------------------------------
+Mar 27 11:34:39.347: vmx| USB: Unable to initialize 'Generic' backend
+Mar 27 11:34:39.347: vmx| USB: Initializing 'Virtual Hub' backend
+Mar 27 11:34:39.347: vmx| USB: Initializing 'Virtual Mouse' backend
+Mar 27 11:34:39.347: vmx| USB: Initializing 'Virtual Keyboard' backend
+Mar 27 11:34:39.347: vmx| USB: Initializing 'Virtual Mass Storage' backend
+Mar 27 11:34:39.347: vmx| USB: Initializing 'Virtual CCID' backend
+Mar 27 11:34:39.362: vmx| Setting thread 38 stack size to 1048576.
+Mar 27 11:34:39.362: usbCCIDEnumCards| USB-CCID: Card enum thread created.
+Mar 27 11:34:39.362: vmx| WORKER: Creating new group with numThreads=1 (19)
+Mar 27 11:34:39.409: vmx| Failed to load D3DX9 library.
+Mar 27 11:34:39.409: vmx| WORKER: Creating new group with numThreads=1 (20)
+Mar 27 11:34:39.409: vmx| MKS: Base polling period is 1000000us
+Mar 27 11:34:39.409: vmx| KHBKL: Unable to parse keystring at: ''
+Mar 27 11:34:39.409: vmx| MKS REMOTE Loading VNC Configuration from VM config file
+Mar 27 11:34:39.409: vmx| VLANCE: send cluster threshold is 80, size = 2 recalcInterval is 2 ticks
+Mar 27 11:34:39.409: vmx| VMXNET: send cluster threshold is 80, size = 2 recalcInterval is 2 ticks, dontClusterSize is 128
+Mar 27 11:34:39.409: vmx| NetPkt: checksum cycles/kB: C=34 asm1=614 asm2=614
+Mar 27 11:34:39.409: vmx| NetPkt: copy and sum cycles/kB: C=1375 asm1=624 asm2=619
+Mar 27 11:34:39.409: vmx| Chipset version: 0x13
+Mar 27 11:34:39.425: vmx| SCSI DEVICE (ide1:0): Computed value of ide1:0.useBounceBuffers: always
+Mar 27 11:34:39.425: vmx| DISKUTIL: ide1:0 : capacity=0
+Mar 27 11:34:39.425: vmx| DISKUTIL: ide1:0 : geometry=0/0/0
+Mar 27 11:34:39.425: vmx| SCSI0: UNTAGGED commands will be converted to ORDER tags.
+Mar 27 11:34:39.425: vmx| SCSI DEVICE (scsi0:0): Computed value of scsi0:0.useBounceBuffers: always
+Mar 27 11:34:39.425: vmx| DISKUTIL: scsi0:0 : capacity=20971520
+Mar 27 11:34:39.425: vmx| DISKUTIL: scsi0:0 : geometry=1468/255/56
+Mar 27 11:34:39.425: vmx| SVGA: Device capabilities 0x001fc3e2
+Mar 27 11:34:39.425: vmx| Host display topology 1280x800.
+Mar 27 11:34:39.425: vmx| SVGA: Max size 2560x1600
+Mar 27 11:34:39.425: vmx| Host display topology 1280x800 with 1 displays.
+Mar 27 11:34:39.425: vmx| SVGA: Max size 2560x1600
+Mar 27 11:34:39.425: vmx| SVGA: FIFO capabilities 0x0000007f
+Mar 27 11:34:39.425: vmx| USB: Initializing 'UHCI' host controller
+Mar 27 11:34:39.425: vmx| Ethernet0 MAC Address: 00:0c:29:19:8e:15
+Mar 27 11:34:39.425: vmx| USB: Initializing 'EHCI' host controller
+Mar 27 11:34:39.425: vmx| MStat: Creating Stat vm.heartbeat
+Mar 27 11:34:39.425: vmx| TOOLS Generated SessionId 17595518242175531406
+Mar 27 11:34:39.425: vmx| VMXVmdbGuest_GetToolsVersion did nothing; tools version has not yet been initialized
+Mar 27 11:34:39.425: vmx| DISKUTIL: scsi0:0 : toolsVersion = 0
+Mar 27 11:34:39.425: vmx| DISKUTIL: Offline toolsVersion = 0
+Mar 27 11:34:39.425: vmx| VMXVmdbGuest_GetToolsVersion did nothing; tools version has not yet been initialized
+Mar 27 11:34:39.425: vmx| TOOLS setting legacy tools version to '0', manifest status is 5
+Mar 27 11:34:39.425: vmx| VMXVmdb_SetToolsVersionState: status value set to 'noTools'
+Mar 27 11:34:39.425: vmx| VMXVmdb_SetToolsVersionState: status value set to 'noTools'
+Mar 27 11:34:39.425: vmx| MsgHint: msg.tools.toolsReminder
+Mar 27 11:34:39.425: vmx| 你是否忘记在虚拟机中安装 VMware Tools 安装包: 在你的客户机操作系统引导完成后选择 虚拟机 > Install VMware Tools… 然后按指令操作。
+Mar 27 11:34:39.425: vmx| ---------------------------------------
+Mar 27 11:34:39.487: vmx| TOOLS INSTALL initializing state to IDLE on power on.
+Mar 27 11:34:39.518: vmx| PTSC to VMI Wallclock (nsec) 3171315981080 @ 1995000000Hz -> 1301196879000000000 @ 1000000000Hz
+Mar 27 11:34:39.518: vmx| PTSC to VMI Wallclock (nsec) ((x * 2152865812) >> 32) + 1301195289367929676
+Mar 27 11:34:39.518: vmx| PTSC to ParaTime RealCycles 0 @ 1995000000Hz -> 0 @ 1995000000Hz
+Mar 27 11:34:39.518: vmx| PTSC to ParaTime RealCycles ((x * 1) >> 0) + 0
+Mar 27 11:34:39.518: vmx| ParaTime RealCycles to PTSC 0 @ 1995000000Hz -> 0 @ 1995000000Hz
+Mar 27 11:34:39.518: vmx| ParaTime RealCycles to PTSC ((x * 1) >> 0) + 0
+Mar 27 11:34:39.518: vmx| memoryHotplug: Current size = 1024MB, Minimum size = 1024MB, Maximum size = 1024MB
+Mar 27 11:34:39.518: vmx| memoryHotplug: Entry[0]: 00000000000000A0-00000000000A0000
+Mar 27 11:34:39.518: vmx| memoryHotplug: Entry[1]: 00000000001000A0-0000000040000000
+Mar 27 11:34:39.518: vmx| guestCpuFeatures = 0x404001f8
+Mar 27 11:34:39.518: vmx| guestCPUID vendor: GenuineIntel
+Mar 27 11:34:39.518: vmx| guestCPUID   name: Intel(R) Core(TM)2 Duo CPU     T6400  @ 2.00GHz
+Mar 27 11:34:39.518: vmx| guestCPUID level 00000000, 0: 0x0000000d 0x756e6547 0x6c65746e 0x49656e69
+Mar 27 11:34:39.518: vmx| guestCPUID level 00000001, 0: 0x0001067a 0x00010800 0x80080201 0x0febfbff
+Mar 27 11:34:39.518: vmx| guestCPUID level 00000002, 0: 0x05b0b101 0x005657f0 0x00000000 0x2cb4307d
+Mar 27 11:34:39.518: vmx| guestCPUID level 00000003, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Mar 27 11:34:39.518: vmx| guestCPUID level 00000004, 0: 0x04000121 0x01c0003f 0x0000003f 0x00000001
+Mar 27 11:34:39.518: vmx| guestCPUID level 00000005, 0: 0x00000040 0x00000040 0x00000003 0x00022220
+Mar 27 11:34:39.518: vmx| guestCPUID level 00000006, 0: 0x00000001 0x00000002 0x00000003 0x00000000
+Mar 27 11:34:39.518: vmx| guestCPUID level 00000007, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Mar 27 11:34:39.518: vmx| guestCPUID level 00000008, 0: 0x00000400 0x00000000 0x00000000 0x00000000
+Mar 27 11:34:39.518: vmx| guestCPUID level 00000009, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Mar 27 11:34:39.518: vmx| guestCPUID level 0000000a, 0: 0x07280202 0x00000000 0x00000000 0x00000503
+Mar 27 11:34:39.518: vmx| guestCPUID level 0000000b, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Mar 27 11:34:39.518: vmx| guestCPUID level 0000000c, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Mar 27 11:34:39.518: vmx| guestCPUID level 0000000d, 0: 0x00000003 0x00000240 0x00000240 0x00000000
+Mar 27 11:34:39.518: vmx| guestCPUID level 40000000, 0: 0x40000010 0x61774d56 0x4d566572 0x65726177
+Mar 27 11:34:39.518: vmx| guestCPUID level 40000010, 0: 0x001e70f8 0x000101d0 0x00000000 0x00000000
+Mar 27 11:34:39.518: vmx| guestCPUID level 80000000, 0: 0x80000008 0x00000000 0x00000000 0x00000000
+Mar 27 11:34:39.518: vmx| guestCPUID level 80000001, 0: 0x00000000 0x00000000 0x00000000 0x00100000
+Mar 27 11:34:39.518: vmx| guestCPUID level 80000002, 0: 0x65746e49 0x2952286c 0x726f4320 0x4d542865
+Mar 27 11:34:39.518: vmx| guestCPUID level 80000003, 0: 0x44203229 0x43206f75 0x20205550 0x54202020
+Mar 27 11:34:39.518: vmx| guestCPUID level 80000004, 0: 0x30303436 0x20402020 0x30302e32 0x007a4847
+Mar 27 11:34:39.518: vmx| guestCPUID level 80000005, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Mar 27 11:34:39.518: vmx| guestCPUID level 80000006, 0: 0x00000000 0x00000000 0x08006040 0x00000000
+Mar 27 11:34:39.518: vmx| guestCPUID level 80000007, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Mar 27 11:34:39.518: vmx| guestCPUID level 80000008, 0: 0x00003028 0x00000000 0x00000000 0x00000000
+Mar 27 11:34:39.518: vmx| BusMemSample: initPercent 75 touched 196608
+Mar 27 11:34:39.518: vmx| TOOLS received request in VMX to set option 'enableDnD' -> '1'
+Mar 27 11:34:39.518: vmx| TOOLS received request in VMX to set option 'copypaste' -> '1'
+Mar 27 11:34:39.518: vmx| Vix: [1224 mainDispatch.c:844]: VMAutomation_PowerOn. Powering on.
+Mar 27 11:34:39.518: vmx| VMX_PowerOn: ModuleTable_PowerOn = 1
+Mar 27 11:34:39.518: vmx| Setting thread 1 stack size to 2097152.
+Mar 27 11:34:39.518: mks| Async MKS thread is alive
+Mar 27 11:34:39.518: vmx| Setting thread 4 stack size to 1048576.
+Mar 27 11:34:39.612: vmx| DnDRegisterRpc: DnD rpc already set to 1
+Mar 27 11:34:39.612: vmx| CopyPasteRegisterRpc: already set to 1
+Mar 27 11:34:39.612: mks| Connecting to window system.
+Mar 27 11:34:39.612: mks| MKS: Base polling period is 10000us
+Mar 27 11:34:39.612: mks| Setting thread 39 stack size to 1048576.
+Mar 27 11:34:39.643: mks| GdiBackendConstruct: Using software emulation for overlays.
+Mar 27 11:34:39.659: mks| VMXAIOMGR: Disallowing USB connect.  1253712 us since last reopen
+Mar 27 11:34:39.659: vcpu-0| APIC: version = 0x14, max LVT = 5
+Mar 27 11:34:39.659: vcpu-0| APIC: LDR = 0x2000000, DFR = 0xffffffff
+Mar 27 11:34:39.674: vcpu-0| CPU reset: hard (mode 2)
+Mar 27 11:34:39.674: vcpu-0| memoryHotplug: Entry[0]: 00000000000000A0-00000000000A0000
+Mar 27 11:34:39.674: vcpu-0| memoryHotplug: Entry[1]: 00000000001000A0-0000000040000000
+Mar 27 11:34:39.674: vcpu-0| PIIX4: PM Resuming from suspend type 0x0.
+Mar 27 11:34:39.737: vcpu-0| SOUND 001.333092 PCISoundWin32 mixerGetLineInfo error 1024
+Mar 27 11:34:39.737: vcpu-0| VNET: MACVNetConnectToNetwork: Ethernet0: notify available
+Mar 27 11:34:39.737: vcpu-0| Msg_Post: 警告
+Mar 27 11:34:39.737: vcpu-0| [msg.floppyImage.nofile] 软盘 autoinst.flp 不存在
+Mar 27 11:34:39.737: vcpu-0| [msg.floppy.badConnectShort] 请修正你的配置并尝试重新连接该虚拟软盘驱动器。
+Mar 27 11:34:39.737: vcpu-0| [msg.device.startdisconnected] 虚拟设备 floppy0 将开始断开连接
+Mar 27 11:34:39.737: vcpu-0| ----------------------------------------
+Mar 27 11:34:39.786: vcpu-0| CDROM: Connecting ide1:0 to 'Z:'. img=0 raw=1 remote=0
+Mar 27 11:34:39.786: vcpu-0| CDROM: Failed to connect CDROM device 'Z:'.
+Mar 27 11:34:39.786: vcpu-0| Msg_Post: 警告
+Mar 27 11:34:39.786: vcpu-0| [msg.cdromWin.badFileName] 驱动器 Z: 不是一个 CD-ROM 设备。请修正你的配置。
+Mar 27 11:34:39.786: vcpu-0| [msg.device.startdisconnected] 虚拟设备 ide1:0 将开始断开连接
+Mar 27 11:34:39.786: vcpu-0| ----------------------------------------
+Mar 27 11:34:39.817: vcpu-0| Vix: [5508 mainDispatch.c:3661]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1872, success=1
+Mar 27 11:34:39.832: vcpu-0| Vix: [5508 mainDispatch.c:3582]: VMAutomationReportPowerStateChange: Reporting power state change (opcode=0, err=0).
+Mar 27 11:34:39.832: vcpu-0| Vix: [5508 mainDispatch.c:3582]: VMAutomationReportPowerStateChange: Reporting power state change (opcode=2, err=0).
+Mar 27 11:34:39.832: vcpu-0| Transitioned vmx/execState/val to poweredOn
+Mar 27 11:34:39.832: vmx| Msg_Post: 错误
+Mar 27 11:34:39.832: vmx| [msg.serial.thinprint.win32.proxy.start] serial0: Unable to launch virtual printer proxy: The system cannot find the file specified.
+Mar 27 11:34:39.832: vmx| 
+Mar 27 11:34:39.832: vmx| [msg.serial.disconnect] 设备将要被断开连接。
+Mar 27 11:34:39.832: vmx| ----------------------------------------
+Mar 27 11:34:39.973: vmx| HOSTINFO: Seeing Intel CPU, numCoresPerCPU 2 numThreadsPerCore 1.
+Mar 27 11:34:39.973: vmx| HOSTINFO: This machine has 1 physical CPUS, 2 total cores, and 2 logical CPUs.
+Mar 27 11:34:39.973: vmx| Vix: [1224 mainDispatch.c:4088]: VMAutomationProcessMessage: Postpone the command. MSG in progress (opcode 151)
+Mar 27 11:34:43.155: mks| HostOps hideCursor before defineCursor!
+Mar 27 11:34:43.155: mks| VMXAIOMGR: Disallowing USB connect.  4755306 us since last reopen
+Mar 27 11:34:43.171: vcpu-0| sz=2961376
+Mar 27 11:34:43.186: vcpu-0| vmm32 initialized: Releasebuild-261024. cflags: 0x00000008.01000000.00006000.00090003
+Mar 27 11:34:43.186: vcpu-0| MonitorInitNumaUnmapVMM32
+Mar 27 11:34:43.428: vmx| PTSC: using reference clock [TSC: 3169350476460->3174281508190, RC: 13423080916->13432822697]
+Mar 27 11:34:43.703: vcpu-0| SVGA: Registering MemSpace at 0xd0000000(0x0) and 0xd8000000(0x0)
+Mar 27 11:34:43.708: vcpu-0| SVGA: Unregistering MemSpace at 0xd0000000(0xd0000000) and 0xd8000000(0xd8000000)
+Mar 27 11:34:43.928: vcpu-0| SVGA: Registering MemSpace at 0xd0000000(0xd0000000) and 0xd8000000(0xd8000000)
+Mar 27 11:34:43.935: vcpu-0| SVGA: Unregistering MemSpace at 0xd0000000(0xd0000000) and 0xd8000000(0xd8000000)
+Mar 27 11:34:43.955: vcpu-0| SVGA: Registering IOSpace at 0x10f0
+Mar 27 11:34:43.955: vcpu-0| SVGA: Registering MemSpace at 0xd0000000(0xd0000000) and 0xd8000000(0xd8000000)
+Mar 27 11:34:43.963: vcpu-0| PCIBridge4: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:43.965: vcpu-0| pciBridge4:1: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:43.965: vcpu-0| pciBridge4:2: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:43.968: vcpu-0| pciBridge4:3: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:43.970: vcpu-0| pciBridge4:4: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:43.970: vcpu-0| pciBridge4:5: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:43.973: vcpu-0| pciBridge4:6: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:43.975: vcpu-0| pciBridge4:7: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:43.975: vcpu-0| PCIBridge5: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:43.978: vcpu-0| pciBridge5:1: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:43.980: vcpu-0| pciBridge5:2: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:43.980: vcpu-0| pciBridge5:3: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:43.983: vcpu-0| pciBridge5:4: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:43.985: vcpu-0| pciBridge5:5: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:43.985: vcpu-0| pciBridge5:6: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:43.988: vcpu-0| pciBridge5:7: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:43.990: vcpu-0| PCIBridge6: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:43.990: vcpu-0| pciBridge6:1: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:43.993: vcpu-0| pciBridge6:2: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:43.995: vcpu-0| pciBridge6:3: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:43.995: vcpu-0| pciBridge6:4: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:43.998: vcpu-0| pciBridge6:5: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:44.000: vcpu-0| pciBridge6:6: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:44.000: vcpu-0| pciBridge6:7: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:44.003: vcpu-0| PCIBridge7: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:44.005: vcpu-0| pciBridge7:1: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:44.008: vcpu-0| pciBridge7:2: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:44.008: vcpu-0| pciBridge7:3: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:44.010: vcpu-0| pciBridge7:4: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:44.013: vcpu-0| pciBridge7:5: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:44.013: vcpu-0| pciBridge7:6: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:44.015: vcpu-0| pciBridge7:7: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:44.268: vcpu-0| PCIBridge4: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:44.270: vcpu-0| pciBridge4:1: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:44.273: vcpu-0| pciBridge4:2: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:44.273: vcpu-0| pciBridge4:3: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:44.275: vcpu-0| pciBridge4:4: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:44.278: vcpu-0| pciBridge4:5: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:44.278: vcpu-0| pciBridge4:6: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:44.280: vcpu-0| pciBridge4:7: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:44.283: vcpu-0| PCIBridge5: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:44.285: vcpu-0| pciBridge5:1: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:44.285: vcpu-0| pciBridge5:2: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:44.288: vcpu-0| pciBridge5:3: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:44.290: vcpu-0| pciBridge5:4: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:44.290: vcpu-0| pciBridge5:5: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:44.293: vcpu-0| pciBridge5:6: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:44.293: vcpu-0| pciBridge5:7: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:44.295: vcpu-0| PCIBridge6: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:44.298: vcpu-0| pciBridge6:1: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:44.300: vcpu-0| pciBridge6:2: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:44.300: vcpu-0| pciBridge6:3: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:44.303: vcpu-0| pciBridge6:4: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:44.305: vcpu-0| pciBridge6:5: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:44.308: vcpu-0| pciBridge6:6: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:44.308: vcpu-0| pciBridge6:7: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:44.310: vcpu-0| PCIBridge7: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:44.313: vcpu-0| pciBridge7:1: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:44.313: vcpu-0| pciBridge7:2: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:44.315: vcpu-0| pciBridge7:3: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:44.318: vcpu-0| pciBridge7:4: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:44.318: vcpu-0| pciBridge7:5: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:44.320: vcpu-0| pciBridge7:6: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:44.323: vcpu-0| pciBridge7:7: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:44.333: vcpu-0| DISKUTIL: scsi0:0 : geometry=1468/255/56
+Mar 27 11:34:44.333: vcpu-0| DISKUTIL: scsi0:0 : capacity=20971520
+Mar 27 11:34:44.410: vcpu-0| BIOS-UUID is 56 4d b5 63 0a bc d6 a7-15 66 a9 ea 9d 19 8e 15
+Mar 27 11:34:44.855: mks| HostOps hideCursor before defineCursor!
+Mar 27 11:34:44.975: vcpu-0| BUSLOGIC: Store HAL[16] = 0xfff8
+Mar 27 11:34:44.975: vcpu-0| BUSLOGIC: Store HAL[18] = 0xfe01
+Mar 27 11:34:45.000: vcpu-0| BUSLOGIC: Store HAL[16] = 0xfff8
+Mar 27 11:34:45.000: vcpu-0| BUSLOGIC: Store HAL[18] = 0xfe01
+Mar 27 11:34:45.028: vcpu-0| BUSLOGIC: Store HAL[16] = 0xfff8
+Mar 27 11:34:45.028: vcpu-0| BUSLOGIC: Store HAL[18] = 0xfe01
+Mar 27 11:34:45.298: vcpu-0| BUSLOGIC: Store HAL[16] = 0xfff8
+Mar 27 11:34:45.298: vcpu-0| BUSLOGIC: Store HAL[18] = 0xfe01
+Mar 27 11:34:45.300: vcpu-0| BUSLOGIC: Store HAL[16] = 0xfff8
+Mar 27 11:34:45.300: vcpu-0| BUSLOGIC: Store HAL[18] = 0xfe01
+Mar 27 11:34:45.383: vcpu-0| BUSLOGIC: Store HAL[16] = 0xfff8
+Mar 27 11:34:45.383: vcpu-0| BUSLOGIC: Store HAL[18] = 0xfe01
+Mar 27 11:34:45.455: mks| HostOps hideCursor before defineCursor!
+Mar 27 11:34:45.458: vcpu-0| BUSLOGIC: Store HAL[16] = 0xfff8
+Mar 27 11:34:45.458: vcpu-0| BUSLOGIC: Store HAL[18] = 0xfe01
+Mar 27 11:34:45.545: vcpu-0| BUSLOGIC: Store HAL[20] = 0x00fb
+Mar 27 11:34:45.545: vcpu-0| BUSLOGIC: Store HAL[22] = 0x0400
+Mar 27 11:34:45.545: vcpu-0| BUSLOGIC: Store HAL[16] = 0xfff8
+Mar 27 11:34:45.545: vcpu-0| BUSLOGIC: Store HAL[18] = 0xfe01
+Mar 27 11:34:45.583: vcpu-0| BUSLOGIC: Store HAL[16] = 0xfff8
+Mar 27 11:34:45.583: vcpu-0| BUSLOGIC: Store HAL[18] = 0xfe01
+Mar 27 11:34:45.623: vcpu-0| BUSLOGIC: Store HAL[16] = 0xfff8
+Mar 27 11:34:45.623: vcpu-0| BUSLOGIC: Store HAL[18] = 0xfe01
+Mar 27 11:34:45.633: vcpu-0| BUSLOGIC: Store HAL[16] = 0xfff8
+Mar 27 11:34:45.633: vcpu-0| BUSLOGIC: Store HAL[18] = 0xfe01
+Mar 27 11:34:48.410: vcpu-0| DISKLIB-DDB   : "longContentID" = "474d8fd24b34279c2cf410e0a3eb807c" (was "0a8f5595c200a0283740e977e914fb5e")
+Mar 27 11:34:48.443: mks| HostOps hideCursor before defineCursor!
+Mar 27 11:34:49.325: mks| HostOps hideCursor before defineCursor!
+Mar 27 11:34:49.618: mks| MKSHostOps_Exit3D: 0, 1
+Mar 27 11:34:49.793: mks| SVGA: display status changed, using optimizations for local consoles.
+Mar 27 11:34:51.918: vcpu-0| SVGA: Unregistering IOSpace at 0x10f0
+Mar 27 11:34:51.918: vcpu-0| SVGA: Unregistering MemSpace at 0xd0000000(0xd0000000) and 0xd8000000(0xd8000000)
+Mar 27 11:34:51.935: vcpu-0| SVGA: Registering IOSpace at 0x10f0
+Mar 27 11:34:51.935: vcpu-0| SVGA: Registering MemSpace at 0xd0000000(0xd0000000) and 0xd8000000(0xd8000000)
+Mar 27 11:34:51.940: vcpu-0| PCIBridge4: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:51.940: vcpu-0| PCIBridge4: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:51.943: vcpu-0| pciBridge4:1: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:51.943: vcpu-0| pciBridge4:1: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:51.945: vcpu-0| pciBridge4:2: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:51.945: vcpu-0| pciBridge4:2: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:51.948: vcpu-0| pciBridge4:3: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:51.948: vcpu-0| pciBridge4:3: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:51.950: vcpu-0| pciBridge4:4: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:51.950: vcpu-0| pciBridge4:4: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:51.953: vcpu-0| pciBridge4:5: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:51.953: vcpu-0| pciBridge4:5: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:51.955: vcpu-0| pciBridge4:6: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:51.955: vcpu-0| pciBridge4:6: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:51.958: vcpu-0| pciBridge4:7: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:51.958: vcpu-0| pciBridge4:7: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:51.960: vcpu-0| PCIBridge5: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:51.960: vcpu-0| PCIBridge5: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:51.963: vcpu-0| pciBridge5:1: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:51.963: vcpu-0| pciBridge5:1: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:51.965: vcpu-0| pciBridge5:2: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:51.965: vcpu-0| pciBridge5:2: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:51.968: vcpu-0| pciBridge5:3: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:51.968: vcpu-0| pciBridge5:3: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:51.970: vcpu-0| pciBridge5:4: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:51.970: vcpu-0| pciBridge5:4: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:51.973: vcpu-0| pciBridge5:5: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:51.973: vcpu-0| pciBridge5:5: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:51.975: vcpu-0| pciBridge5:6: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:51.975: vcpu-0| pciBridge5:6: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:51.978: vcpu-0| pciBridge5:7: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:51.978: vcpu-0| pciBridge5:7: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:51.980: vcpu-0| PCIBridge6: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:51.980: vcpu-0| PCIBridge6: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:51.983: vcpu-0| pciBridge6:1: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:51.983: vcpu-0| pciBridge6:1: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:51.985: vcpu-0| pciBridge6:2: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:51.985: vcpu-0| pciBridge6:2: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:51.988: vcpu-0| pciBridge6:3: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:51.988: vcpu-0| pciBridge6:3: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:51.990: vcpu-0| pciBridge6:4: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:51.990: vcpu-0| pciBridge6:4: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:51.993: vcpu-0| pciBridge6:5: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:51.993: vcpu-0| pciBridge6:5: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:51.995: vcpu-0| pciBridge6:6: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:51.995: vcpu-0| pciBridge6:6: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:51.998: vcpu-0| pciBridge6:7: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:51.998: vcpu-0| pciBridge6:7: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:52.000: vcpu-0| PCIBridge7: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:52.000: vcpu-0| PCIBridge7: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:52.003: vcpu-0| pciBridge7:1: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:52.003: vcpu-0| pciBridge7:1: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:52.005: vcpu-0| pciBridge7:2: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:52.005: vcpu-0| pciBridge7:2: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:52.008: vcpu-0| pciBridge7:3: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:52.008: vcpu-0| pciBridge7:3: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:52.010: vcpu-0| pciBridge7:4: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:52.010: vcpu-0| pciBridge7:4: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:52.013: vcpu-0| pciBridge7:5: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:52.013: vcpu-0| pciBridge7:5: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:52.015: vcpu-0| pciBridge7:6: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:52.015: vcpu-0| pciBridge7:6: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:52.018: vcpu-0| pciBridge7:7: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:52.018: vcpu-0| pciBridge7:7: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:53.800: vcpu-0| PCIBridge4: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:53.818: vcpu-0| pciBridge4:1: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:53.835: vcpu-0| pciBridge4:2: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:53.853: vcpu-0| pciBridge4:3: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:53.870: vcpu-0| pciBridge4:4: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:53.888: vcpu-0| pciBridge4:5: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:53.905: vcpu-0| pciBridge4:6: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:53.923: vcpu-0| pciBridge4:7: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:53.940: vcpu-0| PCIBridge5: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:53.958: vcpu-0| pciBridge5:1: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:53.975: vcpu-0| pciBridge5:2: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:53.990: vcpu-0| pciBridge5:3: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:54.008: vcpu-0| pciBridge5:4: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:54.025: vcpu-0| pciBridge5:5: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:54.040: vcpu-0| pciBridge5:6: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:54.058: vcpu-0| pciBridge5:7: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:54.075: vcpu-0| PCIBridge6: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:54.090: vcpu-0| pciBridge6:1: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:54.108: vcpu-0| pciBridge6:2: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:54.123: vcpu-0| pciBridge6:3: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:54.140: vcpu-0| pciBridge6:4: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:54.155: vcpu-0| pciBridge6:5: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:54.173: vcpu-0| pciBridge6:6: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:54.190: vcpu-0| pciBridge6:7: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:54.205: vcpu-0| PCIBridge7: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:54.220: vcpu-0| pciBridge7:1: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:54.238: vcpu-0| pciBridge7:2: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:54.253: vcpu-0| pciBridge7:3: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:54.270: vcpu-0| pciBridge7:4: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:54.285: vcpu-0| pciBridge7:5: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:54.303: vcpu-0| pciBridge7:6: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:54.318: vcpu-0| pciBridge7:7: ISA/VGA decoding enabled (ctrl 0004)
+Mar 27 11:34:55.925: vcpu-0| CDROM: Mode Sense for Unsupported Page 0x1B
+Mar 27 11:34:55.925: vcpu-0| SCSI DEVICE (ide1:0): MODE SENSE(10) for unsupported page 0x1b
+Mar 27 11:34:55.963: vcpu-0| DISKUTIL: scsi0:0 : geometry=1468/255/56
+Mar 27 11:34:55.963: vcpu-0| DISKUTIL: scsi0:0 : capacity=20971520
+Mar 27 11:34:55.963: vcpu-0| SCSI0: RESET BUS
+Mar 27 11:34:55.975: vcpu-0| DISKUTIL: scsi0:0 : geometry=1468/255/56
+Mar 27 11:34:55.978: vcpu-0| DISKUTIL: scsi0:0 : capacity=20971520
+Mar 27 11:34:56.135: vcpu-0| SCSI DEVICE (scsi0:0): MODE SENSE(6) for unsupported page 0x1c
+Mar 27 11:34:58.265: vcpu-0| CDROM: Emulate GET CONFIGURATION RT 0 start feature 0
+Mar 27 11:34:58.265: vcpu-0| CDROM: Emulate GET CONFIGURATION RT 0 start feature 0
+Mar 27 11:34:58.265: vcpu-0| CDROM: Emulate GET CONFIGURATION RT 0 start feature 0
+Mar 27 11:34:58.265: vcpu-0| CDROM: Emulate GET CONFIGURATION RT 0 start feature 0
+Mar 27 11:34:58.605: vcpu-0| UHCI: Global Reset
+Mar 27 11:34:58.740: vcpu-0| SOUND 020.325248 PCISoundWin32 mixerGetLineInfo error 1024
+Mar 27 11:35:05.143: mks| HostOps hideCursor before defineCursor!
+Mar 27 11:35:05.158: mks| MKS switching absolute mouse on
+Mar 27 11:35:16.121: vmx| scsi0:0: Command READ(10) took 1.525 seconds (ok)
+Mar 27 11:35:16.121: vmx| scsi0:0: Command READ(10) took 1.524 seconds (ok)
+Mar 27 11:35:16.723: vmx| scsi0:0: Command READ(10) took 1.798 seconds (ok)
+Mar 27 11:35:27.226: vcpu-0| CDROM: Emulate GET CONFIGURATION RT 0 start feature 0
+Mar 27 11:35:27.226: vcpu-0| CDROM: Emulate GET CONFIGURATION RT 0 start feature 30
+Mar 27 11:35:27.226: vcpu-0| CDROM: Emulate GET CONFIGURATION RT 0 start feature 31
+Mar 27 11:35:27.226: vcpu-0| CDROM: Emulate GET CONFIGURATION RT 0 start feature 32
+Mar 27 11:35:27.226: vcpu-0| CDROM: Emulate GET CONFIGURATION RT 0 start feature 33
+Mar 27 11:35:27.226: vcpu-0| CDROM: Emulate GET CONFIGURATION RT 0 start feature 35
+Mar 27 11:35:27.226: vcpu-0| CDROM: Emulate GET CONFIGURATION RT 0 start feature 36
+Mar 27 11:35:27.226: vcpu-0| CDROM: Emulate GET CONFIGURATION RT 0 start feature 38
+Mar 27 11:35:27.228: vcpu-0| CDROM: Emulate GET CONFIGURATION RT 0 start feature 45
+Mar 27 11:35:27.228: vcpu-0| CDROM: Emulate GET CONFIGURATION RT 0 start feature 46
+Mar 27 11:35:27.228: vcpu-0| CDROM: Emulate GET CONFIGURATION RT 0 start feature 47
+Mar 27 11:35:27.228: vcpu-0| CDROM: Emulate GET CONFIGURATION RT 0 start feature 259
+Mar 27 11:35:33.416: vcpu-0| Setting thread 39 stack size to 1048576.
+Mar 27 11:36:24.403: mks| Setting thread 40 stack size to 1048576.
+Mar 27 11:36:24.462: mks| Setting thread 41 stack size to 1048576.
+Mar 27 11:36:29.020: vmx| scsi0:0: Command READ(10) took 1.100 seconds (ok)
+Mar 27 11:36:30.298: vmx| scsi0:0: Command READ(10) took 1.190 seconds (ok)
+Mar 27 11:36:31.224: mks| Setting thread 42 stack size to 1048576.
+Mar 27 11:36:32.214: mks| Setting thread 42 stack size to 1048576.
+Mar 27 11:36:40.670: mks| Setting thread 42 stack size to 1048576.
+Mar 27 11:36:51.374: vcpu-0| Setting thread 39 stack size to 1048576.
+Mar 27 11:36:54.893: vcpu-0| Setting thread 39 stack size to 1048576.
+Mar 27 11:37:03.708: vcpu-0| Setting thread 39 stack size to 1048576.
+Mar 27 11:37:08.358: vcpu-0| Setting thread 39 stack size to 1048576.
+Mar 27 11:37:28.038: mks| Setting thread 42 stack size to 1048576.
+Mar 27 11:37:34.301: vcpu-0| Setting thread 39 stack size to 1048576.
+Mar 27 11:37:43.137: vmx| GuestRpcSendTimedOut: message to toolbox timed out.
+Mar 27 11:37:43.137: vmx| Vix: [1224 guestCommands.c:2392]: Error VIX_E_TOOLS_NOT_RUNNING in VMAutomationTranslateGuestRpcError(): VMware Tools are not running in the guest
+Mar 27 11:38:41.725: mks| Setting thread 42 stack size to 1048576.
+Mar 27 11:38:52.059: vmx| VMXVmdbCbVmVmxExecState: Exec state change requested to state poweredOff without reset, hard, softOptionTimeout: 0.
+Mar 27 11:38:52.060: vmx| Stopping VCPU threads...
+Mar 27 11:38:52.063: mks| Ending MKSRole pseudocalls, state was 1
+Mar 27 11:38:52.063: mks| Detaching from window system.
+Mar 27 11:38:52.076: mks| MKS: Base polling period is 1000000us
+Mar 27 11:38:52.076: mks| MKSHostOps_Exit3D: 1, 0
+Mar 27 11:38:52.076: mks| Async MKS thread is exiting
+Mar 27 11:38:52.078: vmx| Vix: [1224 mainDispatch.c:1015]: VMAutomation_PowerOff: Powering off.
+Mar 27 11:38:52.079: vmx| TOOLS received request in VMX to set option 'enableDnD' -> '0'
+Mar 27 11:38:52.079: vmx| TOOLS received request in VMX to set option 'copypaste' -> '0'
+Mar 27 11:38:52.079: vmx| TOOLS received request in VMX to set option 'copypaste' -> '0'
+Mar 27 11:38:52.082: vmx| VMXVmdb_SetToolsVersionState: status value set to 'ok'
+Mar 27 11:38:52.084: vmx| USB: Disconnecting device 0x200000010e0f0002
+Mar 27 11:38:52.084: vmx| USB: Disconnecting device 0x400000010e0f0003
+Mar 27 11:38:52.132: vmx| HostOps hideCursor before defineCursor!
+Mar 27 11:38:52.157: vmx| MKS local poweroff
+Mar 27 11:38:52.157: usbCCIDEnumCards| USB-CCID: Card enum thread exiting.
+Mar 27 11:38:52.158: vmx| scsi0:0: numIOs = 7824 numMergedIOs = 735 numSplitIOs = 396 (35.0%)
+Mar 27 11:38:52.241: vmx| AIOWIN32C: asyncOps=8616 syncOps=50 bufSize=64Kb fixedOps=8 sgOps=8057 sgOn=1
+Mar 27 11:38:52.241: aioCompletion| AIO thread processed 8616 completions
+Mar 27 11:38:52.241: vmx| AIOWIN32: asyncOps=0 syncOps=0 bufSize=0Kb delayed=0 fixed=0 sgOp=0 sgOn=1
+Mar 27 11:38:52.387: vmx| WORKER: asyncOps=1 maxActiveOps=1 maxPending=0 maxCompleted=0
+Mar 27 11:38:52.510: vmx| Vix: [1224 mainDispatch.c:3661]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1873, success=1
+Mar 27 11:38:52.510: vmx| Vix: [1224 mainDispatch.c:3667]: VMAutomation: Ignoring ReportPowerOpFinished because the VMX is shutting down.
+Mar 27 11:38:52.517: vmx| Vix: [1224 mainDispatch.c:3661]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1870, success=1
+Mar 27 11:38:52.517: vmx| Vix: [1224 mainDispatch.c:3667]: VMAutomation: Ignoring ReportPowerOpFinished because the VMX is shutting down.
+Mar 27 11:38:52.519: vmx| Transitioned vmx/execState/val to poweredOff
+Mar 27 11:38:52.581: vmx| VMXVmdb_LoadRawConfig: Loading raw config
+Mar 27 11:38:52.591: vmx| VMX idle exit
+Mar 27 11:38:52.592: WinNotifyThread| WinNotify thread exiting
+Mar 27 11:38:52.595: vmx| Vix: [1224 mainDispatch.c:747]: VMAutomation_LateShutdown()
+Mar 27 11:38:52.595: vmx| Vix: [1224 mainDispatch.c:697]: VMAutomationCloseListenerSocket. Closing listener socket.
+Mar 27 11:38:52.595: vmx| Flushing VMX VMDB connections
+Mar 27 11:38:52.677: vmx| VMX exit (0).
+Mar 27 11:38:52.678: vmx| AIOMGR-S : stat o=2 r=12 w=0 i=0 br=111616 bw=0
+Mar 27 11:38:52.678: vmx| FileTrack_Exit: done

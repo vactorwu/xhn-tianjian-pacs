@@ -1,0 +1,81 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>设置MedServer</title>
+</head>
+
+<body style="font-family: 宋体; font-size: 10pt" bgcolor="#0066CC" background="images/bg.gif">
+
+<div align="center">
+  <center>
+  <table border="1" width="640" height="1" style="padding-left: 15; padding-right: 15; padding-top: 10; padding-bottom: 10" bordercolor="#000000" cellspacing="0">
+    <tr> 
+      <td height="113" style="padding-left: 15; padding-right: 15; padding-top: 10; padding-bottom: 10" bgcolor="#FFFFCC"> 
+        <p style="line-height: 120%"><font face="宋体" size="3"><b>3.1.3 
+        调度节点的设置</b></font></p>  
+        <p style="line-height: 120%"><font size="2" face="宋体">&nbsp;</font><font size="2" face="宋体"> 
+        MedServer可以对发送节点主题、转发节点主题及调度规则等进行设置，如下图所示，界面上主要分为上、中、下三部分，上方为调度节点列表，中间是调度规则选项，下方是节点属性设置区。&nbsp;<br>
+        &nbsp; 点击右下方的&lt;添加调度节点>按钮，上方的节点列表中将会增加一个主题为“removetitle1”的条目，点击这一条目，下方的属性区内将显示这一节点的属性；<br>
+        &nbsp; 修改发送节点主题，将“removetitle1”改为您的主题，展开名为“转发节点主题”的下拉菜单（如下图所示），其中包含的选项就是您在远端设置中设定的远端服务节点主题，选定后点击右侧的&lt;修改调度节点>按钮，此时上方的节点列表中就显示出您刚才设置的调度服务节点条目；<br>
+        &nbsp; 选择某一条目，点击&lt;删除调度节点>按钮，这一服务条目即被删除；<br>
+        &nbsp; 在中部的调度规则设置区内有四个选项：“按照HIS信息转发接收到的影像”、“按照调度表转发接收到的影像”、“两者同时有效”和“不调度影像”，请您按自身实际需要选择一种适合的规则以实现调度规则的设置。</font></p>  
+      </td>   
+    </tr>   
+  </center>  
+  <center>
+  </center>  
+  <center>
+  </center>  
+    <tr> 
+      <td height="113" style="padding-left: 15; padding-right: 15; padding-top: 10; padding-bottom: 10" bgcolor="#FFFFCC"> 
+        <p align="center"><img border="0" src="Part03img/03-05.gif" width="592" height="466">  
+      </td>   
+    </tr>   
+    <tr> 
+      <td height="113" style="padding-left: 15; padding-right: 15; padding-top: 10; padding-bottom: 10" bgcolor="#FFFFCC"> 
+        <p style="line-height: 120%"><b><font size="3">3.1.4 设置选项</font></b></p>
+        <p style="line-height: 120%"><font size="2">&nbsp; </font><font size="2">设置选项可以对影像存储区、存储区管理规则、状态信息等进行调整。界面如下图所示，大体上也可分为上、中、下三部分，上半部分为影像存储位置的设定，中间部分包括在线和离线存储区管理规则设定，下半部分包含状态信息和高级操作按钮。&nbsp;<br>
+        &nbsp; 在影像存储区设定选项中，显示了在线存储路径和数据库文件名，点击&lt;…>按钮（如下图所示）将打开［另存为］对话框，您可以选择新的存储路径和数据库文件名以完成在线存储区的转移，新的存储路径设定后，点击右下方的&lt;重新构造在线数据库>按钮，系统就会根据新路径下包含的图像文件重新构造数据库文件。例如，默认的在线存储数据库为“D:\Image\pacs.mdb”，而我们的D盘中已经有了一个较大的图像存储区，文件夹名为“PIC”，我们希望存储路径指向这个新的文件夹，操作过程如下：首先点击&lt;…>按钮，选择转存路径为“D:\PIC\”，并为数据库文件起一个文件名，假设为“new.mdb”，则新的在线存储数据库变成了“D:\PIC\new.mdb”，但是此时数据库中的图像数据仍然是以前Image文件夹中的图像数据，必须进行“重新构造在线数据库”的操作，构造针对新文件夹中图像文件的数据库，这样才能使数据库拥有检索PIC文件夹中图像文件的功能，重建后的new.mdb数据库中的图像数量等相关信息，显示在状态信息栏中。如果需要使用离线存储服务器备份本地图像数据，请在相应的方框中打上“√”。</font></p>
+        <p style="line-height: 120%" align="center"><img border="0" src="Part03img/03-06.gif" width="592" height="466"></p>
+        <p style="line-height: 120%"><font size="2">&nbsp; 存储区管理规则的设置包括在线规则的设定和离线规则的设定，系统默认规则均为“手工管理”，您可以根据实际需要更改规则，不过，我们仅以您在不了解详细工作原理的情况下尽量使用系统的默认规则，以免出现不希望的后果。<br>
+        &nbsp; 在状态信息栏中，显示了七组数据，分别是图像总数目、在线区可用磁盘空间（以兆为单位）、收到的图像数、发送的图像数、等待发送的图像数、正在发送的进程数和正在接收的进程数。<br>
+        &nbsp; 在状态信息栏右侧有六个高级按钮，其中，&lt;重新构造在线数据库>按钮的作用我们已经在前文中提过了，&lt;用户管理>按钮和&lt;安全规则>按钮是用来设置和管理网络版工作站使用权限的，这里我们只介绍剩下的三个按钮的作用。<br>
+        &nbsp; &lt;清空在线存储区>按钮：点击后将清空在线存储区的全部数据；<br>
+        &nbsp; &lt;RIS系统接口配置>按钮：点击后弹出［配置RIS服务器连接属性］窗口（如下图所示），首先在“使用RIS服务器”字样前的方框内打上“√”，随后所有输入框全部激活为可使用状态，请在RIS主机一栏中填入计算机名，在服务端口一栏中填入“31029”，并根据需要设定RIS服务器的属性，在适当的方框内打上“√”，点击&lt;确定>完成设置。</font></p>
+        <p style="line-height: 120%" align="center"><img border="0" src="Part03img/03-07.gif" width="339" height="279"></p>
+        <p style="line-height: 120%"><font size="2">&nbsp; &lt;将图像备份到离线存储器>按钮：当您允许使用离线存储服务器备份本地图像数据时，此按钮即被激活，这是点击此按钮可将图像备份到离线存储器中。<br>
+        &nbsp; 如果您禁止其他用户访问本地数据库，请在相应的方框内打“√”。</font>  
+      </td>   
+    </tr>   
+    <tr> 
+      <td height="113" style="padding-left: 15; padding-right: 15; padding-top: 10; padding-bottom: 10" bgcolor="#FFFFCC"> 
+        <p style="line-height: 120%"><font size="3"><b>3.1.5  采集设置</b></font></p> 
+        <p style="line-height: 120%"><font size="2">&nbsp; 采集设置是用来对MedVision的视频采集进行设置的。界面如下图所示，分为上、下两部分，上半部分是采集方案列表，下半部分是方案属性设定区。<br>
+        &nbsp; 采集的设置方法因设备差异而各不相同，这里只能举一个简单的例子加以解释，对于其它采集设备的设置，请向设备提供商或专业技术人员询问。&nbsp;<br>
+        &nbsp; 这里以采集设备使用“OK_RGB10图像采集卡＋Panasonic摄像头”为例，向您讲述如何进行采集设备的设置。首先点击&lt;添加>按钮，方案列表中会新建一条标题为“new config”的采集方案，选中这条方案，在属性区内修改其标题为您所需的标题，在[图像板驱动]一栏中，填入您使用的图像卡的驱动程序库文件名，如果不清楚请参阅图像采集卡的用户手册或向服务提供商求助，最后在[设备代码]一栏的下拉菜单中选取合适的设备类型，[实例代码]一栏中的数字是系统自动生成的，无需改动，到此为止，采集设置的关键性参数（必填参数）已经设置完成，剩余的参数可以根据实际情况加以填写，确认无误后点击&lt;修改>按钮，方案列表中的条目就已经变成您设置的采集方案了。选中不需要的方案，点击&lt;删除>按钮可将其去除。</font></p> 
+        <p style="line-height: 120%" align="center"><img border="0" src="Part03img/03-08.gif" width="592" height="466">  
+      </td>   
+    </tr>   
+  </table> 
+</div> 
+<div align="center">   
+  <center>   
+  <table border="0" width="180" height="12">   
+    <tr>   
+      <td width="180" height="12"></td>   
+    </tr>   
+    <tr>   
+      <td width="180" height="55" bgcolor="#FFFFFF" bordercolor="#000000" style="border-style: double; border-color: #0066CC">   
+        <p align="center">  
+        <a href="p0301.htm"><img border="0" src="images/Bak.gif" alt="基本设置" width="48" height="48"></a><a href="menu.htm"><img border="0" src="images/Hom.gif" alt="目录" width="48" height="48"></a><a href="p0303.htm"><img border="0" src="images/Fwd.gif" alt="基本设置" width="48" height="48"></a> 
+      </td> 
+    </tr> 
+  </table> 
+  </center> 
+</div> 
+</body> 
+ 
+</html> 

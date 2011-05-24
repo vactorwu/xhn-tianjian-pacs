@@ -1,0 +1,15 @@
+[TopDir]
+file0=D:\Installation\setupbuilding\Setup Building\Dao\dao2535.tlb
+file1=D:\Installation\setupbuilding\Setup Building\Dao\DAO350.DLL
+file2=D:\Installation\setupbuilding\Setup Building\Dao\Dao360.chm
+file3=D:\Installation\setupbuilding\Setup Building\Dao\DAO360.DLL
+file4=D:\Installation\setupbuilding\Setup Building\Dao\Daoread.txt
+file5=D:\Installation\setupbuilding\Setup Building\Dao\DeIsL1.isu
+file6=D:\Installation\setupbuilding\Setup Building\Dao\DeIsL2.isu
+file7=D:\Installation\setupbuilding\Setup Building\Dao\DeIsL3.isu
+file8=D:\Installation\setupbuilding\Setup Building\Dao\remove.exe
+
+[General]
+Type=FILELIST
+Version=1.00.000
+

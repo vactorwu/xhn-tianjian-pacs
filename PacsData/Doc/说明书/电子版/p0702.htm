@@ -1,0 +1,77 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>编辑模板数据库</title>
+</head>
+
+<body style="font-family: 宋体; font-size: 10pt" bgcolor="#0066CC" background="images/bg.gif">
+
+<div align="center">
+  <center>
+  <table border="1" width="640" height="1" style="padding-left: 15; padding-right: 15; padding-top: 10; padding-bottom: 10" bordercolor="#000000" cellspacing="0">
+    <tr>
+      <td height="34" style="padding-left: 15; padding-right: 15; padding-top: 10; padding-bottom: 10" bgcolor="#000000"><font size="4" color="#FFFFFF"><b>7.2</b></font><font size="4" color="#FFFFFF"><b>利用模板数据库进行编写报告的操作</b></font></td> 
+    </tr> 
+    <tr> 
+      <td height="115" style="padding-left: 15; padding-right: 15; padding-top: 10; padding-bottom: 10" bgcolor="#FFFFCC"> 
+  </center>   
+        <p style="line-height: 120%" align="left"><font size="2">&nbsp; 为了在报告编写中实现常用模板的快速调用、对原有模板的修改以及增添数据库中没有的新模板，本软件设立了模板数据库的编辑功能。<br>
+        &nbsp; 在完成了一份报告的编写过程之后，如果想将报告的内容作为标准报告模板存储起来，请选中模板数据库中的［标准报告模板库］文件夹，并在其上点击鼠标右键，在弹出的菜单选项中选择［添加节点］→&lt;子节点>，此时会弹出一个输入框要求您为这个新的子节点命名，可以将其命名为“冠心病”或其他名称以作为一个类别，再选中这个类别项目并在右键菜单中选择&lt;保存标准报告>，同样在弹出的输入框中为新建的标准模板命名，则当前报告内容被作为新的标准报告模板储存在数据库中。今后遇到同类报告的编写，可以直接在［标准报告模板库］的下拉列表中选中这次保存的标准模板，报告内容就会显示在预览区内，只需作少量修改就可以快速完成一份新的报告。<br>
+        &nbsp; 
+        在标准模板库添加一个类别的方法有两种：可以在［标准报告模板库］文件夹上直接点击鼠标右键并选择［添加节点］→&lt;子节点>；也可以通过在已有分类项目上点击鼠标右键并选择［添加节点］→&lt;兄节点>来完成（如下图所示）。所谓的节点与文件夹类似，是用来储存子节点或模板文件列表的。在节点上点击鼠标右键，可以进行重命名或删除的操作。</font></p>
+        <p style="line-height: 120%" align="center"><img border="0" src="Part07img/07-05.gif" width="326" height="318"></p>
+        <p style="line-height: 120%" align="left"><font size="2">节点下用文本文件图标表示的是报告模板，在模板上点击右键，只有一个&lt;删除模板／标准报告>的按钮，用来进行模板的删除操作（如下图所示）。</font></p>
+        <p style="line-height: 120%" align="center"><img border="0" src="Part07img/07-06.gif" width="241" height="131"></p>
+        <p style="line-height: 120%" align="left"><font size="2"><font color="#0000FF">提示：</font>标准报告模板保存在［Medvision安装目录］→［Data］→［Content］→［Default］目录下，按照设备类型不同存放于不同文件夹中，例如彩超的标准模板存放在上述目录下的［us］文件夹中，节点以文件夹形式存在，模板以“.dat”文件存在。</font></p>
+      </td>    
+    </tr>    
+  <center> 
+  </center>   
+  <center> 
+  </center>   
+  <tr>
+      <td height="7" style="padding-left: 15; padding-right: 15; padding-top: 10; padding-bottom: 10" bgcolor="#FFFFCC"> 
+        <p style="line-height: 120%"><font size="2">&nbsp; 介绍完标准报告模板的编辑之后，接下来我们来介绍普通模板数据的编辑与修改。模板数据库中已存在了大量已经写好的普通模板数据，您只需动动鼠标就可以查找到适当的语句去完成报告，但是为了使软件能够实现更便捷的使用和更广泛的应用，普通模板也必须可以添加和修改。<br>
+        &nbsp; 普通模板的节点添加如下图所示，与［标准报告模板库］中节点的添加方法一样，是通过鼠标右键完成的。唯一不同的是，这里的&lt;新建模板>按钮不是用来将当前报告存为模板的，而是直接在当前所指节点下新建一个空白模板，选中新建的模板后，点击屏幕右上角的［编辑模板］按钮就可以自己编辑此模板了。</font></p>
+        <p style="line-height: 120%" align="center"><img border="0" src="Part07img/07-07.gif" width="292" height="261"></p>
+        <p style="line-height: 120%" align="left"><font size="2">&nbsp; 下面我们通过一个例子来说明如何对模板进行编辑操作：首先，按照上面的方法在［检查部位］→［心脏］节点下建立一个名为“主动脉血栓”的新模板（如下图所示），选中此模板后，屏幕左下方的横线文本框为空白，表明这是一个空白模板。现在我们要做的是为这个模板添加上带有项目选择的内容。</font></p>
+        <p style="line-height: 120%" align="center"><img border="0" src="Part07img/07-08.gif" width="324" height="436"></p>
+        <p style="line-height: 120%" align="left"><font size="2">&nbsp; 点击屏幕右上角的［编辑模板］按钮，打开［编辑模板代码］窗口，普通文字描述可以直接输入到模板源代码区，如果希望添加可选项目，请点击窗口右下角的&lt;插入选择对象>按钮，源代码区就会出现一条名为“@@select string@@”的字段，选中这一字段，下方的选项编辑区内将会列出其中包含的选项，选项的添加和修改方法与词典的使用相同，先点击&lt;添加>按钮，选项列表中会新添名为“new string”的字段，选中这一字段后在下方的输入框中改为合适的语句后点击&lt;修改>按钮完成修改，多次执行添加和修改后即得到了包含多个选项的可选对象（如下图所示，我们为刚才新建的空白模板“主动脉血栓”编辑了带有项目选择的内容），最后再在代码区内点击一下两组“@@”之间的区域以应用刚才的修改。</font></p>
+        <p style="line-height: 120%" align="center"><img border="0" src="Part07img/07-09.gif" width="556" height="483"></p>
+        <p style="line-height: 120%" align="left"><font size="2">&nbsp; 在编辑模板源代码时，如果需要插入一个字串对象，先将鼠标定位于要插入的位置，然后点击右下角的&lt;插入字串对象>按钮，然后再选中刚插入的“newstring”字串，在编辑框内将其改为合适的语句即可。<br>
+        &nbsp; 代码编辑完成后点击&lt;保存>按钮模板编辑即已完成，返回［编写报告］界面，如果选择&lt;放弃>按钮，则不保存而直接返回。<br>
+        &nbsp; 
+        返回后查看横线文本框，刚才编辑的模板内容已经可以使用了，而且其中的选项也都应用正常（如下图所示）。</font></p>
+        <p style="line-height: 120%" align="center"><img border="0" src="Part07img/07-10.gif" width="261" height="91">
+      </td>    
+  </tr>
+  <tr>
+      <td height="7" style="padding-left: 15; padding-right: 15; padding-top: 10; padding-bottom: 10" bgcolor="#FFFFCC"> 
+        <p style="line-height: 120%"><font size="2">&nbsp; 从模板代码的编辑过程中不难发现代码的构成原理，正常的文本直接以黑色显示，而两组“@@”之间的部分为可选项目，多个选项之间以“^”隔开，体现在模板中以蓝色表示，默认显示第一个选项，点击后选项呈绿色展开，选中的选项显示为红色。<br>
+        &nbsp; 了解了模板源码的结构之后，我们还可以直接在Windows&reg;的资源管理器中直接调用记事本程序进行模板的编辑。模板数据位于［Medvision安装目录］→［Data］→［Content］目录下，根据设备类型的不同分装在不同的文件夹中（例如内窥镜的模板放在上述目录中的［NKJ］文件夹里），其中节点以文件夹形式存在，模板以“.dat”文件形式存在，您可以根据前面提到的代码规范调用记事本程序直接对模板文件进行编辑。<br>
+        <font color="#FF0000">注意：</font>对于默认安装的模板，我们不提倡您删改，因此文件属性均设置为只读，体现在软件中就是不可修改与删除，如果需要对默认模板进行修改，请在资源管理器中将其只读属性去掉即可。我们建议您在修改默认模板库之前先将其备份，以免在日后的诊断过程中给您带来不必要的麻烦。</font>
+      </td>    
+  </tr>
+  </table>  
+</div>  
+<div align="center">   
+  <center>   
+  <table border="0" width="180" height="12">   
+    <tr>   
+      <td width="180" height="12"></td>   
+    </tr>   
+    <tr>   
+      <td width="180" height="55" bgcolor="#FFFFFF" bordercolor="#000000" style="border-style: double; border-color: #0066CC">   
+        <p align="center">  
+        <a href="p0701.htm"><img border="0" src="images/Bak.gif" alt="编写报告" width="48" height="48"></a><a href="menu.htm"><img border="0" src="images/Hom.gif" alt="目录" width="48" height="48"></a><a href="p0801.htm"><img border="0" src="images/Fwd.gif" alt="报告排版" width="48" height="48"></a> 
+      </td> 
+    </tr> 
+  </table> 
+  </center> 
+</div>
+</body>  
+  
+</html>  

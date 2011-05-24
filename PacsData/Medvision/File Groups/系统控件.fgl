@@ -1,0 +1,21 @@
+[TopDir]
+file0=D:\Installation\setupbuilding\Setup Building\ocx\MessagePair.ocx
+file1=D:\Installation\setupbuilding\Setup Building\ocx\CQueryPart.ocx
+file2=D:\Installation\setupbuilding\Setup Building\ocx\DataCenter.ocx
+file3=D:\Installation\setupbuilding\Setup Building\ocx\DICOMShell.ocx
+file4=D:\Installation\setupbuilding\Setup Building\ocx\FTPTransfer.ocx
+file5=D:\Installation\setupbuilding\Setup Building\ocx\GeneralizeTools.ocx
+file6=D:\Installation\setupbuilding\Setup Building\ocx\ImportGlf.ocx
+file7=D:\Installation\setupbuilding\Setup Building\ocx\CaptureTools.ocx
+file8=D:\Installation\setupbuilding\Setup Building\ocx\MSCAL.OCX
+file9=D:\Installation\setupbuilding\Setup Building\ocx\OCRTools.ocx
+file10=D:\Installation\setupbuilding\Setup Building\ocx\PACSView3.ocx
+file11=D:\Installation\setupbuilding\Setup Building\ocx\ReportEngine.ocx
+file12=D:\Installation\setupbuilding\Setup Building\ocx\StorageServer.ocx
+file13=D:\Installation\setupbuilding\Setup Building\ocx\SurveyTools.ocx
+file14=D:\Installation\setupbuilding\Setup Building\ocx\WaitRead.ocx
+
+[General]
+Type=FILELIST
+Version=1.00.000
+

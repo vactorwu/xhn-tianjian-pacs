@@ -1,0 +1,96 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>设置MedServer</title>
+</head>
+
+<body style="font-family: 宋体; font-size: 10pt" bgcolor="#0066CC" background="images/bg.gif">
+
+<div align="center">
+  <center>
+  <table border="1" width="640" height="1" style="padding-left: 15; padding-right: 15; padding-top: 10; padding-bottom: 10" bordercolor="#000000" cellspacing="0">
+    <tr>
+      <td height="35" style="padding-left: 15; padding-right: 15; padding-top: 10; padding-bottom: 10" bgcolor="#000000"><font color="#FFFFFF"><font face="黑体" size="6"><b>3、基本设置</b></font></font></td> 
+    </tr> 
+    <tr>
+      <td height="35" style="padding-left: 15; padding-right: 15; padding-top: 10; padding-bottom: 10" bgcolor="#FFFFCC"><font size="2">本章主要讲述的是如何设置<span lang="EN-US">MedServer.exe和ReportServer.exe以实现DICOM服务和报告服务。</span></font></td> 
+    </tr> 
+    <tr>
+      <td height="35" style="padding-left: 15; padding-right: 15; padding-top: 10; padding-bottom: 10" bgcolor="#000000"><font size="4"><b><font color="#FFFFFF">3.1 
+        </font> 
+        </b></font><font size="4" color="ffffff"><b>设置MedServer</b></font></td> 
+    </tr> 
+    <tr> 
+      <td height="113" style="padding-left: 15; padding-right: 15; padding-top: 10; padding-bottom: 10" bgcolor="#FFFFCC"> 
+        <p style="line-height: 120%"><font size="2" face="宋体">&nbsp;&nbsp; MedServer又称DICOM影像服务器，主要作用是为系统提供基于DICOM标准的影像服务。正常安装情况下，MedServer随计算机启动自动运行，并最小化隐藏于屏幕右下角的系统托盘（Systemtray）中，如果MedServer没有在计算机启动时自动运行，也可以从［开始］→［程序］→［MedVision］→&lt;DICOM服务>启动，或直接启动“C:\Program Files\北京天健\Medvision\MedServer.exe”。如果要对MedServer进行设置，请点击屏幕右下角的系统托盘中的MedServer图标（如下图所示）。</font></p>   
+      </td>    
+    </tr>    
+  </center>   
+  <center> 
+  </center>   
+  <center> 
+  </center>   
+    <tr>  
+      <td height="113" style="padding-left: 15; padding-right: 15; padding-top: 10; padding-bottom: 10" bgcolor="#FFFFCC">  
+        <p align="center"><img border="0" src="Part03img/03-01.gif" width="643" height="483">   
+      </td>    
+    </tr>    
+    <tr>  
+      <td height="113" style="padding-left: 15; padding-right: 15; padding-top: 10; padding-bottom: 10" bgcolor="#FFFFCC">  
+        <p style="line-height: 120%"><font size="2">&nbsp;&nbsp; 从系统托盘中启动MedServer设置窗口，首先显示的是用户登录界面（如下图所示），默认的登录用户名是“GUEST”，密码为空，点击&lt;登录>按钮可以进入MedServer设置程序，点击&lt;关机>按钮关闭MedServer服务。如果需要修改密码，请在“修改密码”字样前的小方框中打上“√”，并在“密码”一栏中填入原密码，在“新密码”一栏中写入新的密码，在“重复一次”一栏中再次写入新的密码作为验证，然后点击&lt;登录>按钮进行登录，登录成功的同时新的密码即被系统接受，密码修改成功。</font>   
+      </td>    
+    </tr>    
+    <tr>  
+      <td height="113" style="padding-left: 15; padding-right: 15; padding-top: 10; padding-bottom: 10" bgcolor="#FFFFCC">  
+        <p align="center"><img border="0" src="Part03img/03-02.gif" width="512" height="397"></p> 
+        <p align="left" style="line-height: 120%"><font size="2">&nbsp; MedServer共包括五层设置界面，分别是“本地”、“远端”、“调度”、“设置”以及“采集”，五层界面可以通过窗口右侧的五个标签进行切换（如上图右侧所示），接下来我们依次介绍这五层设置界面。</font>   
+      </td>    
+    </tr>    
+    <tr>  
+      <td height="113" style="padding-left: 15; padding-right: 15; padding-top: 10; padding-bottom: 10" bgcolor="#FFFFCC">  
+        <p align="left" style="line-height: 120%"><font size="3"><b>3.1.1  本地设置</b></font><font size="2"><br> 
+        <br> 
+        &nbsp;  
+        主要是针对本地服务器的端口号、服务类型、压缩方式等进行系统设置。设置界面如下图所示，窗口上半部分是本地服务节点列表，下半部分是节点属性设置区。这里，我们用实例向您讲解如何创建并更改一个本地服务节点。<br> 
+        &nbsp; 点击右下方的&lt;添加服务节点>按钮，上方的节点列表中将会增加一个主题为“localtitle”的条目，点击这一条目，下方的属性区（如下图所示）内将显示这一节点的属性；</font></p> 
+        <p align="center"><img border="0" src="Part03img/03-03.gif" width="592" height="466"></p> 
+        <p align="left" style="line-height: 120%"><font size="2">&nbsp;&nbsp; 修改标题，将“localtitle”改为您的计算机名或IP地址，将端口号设为8000，并从服务类型中选择适当的选项，如果需要对从网络获得的图像进行处理，请在相应的位置打上“√”，最后根据需要选择压缩方式，设置完成后点击右侧的&lt;修改服务节点>按钮，此时上方的节点列表中就显示出您刚才设置的本地服务节点条目；<br> 
+        &nbsp;&nbsp; 选择某一条目，点击&lt;删除服务节点>按钮，这一服务条目即被删除；<br> 
+        &nbsp;&nbsp; 点击&lt;启动服务>按钮，本地服务即被启动，这一按钮上的文字也变成&lt;停止服务>，再点击这一按钮，本地服务即被终止。<br> 
+        <br> 
+        <font color="#FF0000">注意：</font>创建或修改本地服务条目必须在服务停止时进行。</font>   
+      </td>    
+    </tr>    
+    <tr>  
+      <td height="113" style="padding-left: 15; padding-right: 15; padding-top: 10; padding-bottom: 10" bgcolor="#FFFFCC">  
+        <p style="line-height: 120%"><b><font size="3">3.1.2 远端设置</font></b></p> 
+        <p style="line-height: 120%"><font size="2">&nbsp; 主要是针对远端主机的主机名、端口号、服务类型等进行设置。界面如下图所示，布局与本地服务设置基本一致，也是由节点列表、属性设置区和操作按钮组成。&nbsp;</font></p> 
+        <p style="line-height: 120%" align="center"><img border="0" src="Part03img/03-04.gif" width="592" height="466"></p> 
+        <p style="line-height: 120%"><font size="2">&nbsp; 点击右侧的&lt;添加远端节点>按钮，上方的节点列表中将会增加一个主题为“removetitle”的条目，点击这一条目，下方的属性区内将显示这一节点的属性；<br> 
+        &nbsp; 修改标题，将“removetitle”改为您的标题，主机名改为远端主机名，端口号设置为8000，并从服务类型中选择适当的选项，如果将对方的主机设置为根服务器，请在相应的位置打上“√”，最后设置根类型为病人或是检查，设置完成后点击右侧的&lt;修改远端节点>按钮，此时上方的节点列表中就显示出您刚才设置的远端服务节点条目；<br> 
+        &nbsp; 选择某一条目，点击&lt;删除远端节点>按钮，这一服务条目即被删除。</font>   
+      </td>    
+    </tr>    
+  </table>  
+</div>  
+<div align="center">   
+  <center>   
+  <table border="0" width="180" height="12">   
+    <tr>   
+      <td width="180" height="12"></td>   
+    </tr>   
+    <tr>   
+      <td width="180" height="55" bgcolor="#FFFFFF" bordercolor="#000000" style="border-style: double; border-color: #0066CC">   
+        <p align="center">  
+        <a href="p0202.htm"><img border="0" src="images/Bak.gif" alt="启动和退出" width="48" height="48"></a><a href="menu.htm"><img border="0" src="images/Hom.gif" alt="目录" width="48" height="48"></a><a href="p0302.htm"><img border="0" src="images/Fwd.gif" alt="基本设置" width="48" height="48"></a> 
+      </td> 
+    </tr> 
+  </table> 
+  </center> 
+</div> 
+</body>  
+  
+</html>  

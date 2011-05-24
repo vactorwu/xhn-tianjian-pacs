@@ -1,0 +1,85 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>设置ReportServer</title>
+</head>
+
+<body style="font-family: 宋体; font-size: 10pt" bgcolor="#0066CC" background="images/bg.gif">
+
+<div align="center">
+  <center>
+  <table border="1" width="640" height="16" style="padding-left: 15; padding-right: 15; padding-top: 10; padding-bottom: 10" bordercolor="#000000" cellspacing="0">
+    <tr> 
+      <td height="27" style="padding-left: 15; padding-right: 15; padding-top: 10; padding-bottom: 10" bgcolor="#000000"> 
+        <font face="宋体" size="4" color="#FFFFFF"><b>3.2 设置ReportServer</b></font>  
+      </td>   
+    </tr>   
+    <tr> 
+      <td height="113" style="padding-left: 15; padding-right: 15; padding-top: 10; padding-bottom: 10" bgcolor="#FFFFCC"> 
+        <p style="line-height: 120%"><font face="宋体" size="2">&nbsp;&nbsp; ReportServer又称报告服务器，主要作用是提供一套检查登记系统。正常安装情况下，计算机启动后ReportServer会自动运行，并最小化隐藏于屏幕右下角的系统托盘中，如果ReportServer没有在计算机启动时自动运行，也可以从［开始］菜单→［程序］→［MedVision］→&lt;报告服务器>启动，或直接启动“C:\ProgramFiles\北京天健\Medvision\ReportServer.exe”。如果要对ReportServer进行设置，请点击屏幕右下角的系统托盘中的ReportServer图标（如下图所示）。</font></p>
+        <p style="line-height: 120%" align="center"><img border="0" src="Part03img/03-09.gif" width="629" height="483"></p>
+        <p style="line-height: 120%"><font face="宋体" size="2">&nbsp; ReportServer和MedServer一样，是工作站正常工作不可缺少的后台服务程序，不同的是，MedServer实现了浏览和传输DICOM图像的功能，而ReportServer提供的是一个检查登记系统。<br>
+        &nbsp; 通过点击系统托盘中的ReportServer图标打开报告服务设置窗口，界面如下图所示，大致可分为五个区：病人基本信息输入区、申请信息输入区、词典输入框、功能按钮区和检查单状态显示区。</font></p>
+        <p style="line-height: 120%" align="center"><img border="0" src="Part03img/03-10.gif" width="559" height="491"></p>
+  </center>  
+      <p style="line-height: 120%" align="left"><font size="2"><font color="#FF0000">注意：</font>您必须熟练掌握ReportServer的设置，因为报告服务器包含了检查单申请的创建以及用户权限管理等一系列与诊断报告密切相关的参数设置，每一个参数的设定都影响到整个诊断过程的始末，并最终体现在完整的诊断报告中，因此，您不仅要理解每个参数设置的意义和检查登记系统的基本工作原理，还要清楚ReportServer与MedVision中的报告管理是怎样的关联关系。</font>  
+      </td>   
+    </tr>   
+  <center>
+  </center>  
+  <center>
+  </center>  
+    <tr> 
+      <td height="113" style="padding-left: 15; padding-right: 15; padding-top: 10; padding-bottom: 10" bgcolor="#FFFFCC"> 
+        <p style="line-height: 120%"><font size="2">&nbsp; 打开检查登记系统主窗口，此时第一行三个输入框呈已经打开状态，首先输入病人ID号，如果以前在数据库中已有此病人的申请信息（即有相同的ID号），则窗口内各输入框中将显示此病人的详细信息，点击&lt;创建申请单>按钮，则申请信息被清空，此时可以为此病人新建一份申请单。<br>
+        &nbsp; 如果库中没有此病人的信息，您可以点击&lt;创建申请单>按钮创建一份新申请单，并依次输入病人的姓名拼音和姓名，这时，基本信息输入区的其它输入框也随之打开，现在您可以完成基本信息的输入工作了。<br>
+        在申请信息的输入过程中，您需要填写的是除“申请序号”以外的各项参数，申请序号在您保存申请单的同时由系统自动生成。<br>
+        &nbsp; 
+        基本信息和申请信息输入区右侧各有一组正反向箭头（如上图所示），点击这些箭头可以向前或向后查看其他申请单内容。<br>
+        &nbsp; 词典的功能是这样的：当您在某一输入框中填写文本信息时，词典功能即被激活，您可以将常用词组输入词典储存起来，下次在同一个输入框中填写相同的内容时，直接点击词典中的已存词汇就可以实现快速输入。例如，在填写申请科室时，点击词典下方的&lt;添加>按钮，打开［字典编辑器］窗口（如下图所示），在窗口下方的输入框中输入一条词组的内容，点击&lt;添加>按钮加入字典中，选中字典中一条词组，点击&lt;删除>按钮可将其从字典中删除，点击&lt;关闭>按钮退出字典编辑器。</font></p>
+        <p style="line-height: 120%" align="center"><img border="0" src="Part03img/03-11.gif" width="371" height="372"></p>
+        <p style="line-height: 120%" align="left"><font size="2">&nbsp; 
+        如上图中针对“申请科室”这一输入框的字典编辑结果返回检查登记系统窗口后表现如下图所示，日后对其他病人进行创建申请单的操作，当输入申请科室时，字典列表中自动会出现已存的各个科室的名称，直接点击列表中的一条科室名称就可以完成快速输入了。</font></p>
+        <p style="line-height: 120%" align="center"><img border="0" src="Part03img/03-12.gif" width="498" height="241"></p>
+        <p style="line-height: 120%" align="left"><font size="2">&nbsp; 字典输入的优点不仅体现在对重复性工作的高效率上，而且体现在每个输入框都拥有自己的字典，这样可以保证极高的输入正确性。在检查登记系统主界面中，支持字典功能的输入框有“性别”、“费别”、“身份”以及除“申请序号”外的所有申请信息输入框。<br>
+        &nbsp; 字典输入功能还具有高度的智能型，就是能够自动辨别下属分类。例如我们选择了内科，并且在“申请医生”中将张医生、王医生加入字典，当我们选择口腔科，再输入申请医生时，张医生和王医生并不在词典中，这是因为字典中申请医生为申请科室的子级分支，选择不同的父级选项，子级内容也会随之不同，这样一来，使用字典输入时就不必担心出现在某一科室中混淆外界医生的问题了。</font>  
+      </td>   
+    </tr>   
+    <tr> 
+      <td height="113" style="padding-left: 15; padding-right: 15; padding-top: 10; padding-bottom: 10" bgcolor="#FFFFCC"> 
+        <p style="line-height: 120%"><font size="2">&nbsp; 
+        介绍完字典功能后，请阅读操作按钮的使用方法：如本页第二幅图所示，检查登记系统主界面共有七个主要功能操作按钮，其中，&lt;创建申请单>按钮的使用在前文中已经介绍过了，这里主要介绍剩余六个按钮的功能。<br>
+        &nbsp; &lt;保存申请单>：默认状态为不可用，当点击&lt;创建申请单>按钮后，状态变为可用，填写完申请单后点击此按钮，申请即被递交，这时打开诊断工作站，在“待写报告”一栏下将出现刚才递交的申请，检查结果状态为“A”。<br>
+        </font>&nbsp; <font size="2">&lt;执行申请单>：默认状态为不可用，当点击&lt;保存申请单>按钮后，状态变为可用，保存申请单后点击此按钮，弹出［执行申请单］窗口（如下图所示），其中检查类型和号码与创建申请单时您填写的内容一致，如果您在创建申请单时指定设备为US，则此处的检查类型即为US，第二行输入框的名称也变成“US号”，您只需填入US号和执行科室即可，如果您在创建申请单时指定设备为CT，则此处所有的“US”应变成“CT”。窗口下方的词典输入框是针对“执行科室”输入框的。全部填写完毕后点击&lt;确定>按钮执行申请，点击&lt;取消>按钮返回检查登记系统主界面。</font></p>
+        <p style="line-height: 120%" align="center"><img border="0" src="Part03img/03-13.gif" width="277" height="408"></p>
+        <p style="line-height: 120%"><font size="2">&nbsp; &lt;放弃新建检查申请单>：默认状态为不可用，当点击&lt;创建申请单>按钮后，状态变为可用，如果希望取消新建的申请单，可以点击此按钮放弃创建申请单的操作。<br>
+        &nbsp; &lt;删除当前已创建的申请单>：默认状态为不可用，当点击&lt;保存申请单>按钮后，状态变为可用，点击此按钮可以将已保存的申请单删除。<br>
+        &nbsp; &lt;用户管理员>：这是用来设置用户权限的按钮，用它创建的用户将具有使用诊断工作站的权限，因此，这里的设置是报告服务器中最重要的部分。点击此按钮后弹出［用户管理员］窗口（如下图所示），新建一个用户请点击&lt;新建>按钮，用户表中会增添名为“newuser”的一项，选中这一项，在属性设置中修改其用户名、代码、密码等参数，并在下方的权限设置选项中在赋予用户之权限前打上勾，参数设定完成后点击&lt;修改>按钮，用户列表中将出现您刚才设置的用户名，此时点击&lt;保存>按钮保存用户设置并退出，点击&lt;放弃>按钮取消刚才所做的一切操作而直接退出。需要去掉一个用户时，请在用户列表中选中此用户，点击&lt;删除>按钮将其去除。<br>
+        &nbsp; &lt;关闭系统>：点击此按钮后，将终止ReportServer服务。</font></p>
+        <p style="line-height: 120%" align="center"><img border="0" src="Part03img/03-14.gif" width="347" height="473"></p>
+        <p style="line-height: 120%"><font size="2"><font color="#FF0000">注意：</font>直接点击检查登记系统主界面右上角的“×”号可以将报告服务器最小化至系统托盘当中，此时报告服务被置于后台，如需关闭服务，有两种方法：一是点击上文提到的检查登记系统主界面上的&lt;关闭系统>按钮，二是按下“Ctrl”键同时点击检查登记系统主界面右上角的“×”号。这两种方法可以关闭ReportServer而不是将其置于后台。</font>  
+      </td>   
+    </tr>   
+  </table> 
+</div> 
+<div align="center">   
+  <center>   
+  <table border="0" width="180" height="12">   
+    <tr>   
+      <td width="180" height="12"></td>   
+    </tr>   
+    <tr>   
+      <td width="180" height="55" bgcolor="#FFFFFF" bordercolor="#000000" style="border-style: double; border-color: #0066CC">   
+        <p align="center">  
+        <a href="p0302.htm"><img border="0" src="images/Bak.gif" alt="基本设置" width="48" height="48"></a><a href="menu.htm"><img border="0" src="images/Hom.gif" alt="目录" width="48" height="48"></a><a href="p0401.htm"><img border="0" src="images/Fwd.gif" alt="基本功能" width="48" height="48"></a> 
+      </td> 
+    </tr> 
+  </table> 
+  </center> 
+</div> 
+</body> 
+ 
+</html> 

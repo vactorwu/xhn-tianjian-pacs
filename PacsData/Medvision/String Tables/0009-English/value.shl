@@ -1,0 +1,44 @@
+[Data]
+TITLE_MAIN=Medvision
+技术文档的注释=包含Word格式和HTML格式的使用说明书。
+COMPANY_NAME=北京天健
+ERROR_COMPONENT=Component:
+自定义安装的注释=请您选择所需的组件进行安装，推荐专业技术人员使用。
+程序文件的注释=运行天健诊断工作站的关键性程序文件，必须安装！
+COMPANY_NAME16=Beijing Tianjian
+PRODUCT_VERSION=2.06
+ERROR_MOVEDATA=在文件复制过程中发生了一个错误！
+ERROR_FILEGROUP=File Group:
+数据文件复制过程的注释=正在创建数据库访问接口...
+数据文件的注释=程序运行所需的数据库访问接口，必须安装！
+系统文件复制过程的注释=正在复制程序运行所需的系统文件...
+系统文件的注释=包括程序运行所需的动态链接库和系统控件，必须安装！
+UNINST_KEY=Medvision
+TITLE_CAPTIONBAR=Medvision Setup
+完全安装的注释=安装程序将复制所有的文件到您的计算机中，大约需要60M磁盘空间。
+数据文件显示名称=数据库接口
+程序文件复制过程的注释=正在复制核心程序文件...
+PRODUCT_NAME16=Medvision
+技术文档显示名称=技术文档
+技术文档复制过程的注释=正在复制相关技术文档...
+专业模板的注释=针对不同部门和设备可选择相应的专业模板及脚本，作为诊断工作站基本功能的扩展。
+ERROR_FILE=File:
+FOLDER_NAME=Medvision
+典型安装的注释=安装程序将复制必要的文件到您的计算机中，大约需要56M磁盘空间。
+完全安装显示名称=完全安装
+专业模板显示名称=专业模板
+自定义安装显示名称=自定义安装
+专业模板复制过程的注释=正在复制专业模板及脚本文件...
+UNINST_DISPLAY_NAME=Medvision
+PRODUCT_KEY=medvision.Exe
+系统文件显示名称=系统文件
+PRODUCT_NAME=Medvision
+ERROR_UNINSTSETUP=反安装程序初始化失败，您可能无法正常卸载本程序！
+典型安装显示名称=典型安装
+程序文件显示名称=程序文件
+
+[General]
+Language=0009
+Type=STRINGTABLESPECIFIC
+Version=1.00.000
+

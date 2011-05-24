@@ -1,0 +1,87 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>启动工作站</title>
+</head>
+
+<body style="font-family: 宋体; font-size: 10pt" bgcolor="#0066CC" background="images/bg.gif">
+
+<div align="center">
+  <center>
+  <table border="1" width="640" height="1" style="padding-left: 15; padding-right: 15; padding-top: 10; padding-bottom: 10" bordercolor="#000000" cellspacing="0">
+    <tr>
+      <td height="44" style="padding-left: 15; padding-right: 15; padding-top: 10; padding-bottom: 10" bgcolor="#000000"><font face="黑体" size="6" color="#FFFFFF"><b>2、启动和退出</b></font></td>
+    </tr>
+    <tr>
+      <td height="11" style="padding-left: 15; padding-right: 15; padding-top: 10; padding-bottom: 10" bgcolor="#FFFFCC"><font size="2">本章讲述的是如何启动诊断工作站以及如和关闭诊断工作站。</font></td>
+    </tr>
+    <tr>
+      <td height="35" style="padding-left: 15; padding-right: 15; padding-top: 10; padding-bottom: 10" bgcolor="#000000"><font size="4" color="#FFFFFF"><b>2.1  
+        启动诊断工作站</b></font></td>  
+    </tr>  
+    <tr>  
+      <td height="113" style="padding-left: 15; padding-right: 15; padding-top: 10; padding-bottom: 10" bgcolor="#FFFFCC">  
+        <p style="line-height: 120%"><font size="2" face="宋体">&nbsp; Medvision的启动和一般软件的启动有所不同，因为Medvision是为医院PACS网络系统通讯服务而设置的。它包括三部分：DICOM服务器（Medserver.exe）的启动，报告服务器（ReportServer.exe）的启动和诊断工作站的启动。只有在前两个服务启动之后，才能启动诊断工作站。这是因为在医院网络通讯中诊断工作站只是一个前台浏览显示器,医生可以在诊断工作站上浏览病人的图像,而DICOM服务器和报告服务器作为后台管理为诊断工作站提供图像、病人信息和查询信息。如果DICOM服务器和报告服务器没有启动，诊断工作站就无法正常工作，也无法调出图像和诊断信息。因此，在启动诊断工作站之前，必须先启动DICOM服务器和报告服务器。</font></p>   
+      </td>    
+    </tr>    
+  </center>   
+  <center> 
+  <tr> 
+      <td height="449" style="padding-left: 15; padding-right: 15; padding-top: 10; padding-bottom: 10" bgcolor="#FFFFCC">  
+        <p style="line-height: 120%"><font size="2">正常安装情况下，启动DICOM服务器和报告服务器的快捷方式被加入到［开始］菜单的［启动］程序组中（NT系统中，加入到全局［启动］程序组中），随操作系统的启动而同时运行，并自动隐藏到系统托盘（SystemTray）内（如下图所示）。</font></p> 
+        <p style="line-height: 120%" align="center"><img border="0" src="Part02img/02-01.gif" width="598" height="483">   
+      </td>    
+  </tr> 
+  <tr> 
+      <td height="660" style="padding-left: 15; padding-right: 15; padding-top: 10; padding-bottom: 10" bgcolor="#FFFFCC">  
+        <p style="line-height: 120%"><font size="2">如遇到特殊情况（例如［启动］程序组中的快捷方式被删除等），可以通过以下方式手动启动各个程序。</font></p> 
+        <p style="line-height: 120%"><font size="2">在［开始］→［程序］→［Medvision］中单击&lt;DICOM服务>，或直接执行安装目录下的Medserver.exe，就会在右下角的系统托盘中出现图标。点击这个图标，就可以进入登录界面（如下图所示）。姓名默认为“GUEST”，输入密码后点击&lt;登录>按钮即可进入DICOM服务器设置界面（服务器界面的设置在第三章《基本设置》中有详细介绍）。</font></p> 
+        <p style="line-height: 120%" align="center"><img border="0" src="Part02img/02-02.gif" width="512" height="397"></p> 
+        <p style="line-height: 120%"><font size="2">在［开始］→［程序］→［Medvision］中单击&lt;报告服务器>，或直接执行Reportserver.exe，就会在右下角的系统托盘中出现圆形图标。点击这个图标，就可以开启［检查登记系统］窗口（如下图所示）。（关于报告服务器的相关设置在第三章《基本设置》中有详细介绍）。</font></p> 
+        <p style="line-height: 120%" align="center"><img border="0" src="Part02img/02-03.gif" width="559" height="491">   
+      </td>    
+  </tr> 
+    <tr>   
+      <td height="42" style="padding-left: 15; padding-right: 15; padding-top: 10; padding-bottom: 10" bgcolor="#FFFFCC">  
+        <p style="line-height: 120%"><font face="宋体" size="2">启动了DICOM服务器和报告服务器之后，就可以启动诊断工作站了。诊断工作站的启动有四种方式：<br> 
+        1、［开始］菜单的程序组中启动：<br> 
+        从［开始］菜单→［程序］→［Medvision］中点击&lt;诊断工作站>启动程序；<br> 
+        2、从［运行］命令行输入框中启动：<br> 
+        点击［开始］→［运行］，在打开的输入框中（如下图所示）输入安装的路径和文件名<br> 
+        （默认为“C:\Programfiles\北京天健\Medvision\editreport.exe”），然后点击&lt;确定>启动程序；<br> 
+        提示如果你忘了安装的路径，可以通过点击&lt;浏览>按钮来进行查找。</font><img border="0" src="Part02img/02-04.gif" align="right" width="173" height="449"></p>  
+        <p style="line-height: 120%" align="center"><img border="0" src="Part02img/02-05.gif" width="347" height="169"></p>  
+        <p style="line-height: 120%"></center><font face="宋体" size="2">3、快捷方式启动：</font><font face="宋体" size="2"><br> 
+        安装完成之后，Windows&reg;桌面上自动会出现“诊断工作站”的<br> 
+        快捷方式图标</font><font face="宋体" size="2">（如右图所示）。<br> 
+        双击“诊断工作站”快捷方式，就能够启动程序；</font></p>  
+        <p style="line-height: 120%" align="left"><font face="宋体" size="2">4、直接启动：<br> 
+        当上述方法无法完成操作时，可以直接到安装目录下寻找Editreport.exe并运行，默认的安装目录为“C:\Programfiles\北京天健\Medvision\”<br> 
+        备注上述四种方法均可启动诊断工作站，您可以根据个人习惯加以选择。</font></p>  
+      </td>  
+    </tr>  
+  <center> 
+  </center>   
+  </table>  
+</div>  
+<div align="center">   
+  <center>   
+  <table border="0" width="180" height="12">   
+    <tr>   
+      <td width="180" height="12"></td>   
+    </tr>   
+    <tr>   
+      <td width="180" height="55" bgcolor="#FFFFFF" bordercolor="#000000" style="border-style: double; border-color: #0066CC">   
+        <p align="center">  
+        <a href="p0103.htm"><img border="0" src="images/Bak.gif" alt="卸载" width="48" height="48"></a><a href="menu.htm"><img border="0" src="images/Hom.gif" alt="目录" width="48" height="48"></a><a href="p0202.htm"><img border="0" src="images/Fwd.gif" alt="启动和退出" width="48" height="48"></a> 
+      </td> 
+    </tr> 
+  </table> 
+  </center> 
+</div> 
+</body>  
+  
+</html>  

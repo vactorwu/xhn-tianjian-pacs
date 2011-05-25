@@ -1,0 +1,18 @@
+   var V1=0,V2=0,V3=0,V4=0,V5=0,V6=0,V7=0,V8=0,V9=0;
+   var Result=0;
+
+   V1=GetValue('MV V2 VTI',-1),V2=GetValue('MV flow area',-1),V3=GetValue('Mitral R-R');
+   if(V1 && V2 && V3)
+   {
+      V4=60/V3;
+      Result=V1*V2*V4/10;
+      OutData('CO(MV)',Result,13);
+   }//no 'MV flow area' parameter
+
+   V1=GetValue('Mitral R-R',-1);
+   if(V1)
+   {
+      Result=60/V1;
+      OutData('Mitral HR',Result,1);
+   }
+

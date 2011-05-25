@@ -1,0 +1,10 @@
+if(GetInfo(0)==0)
+{
+	SetInfo(7,0);
+	Clear();
+	Declare('长度',1,5,0,0);
+	Declare('面积',2,8,1,0);
+	Declare('周长',3,8,0,0);
+	Declare('容积',7,13,3,0);
+	Declare('角度',0,9,2,0);
+}

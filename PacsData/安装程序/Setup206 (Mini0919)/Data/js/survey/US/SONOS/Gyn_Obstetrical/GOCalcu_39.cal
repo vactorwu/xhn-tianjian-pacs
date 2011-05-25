@@ -1,0 +1,57 @@
+   var V1=0,V2=0,V3=0,V4=0,V5=0,V6=0,V7=0,V8=0,V9=0;
+   var Result=0;
+
+   V1=GetValue('AC',-1),V2=GetValue('FL',-1);
+   if(V1 && V2)
+   {
+      V1=V1/10,V2=V2/10;
+      V3=1.304+0.05281*V1+0.1938*V2-0.004*V1*V2;;
+      Result=Math.pow(10,V3);
+      OutData('EFW(AC,FL)Hadl',Result,16);
+   }
+
+   V1=GetValue('AC',-1),V2=GetValue('HC',-1),V3=GetValue('FL',-1);
+   if(V1 && V2 && V3)
+   {
+      V1=V1/10,V2=V2/10,V3=V3/10;
+      V3=1.336-0.00326*V1*V3+0.0107*V2+0.0438*V1+0.158*V3;
+      Result=Math.pow(10,V3);
+      OutData('EFW(AC,HC,FL)Hadl',Result,16);
+   }
+
+   V1=GetValue('AC',-1),V2=GetValue('FL',-1),V3=GetValue('HC',-1),V4=GetValue('BPD',-1);
+   if(V1 && V2 && V3 && V4)
+   {
+      V1=V1/10,V2=V2/10,V3=V3/10,V4=V4/10;
+      V3=1.5115+0.0436*V1+0.1517*V2-0.00321*V1*V2+0.0006923*V3*V4;
+      Result=Math.pow(10,V3);
+      OutData('EFW(B,H,A,F)Hadl',Result,16);
+   }
+
+   V1=GetValue('FL',-1),V2=GetValue('AC',-1);
+   if(V1 && V2)
+   {
+      Result=V1/V2;
+      OutData('FL/AC',Result);
+   }
+
+   V1=GetValue('FL',-1),V2=GetValue('BPD',-1);
+   if(V1 && V2)
+   {
+      Result=V1/V2;
+      OutData('FL/BPD',Result);
+   }   
+
+   V1=GetValue('FL',-1);
+   if(V1)
+   {
+      Result=10.35+2.46*V1/10+0.17*V1*V1/100;
+      OutData('FL(GA)Hadl',Result,15);
+   }   
+
+   V1=GetValue('FL',-1);
+   if(V1)
+   {
+      Result=9.5411757+2.9774510*V1/10+0.10388*V1*V1/100;
+      OutData('FL(GA)Jeant',Result,15);
+   }

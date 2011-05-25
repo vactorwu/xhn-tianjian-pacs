@@ -1,0 +1,10 @@
+   var V1=0,V2=0,V3=0,V4=0,V5=0,V6=0,V7=0,V8=0,V9=0;
+   var Result=0;
+
+   V1=GetValue('MV P1/2max v',-1),V2=GetValue('MV dec slope',-1);
+   if(V1 && V2)
+   {
+      V3=1000*(V1*(1-Math.sqrt(2))/V2);
+      Result=220/V3;
+      OutData('MVA(P1/2t)',Result,3);
+   }

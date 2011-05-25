@@ -1,0 +1,16 @@
+   var V1=0,V2=0,V3=0,V4=0,V5=0,V6=0,V7=0,V8=0,V9=0;
+   var Result=0;
+
+   V1=GetValue('BP peak sys',-1),V2=GetValue('MR max vel',-1);
+   if(V1 && V2)
+   {
+      Result=V1-4*V2*V2;
+      OutData('LAP(MRmaxV)',Result,8);
+   } 
+
+   V1=GetValue('MR max vel',-1);
+   if(V1)
+   {
+      Result=4*V1*V1;
+      OutData('Max PG(MR)',Result,8);
+   }

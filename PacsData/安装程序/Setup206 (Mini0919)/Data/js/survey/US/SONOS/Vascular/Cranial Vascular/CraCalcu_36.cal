@@ -1,0 +1,20 @@
+   var V1=0,V2=0,V3=0,V4=0,V5=0,V6=0,V7=0,V8=0,V9=0;
+   var Result=0;
+
+   V1=GetValue('DV1',-1),V2=GetValue('DV2',-1);
+   if(V1 && V2)
+   {
+      Result=V1/V2;
+      OutData('DV1/DV2',Result);
+      Result=V2/V1;
+      OutData('DV2/DV1',Result);
+   }
+
+   V1=GetValue('DV2',-1),V2=GetValue('SV1',-1);
+   if(V1 && V2)
+   {
+      Result=V1/V2;
+      OutData('DV2/SV1',Result);
+      Result=V2/V1;
+      OutData('SV1/DV2',Result);
+   }

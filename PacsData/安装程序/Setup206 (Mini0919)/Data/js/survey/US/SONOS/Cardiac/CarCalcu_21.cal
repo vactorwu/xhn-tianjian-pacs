@@ -1,0 +1,45 @@
+   var V1=0,V2=0,V3=0,V4=0,V5=0,V6=0,V7=0,V8=0,V9=0;
+   var Result=0; 
+
+  V1=GetValue('Ao V2 VTI',-1),V2=GetValue('Ao root area',-1),V3=GetValue('Aortic R-R');
+   if(V1 && V2 && V3)
+   {
+      V4=60/V3;
+      Result=V1*V2*V4/10;
+      OutData('CO(Ao)',Result,13);
+   }
+
+   V1=GetValue('Ao V2 VTI',-1),V2=GetValue('Ao root area',-1),V3=GetValue('Aortic R-R');
+   V4=GetValue('PA V2 VTI',-1),V5=GetValue('MPA diam',-1),V6=GetValue('Pulm R-R')
+   if(V1 && V2 && V3 && V4 && V5 && V6)
+   {
+      V7=60/V3,V8=60/V6;
+      Result=(3.1415926*V5*V4*V5*V8)/4/(V1*V2*V7);
+      OutData('Qp/QsI,Ao',Result,1);
+   }
+
+   V1=GetValue('Ao V2 VTI',-1),V2=GetValue('Ao root area',-1);
+   V3=GetValue('PA V2 VTI',-1),V4=GetValue('MPA area',-1);   
+   if(V1 && V2 && V3 && V4)
+   {
+      V5=V1*V2,V6=V3*V4;
+      Result=(V5-V6)/V5;
+      OutData('RF(Ao,PV)',Result,1);
+   }
+
+
+   V1=GetValue('PV V2 VTI',-1),V2=GetValue('MPA area',-1);
+   V3=GetValue('Ao V2 VTI',-1),V4=GetValue('Ao root area',-1);   
+   if(V1 && V2 && V3 && V4)
+   {
+      V5=V1*V2,V6=V3*V4;
+      Result=(V5-V6)/V5;
+      OutData('RF(PV,Ao)',Result,1);
+   }
+
+   V1=GetValue('Ao V2 VTI',-1),V2=GetValue('Ao root area',-1);
+   if(V1 && V2)
+   {
+      Result=100*V1*V2;
+      OutData('SV(Ao)',Result,2);
+   }

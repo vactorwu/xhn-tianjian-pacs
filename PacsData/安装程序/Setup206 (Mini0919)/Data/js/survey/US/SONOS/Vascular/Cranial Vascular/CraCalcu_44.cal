@@ -1,0 +1,39 @@
+   var V1=0,V2=0,V3=0,V4=0,V5=0,V6=0,V7=0,V8=0,V9=0;
+   var Result=0;
+
+   V1=GetValue('max vel1',-1),V2=GetValue('max vel2',-1);
+   if(V1 && V2)
+   {
+      Result=V1/V2;
+      OutData('Max Vel1/Max Vel2',Result);
+      Result=V2/V1;
+      OutData('Max Vel2/Max Vel1',Result);
+   }
+
+   V1=GetValue('max vel1',-1),V2=GetValue('max vel3',-1);
+   if(V1 && V2)
+   {
+      Result=V1/V2;
+      OutData('Max Vel1/Max Vel3',Result);
+      Result=V2/V1;
+      OutData('Max Vel3/Max Vel1',Result);
+   }
+
+   V1=GetValue('max vel1',-1),V2=GetValue('min vel1',-1);
+   if(V1 && V2)
+   {
+      Result=V1/V2;
+      OutData('Max Vel1/Min Vel1',Result);
+      Result=V2/V1;
+      OutData('Min Vel1/Max Vel1',Result);
+   }
+
+   V1=GetValue('max vel1',-1),V2=GetValue('min vel2',-1);
+   if(V1 && V2)
+   {
+      Result=V1/V2;
+      OutData('Max Vel1/Min Vel2',Result);
+      Result=V2/V1;
+      OutData('Min Vel2/Max Vel1',Result);
+   }
+

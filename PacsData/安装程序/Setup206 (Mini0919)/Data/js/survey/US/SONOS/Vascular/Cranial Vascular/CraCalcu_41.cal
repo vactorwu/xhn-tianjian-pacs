@@ -1,0 +1,38 @@
+   var V1=0,V2=0,V3=0,V4=0,V5=0,V6=0,V7=0,V8=0,V9=0;
+   var Result=0;
+
+   V1=GetValue('max freq1',-1),V2=GetValue('max freq2',-1);
+   if(V1 && V2)
+   {
+      Result=V1/V2;
+      OutData('Max Frq1/Max Frq2',Result);
+      Result=V2/V1;
+      OutData('Max Frq2/Max Frq1',Result);
+   }
+
+   V1=GetValue('max freq1',-1),V2=GetValue('max freq3',-1);
+   if(V1 && V2)
+   {
+      Result=V1/V2;
+      OutData('Max Frq1/Max Frq3',Result);
+      Result=V2/V1;
+      OutData('Max Frq3/Max Frq1',Result);
+   }
+
+   V1=GetValue('max freq1',-1),V2=GetValue('min freq1',-1);
+   if(V1 && V2)
+   {
+      Result=V1/V2;
+      OutData('Max Frq1/Min Frq1',Result);
+      Result=V2/V1;
+      OutData('Min Frq1/Max Frq1',Result);
+   }
+
+   V1=GetValue('max freq1',-1),V2=GetValue('min freq2',-1);
+   if(V1 && V2)
+   {
+      Result=V1/V2;
+      OutData('Max Frq1/Min Frq2',Result);
+      Result=V2/V1;
+      OutData('Min Frq2/Max Frq1',Result);
+   }

@@ -1,0 +1,16 @@
+   var V1=0,V2=0,V3=0,V4=0,V5=0,V6=0,V7=0,V8=0,V9=0;
+   var Result=0;
+
+   V1=GetValue('TDtrv',-1),V2=GetValue('TDap',-1);
+   if(V1 && V2)
+   {
+      Result=3.1415926*Math.sqrt((V1*V1+V2*V2)/2);
+      OutData('TC',Result,0);
+   }
+
+   V1=GetValue('TC',-1);
+   if(V1)
+   {
+      Result=(V1/10+0.44)/0.79;
+      OutData('TC(GA)Nim',Result,15);
+   }

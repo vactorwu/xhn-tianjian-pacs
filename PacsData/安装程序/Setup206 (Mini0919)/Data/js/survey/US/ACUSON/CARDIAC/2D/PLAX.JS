@@ -1,0 +1,19 @@
+if(GetInfo(0)==0)
+{
+	SetInfo(7,0);
+	Clear();
+	Declare('RVWd',1,5,0,0);
+	Declare('RVDd',1,5,0,0);
+	Declare('IVSd',1,5,0,0);
+	Declare('LVDd',1,5,0,0);
+	Declare('LVPWd',1,5,0,0);
+	Declare('AOd',1,5,0,0);
+	Declare('LAd',1,5,0,0);
+	Declare('RVWs',1,5,0,0);
+	Declare('RVDs',1,5,0,0);
+	Declare('IVSs',1,5,0,0);
+	Declare('LVDs',1,5,0,0);
+	Declare('LVPWs',1,5,0,0);
+	Declare('AOs',1,5,0,0);
+	Declare('LAs',1,5,0,0);
+}

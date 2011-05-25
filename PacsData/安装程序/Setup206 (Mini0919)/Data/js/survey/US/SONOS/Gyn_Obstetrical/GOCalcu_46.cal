@@ -1,0 +1,18 @@
+   var V1=0,V2=0,V3=0,V4=0,V5=0,V6=0,V7=0,V8=0,V9=0;
+   var Result=0;
+
+   V1=GetValue('LPA SV',-1),V2=GetValue('LPA DV',-1),V3=GetValue('LPA Accel T',-1);
+   if(V1 && V2 && V3)
+   {
+      Result=(V1-V2)/V3/100;
+      OutData('LPA accel I',Result,7);
+   }
+
+   V1=GetValue('LPA SV',-1),V2=GetValue('LPA DV',-1);
+   if(V1 && V2)
+   {
+      Result=V2/V1;
+      OutData('LPA DV/SV',Result);
+      Result=V1/V2;
+      OutData('LPA SV/DV',Result);
+   }

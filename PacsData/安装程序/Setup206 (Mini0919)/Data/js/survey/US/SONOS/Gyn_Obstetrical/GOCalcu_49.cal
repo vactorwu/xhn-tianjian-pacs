@@ -1,0 +1,31 @@
+   var V1=0,V2=0,V3=0,V4=0,V5=0,V6=0,V7=0,V8=0,V9=0;
+   var Result=0;
+
+   V1=GetValue('BPD',-1),V2=GetValue('OFD',-1);
+   if(V1 && V2)
+   {
+      Result=Math.sqrt(V1*V2/1.265);
+      OutData('BPDa',Result,0);
+   }
+
+   V1=GetValue('BPD',-1),V2=GetValue('OFD',-1);
+   if(V1 && V2)
+   {
+      Result=100*V1/V2;
+      OutData('CI(BPD,OFD)',Result);
+   }  
+
+   V1=GetValue('BPD',-1),V2=GetValue('OFD',-1);
+   if(V1 && V2)
+   {
+      Result=3.1415926*Math.sqrt((V1*V1+V2*V2)/2);
+      OutData('HC',Result,0);
+   }
+
+   V1=GetValue('HC',-1);
+   if(V1)
+   {
+      V1=V1/10;
+      Result=8.96+0.54*V1+0.0003*V1*V1*V1;
+      OutData('HC(GA)Jeant',Result,15);
+   }

@@ -1,0 +1,24 @@
+   var V1=0,V2=0,V3=0,V4=0,V5=0,V6=0,V7=0,V8=0,V9=0;
+   var Result=0;
+
+   V1=GetValue('RVOT diam',-1),V2=GetValue('RV V1 VTI',-1),V3=GetValue('PA V2 VTI',-1);
+   if(V1 && V2 && V3)
+   {
+      Result=3.1415926*V1*V1*V2/V3/4;
+      OutData('PVA(I,D)',Result,10);
+   }
+
+   V1=GetValue('RVOT diam',-1),V2=GetValue('RV V1 max',-1),V3=GetValue('PA V2 max',-1);
+   if(V1 && V2 && V3)
+   {
+      Result=3.115926*V1*V1*V2/V3/4;
+      OutData('PVA(V,D)',Result,10);
+   }   
+
+   V1=GetValue('RVOT diam',-1);
+   if(V1)
+   {
+      Result=3.1415926*V1*V1/400;
+      OutData('RVOT area',Result,10);
+   }
+

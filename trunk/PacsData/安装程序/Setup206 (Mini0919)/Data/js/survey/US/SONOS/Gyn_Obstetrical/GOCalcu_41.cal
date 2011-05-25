@@ -1,0 +1,10 @@
+   var V1=0,V2=0,V3=0,V4=0,V5=0,V6=0,V7=0,V8=0,V9=0;
+   var Result=0;
+
+
+   V1=GetValue('HL',-1);
+   if(V1)
+   {
+      Result=9.6519438+2.6200391*V1/10+0.26105367*V1*V1/100;
+      OutData('HL(GA)Jeant',Result,15);
+   }

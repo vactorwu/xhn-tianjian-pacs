@@ -1,0 +1,17 @@
+   var V1=0,V2=0,V3=0,V4=0,V5=0,V6=0,V7=0,V8=0,V9=0;
+   var Result=0;
+
+   V1=GetValue('CRL',-1);
+   if(V1)
+   {
+      Result=(51.0008+6*V1/10)/7;
+      OutData('CRL(GA)Nel',Result,15);
+   }   
+
+   V1=GetValue('CRL',-1);
+   if(V1)
+   {
+      Result=(8.052*Math.sqrt(V1*10/10)+23.73)/7;
+      OutData('CRL(GA)Robin',Result,15);
+   } 
+

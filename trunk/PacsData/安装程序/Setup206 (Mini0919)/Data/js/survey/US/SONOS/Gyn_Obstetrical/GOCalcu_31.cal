@@ -1,0 +1,87 @@
+   var V1=0,V2=0,V3=0,V4=0,V5=0,V6=0,V7=0,V8=0,V9=0;
+   var Result=0;
+
+   V1=GetValue('BPD',-1);
+   if(V1)
+   {
+      Result=9.54+1.482*V1/10+0.1676*V1*V1/100;
+      OutData('BPD(GA)Hadl',Result,15);
+   }
+
+   V1=GetValue('BPD',-1),V2=GetValue('OFD',-1);
+   if(V1 && V2)
+   {
+      Result=Math.sqrt(V1*V2/1.265);
+      OutData('BPDa',Result,0);
+   }
+
+   V1=GetValue('BPDa',-1);
+   if(V1)
+   {
+      Result=9.54+1.482*V1/10+0.1676*V1*V1/100;
+      OutData('BPDa(GA)Hadl',Result,15);
+   }
+
+   V1=GetValue('BPD',-1),V2=GetValue('OFD',-1);
+   if(V1 && V2)
+   {
+      Result=100*V1/V2;
+      OutData('CI(BPD,OFD)',Result);
+   }  
+
+
+   V1=GetValue('FL',-1),V2=GetValue('BPD',-1);
+   if(V1 && V2)
+   {
+      Result=V1/V2;
+      OutData('FL/BPD',Result);
+   }   
+
+   V1=GetValue('BPD',-1),V2=GetValue('OFD',-1);
+   if(V1 && V2)
+   {
+      Result=3.1415926*Math.sqrt((V1*V1+V2*V2)/2);
+      OutData('HC',Result,0);
+   }
+   
+   V1=GetValue('HC',-1);
+   if(V1)
+   {
+      V1=V1/10;
+      Result=8.96+0.54*V1+0.0003*V1*V1*V1;
+      OutData('HC(GA)Jeant',Result,15);
+   }
+
+   V1=GetValue('AC',-1),V2=GetValue('BPD',-1);
+   if(V1 && V2)
+   {
+      V1=V1/10,V2=V2/10;
+      V3=1.11+0.05845*V1-0.000604*V1*V1-0.007365*V2*V2+0.000595*V1*V2+0.1694*V2;
+      Result=Math.pow(10,V3);
+      OutData('EFW(AC,BPD)Hadl',Result,16);
+      V3=-1.7492+0.166*V2+0.046*V1-0.002646*V1*V2;
+      Result=1000*Math.pow(10,V3);
+      OutData('EFW(AC,BPD)Sh',Result,16);
+   }
+
+
+   V1=GetValue('AC',-1),V2=GetValue('HC',-1),V3=GetValue('FL',-1);
+   if(V1 && V2 && V3)
+   {
+      V1=V1/10,V2=V2/10,V3=V3/10;
+      V3=1.336-0.00326*V1*V3+0.0107*V2+0.0438*V1+0.158*V3;
+      Result=Math.pow(10,V3);
+      OutData('EFW(AC,HC,FL)Hadl',Result,16);
+   }
+
+   V1=GetValue('AC',-1),V2=GetValue('FL',-1),V3=GetValue('HC',-1),V4=GetValue('BPD',-1);
+   if(V1 && V2 && V3 && V4)
+   {
+      V1=V1/10,V2=V2/10,V4=V4/10;
+      V3=1.5115+0.0436*V1+0.1517*V2-0.00321*V1*V2+0.0006923*V3*V4;
+      Result=Math.pow(10,V3);
+      OutData('EFW(B,H,A,F)Hadl',Result,16);
+   }
+
+
+

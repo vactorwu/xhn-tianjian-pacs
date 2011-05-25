@@ -1,0 +1,13 @@
+if(GetInfo(0)==0)
+{
+	SetInfo(7,0);
+	Clear();
+	Declare('AOd',1,5,0,0);
+	Declare('LAd',1,5,0,0);
+	Declare('MPAd',1,5,0,0);
+	Declare('RPAd',1,5,0,0);
+	Declare('AOs',1,5,0,0);
+	Declare('LAs',1,5,0,0);
+	Declare('MPAs',1,5,0,0);
+	Declare('RPAs',1,5,0,0);
+}

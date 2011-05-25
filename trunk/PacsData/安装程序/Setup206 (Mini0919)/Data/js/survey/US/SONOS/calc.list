@@ -1,0 +1,314 @@
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////   Cardiac Calculation   ////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+AccT1/AccT2  (AccT1,AccT2)                      加速时间1比加速时间2
+Ao LVETc  (LVET,AortaR-R)                       左室射血时间                
+Ao LVPEPc  (LVPEP,AorticHR)                     左室预射血时间
+Ao max PG  (AoV2max)                            主动脉血流最大压力梯度（简化Bernoulli公式）
+Ao max PG2  (AoV2max,LVV1max)                   主动脉血流最大压力梯度（Bernoulli公式）
+Ao mean PG  (AoV2 trace)                        主动脉血流平均压力梯度（简化Bernoulli公式）
+Ao mean PG2  (AoV2 trace,LV V1 trace)           主动脉血流平均压力梯度（Bernoulli公式）
+Ao P1/2t  (AI max vel,Ao dec slope)             主动脉压差半降时间
+Ao root area  (Ao root diam)                    主动脉根面积 
+Aortic HR  (Aortic R-R)                         主动脉心率
+Area(I,A)  (2Darea,V1 VTI,V2 VTI)               瓣膜面积
+Area(I,D)  (2Ddiam,V1 VTI,V2 VTI)               瓣膜面积
+Area(V,A)  (2Darea,V1max,V2max)                 瓣膜面积
+Area(V,D)  (2Ddiam,V1max,V2max)                 瓣膜面积
+Area 1/Area 2  (Area 1,Area 2)                  面积1比面积2
+AVA(I,A)  (LVOT area,LVV1 VTI,AoV2 VTI)		主动脉瓣面积
+AVA(I,D)  (LVOT diam,LVV1 VTI,AoV2 VTI)		主动脉瓣面积         
+AVA(V,A)  (LVOT area,LVV1 max,AoV2 max)		主动脉瓣面积
+AVA(V,D)  (LVOT diam,LVV1 max,AoV2 max)		主动脉瓣面积
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+CI  (CO,BSA)                         		心脏指数
+CI(Ao)  (CI)                                    主动脉心脏指数
+CO(2D)   (EDV,ESV,HR)                           心输出量
+C0(Ao)   (Ao V2 VTI,Ao root area,Aortic HR)     主动脉心输出量
+CO(LVOT)   (LV V1 VTI,LVOT area,Aortic HR)      左室心输出量
+CO(MV)    (MV V1 VTI,MV flow area,Mirral HR)    二间瓣心输出量
+CO(PV)   (PA V2 VTI,MPA area,Pulm HR)           肺动脉瓣心输出量
+CO(TV)   (TV V2 VTI,TV flow area,Tricusp HR)    三间瓣心输出量
+CO   (V2 VTI, Flow area, HR)                    Doppler心输出量
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EDV   (LVIDd)                                   舒张末期左室容量
+EF   (EDV,ESV)                                  射血分数
+ESV   (LVIDs)                                   收缩末期左室容量
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Flow Area    (2Ddiam)                      	血流面积
+FS     (LVIDd,LVIDs)                            缩短分数
+HR     (R-R interval)                           心率
+IVR time   (Q-to-TV open,Q-to-PV close)         等容驰豫时间
+IVS/LVPW   (IVSd,LVPWd)                         舒张末期室间隔比左室后壁
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+LA/AO     (LA dimension, Ao root diam)                左房与动脉根径比率
+LAPs(MRmaxV)   (BP peak sys,MRmax vel)                二间瓣回流最大速度计算的左房收缩压
+LVLd%diff    (LVAd ap2 MOD,LVAd ap4 MOD)              舒张末期心尖四腔观与心尖二腔观MOD长轴差值百分比
+LVLs%diff    (LVAs ap2 MOD,LVAs ap4 MOD)              收缩末期心尖四腔观与心尖二腔观MOD长轴差值百分比
+LVmass(AL)d (LVAd sax epi,LVAd sax PM,LVLd apical)    舒张末期左室质量
+LVmass(AL)dI    (LVmass(AL)d,BSA)                     舒张末期以体表面积为指数的的左室质量
+LVmass(AL)s (LVAs sax epi,LVAs sax PM,LVLs apical)    收缩峰值时左室质量
+LVmass(AL)sI   (LVmass(AL)s,BSA)                      以体表面积为指数收缩峰值时左室质量
+LVmass(C)d    (IVSd,LVIDd,LVPWd)                      用三次方公式计算舒张末期左室质量
+LVmass(C)dI   (LVmass(C)d,BSA)                        以体表面积为指数用三次方公式计算舒张末期左室质量
+LVmass(C)s    (IVSs,LVIDs,LVPWs)                      用三次方公式计算收缩峰值左室质量
+LVmass(C)sI   (LVmass(C)s,BSA)                        以体表面积为指数用三次方公式计算收缩峰值左室质量
+LVOT area    (LVOT diam)                              左室流出道面积
+LVPd(AIedV)  (BP diastolic,AI end-d vel)              左室收缩压
+LVPs(ASmaxV)  (ASmax vel,BP peak sys)                 左室舒张压
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Max PG   (V2 max)                               最大压力梯度
+Max PG2   (V2 max,V1 max)                       最大压力梯度
+Max PG(AI)   (AI max vel)                       主动脉瓣关闭不全的最大压力梯度
+Max PG(Dec)   (Dec max vel)                     用减速斜率计算的最大压力梯度
+Max PG(MR)    (MRmax vel)                       二间瓣回流的最大压力梯度
+Max PG(PI)   (PImax vel)                        肺动脉瓣关闭不全压力梯度
+Max PG(TR)   (Max vel(TR))                      三间瓣最大压力梯度
+Max V1/V2    (Max v1,Max v2)                    最大速度1比最大速度2
+Mean PG     (V2 trace)                          平均压力梯度
+Mean PG1/PG2   (Mean PG1,Mean PG2)              平均压力梯度1比平均压力梯度2
+Mean PG2   (V2 trace,V1 trace)                  平均压力梯度
+Mean V1/V2   (Mean V1,Mean V2)                  平均速度1比平均速度2
+Mitral HR   (Mitral R-R)                        二间瓣心率
+MM HR   (MM R-R int)                            M型或2D Doppler测量的心率
+MM LVETc    (LVET,MM R-R int)                   M型或2D Doppler左室射血时间
+MM LVPEPc   (LVPEP,MM HR)                       M型或2D Doppler左室预射血时间
+MM RVPEPc   (RVPEP,MM HR)                       M型或2D Doppler右室预射血时间
+MPA area   (MPA diameter)                       主肺动脉面积
+MVA(2 diam)   (MV diam 1,MV diam 2)             二间瓣面积
+MV annu area   (MV annu diam)                   二间瓣环面积
+MVA(P1/2t)    (MVP1/2t)                         二间瓣面积
+MV E/A    (MV E point,MV A point)               二间瓣面积
+MV flow area  (MV diam1,MV diam2)               二间瓣血流面积
+MV max PG   (MV peak vel)                       二间瓣最大压力梯度
+MV mean PG   (MV V2 trace)                      二间瓣平均压力梯度
+MV P1/2t  (MV P1/2t max v,MV dec slope)         二间瓣压差半降时间
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PA max PG   (PA V2 max)                         肺动脉瓣最大压力梯度
+PA max PG2   (PA V2 max,RV V1 max)              肺动脉瓣最大压力梯度
+PA mean PG=PA V2 trace                          肺动脉瓣平均压力梯度
+PA mean PG2   (PA V2 trace,RV V1 trace)         肺动脉瓣平均压力梯度
+PAPd(PI edV)   (PI end-d vel,RAP diastole)      舒张末期肺动脉瓣关闭不全的肺主动脉压
+PA pr(Accel)    (Accel time)                    肺动脉压
+Pulm HR   (Pulm R-R)                            肺动脉瓣心率
+PVA(I,A)   (RVOT area,RV V1 VTI,PA V2 VTI)      肺动脉瓣面积
+PVA(I,D)   (RVOT diam,RV V1 VTI,PA V2 VTI)      肺动脉瓣面积
+PVA(V,A)   (RVOT area,RV V1 max,PA V2 max)      肺动脉瓣面积
+PVA(V,D)   (RVOT diam,RV V1 max,PA V2 max)      肺动脉瓣面积
+PV RVPEPc   (RVPEP,Pulm HR)                     肺动脉瓣右室射血前期
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Qp/QsI,Ao    (CO(PV),CO(Ao))                    肺动脉心输出量比主动脉心输出量
+Qp/QsI,LVOT    (CO(PV),CO(LVOT))                肺动脉心输出量比左室流出道心输出量
+Qp/QsV,Ao    (Dpa,Dao,Vpa,Vao)                  肺动脉流量比收缩流量
+Qp/Qs,LVOT   (Dpa,Dlvot,Vpa,Vlvot)              肺动脉流量比收缩流量
+RF(Ao,PV)    (SV(Ao),SV(PV))                    相对肺动脉流出量的主动脉回流分数
+RF(LVOT,PV)   (SV(LVOT),SV(PV))                 相对肺动脉流出量的主动脉回流分数
+RF(PV,Ao)    (SV(PV),SV(Ao))                    相对主动脉流出量的肺动脉回流分数
+RF(PV,LVOT)    (SV(PV),SV(LVOT))                相对主动脉流出量的肺动脉回流分数
+RVOT area      (RVOT diam)                      右室流出道面积
+RVPs(VSD)     (BP peak sys,VSD max vel)         室间隔缺损的右室收缩压
+RV sys press    (Max PG(TR),RA press)           三间瓣回流的右室收缩压
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+SI     (SV,BSA)                                 中风指数
+SI(Ao)    (SV(A0),BSA)                          主动脉中风指数
+SI(LVOT)  (LV V1 VTI,LVOT area)                 左室流出血流的中风指数
+STI      (PEP,Eject Time)                       收缩时间间隔
+STI(left)   (LVPEP,LVET)                        （左侧）收缩时间间隔
+STI(right)   (RVPEP,RVET)                       （右侧）收缩时间间隔
+SV        (V2 VTI,Flow area)                    中风容量
+SV(Ao)    (Ao V2 VTI,Ao root area)              主动脉中风容量
+SV(LVOT)    (LV V1 VTI,LVOT area)               左室流出血流中风容量
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Tricusp HR     (Tricusp R-R)                    三间瓣心率
+TV annu area    (TV annu diam)                  三间瓣环面积
+TV flow area    (TV annu diam)                  三间瓣血流面积
+TV max PG      (TV V2 max)                      三间瓣最大压力梯度
+TV mean PG   (TV V2 trace)                      三间瓣平均压力梯度
+TV p1/2t     (TV P1/2 max v, TV dec slope)      三间瓣压差半降时间
+Vcf mean     (LVIDd,LVIDs,MMLVETc)              纤维鞘收缩平均速度
+Vcfc mean    (LVIDd,LVIDs,LVETc)                用校正心率计算的纤维鞘缩短平均速率
+VTI1/VTI2     (VTI1,VTI2)                       容积1比容积2
+WS(merid)      (BP end sys,LVPWs,LVIDs)         收缩末期左室经线室壁应力
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+////////////// Gynecological_Obstetrical Part ////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+AC    (AC traced,ADtrv,ADap)                   腹周
+AC(GA)Had1    (AC traced,ADap,ADtrv)            以Hadlock公式和AC参数计算的孕龄
+AFI    (RUQ,LUQ,RLQ,LLQ)                        羊膜流动指数
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+BPD(GA)Hadl    (BPD)                            用Hadlock公式和BPD参数计算的孕龄
+BPDa      (BPD,OFD)                             用BPD修正的面积
+BPDa(GA)Hadl    (BPDa)                          用Hadlock公式和BPDa参数计算的孕龄
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+CD(GA)Gold    (CD)                              用Goldstein公式和CD参数计算的孕龄
+CI(BPD,OFD)    (BPD,OFD)                        头指数
+CRL(GA)Nel    (CRL)                             用Nelson公式和CRL参数计算的孕龄
+CRL(GA)Robin   (CRL)                            用Robinson公式和CRL参数计算的孕龄
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+DescAo accel I    (DescAo SV,DescAo DV,DescAo accel T)    加速指数
+DescAo DV/SV    (DescAo SV,DescAo DV)                     下行主动脉舒张速度比收缩速度
+DescAo SV/DV    (DescAo SV,DescAo DV)                     下行主动脉收缩速度比舒张速度
+Ductus accel I    (Ductus DV,Ductus SV,Ductus accel T)    动脉导管加速指数
+Ductus DV/SV    (Ductus DV,Ductus SV)                     动脉导管舒张速度比收缩速度
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EFW(AC,BPD)Hadl    (AC,BPD)                     用Hadlock公式,AC和BPD参数估计胎儿重量 
+EFW(AC,BPD)Sh     (BPD,AC)                      用Shephard公式和AC参数估计胎儿重量 
+EFW(AC,FL)Hadl    (AC,FL)                       用Hadlock公式和AC参数估计胎儿重量 
+EFW(AC,HC,FL)Hadl    (AC,FL,HC)                 用Hadlock公式,AC和FL参数估计胎儿重量 
+EFW(B,H,A,F)Hadl    (AC,FL,HC,PD)               用Hadlock公式，AC，BPD和FL参数估计胎儿重量 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Fetal Ao SV/DV   (Fetal Ao DV,Fetal Ao SV)      胎儿动脉收缩速度比舒张速度
+Fetal HR    (2 beats Pk-to-Pk)                  胎儿心率
+FL/AC    (FL,AC)                                FL比AC
+FL/BPD    (FL,BPD)                              FL比BPD
+FL(GA)Hadl      (FL)                            用Hadlock和FL参数计算的孕龄
+FL(GA)Jeant    (FL)                             用Jeanty和FL参数计算的孕龄
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+HC    (BPD,OFD)                                 头周
+HC/AC    (HC,AC)                                HC比AC
+HC(GA)Hadl     (BPD,OFD)                        用Hadlock公式和HC参数计算的孕龄
+HL(GA)Jeant    (HL)                             用Jeanty公式和HL参数计算的孕龄
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+L Ov A SV/DV   (L Ov A SV,L Ov A DV )           左卵巢动脉收缩速度比舒张速度
+LPA accel I    (LPA DV,LPA SV,LPA Accel T)      左肺动脉加速指数
+LPA DV/SV    (LPA DV,LPA SV)                    左肺动脉舒张速度比收缩速度
+L Ut A SV/DV    (L Ut A SV,L Ut A DV )          子宫左动脉收缩速度比舒张速度
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+MPA accel I    (MPA DV,MPA SV,MPA accel T)      肺主动脉加速指数
+MPA SV/DV   (MPA SV,MPA DV)                     肺主动脉收缩速度比舒张速度
+MSD(GA)Hellm     (GSD1,GSD2,GSD3)               用Hellman公式和平均胚囊径计算的孕龄
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Renal L A accel I    (Renal L A DV,Renal L A SV,Renal L A accel T)    左肾动脉加速指数
+Renal L A DV/SV    (Renal L A DV,Renal L A SV)                        左肾动脉舒张速度比收缩速度
+Renal L A SV/DV    (Renal L A SV,Renal L A DV)                        左肾动脉收缩速度比舒张速度
+Renal R A accel I    (Renal R A DV,Renal R A SV,Renal R A accel T)    右肾动脉加速指数
+Renal R A DV/SV    (Renal R A DV,Renal R A SV)                        右肾动脉舒张速度比收缩速度
+Renal R A SV/DV    (Renal R A SV,Renal R A DV)                        右肾动脉收缩速度比舒张速度
+R Ov A SV/DV   (R Ov A DV,R Ov A SV)                                  右卵巢动脉收缩速度比舒张速度
+RPA accel I   (RPA DV,RPA SV,RPA accel T)                             右肺动脉加速指数
+RPA DV/SV   (RPA DV,RPA SV)                                           右肺动脉舒张速度比收缩速度
+RPA  SV/DV  (RPA SV,RPA DV)                                           右肺动脉收缩速度比舒张速度
+R Ut A SV/DV  (R Ut A DV,R Ut A SV)                                   右卵巢动脉收缩速度比舒张速度
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TC    (TDtrv,TDap)                                                    胸周
+TC/AC    (TC,AC)                                                      TC比AC
+TC(GA)Nim    (TC)                                                     用Nimrod公式和TC参数计算的孕龄
+ThorAo accel I    (ThoAo SV,ThorAo DV,ThorAo accel T)                 胸腔动脉加速指数
+ThorAo DV/SV   (ThorAo DV,ThorAo SV)                                  胸腔动脉舒张速度比收缩速度
+ThorAo SV/DV   (ThorAo SV,ThorAo DV)                                  胸腔动脉收缩速度比舒张速度
+TL(GA)Jeant     (TL)                                                  用Jeanty和TL参数计算的孕龄
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+UL(GA)Jeant    (UL)                              用Jeanty和UL参数计算的孕龄
+Um A accel I  (Um A DV,Um A AV,Um A accel T)     脐动脉加速指数
+Um A SV/DV   (Um A SV,Um A DV)                   脐动脉收缩速度比舒张速度
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+////////////// Abdorminal Vascular Part //////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+%Area Sten    (Area True,Area Resid)            面积狭窄百分比
+%Diam Sten    (Diam True,Diam Resid)            径狭窄百分比
+AI    (SV,DV,accel T)                           加速指数
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+DF 1/DF 2   (DF1,DF2)                           收缩频率1比收缩频率2
+DF 1/SF 1   (DF1,SF1)                           收缩频率1比舒张频率1
+DF 2/SF 2   (DF2,SF2)                           收缩频率2比舒张频率2
+DV 1/DV 2   (DV1,DV2)                           舒张速度1比舒张速度2
+DV 1/SV 1   (DV1,SV1)                           收缩速度1比收缩速度1
+DV 2/SV 2   (DV2,SV2)                           收缩速度2比收缩速度2
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Flow vol(A)   (Area(FloV),Mean vel(FloV))       血流面积
+Flow vol(D)   (Diam(FloV),Mean vel(FloV))       血流直径
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+S/D Ratio    (SV,DV)                            收缩速度比舒张速度
+SF 1/DF 1    (SF1,DF1)                          收缩频率1比舒张频率1
+SF 1/SF 2    (SF1,SF2)                          收缩频率1比收缩频率2
+SV 1/DV 1    (SV1,DV1)                          收缩速度1比舒张速度1
+SV 1/SV 2    (SV1,SV2)                          收缩速度1比收缩速度2
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+V1 accel I    (SV1,DV1,T)                       加速指数1
+V2 accel I    (SV1,DV2,T)                       加速指数2
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+// Carotid, Upper and Lower Extremity and Cranial Vascular Calculation  //////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+%Area Sten    (Area True,Area Resid)             面积狭窄百分比
+%Diam Sten    (Diam True,Diam Resid)             径狭窄百分比
+AI    (SV,DV,accel T)                            加速指数
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+DF 1/DF 2   (DF1,DF2)                            舒张频率1比舒张频率2
+DF 1/SF 1   (DF1,SF1)                            舒张频率1比收缩频率1                            
+DF 1/SF 2   (DF1,SF2)                            舒张频率1比收缩频率2
+DF 2/DF 1   (DF2,DF1)                            舒张频率2比舒张频率1
+DF 2/SF 1   (DF2,SF1)                            舒张频率2比收缩频率1
+DV 1/DV 2   (DV1,DV2)                            舒张速度1比舒张速度2
+DV 1/SV 1   (DV1,SV1)                            舒张速度1比收缩速度1
+DV 2/SV 2   (DV2,SV2)                            舒张速度2比收缩速度2
+DV 2/DV 1   (DV2,DV1)                            舒张速度2比舒张速度1
+DV 2/SV 1   (DV2,SV1)                            舒张速度2比收缩速度1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Flow vol(A)   (Area(FloV),Mean vel(FloV))       血流面积
+Flow vol(D)   (Diam(FloV),Mean vel(FloV))       血流直径
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Max Frq1/Max Frq2   (max freq1,max freq2)          最大频率1比最大频率2
+Max Frq1/Max Frq3   (max freq1,max freq3)          最大频率1比最大频率3
+Max Frq1/Min Frq1   (max freq1,min freq1)          最大频率1比最小频率1
+Max Frq1/Min Frq2   (max freq1,min freq2)          最大频率1比最小频率2
+Max Frq2/Max Frq1   (max freq2,max freq1)          最大频率2比最大频率1
+Max Frq2/Max Frq3   (max freq2,max freq3)          最大频率2比最大频率3
+Max Frq2/Min Frq1   (max freq2,min freq1)          最大频率2比最小频率1
+Max Frq3/Max Frq1   (max freq3,max freq1)          最大频率3比最大频率1
+Max Frq3/Max Frq2   (max freq3,max freq2)          最大频率3比最大频率2
+
+Max Vel1/Max Vel2   (max vel1,max vel2)          最大速度1比最大速度2
+Max Vel1/Max Vel3   (max vel1,max vel3)          最大速度1比最大速度3
+Max Vel1/Min Vel1   (max vel1,min vel1)          最大速度1比最小速度1
+Max Vel1/Max Vel3   (max vel1,max vel3)          最大速度1比最大速度3
+Max Vel1/Min Vel2   (max vel1,min vel2)          最大速度1比最小速度2
+Max Vel2/Max Vel1   (max vel2,max vel1)          最大速度2比最大速度1
+Max Vel2/Max Vel3   (max vel2,max vel3)          最大速度2比最大速度2
+Max Vel2/Min Vel1   (max vel2,min vel1)          最大速度2比最小速度1
+Max Vel3/Max Vel1   (max vel3,max vel1)          最大速度3比最大速度1
+Max Vel3/Max Vel2   (max vel2,max vel3)          最大速度3比最大速度2
+
+Min Frq1/Max Frq1   (min freq1,max freq1)          最小频率1比最大频率1
+Min Frq1/Max Frq2   (min freq1,max freq2)          最小频率1比最大频率2
+Min Frq1/Min Frq2   (min freq1,min freq2)          最小频率1比最小频率2
+Min Frq2/Max Frq1   (min freq2,max freq1)          最小频率2比最大频率1
+Min Frq2/Min Frq1   (min freq2,min freq1)          最小频率2比最小频率1
+
+Min Vel1/Max Vel1   (min vel1,max vel1)          最小速度1比最大速度1
+Min Vel1/Max Vel2   (min vel1,max vel2)          最小速度1比最大速度2
+Min Vel1/Min Vel2   (min vel1,min vel2)          最小速度1比最小速度2
+Min Vel2/Max Vel1   (min vel2,max vel1)          最小速度1比最大速度1
+Min Vel2/Min Vel1   (min vel2,min vel1)          最小速度1比最小速度1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+SF 1/DF 1    (SF1,DF1)                           收缩频率1比舒张频率1
+SF 1/DF 2    (SF1,DF2)                           收缩频率1比舒张频率2
+SF 1/SF 2    (SF1,SF2)                           收缩频率1比收缩频率2
+SF 1/SF 3    (SF1,SF3)                           收缩频率1比收缩频率3
+SF 2/DF 1    (SF2,DF1)                           收缩频率2比舒张频率1
+SF 2/SF 1    (SF2,SF1)                           收缩频率2比收缩频率1
+SF 2/SF 3    (SF2,SF3)                           收缩频率2比收缩频率3
+SF 3/SF 1    (SF3,SF1)                           收缩频率3比收缩频率1
+SF 3/SF 2    (SF3,SF2)                           收缩频率3比收缩频率2
+
+SV 1/DV 1    (SV1,DV1)                           收缩速度1比舒张速度1
+SV 1/DV 2    (SV1,DV2)                           收缩速度1比舒张速度2
+SV 1/SV 2    (SV1,SV2)                           收缩速度1比收缩速度2
+SV 1/SV 3    (SV1,SV3)                           收缩速度1比收缩速度3
+SV 2/DV 1    (SV2,DV1)                           收缩速度2比舒张速度1
+SV 2/SV 1    (SV2,SV1)                           收缩速度2比收缩速度1
+SV 2/SV 3    (SV2,SV3)                           收缩速度2比收缩速度3
+SV 3/SV 1    (SV3,SV1)                           收缩速度3比收缩速度1
+SV 3/SV 2    (SV3,SV2)                           收缩速度3比收缩速度2
+

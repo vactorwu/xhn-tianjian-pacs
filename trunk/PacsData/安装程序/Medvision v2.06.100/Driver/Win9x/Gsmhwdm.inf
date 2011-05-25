@@ -1,0 +1,70 @@
+; GSMHWDM.Inf - install information file
+; Copyright(C)  1999-2001   Rainbow Goldensoft Co. Ltd
+;
+
+[Version]
+Signature="$Chicago$"
+Class=USB
+Provider=%RBGS%
+DriverVer=11/01/1999,1.0.0.0
+LayoutFile=layout.inf
+
+[Manufacturer]
+%MfgName%=Goldensoft
+
+[Goldensoft]
+%USB\VID_08E2&PID_0001.DeviceDesc%=UsbA.Install, USB\VID_08E2&PID_0001
+
+[DestinationDirs]
+UsbA.Files.Driver=10,System32\Drivers
+UsbA.Files.Driver.NTx86=10,System32\Drivers
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Windows 98
+
+[UsbA.Install]
+;CopyFiles=UsbA.Files.Driver
+AddReg=UsbA.AddReg
+
+[UsbA.AddReg]
+HKR,,DevLoader,,*ntkern
+HKR,,NTMPDriver,,gsmhwdm.sys
+
+[UsbA.Files.Driver]
+gsmhwdm.sys
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Windows 2000
+
+[UsbA.Install.NTx86]
+;CopyFiles=UsbA.Files.Driver.NTx86
+
+[UsbA.Files.Driver.NTx86]
+gsmhwdm.sys,,,%COPYFLG_NOSKIP%
+
+[UsbA.Install.NTx86.Services]
+AddService = UsbA, %SPSVCINST_ASSOCSERVICE%, UsbA.Service
+
+[UsbA.Service]
+DisplayName    = %UsbA.ServiceName%
+ServiceType    = %SERVICE_KERNEL_DRIVER%
+StartType      = %SERVICE_DEMAND_START%
+ErrorControl   = %SERVICE_ERROR_NORMAL%
+ServiceBinary  = %10%\System32\Drivers\gsmhwdm.sys
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Strings
+
+[Strings]
+RBGS="Rainbow Goldensoft Co. Ltd."
+MfgName="Rainbow Goldensoft Co. Ltd."
+USB\VID_08E2&PID_0001.DeviceDesc="RG: UsbB WDM Driver, free build"
+UsbA.ServiceName="Rainbow Goldensoft UsbB Driver"
+
+SPSVCINST_ASSOCSERVICE=0x00000002	; Driver service is associated with device being installed
+COPYFLG_NOSKIP=2	; Do not allow user to skip file
+SERVICE_KERNEL_DRIVER=1
+SERVICE_SYSTEM_START=1
+SERVICE_AUTO_START=2
+SERVICE_DEMAND_START=3
+SERVICE_ERROR_NORMAL=1

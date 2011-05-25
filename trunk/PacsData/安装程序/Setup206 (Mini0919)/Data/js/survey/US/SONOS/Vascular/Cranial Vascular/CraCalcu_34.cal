@@ -1,0 +1,20 @@
+   var V1=0,V2=0,V3=0,V4=0,V5=0,V6=0,V7=0,V8=0,V9=0;
+   var Result=0;
+
+   V1=GetValue('DF1',-1),V2=GetValue('DF2',-1);
+   if(V1 && V2)
+   {
+      Result=V1/V2;
+      OutData('DF1/DF2',Result);
+      Result=V2/V1;
+      OutData('DF2/DF1',Result);
+   }
+
+   V1=GetValue('DF2',-1),V2=GetValue('SF1',-1);
+   if(V1 && V2)
+   {
+      Result=V1/V2;
+      OutData('DF2/SF1',Result);
+      Result=V2/V1;
+      OutData('SF1/DF2',Result);
+   }

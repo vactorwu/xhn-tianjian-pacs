@@ -1,0 +1,60 @@
+   var V1=0,V2=0,V3=0,V4=0,V5=0,V6=0,V7=0,V8=0,V9=0;
+   var Result=0;
+
+   V1=GetValue('V2 VTI',-1),V2=GetValue('2-D diam',-1),V3=GetValue('R-R interval',-1),V4=GetValue('BSA',-1);
+   if(V1 && V2 && V3 && V4)
+   {
+      V5=3.1415926*V2*V2/4,V6=60/V3;
+      V7=V1*V6*V5/1000;
+      Result=V7/V4;
+      OutData('CI',Result,1);
+   } 
+
+   V1=GetValue('LVmass(AL)d',-1),V2=GetValue('BSA',-1);
+   if(V1 && V2)
+   {
+      Result=V1/V2/1000;
+      OutData('LVmass(AL)dI',Result,0);
+   }
+
+   V1=GetValue('LVmass(AL)s',-1),V2=GetValue('BSA',-1);
+   if(V1 && V2)
+   {
+      Result=V1/V2/1000;
+      OutData('LVmass(AL)sI',Result,0);
+   }
+
+   V1=GetValue('LVmass(C)d',-1),V2=GetValue('BSA',-1);
+   if(V1 && V2)
+   {
+      Result=V1/V2/1000;
+      OutData('LVmass(C)dI',Result,0);
+   }
+
+   V1=GetValue('LVmass(C)s',-1),V2=GetValue('BSA',-1);
+   if(V1 && V2)
+   {
+      Result=V1/V2/1000;
+      OutData('LVmass(C)sI',Result,0);
+   }
+
+   V1=GetValue('SV',-1),V2=GetValue('BSA',-1);
+   if(V1 && V2)
+   {
+      Result=V1/V2/1000;
+      OutData('SI',Result,0);
+   }
+
+   V1=GetValue('SV(Ao)',-1),V2=GetValue('BSA',-1);
+   if(V1 && V2)
+   {
+      Result=V1/V2/1000;
+      OutData('SI(Ao)',Result,0);
+   }
+
+   V1=GetValue('SV(LVOT)',-1),V2=GetValue('BSA',-1);
+   if(V1 && V2)
+   {
+      Result=V1/V2/1000;
+      OutData('SI(LVOT)',Result,0);
+   }

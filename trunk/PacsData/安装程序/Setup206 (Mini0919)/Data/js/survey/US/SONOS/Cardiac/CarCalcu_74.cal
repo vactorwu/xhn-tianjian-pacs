@@ -1,0 +1,16 @@
+   var V1=0,V2=0,V3=0,V4=0,V5=0,V6=0,V7=0,V8=0,V9=0;
+   var Result=0;
+
+   V1=GetValue('PI max vel',-1);
+   if(V1)
+   {
+      Result=4*V1*V1;
+      OutData('Max PG(PI)',Result,8);
+   }
+
+   V1=GetValue('PI max vel',-1),V2=GetValue('PA dec slope',-1);
+   if(V1 && V2)
+   {
+      Result=1000*V1*(1-1/Math.sqrt(2))/V2;
+      OutData('PA P1/2t',Result,3);
+   }

@@ -1,0 +1,47 @@
+   var V1=0,V2=0,V3=0,V4=0,V5=0,V6=0,V7=0,V8=0,V9=0;
+   var Result=0;
+
+   V1=GetValue('2-D diam',-1),V2=GetValue('V1 VTI',-1),V3=GetValue('V2 VTI',-1);
+   if(V1 && V2 && V3)
+   {
+      Result=3.1415926*V1*V1*V2/V3/4;
+      OutData('Area(I,D)',Result,10);
+   }
+
+   V1=GetValue('2-D diam',-1),V2=GetValue('V1 max',-1),V3=GetValue('V2 max',-1);
+   if(V1 && V2 && V3)
+   {
+      Result=3.115926*V1*V1*V2/V3/4;
+      OutData('Area(V,D)',Result,10);
+   }
+
+   V1=GetValue('V2 VTI',-1),V2=GetValue('2-D diam',-1),V3=GetValue('R-R interval',-1),V4=GetValue('BSA',-1);
+   if(V1 && V2 && V3 && V4)
+   {
+      V5=3.1415926*V2*V2/4,V6=60/V3;
+      V7=V1*V6*V5/1000;
+      Result=V7/V4;
+      OutData('CI',Result,1);
+   }  
+
+   V1=GetValue('V2 VTI',-1),V2=GetValue('2-D diam',-1),V3=GetValue('R-R interval',-1);
+   if(V1 && V2 && V3)
+   {
+      V4=3.1415926*V2*V2/4,V5=60/V3;
+      Result=V1*V4*V5/10;
+      OutData('CO',Result,13);
+   }
+
+   V1=GetValue('2-D diam',-1);
+   if(V1)
+   {
+      Result=3.1415926*V1*V1/400;
+      OutData('Flow Area',Result,10);
+   }
+
+   V1=GetValue('LVIDs',-1);
+   if(V1)
+   {
+      Result=V1*V1*V1;
+      OutData('ESV',Result,2);  
+   }

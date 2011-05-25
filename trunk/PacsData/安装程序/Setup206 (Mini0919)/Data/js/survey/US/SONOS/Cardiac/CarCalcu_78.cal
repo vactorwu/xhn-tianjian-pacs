@@ -1,0 +1,35 @@
+   var V1=0,V2=0,V3=0,V4=0,V5=0,V6=0,V7=0,V8=0,V9=0;
+   var Result=0;
+
+   V1=GetValue('V2 VTI',-1),V2=GetValue('2-D diam',-1),V3=GetValue('R-R interval',-1),V4=GetValue('BSA',-1);
+   if(V1 && V2 && V3)
+   {
+      V5=3.1415926*V2*V2/4,V6=60/V3;
+      V7=V1*V6*V5/1000;
+      Result=V7/V4;
+      OutData('CI',Result,1);
+   }  
+
+   V1=GetValue('V2 VTI',-1),V2=GetValue('2-D diam',-1),V3=GetValue('R-R interval',-1);
+   if(V1 && V2 && V3)
+   {
+      V4=3.1415926*V2*V2/4,V5=60/V3;
+      Result=V1*V4*V5/10;
+      OutData('CO',Result,13);
+   }
+
+   V1=GetValue('R-R interval',-1);
+   if(V1)
+   {
+      Result=60/V1;
+      OutData('HR',Result,12);
+   }
+
+   V1=GetValue('LVIDd',-1),V2=GetValue('LVIDs',-1),V3=GetValue('LVET',-1),V4=GetValue('R-R interval',-1);
+   if(V1 && V2 && V3)
+   {
+      V5=V3/Math.sqrt(V4);
+      Result=(V1-V2)/V1/V5;
+      OutData('Vcfc mean',Result,1);
+   }
+

@@ -1,0 +1,437 @@
+ ////////////////////////////////////////////////////////////////////////////////////////////
+////// Cardiac Measurements       //////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ '2-D area'                       二维面积
+ '2-D diam'                       二维直径
+ 'Accel slope'                    加速斜率
+ 'Accel time'                     加速时间
+ 'ACS'                            主动脉瓣分隔
+ 'AI end-d vel'                   舒张末期主动脉瓣关闭不全射血速率
+ 'AI max vel'                     主动脉瓣关闭不全最大速率
+ 'Ao acc slope'                   主动脉加速斜率
+ 'Ao acc time'                    主动脉加速时间
+ 'Ao dec slope'                   主动脉减速斜率
+ 'Ao dec time'                    主动脉减速时间
+ 'Ao isthmus'                     主动脉峡径
+ 'Ao root area'                   主动脉根面积
+ 'Ao root diam'                   主动脉根径
+ 'Ao arch'                        横主动脉弓直径
+ 'Aortic R-R'                     主动脉瓣R-R间期
+ 'Ao V2 max'                      主动脉瓣舒张期最大速度
+ 'Ao V2 mean'                     主动脉舒张期平均速度
+ 'Ao V2 trace'                    主动脉舒张期压力梯度
+ 'Ao V2 VTI'                      主动脉舒张期速度时间积分
+ 'Area 1'                         面积1
+ 'Area 2'                         面积2
+ 'asc Aorta'                      上行主动脉直径
+ 'AS max vel'                     主动脉狭窄射血峰值速度
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 'BP diastolic'                   舒张压（输入）
+ 'BP end sys'                     末期收缩压（输入)
+ 'BP peak sys'                    峰值收缩压（输入）
+ 'BSA'                            体表面积
+ 'Circum'                         周长
+ 'Dec max vel'                    减速期的最大速度
+ 'Decel slope'                    减速斜率
+ 'Decel time'                     减速时间
+ 'desc Aorta'                     下行主动脉直径
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 'Eject time'                      射血时间
+ 'EPSS'                            二间瓣室间隔间距
+ 'IVSd'                            舒张末期室间隔尺度
+ 'IVSs'                            收缩末期室间隔尺度
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 'LA dimension'                    左房尺度
+ 'LPA diam'                        左肺动脉直径
+ 'LVAd ap2 MOD'                    Discs方法心尖二腔观舒张末期左室面积
+ 'LVAd ap4 MOD'                    Discs方法心尖四腔观舒张末期左室面积
+ 'LVAd apical'                     舒张末期左室顶部面积
+ 'LVAd sax epi'                    舒张末期乳头肌水平左室心外膜面积
+ 'LVAd sax MV'                     舒张末期二间瓣水平短轴观左心室面积
+ 'LVAd sax PM'                     舒张末期乳头肌短轴观左心室面积
+ 'LVAs ap2 MOD'                    Discs方法心尖二腔观收缩末期左室面积
+ 'LVAs ap4 MOD'                    Discs方法心尖四腔观收缩末期左室面积
+ 'LVAs apical'                     收缩末期左室顶部面积
+ 'LVAs sax epi'                    收缩末期乳头肌水平左室心外膜面积
+ 'LVAs sax MV'                     收缩末期二间瓣水平短轴观左心室面积
+ 'LVAs sax PM'                     收缩末期乳头肌短轴观左心室面积
+ 'LVET'                            左室射血时间
+ 'LVIDd'                           舒张末期左室内腔尺度
+ 'LVIDs'                           收缩末期左室内腔尺度
+ 'LVLd apical'                     舒张末期左室顶部长度
+ 'LVLs apical'                     收缩末期左室顶部长度
+ 'LVOT area'                       左室流出道面积
+ 'LVOT diam'                       左室流出道直径
+ 'LVPEP'                           左室预射血期
+ 'LVPWd'                           舒展末期左室后壁尺度
+ 'LVPWs'                           收缩末期左室后壁尺度
+ 'LV V1 max'                       PW Doppler测量的主动脉瓣近端最大速率
+ 'LV V1 mean'                      PW Doppler测量的主动脉瓣近端平均速率
+ 'LV V1 trace'                     PW Doppler测量的左室主动脉瓣近端速度轨迹
+ 'LV V1 VTI'                       PW Doppler测量的主动脉瓣近端速度时间积分
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 'Max vel(TR)'                     三间瓣回流最大速度
+ 'Mean PG'                         平均压力梯度
+ 'Mitral R-R'                      二间瓣R-R间期
+ 'MM R-R int'                      M型或2D超声R-R间期
+ 'MM slope'                        M型斜率
+ 'MPA diam'                        肺主动脉直径
+ 'MR max vel'                      二间瓣回流最大速度
+ 'MV acc slope'                    二间瓣加速斜率
+ 'MV acc time'                     二间瓣加速时间段
+ 'MV annu diam'                    二间瓣环直径
+ 'MV A point'                      二间瓣A点速度
+ 'MVA(traced)'                     2D轨迹的二间瓣面积
+ 'MV dec slope'                    二间瓣减速斜率
+ 'MV dec time'                     二间瓣减速时间
+ 'MV DFP'                          二间瓣舒张充盈期
+ 'MV diam1'                        二间瓣口长径
+ 'MV diam2'                        二间瓣口短径
+ 'MV E point'                      二间瓣E点速度
+ 'MV E-F slope'                    Doppler频谱E-F段二间瓣斜率
+ 'MV excursion'                    二间瓣游移
+ 'MV P1/2max v'                    二间瓣最大速率的压差半降时间
+ 'MV peak vel'                     二间瓣峰值速度
+ 'MV V2 mean'                      CW Doppler测量的二间瓣舒张期平均速度
+ 'MV V2 trace'                     CW Doppler测量的二间瓣舒张期速度轨迹
+ 'MV V2 VT1'                       二间瓣舒张期速度时间积分
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 'PA acc slope'                    肺主动脉加速斜率
+ 'PA acc time'                     肺主动脉加速时间
+ 'PA dec slope'                    肺主动脉减速斜率
+ 'PA dec time'                     肺主动脉减速时间
+ 'PA V2 max'                       CW Doppler测量的肺主动脉舒张期最大速度
+ 'PA V2 mean'                      CW Doppler测量的肺主动脉舒张期平均速度
+ 'PA V2 trace'                     CW Doppler测量的肺主动脉舒张期速度轨迹
+ 'PA V2 VTI'                       CW Doppler测量的肺主动脉舒张期速度时间积分
+ 'PEP'                             射血前期
+ 'PI end-d vel'                    舒张末期肺动脉瓣关闭不全速度
+ 'PI max vel'                      肺动脉瓣关闭不全最大速度
+ 'Pulm R-R'                        肺主动脉R-R间期
+ 'Q-to-PV close'                   Q波到肺动脉瓣瓣膜关闭时间
+ 'Q-to-TV open'                    Q波到三间瓣打开时间
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 'RAP diastole'                    右肺主动脉舒张压（输入）
+ 'RPA diam'                        右肺主动脉直径
+ 'R-R interval'                    R-R间期
+ 'RVAW'                            右室前壁尺度
+ 'RVDd'                            舒张末期右室内部尺度
+ 'RVDd major'                      舒张期右室长径
+ 'RVDd minor'                      舒张期右室短径
+ 'RVDs'                            右室收缩期
+ 'RVET'                            右室射血时间
+ 'RVOT area'                       右室流出道面积
+ 'RVOT diam'                       右室流出道直径
+ 'RVPEP'                           右室预射血期
+ 'RV V1 max'                       右室肺动脉瓣前端最大速度
+ 'RV V1 mean'                      右室肺动脉瓣前端平均速度
+ 'RV V1 trace'                     PW Doppler测量的右室肺动脉瓣前端速度轨迹
+ 'RV V1 VTI'                       PW Doppler测量的右室肺动脉瓣前端速度时间积分
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 'Tricusp R-R'                     三间瓣R-R间期
+ 'TV acc slope'                    三间瓣加速斜率
+ 'TV acc time'                     三间瓣加速时间
+ 'TV annu diam'                    三间瓣环直径
+ 'TV dec slope'                    三间瓣减速斜率
+ 'TV dec time'                     三间瓣减速时间
+ 'TV DFP'                          三间瓣舒张充盈期
+ 'TV flow diam'                    三间瓣口直径
+ 'TV P1/2max V'                    三间瓣最大速度的压差半降时间
+ 'TV V2 max'                       CW Doppler测量的三间瓣最大速度
+ 'TV V2 mean'                      CW Doppler测量的三间瓣平均速度
+ 'TV V2 trace'                     CW Doppler测量的三间瓣舒张期速度轨迹
+ 'TV V2 VTI'                       CW Doppler测量的三间瓣舒张期速度时间积分
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 'V1 max'                          PW Doppler最大速度
+ 'V1 mean'                         PW Doppler平均速度
+ 'V1 trace'                        PW Doppler速度轨迹
+ 'V1 VTI'                          PW Doppler速度时间积分
+ 'V2 mean'                         CW Doppler平均速度
+ 'V2 trace'                        CW Doppler速度轨迹
+ 'V2 VTI'                          CW Doppler速度时间积分
+ 'Vel slope'                       速度斜率
+ 'Volume'                          容量
+ 'VSD max vel'                     室间隔缺损的峰值速度
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////    Gynecological_Obstetrical   Measurements    ///////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ '2 beats Pk-to-Pk'                两个节拍之间的峰峰间期
+ 'AC traced'                       腹腔周长
+ 'ADap'                            腹腔前后径
+ 'ADtrv'                           腹腔横径
+ 'A root diam'                     动脉根径
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 'BD'                              目距
+ 'BPD'                             双顶径 
+ 'CD'                              头径
+ 'CRL'                             头臂长度
+ 'CxH'                             子宫颈高度
+ 'CxL'                             子宫颈长度
+ 'CxW'                             子宫颈宽度
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ //Desc. Aorta
+ 'DescAo accel T'                 下行动脉加速时间
+ 'DescAo DV'                      下行动脉收缩速度
+ 'DescAo Mean V(PI)'              下行动脉平均速度
+ 'DescAo MnV PI,RI'               计算PI,RI的下行动脉最小速度
+ 'DescAo MxV PI,RI'               计算PI,RI的下行动脉最大速度
+ 'DescAo SV'                      下行动脉收缩速度
+ 'Ductus Accel T'                 动脉导管加速时间
+ 'Ductus DV'                      动脉导管舒张速度
+ 'Ductus MnV PI,RI'               计算PI,RI的动脉导管最小速度
+ 'Ductus MxV PI,RI'               计算PI,RI的动脉导管最大速度
+ 'Ductus SV'                      动脉导管收缩速度
+ 'DV1'                            舒张速度1
+ 'DV2'                            舒张速度2
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 'ET'                             子宫内膜厚度
+ 'Fetal Ao DV'                    胎儿主动脉舒张速度                    
+ 'Fetal Ao meanV(PI)'             胎儿主动脉平均速度
+ 'Fetal Ao SV'                    胎儿主动脉收缩速度 
+ 'Fetal Ao MnV PI,RI'             计算PI,RI的胎儿主动脉最小速度
+ 'Fetal Ao MxV PI,RI'             计算PI,RI的胎儿主动脉最大速度
+ 'FL'                             股骨长度
+ 'FTL'                            足长
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 'GSD1'                           胚囊直径1
+ 'GSD2'                           胚囊直径2
+ 'GSD3'                           胚囊直径3
+ 'HC(traced)'                     头围
+ 'HL'                             肱骨长度
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 'L Ov A DV'                      右卵巢动脉舒张速度
+ 'L Ov A meanV(PI)'               右卵巢动脉平均速度
+ 'L Ov A MnV PI,RI'               计算PI,RI的右卵巢动脉最小速度
+ 'L Ov A MxV PI,RI'               计算PI,RI的右卵巢动脉最大速度
+ 'L Ov A SV'                      右卵巢动脉收缩速度
+ 'L Ut A DV'                      子宫右动脉舒张速度
+ 'L Ut A meanV(PI)'               子宫右动脉平均速度
+ 'L Ut A MnV PI,RI'               计算PI,RI的子宫右动脉最小速度
+ 'L Ut A MxV PI,RI'               计算PI,RI的子宫右动脉最大速度
+ 'L Ut A SV'                      子宫右动脉收缩速度
+ 'L Follic Diam'                   左卵泡直径
+ 'LLQ'                             左下象限最大口径
+ 'LOH'                             左卵巢高度
+ 'LOL'                             左卵巢长度
+ 'LOV'                             左卵巢容积
+ 'LOW'                             左卵巢宽度
+ 'LPA Accel T'                      左肺动脉加速时间
+ 'LPA DV'                           左肺动脉舒张速度
+ 'LPA mean vel'                     左肺动脉平均速度
+ 'LPA MnV PI,RI'                    计算PI,RI的左肺动脉最小速度
+ 'LPA MxV PI,RI'                    计算PI,RI的左肺动脉最大速度
+ 'LPA SV'                           左肺动脉收缩速度
+ 'LRH'                              左肾高度
+ 'LRL'                              左肾长度
+ 'LRPD'                             左肾盂AP直径
+ 'LRV'                              左肾容积
+ 'LRW'                              左肾宽度
+ 'LUQ'                              左上象限最大口径
+ 'LVIDd'                            舒张末期左室内径 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 'Mean vel 1'                        平均速度1
+ 'Mean vel 2'                        平均速度2
+ 'MPA accel T'                       肺主动脉加速时间
+ 'MPA diam'                          肺主动脉直径
+ 'MPA DV'                            肺主动脉舒张速度
+ 'MPA mean vel'                      肺主动脉平均速度
+ 'MPA MnV PI,RI'                     计算PI,RI的肺主动脉最小速度
+ 'MPA MxV PI,RI'                     计算PI,RI的肺主动脉最大速度
+ 'MPA SV'                            肺主动脉收缩速度
+ 'NT'                                颈背厚度
+ 'OFD'                               枕额径
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 'R Ov A DV'                         右卵巢动脉舒张速度
+ 'R Ov A mean V(PI)'                 右卵巢平均速度
+ 'R Ov A MnV PI,RI'                  计算PI,RI的右卵巢动脉最小速度
+ 'R Ov A MxV PI,RI'                  计算PI,RI的右卵巢动脉最大速度
+ 'R Ov A SV'                         右卵巢动脉收缩速度
+ 'R Ut A DV'                         子宫右动脉舒张速度
+ 'R Ut A mean V(PI)'                 子宫右动脉平均速度
+ 'R Ut A MnV PI,RI'                  子宫右动脉最小速度
+ 'R Ut A MxV PI,RI'                  子宫右动脉最大速度
+ 'R Ut A SV'                         子宫右动脉收缩速度
+ 'R Follic Diam'                     右卵泡直径
+//Renal R Artery
+ 'Renal L A accel T'                  左肾动脉加速时间
+ 'Renal L A DV'                       左肾动脉舒张速度
+ 'Renal L A mean V(PI)'               左肾动脉平均速度 
+ 'Renal L A MnV PI,RI'                计算PI,RI的左肾动脉最小速度 
+ 'Renal L A MxV PI,RI'                计算PI,RI的左肾动脉最大速度 
+ 'Renal L A SV'                       左肾动脉收缩速度 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//Renal R Artery                     
+ 'Renal R A accel T'                  右肾动脉加速时间
+ 'Renal R A DV'                       右肾动脉舒张速度
+ 'Renal R A mean V(PI)'               右肾动脉平均速度
+ 'Renal R A MnV PI,RI'                计算PI,RI的右肾动脉最小速度
+ 'Renal R A MxV PI,RI'                计算PI,RI的右肾动脉最大速度
+ 'Renal R A SV'                       右肾动脉收缩速度
+ 'RLQ'                                右下象限最大口径
+ 'ROH'                                右卵巢高度
+ 'ROL'                                右卵巢长度
+ 'ROV'                                右卵巢容积
+ 'ROW'                                右卵巢宽度
+ 'RPA accel T'                        右肺动脉加速时间
+ 'RPA DV'                             右肺动脉收缩速度
+ 'RPA mean vel'                       右肺动脉平均速度
+ 'RPA MnV PI,RI'                      计算PI,RI的右肺动脉最小速度
+ 'RPA MxV PI,RI'                      计算PI,RI的右肺动脉最大速度
+ 'RPA SV'                             右肺动脉收缩速度
+ 'RRH'                                右肾高度
+ 'RRL'                                右肾长度
+ 'RRPD'                               右肾盂AP径
+ 'RRV'                                右肾容积
+ 'RRW'                                右肾宽度
+ 'RUQ'                                右上象限最大口径
+ 'RVDd'                               舒张末期右室直径 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 'SV1' 				     收缩速度1
+ 'SV2' 				     收缩速度2	
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 'TC traced'                         胸围
+ 'TDap'                              胸腔前后径
+ 'TDtrv'                             胸腔横径
+//Thoracic Aorta
+ 'ThorAo accel T'                    胸腔动脉加速时间 
+ 'ThorAo DV'                         胸腔动脉舒张速度
+ 'ThorAo mean vel'                   胸腔动脉平均速度
+ 'ThorAo MnV PI,RI'                  计算PI,RI的胸腔最小速度
+ 'ThorAo MxV PI,RI'                  计算PI,RI的胸腔最大速度
+ 'ThorAo SV'                         胸腔收缩速度
+ 'TL'                                胫骨长度
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 'UL'                                尺骨长度
+ 'Um A accel T'                      脐动脉加速时间
+ 'Um A DV'                           脐动脉舒张速度
+ 'Um A mean V(PI)'                   计算PI,RI的脐动脉平均速度
+ 'Um A MnV PI,RI'                    计算PI,RI的脐动脉最小速度
+ 'Um A MxV PI,RI'                    计算PI,RI的脐动脉最大速度
+ 'Um A SV'                           脐动脉收缩速度
+//Umbilical Artery
+ 'UTH'                               子宫高度
+ 'UTL'                               子宫长度
+ 'UTV'                               子宫容积
+ 'UTW'                               子宫宽度
+ 'VAD'                               房室直径
+ 'YSD'                               卵黄囊直径
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////  Abdorminal   Measurements       /////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//B-Mode
+ 'Area Resid'                        残余面积
+ 'Area True'                         真实面积
+ 'Diam Resid'                        残余直径
+ 'Diam True'                         真实直径
+ 'Renal Height'                      肾高度
+ 'Renal Length'                      肾长度
+ 'Renal Width'                       肾宽度
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//Doppler Velocity
+ 'accel T'                           加速时间
+ 'DV'                                舒张速度
+ 'SV'                                收缩速度
+ 'Max vel'                           最大速度
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//Generic Doppler Velocity Measurements
+ 'DV1'                               舒张速度1
+ 'DV2'                               舒张速度2
+ 'SV1'                               收缩速度1
+ 'SV2'                               收缩速度2
+ 'SV3'                               收缩速度3
+ 'V1 accel T'                        加速时间1
+ 'V1 delay T'                        延迟时间1
+ 'V2 accel T'                        加速时间2
+ 'V2 delay T'                        延迟时间2
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//Flow Volume
+ 'Area(FloV)'                        血流面积 
+ 'Diam(FloV)'                        血流直径
+ 'Mean vel(FloV)'                    平均血流速度
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//Frequence
+ 'DF1'                               舒张频率1
+ 'DF2'                               舒张频率2
+ 'SF1'                               收缩频率1
+ 'SF2'                               收缩频率2
+ 'SF3'                               收缩频率3
+ 'Max freq'                          最大频率
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//Pulsatility and Resistivity
+ 'MxV(PI,RI)'                        计算PI,RI的最大速度
+ 'MeanV(PI)'                         计算PI,RI的平均速度
+ 'MnV(PI,RI)'                        计算PI,RI的平均速度
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//Genetic Pulsatility and Resistivity Measurements
+ 'Max vel(PI,RI)'                    计算PI,RI的最大速度
+ 'Mean vel(PI)'                      计算PI,RI的平均速度
+ 'Min vel(PI,RI)'                    计算PI,RI的最小速度
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+/////  Carotid, Upper and Lower Extremity and Cranial Vascular Measurements    //////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//B-Mode
+ 'Area(FloV)'                        血流面积
+ 'Diam(FloV)'                        血流直径
+ 'Area Resid'                        残余面积
+ 'Area True'                         真实面积
+ 'diam(FloV)'                        血流直径
+ 'Diam Resid'                        残余直径
+ 'Diam True'                         真实直径
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//VAD Measurements （动脉血管测量）
+ 'accel T'                           加速时间
+ 'DF'                                舒张末期频率
+ 'DV'                                舒张末期速度
+ 'Mean V (PI)'                       平均速度
+ 'MnV (PI,RI)'                       计算PI,RI的最小速度
+ 'MxV (PI,RI)'                       计算PI,RI的最大速度
+ 'Pk-Pk'                             峰峰时间
+ 'SF'                                收缩峰值频率
+ 'SV'                                收缩峰值速度
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//VVD Measurements（静脉血管测量）
+ 'delay T'                           延迟时间
+ 'Max Freq'                          最大频率
+ 'Max vel'                           最大速度
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//Doppler Measurements
+ 'Accel Time1'                       加速时间1
+ 'Accel Time2'                       加速时间2
+ 'Accel Time3'                       加速时间3
+ 'Delay Time1'                       延迟时间1
+ 'Delay Time2'                       延迟时间2
+ 'Delay Time3'                       延迟时间3
+ 'DF1'                               舒张末期速度1
+ 'DF2'                               舒张末期速度2 
+ 'DF3'                               舒张末期速度3 
+ 'DV1'                               舒张末期速度1 
+ 'DV2'                               舒张末期速度1 
+ 'DV3'                               舒张末期速度1 
+ 'max freq1'                         最大频率1
+ 'max freq2'                         最大频率2 
+ 'max freq3'                         最大频率3
+ 'max vel1'                          最大速度1 
+ 'max vel2'                          最大速度2 
+ 'max vel3'                          最大速度3 
+ 'Mean V(FloV)'                      血流平均速度
+ 'min freq1'                         最小频率1 
+ 'min freq2'                         最小频率2 
+ 'min freq3'                         最小频率3 
+ 'min vel1'                          最小速度1 
+ 'min vel2'                          最小速度2
+ 'min vel3'                          最小速度3 
+ 'SF1'                               收缩末期频率1 
+ 'SF2'                               收缩末期频率2 
+ 'SF3'                               收缩末期频率3 
+ 'SV1'                               收缩末期速度1 
+ 'SV2'                               收缩末期速度2 
+ 'SV3'                               收缩末期速度3 
+

@@ -1,0 +1,23 @@
+   var V1=0,V2=0,V3=0,V4=0,V5=0,V6=0,V7=0,V8=0,V9=0;
+   var Result=0;
+
+   V1=GetValue('TV V2 max',-1);
+   if(V1)
+   {
+      Result=4*V1*V1;
+      OutData('TV max PG',Result,8);
+   } 
+
+   V1=GetValue('TV V2 trace',-1);
+   if(V1)
+   {
+      OutData('TV mean PG',V1,8);
+   } 
+
+   V1=GetValue('TV V2 VTI',-1),V2=GetValue('TV flow diam',-1),V3=GetValue('Tricusp R-R');
+   if(V1 && V2 && V3)
+   {
+      V4=60/V3;
+      Result=3.1415926*V1*V2*V2*V4/1000/4;
+      OutData('CO(TV)',Result,1);
+   }

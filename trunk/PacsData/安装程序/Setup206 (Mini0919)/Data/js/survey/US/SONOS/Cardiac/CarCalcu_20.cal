@@ -1,0 +1,17 @@
+
+   var V1=0,V2=0,V3=0,V4=0,V5=0,V6=0,V7=0,V8=0,V9=0;
+   var Result=0;
+
+   V1=GetValue('2-D area',-1),V2=GetValue('V1 VTI',-1),V3=GetValue('V2 VTI',-1);
+   if(V1 && V2 && V3)
+   {
+      Result=V1*V2/V3;
+      OutData('Area(I,A)',Result,10);
+   }
+
+   V1=GetValue('2-D area',-1),V2=GetValue('V1 max',-1),V3=GetValue('V2 max',-1);
+   if(V1 && V2 && V3)
+   {
+      Result=V1*V2/V3;
+      OutData('Area(V,A)',Result,10);
+   }
